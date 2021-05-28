@@ -1,0 +1,16 @@
+{
+    "header": {
+        "dropdownOne": {
+            "heading": "Home"
+        },
+        "dropdownTwo": {
+            "heading": "Events"
+        },
+        "dropdownThree": {
+            "heading": "Food Menu"
+        },
+        "dropdownFour": {
+            "heading": "Food Menu"
+        }
+    }
+}
