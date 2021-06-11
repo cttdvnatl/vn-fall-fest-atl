@@ -1,0 +1,60 @@
+/* Top Header CSS*/
+
+div.top-header {
+    background-color: lightgrey;
+    height: 30px;
+    width: 100%;
+    position: relative;
+}
+
+div.top-header div.top-header-items {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+
+div.top-header div.top-header-items div.back-to-main {
+    padding-left: 10px;
+}
+
+div.top-header div.top-header-items div.back-to-main a{
+    text-decoration: none;
+}
+
+div.top-header div.top-header-items div.translation-button {
+    padding-left: 10px;
+}
+
+div.top-header div.top-header-items div.translation-button button.translation-button {
+    color: orange;
+    padding: 3px 5px 3px 5px;
+    margin-right: 3px;
+    border: 1px black solid;
+    border-radius: 5px 5px 5px 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+div.top-header div.top-header-items div.translation-button button.translation-button:hover {
+    background-color: #e6e6e6;
+}
+  
+div.top-header div.top-header-items div.translation-button button.translation-button:active {
+    background-color: #cccccc;
+}
+
+nav { 
+    width: 100%;
+    background-color: gray;
+    height: 50px;
+    text-align: center;
+    position: static;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    padding-left: 10px;
+}
