@@ -2,15 +2,12 @@
 
 div.top-header {
     background-color: lightgrey;
-    height: 30px;
+    height: 35px;
     width: 100%;
-    position: relative;
 }
 
 div.top-header div.top-header-items {
-    display: flex;
-    flex-direction: row;
-    padding-top: 5px;
+    display: inline;
 }
 
 div.top-header div.top-header-items div.back-to-main {
@@ -22,7 +19,7 @@ div.top-header div.top-header-items div.back-to-main a{
 }
 
 div.top-header div.top-header-items div.translation-button {
-    padding-left: 10px;
+    float: right;
 }
 
 div.top-header div.top-header-items div.translation-button button.translation-button {
@@ -45,7 +42,7 @@ div.top-header div.top-header-items div.translation-button button.translation-bu
 
 nav { 
     width: 100%;
-    background-color: gray;
+    background-color: #b3b3b3;
     height: 50px;
     text-align: center;
     position: static;
@@ -53,8 +50,19 @@ nav {
 
 nav ul {
     list-style: none;
+    padding-top: 12px;
 }
 
 nav ul li {
-    padding-left: 10px;
+    padding-left: 40px;
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: #4d4d4d;
 }

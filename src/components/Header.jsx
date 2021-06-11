@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React from 'react';
 import { useTranslation, setLanguage, getLanguage } from 'react-multi-lang';
 
 const Header = () => {
@@ -7,8 +7,12 @@ const Header = () => {
         display : 'none',
     }
 
-    const vn = useRef(null)
-    const en = useRef(null)
+    const displayBlock = {
+        display: 'block',
+    }
+
+    let displayEN = {}
+    let displayVN = {}
 
     const t = useTranslation();
     //Set Language and Cookie
@@ -24,17 +28,13 @@ const Header = () => {
         setLangCookie('en');
     }
 
-    function buttonChange() {
-        if (document.readyState === "complete") {
-            if (getLanguage() + '' == 'en') {
-                en.current.style.display = 'none';
-                vn.current.style.display = 'block';
-            }
-            else if (getLanguage() + '' == 'vn'){
-                vn.current.style.display = 'none';
-                en.current.style.display = 'block';
-            }
-        }
+    if (getLanguage() + '' === 'en') {
+        displayEN = displayNone
+        displayVN = displayBlock;
+    }
+    else if (getLanguage() + '' === 'vn'){
+        displayVN = displayNone;
+        displayEN = displayBlock;
     }
 
     return (
@@ -45,17 +45,17 @@ const Header = () => {
                         <a href="https://www.hvmatl.org">Back to main site</a>
                     </div>
                     <div class="translation-button">
-                        <button onclick={buttonChange()} ref={vn} style={{display: 'block'}} id="vn" class="translation-button" onClick={() => setLanguageVN()}>Tiếng Việt</button>
-                        <button onclick={buttonChange()} ref={en} style={{display: 'block'}} id="en" class="translation-button" onClick={() => setLanguageEN()}>English</button>                
+                        <button style={displayVN} id="vn" class="translation-button" onClick={() => setLanguageVN()}>Tiếng Việt</button>
+                        <button style={displayEN} id="en" class="translation-button" onClick={() => setLanguageEN()}>English</button>                
                     </div>
                 </div>
             </div>        
             <nav>
                 <ul>
-                    <li>{t('header.dropdownOne.heading')}</li>
-                    <li>{t('header.dropdownTwo.heading')}</li>
-                    <li>{t('header.dropdownThree.heading')}</li>
-                    <li>{t('header.dropdownFour.heading')}</li>
+                    <li><a href="/">{t('header.dropdownOne.heading')}</a></li>
+                    <li><a href="/events">{t('header.dropdownTwo.heading')}</a></li>
+                    <li><a href="/food-menu">{t('header.dropdownThree.heading')}</a></li>
+                    <li><a href="/other">{t('header.dropdownFour.heading')}</a></li>
                 </ul>
             </nav>
         </>
