@@ -5,6 +5,8 @@ import {
   Route
 } from 'react-router-dom';
 import {setLanguage, getLanguage, setTranslations, setDefaultLanguage} from 'react-multi-lang';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import en from './database/en.json';
 import vn from './database/vn.json';
 import HomePage from './pages/HomePage';
@@ -47,9 +49,13 @@ checkLangCookie()
 
 function App() {
   return (
+    <>
+    <Header/>
     <Router>
       <Route path="/" component={HomePage}/>
     </Router>
+    <Footer/>
+    </>
   );
 }
 
