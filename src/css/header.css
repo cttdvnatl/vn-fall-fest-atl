@@ -37,11 +37,12 @@ nav.desktop-view div.top-header div.top-header-items-right {
 }
 /* Translation Button*/
 nav.desktop-view div.top-header div.top-header-items-right div.translation-button button.translation-button {
-    color: orange;
-    padding: 3px 5px 3px 5px;
+    color: red;
+    padding: 6px 10px 6px 10px;
     margin-right: 3px;
-    border: 1px black solid;
-    border-radius: 5px 5px 5px 5px;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
     background-color: white;
     cursor: pointer;
 }
@@ -58,38 +59,118 @@ nav.desktop-view div.main-header {
     width: 100%;
     background-color: #C7E689;
     height: 100px;
-    text-align: center;
     position: fixed;
 }
 
 nav.desktop-view div.main-header ul {
     list-style: none;
+    float: right;
 }
 
-nav.desktop-view div.main-header ul li  {
-    padding-left: 20px;
-    padding-right: 20px;
-    float: left
-}
 
-nav.desktop-view div.main-header ul li:not(.logo)  {
-    display: inline;
-}
-
-nav.desktop-view div.main-header ul li:hover {
-    color: #4d4d4d;
+nav.desktop-view div.main-header ul li {
+    padding-top: 30px;
+    float: left;
 }
 
 nav.desktop-view div.main-header ul li a {
     text-decoration: none;
     color: black;
-    font-size: 17px;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 60px;
 }
+
+/*Dropdown*/
+
+nav.desktop-view div.main-header ul li ul {
+    display: none;
+    position: absolute;
+    background-color: lightgreen;
+    min-width: 100px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    opacity: .9;
+}
+
+nav.desktop-view div.main-header ul li ul {
+    width: 150px;
+}
+
+nav.desktop-view div.main-header ul li:hover ul {
+    display: block;
+
+} 
+
+nav.desktop-view div.main-header ul li ul li{
+    width: 150px;
+}    
+
+
+nav.desktop-view div.main-header ul li ul li:hover {
+    background-color: green;
+}  
+
 /*logo*/
-nav.desktop-view div.main-header ul div.logo img {
+nav.desktop-view div.logo img {
     width: 200px;
     padding-top: 2px;
     padding-left: 40px;
     float: left;
 }
 
+
+
+
+
+
+
+/*Mobile View
+/*Header
+/*CSS
+
+/* Top Header CSS*/
+nav.mobile-view div.top-header {
+    background-color: #C7E689;
+    height: 50px;
+    width: 100%;
+    border-bottom: solid 1px black;
+    display: block;
+}
+
+html:not([data-scroll='0']) nav.mobile-view div.top-header {
+    display: none;
+}
+
+/* Top Header Items left*/
+nav.mobile-view div.top-header div.top-header-items-left {
+    display: inline;
+    float: left;
+    padding: 7px;
+}
+
+/* Back to Main */
+nav.mobile-view div.top-header div.top-header-items-left div.back-to-main {
+    padding-left: 10px;
+}
+
+nav.mobile-view div.top-header div.top-header-items-left div.back-to-main a{
+    text-decoration: none;
+}
+/* Top Header Items Right*/
+nav.mobile-view div.top-header div.top-header-items-right {
+    float: right;
+    padding: 7px;
+}
+/* Translation Button*/
+nav.mobile-view div.top-header div.top-header-items-right div.translation-button button.translation-button {
+    color: red;
+    padding: 6px 10px 6px 10px;
+    margin-right: 3px;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    cursor: pointer;
+}
