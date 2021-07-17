@@ -9,9 +9,9 @@ const Header = () => {
         display : 'none',
     }
 
-    /*const displayBlock = {
+    const displayBlock = {
         display : 'block',
-    }*/
+    }
 
     const displayViet = {
         display: 'block',
@@ -80,6 +80,16 @@ const Header = () => {
         };
     }, [resizeCallback]);
 
+    let sideNavClass = displayBlock;
+    function openSideNav() {
+        if (sideNavClass === displayBlock) {
+            sideNavClass = displayNone
+        }
+        else {
+            sideNavClass = displayBlock;
+        }
+    }
+
     return (
         <>
         <nav ref={nav} class=''>
@@ -98,7 +108,8 @@ const Header = () => {
             </div>        
             <div class="main-header">
             <div class="logo"><a href="/"><img alt="logo" src="https://fallfestivalatl.org/wp-content/uploads/2021/06/2021-LHMT-Logo-Dark-FF-72.png"></img></a></div>
-                <ul>
+                <span class="mobile-icon" onclick={() => openSideNav()}>&#8801;</span>
+                <ul style={sideNavClass}>
                     <li><a href="/">{t('header.dropdownOne.heading')}</a>
                         <ul>
                             <li><a href="/item1">{t('header.dropdownOne.item1')}</a></li>
@@ -109,33 +120,33 @@ const Header = () => {
 
                     <li><a href="/events">{t('header.dropdownTwo.heading')}</a>
                         <ul>
-                            <li><a href="/item1">{t('header.dropdownOne.item1')}</a></li>
-                            <li><a href="/item1">{t('header.dropdownOne.item2')}</a></li>
-                            <li><a href="/item1">{t('header.dropdownOne.item3')}</a></li>
+                            <li><a href="/item1">{t('header.dropdownTwo.item1')}</a></li>
+                            <li><a href="/item1">{t('header.dropdownTwo.item2')}</a></li>
+                            <li><a href="/item1">{t('header.dropdownTwo.item3')}</a></li>
                         </ul>
                     </li>
 
                     <li><a href="/food-menu">{t('header.dropdownThree.heading')}</a>
                         <ul>
-                            <li><a href="/item1">{t('header.dropdownOne.item1')}</a></li>
-                            <li><a href="/item1">{t('header.dropdownOne.item2')}</a></li>
-                            <li><a href="/item1">{t('header.dropdownOne.item3')}</a></li>
+                            <li><a href="/item1">{t('header.dropdownThree.item1')}</a></li>
+                            <li><a href="/item1">{t('header.dropdownThree.item2')}</a></li>
+                            <li><a href="/item1">{t('header.dropdownThree.item3')}</a></li>
                         </ul>
                     </li>
 
                     <li><a href="/other">{t('header.dropdownFour.heading')}</a>
                         <ul>
-                            <li><a href="/item1">{t('header.dropdownOne.item1')}</a></li>
-                            <li><a href="/item1">{t('header.dropdownOne.item2')}</a></li>
-                            <li><a href="/item1">{t('header.dropdownOne.item3')}</a></li>
+                            <li><a href="/item1">{t('header.dropdownFour.item1')}</a></li>
+                            <li><a href="/item1">{t('header.dropdownFour.item2')}</a></li>
+                            <li><a href="/item1">{t('header.dropdownFour.item3')}</a></li>
                         </ul>
                     </li>
 
                     <li><a href="/other">{t('header.dropdownFive.heading')}</a>
                         <ul>
-                            <li><a href="/item1">{t('header.dropdownOne.item1')}</a></li>
-                            <li><a href="/item1">{t('header.dropdownOne.item2')}</a></li>
-                            <li><a href="/item1">{t('header.dropdownOne.item3')}</a></li>
+                            <li><a href="/item1">{t('header.dropdownFive.item1')}</a></li>
+                            <li><a href="/item1">{t('header.dropdownFive.item2')}</a></li>
+                            <li><a href="/item1">{t('header.dropdownFive.item3')}</a></li>
                         </ul>
                     </li>
                 </ul>
