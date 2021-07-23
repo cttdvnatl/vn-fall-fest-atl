@@ -8,8 +8,7 @@
         "dropdownTwo": {
             "heading": "Sponsors",
             "item1": "How to become a Sponser",
-            "item2": "Current Sponsers",
-            "item3": "Past Sponsers"
+            "item2": "Current and Past Sponsers"
         },
         "dropdownThree": {
             "heading": "Events",
@@ -19,10 +18,6 @@
             "item4": "Food and Drinks"
         },
         "dropdownFour": {
-            "heading": "Volunteer",
-            "item1": "Volunteer Info"
-        },
-        "dropdownFive": {
             "heading": "Contact",
             "item1": "item1",
             "item2": "item2",
