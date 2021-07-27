@@ -9,10 +9,7 @@ nav.desktop-view div.top-header {
     width: 100%;
     border-bottom: solid 1px black;
     display: block;
-}
-
-html:not([data-scroll='0']) nav.desktop-view div.top-header {
-    display: none;
+    position: relative;
 }
 
 /* Top Header Items left*/
@@ -59,7 +56,14 @@ nav.desktop-view div.main-header {
     width: 100%;
     background-color: #C7E689;
     height: 100px;
+}
+
+nav.desktop-view div.is-sticky.main-header {
     position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
 }
 
 nav.desktop-view div.main-header ul {
@@ -73,11 +77,11 @@ nav.desktop-view div.main-header ul li {
     float: left;
 }
 
-nav.desktop-view div.main-header ul li a {
+nav.desktop-view div.main-header ul li p {
     text-decoration: none;
     color: black;
     font-size: 18px;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 30px;
     padding-right: 60px;
 }
@@ -101,11 +105,13 @@ nav.desktop-view div.main-header ul li:hover ul {
 } 
 
 nav.desktop-view div.main-header ul li ul li{
-    width: 130px;
+    width: 400px;
 }    
 
 nav.desktop-view div.main-header ul li ul li a {
-    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
 }
 
 
@@ -137,7 +143,6 @@ nav.mobile-view div.top-header {
     height: 50px;
     width: 100%;
     border-bottom: solid 1px black;
-    display: none;
 }
 
 /* Top Header Items left*/
@@ -174,13 +179,22 @@ nav.mobile-view div.top-header div.top-header-items-right div.translation-button
 
 /* Navagation CSS*/
 nav.mobile-view div.main-header {
-    position: fixed;
     width: 100%;
     background-color: #C7E689;
+    height: 75px;
 }
 
-nav.mobile-view div.main-header ul {
+nav.mobile-view div.is-sticky.main-header {
     position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+nav.mobile-view div.main-header ul.openSideNav {
+    position: fixed;
+    top: 0;
     height: 100%;
     width: 200px;
     background-color: #C7E689;
@@ -188,6 +202,19 @@ nav.mobile-view div.main-header ul {
     transition: width 1s;
 }
 
+nav.mobile-view div.main-header ul.closeSideNav {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 0px;
+    background-color: #C7E689;
+    box-shadow: 5px 5px 5px black;
+    transition: width 1s;
+}
+
+nav.mobile-view div.main-header ul.closeSideNav li{
+    display: none;
+}
 
 nav.mobile-view div.main-header ul li {
     padding-top: 30px;
