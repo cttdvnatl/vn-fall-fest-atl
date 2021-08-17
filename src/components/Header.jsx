@@ -11,10 +11,6 @@ const Header = () => {
         display : 'none',
     }
 
-    const displayBlock = {
-        display : 'block',
-    }
-
     const displayViet = {
         display: 'block',
         backgroundColor: '#ffcc00'
@@ -24,14 +20,6 @@ const Header = () => {
     const displayEng = {
         display: 'block',
         backgroundColor: '#005ce6'
-    }
-
-    const openNav = {
-        width: '200px'
-    }
-
-    const closeNav = {
-        width: '0px'
     }
 
     //Set Language and Cookie
@@ -149,7 +137,7 @@ const Header = () => {
                         </ul>
                     </li>
 
-                    <li><p>{t('header.dropdownFour.heading')}</p>
+                    <li><p><a href="/">{t('header.dropdownFour.heading')}</a></p>
                     </li>
                 </ul>
                 <span onClick={() => openSideNav()} class="mobile-icon">&#8801;</span>
