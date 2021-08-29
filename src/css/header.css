@@ -25,6 +25,7 @@ nav.desktop-view div.top-header div.top-header-items-left div.back-to-main {
 
 nav.desktop-view div.top-header div.top-header-items-left div.back-to-main a{
     text-decoration: none;
+    padding-left: 10px;
 }
 /* Top Header Items Right*/
 nav.desktop-view div.top-header div.top-header-items-right {
@@ -213,7 +214,7 @@ nav.mobile-view div.is-sticky.main-header {
 }
 
 nav.mobile-view div.main-header ul.openSideNav {
-    position: fixed;
+    position: absolute;
     top: 0;
     height: 100%;
     width: 250px;
@@ -225,7 +226,7 @@ nav.mobile-view div.main-header ul.openSideNav {
 }
 
 nav.mobile-view div.main-header ul.closeSideNav {
-    position: fixed;
+    position: absolute;
     top: 0;
     height: 100%;
     width: 0px;
@@ -299,6 +300,10 @@ nav.mobile-view span {
 }  
 
 /*logo*/
+nav.mobile-view div.logo {
+    margin: none;
+}
+
 nav.mobile-view div.logo img {
     width: 150px;
     float: left;
