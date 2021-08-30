@@ -129,28 +129,44 @@ const Header = () => {
                     <li><p>{t('header.dropdownOne.heading')}</p>
                         <ul>
                             <li><a href="/item1">{t('header.dropdownOne.item1')}</a></li>
-                            <li><a href="/item1">{t('header.dropdownOne.item2')}</a></li>
+                            <li><a href="/item2">{t('header.dropdownOne.item2')}</a></li>
                         </ul>
                     </li>
 
                     <li><p>{t('header.dropdownTwo.heading')}</p>
-                        <ul>
+                    <ul>
                             <li><a href="/item1">{t('header.dropdownTwo.item1')}</a></li>
-                            <li><a href="/item1">{t('header.dropdownTwo.item2')}</a></li>
+                            <li><a href="/item2">{t('header.dropdownTwo.item2')}</a></li>
                         </ul>
-                    </li>
+                   </li>
 
                     <li><p>{t('header.dropdownThree.heading')}</p>
                         <ul>
                             <li><a href="/item1">{t('header.dropdownThree.item1')}</a></li>
-                            <li><a href="/item1">{t('header.dropdownThree.item2')}</a></li>
-                            <li><a href="/item1">{t('header.dropdownThree.item3')}</a></li>
-                            <li><a href="/item1">{t('header.dropdownThree.item4')}</a></li>
+                            <li><a href="/item2">{t('header.dropdownThree.item2')}</a></li>
                         </ul>
                     </li>
 
                     <li><p>{t('header.dropdownFour.heading')}</p>
+                        <ul>
+                            <li><a href="/item1">{t('header.dropdownFour.item1')}</a></li>
+                            <li><a href="/item2">{t('header.dropdownFour.item2')}</a></li>
+                            <li><a href="/item2">{t('header.dropdownFour.item3')}</a></li>
+                        </ul> 
                     </li>
+
+                    <li><p>{t('header.dropdownFive.heading')}</p>               
+                        <ul>
+                            <li><a href="/item1">{t('header.dropdownFive.item1')}</a></li>
+                            <li><a href="/item2">{t('header.dropdownFive.item2')}</a></li>
+                        </ul>
+
+                    </li>
+                    
+
+                    <li><p>{t('header.dropdownSix.heading')}</p>
+                    </li>
+                    
                 </ul>
                 <span onClick={() => openSideNav()} class="mobile-icon">&#8801;</span>
             </div>

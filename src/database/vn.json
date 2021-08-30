@@ -1,24 +1,34 @@
 {
     "header": {
         "dropdownOne": {
-            "heading": "Lễ Hội Mùa Thu",
-            "item1": "Mục Đich",
-            "item2": "Lịch Sử"
+            "heading": "Lịch Trình Lễ Hội",
+            "item1": "Các Cuộc Thi",
+            "item2": "Sổ Xố"
         },
         "dropdownTwo": {
-            "heading": "Nhà bảo chợ hiện Tại",
-            "item1": "Làm nhà tài trợ quá khứ",
-            "item2": "Nhà bảo Chợ"
+            "heading": "Văn Nghệ",
+            "item1": "Ca Sĩ",
+            "item2": "Lịch Trình Diễn"
         },
         "dropdownThree": {
-            "heading": "Sự Kiện",
-            "item1": "Văn Nghệ",
-            "item2": "Cúc Môn Thi",
-            "item3": "Xổ Số",
-            "item4": "Thức ăn và đồ uống"
+            "heading": "Ẩm Thực",
+            "item1": "Món Ăn & Thức Uống",
+            "item2": "Sơ Đồ Quầy Hàng"
         },
         "dropdownFour": {
-            "heading": "Liên lạc"
+        "heading": "Nhà Tài Trợ",
+        "item1": "Các Nhà Tài Trợ Năm Nay",
+        "item2": "Các Nhà Tài Trợ Những Năm Trước",
+        "item3": "Ghi Danh Làm Nhà Tài Trợ Năm Sau"
+    },
+        "dropdownFive": {
+        "heading": "Ban Tổ Chức",
+        "item1": "Mục Đính Của Lễ Hội",
+        "item2": "Lịch Sử Của Lễ Hội"
+        
+    },
+        "dropdownSix": {
+            "heading": "Liên Lạc"
         }
     }
 }
