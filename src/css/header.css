@@ -15,22 +15,22 @@ nav.desktop-view div.top-header {
 /* Top Header Items left*/
 nav.desktop-view div.top-header div.top-header-items-left {
     display: inline;
-    float: left;
-    padding: 7px;
+    float: left;    
 }
 
 /* Back to Main */
 nav.desktop-view div.top-header div.top-header-items-left div.back-to-main {
-    padding-left: 10px;
+    padding-top: 15px;
 }
 
 nav.desktop-view div.top-header div.top-header-items-left div.back-to-main a{
     text-decoration: none;
+    padding-left: 10px;
 }
 /* Top Header Items Right*/
 nav.desktop-view div.top-header div.top-header-items-right {
     float: right;
-    padding: 7px;
+    padding-top: 10px;
 }
 /* Translation Button*/
 nav.desktop-view div.top-header div.top-header-items-right div.translation-button button.translation-button {
@@ -84,6 +84,23 @@ nav.desktop-view div.main-header ul li p {
     padding-top: 10px;
     padding-bottom: 30px;
     padding-right: 60px;
+    cursor: pointer;
+}
+
+nav.desktop-view div.main-header ul li p:hover {
+    color: white;
+    transition: .2s;
+}
+
+nav.desktop-view div.main-header ul li p a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+nav.desktop-view div.main-header ul li p a:hover {
+    color: white;
+    transition: .2s;
 }
 
 /*Dropdown*/
@@ -105,13 +122,17 @@ nav.desktop-view div.main-header ul li:hover ul {
 } 
 
 nav.desktop-view div.main-header ul li ul li{
-    width: 400px;
+    width: 130px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }    
 
 nav.desktop-view div.main-header ul li ul li a {
     text-decoration: none;
     color: black;
     font-size: 18px;
+    padding-left: 5px;
+
 }
 
 
@@ -154,7 +175,7 @@ nav.mobile-view div.top-header div.top-header-items-left {
 
 /* Back to Main */
 nav.mobile-view div.top-header div.top-header-items-left div.back-to-main {
-    padding-left: 10px;
+    padding: 10px;
 }
 
 nav.mobile-view div.top-header div.top-header-items-left div.back-to-main a{
@@ -163,7 +184,7 @@ nav.mobile-view div.top-header div.top-header-items-left div.back-to-main a{
 /* Top Header Items Right*/
 nav.mobile-view div.top-header div.top-header-items-right {
     float: right;
-    padding: 7px;
+    padding: 10px;
 }
 /* Translation Button*/
 nav.mobile-view div.top-header div.top-header-items-right div.translation-button button.translation-button {
@@ -193,17 +214,19 @@ nav.mobile-view div.is-sticky.main-header {
 }
 
 nav.mobile-view div.main-header ul.openSideNav {
-    position: fixed;
+    position: absolute;
     top: 0;
     height: 100%;
-    width: 200px;
+    width: 250px;
     background-color: #C7E689;
     box-shadow: 5px 5px 5px black;
     transition: width 1s;
+    display: flex;
+    flex-direction: column;
 }
 
 nav.mobile-view div.main-header ul.closeSideNav {
-    position: fixed;
+    position: absolute;
     top: 0;
     height: 100%;
     width: 0px;
@@ -217,49 +240,50 @@ nav.mobile-view div.main-header ul.closeSideNav li{
 }
 
 nav.mobile-view div.main-header ul li {
-    padding-top: 30px;
     float: left;
+    padding: 15px;
+    border-bottom: solid black 1px;
+    cursor: pointer;
 }
 
 nav.mobile-view div.main-header ul li a {
     text-decoration: none;
     color: black;
     font-size: 18px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-right: 60px;
+}
+
+
+nav.mobile-view div.main-header ul li p {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+nav.mobile-view div.main-header ul li p a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
 }
 
 /*Dropdown*/
 
 nav.mobile-view div.main-header ul li ul {
     display: none;
-    position: absolute;
     background-color: #C7E689;
-    min-width: 100px;
+    list-style: none;
+    position: relative;
+    width: 100%;
 }
 
-nav.desktop-view div.main-header ul li ul {
-    width: 130px;
-}
-
-nav.desktop-view div.main-header ul li:hover ul {
-    display: block;
-
+nav.mobile-view div.main-header ul li:hover ul {
+    display: flex;
+    flex-direction: column;
 } 
 
-nav.desktop-view div.main-header ul li ul li{
-    width: 130px;
-}    
-
-nav.desktop-view div.main-header ul li ul li a {
-    padding-left: 10px;
-}
-
-
-nav.desktop-view div.main-header ul li ul li:hover {
-    background-color: rgba(149, 185, 77, 0.431)
-}  
+nav.mobile-view div.main-header ul li ul li {
+    border-top: 0.5px black solid;
+    border-bottom: none;
+} 
 
 /*mobile icon*/
 nav.desktop-view span {
@@ -270,14 +294,17 @@ nav.mobile-view span {
     display: block;
     font-size: 50px;
     float: right;
+    padding-left: 200px;
     margin-right: 10px;
     cursor: pointer;
 }  
 
 /*logo*/
+nav.mobile-view div.logo {
+    margin: none;
+}
+
 nav.mobile-view div.logo img {
     width: 150px;
-    padding-top: 2px;
-    padding-left: 40px;
     float: left;
 }

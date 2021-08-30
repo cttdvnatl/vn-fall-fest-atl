@@ -1,6 +1,7 @@
 @import url(./header.css);
 @import url(./footer.css);
 @import url(./homepage.css);
+@import url(./slideshow.css);
 
 * {
     padding: 0;
