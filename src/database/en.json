@@ -2,33 +2,23 @@
     "header": {
         "dropdownOne": {
             "heading": "AboutVN",
-            "item1": "item1",
-            "item2": "item2",
-            "item3": "item3"
+            "item1": "Purpose",
+            "item2": "History"
         },
         "dropdownTwo": {
             "heading": "Sponsors",
-            "item1": "item1",
-            "item2": "item2",
-            "item3": "item3"
+            "item1": "How to become a Sponser",
+            "item2": "Current and Past Sponsers"
         },
         "dropdownThree": {
             "heading": "Events",
-            "item1": "item1",
-            "item2": "item2",
-            "item3": "item3"
+            "item1": "Van Nghe",
+            "item2": "Cuc Mon Thi",
+            "item3": "Xo So",
+            "item4": "Food and Drinks"
         },
         "dropdownFour": {
-            "heading": "Volunteer",
-            "item1": "item1",
-            "item2": "item2",
-            "item3": "item3"
-        },
-        "dropdownFive": {
-            "heading": "Contact",
-            "item1": "item1",
-            "item2": "item2",
-            "item3": "item3"
+            "heading": "Contact"
         }
     }
 }

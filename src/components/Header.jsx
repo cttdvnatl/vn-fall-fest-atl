@@ -4,13 +4,11 @@ import { useTranslation, setLanguage, getLanguage } from 'react-multi-lang';
 const Header = () => {
 
     const nav = useRef(null);
+    const sideNav = useRef(null);
+    const mainHeader = useRef(null);
 
     const displayNone = {
         display : 'none',
-    }
-
-    const displayBlock = {
-        display : 'block',
     }
 
     const displayViet = {
@@ -50,13 +48,16 @@ const Header = () => {
         displayVN = displayNone;
         displayEN = displayEng;
     }
-
-    //making top header disappear after 1 scroll
-    document.addEventListener("scroll", () => {
-        document.documentElement.dataset.scroll = window.scrollY;
-    });
     
-    document.documentElement.dataset.scroll = window.scrollY;
+//making top header disappear after 1 scroll
+    const scrollCallback = useCallback(() => {
+        const sticky = mainHeader.current.offsetTop;
+        if (window.pageYOffset > sticky) {
+            mainHeader.current.classList.add("is-sticky");
+        } else {
+            mainHeader.current.classList.remove("is-sticky");
+      }
+    }, []);
 
     //desktop to mobile view
     const resizeCallback = useCallback(() => {
@@ -74,20 +75,23 @@ const Header = () => {
         //Call all the callbacks to setup initial value after the element is mounted
         resizeCallback();
         window.addEventListener("resize", resizeCallback);
+        window.addEventListener("scroll", scrollCallback);
         //Unhook the event handlers when the element is unmounted
         return () => {
+            window.removeEventListener("scroll", scrollCallback);
             window.removeEventListener("resize", resizeCallback);
         };
-    }, [resizeCallback]);
+    }, [resizeCallback, scrollCallback]);
 
-    let sideNavClass = displayBlock;
     function openSideNav() {
-        if (sideNavClass === displayBlock) {
-            sideNavClass = displayNone
+        if(window.innerWidth < 950) {
+            sideNav.current.classList.remove("closeSideNav");
+            sideNav.current.classList.add("openSideNav");
         }
-        else {
-            sideNavClass = displayBlock;
-        }
+    }
+    function closeSideNav() {
+        sideNav.current.classList.remove("openSideNav");
+        sideNav.current.classList.add("closeSideNav");
     }
 
     return (
@@ -106,50 +110,37 @@ const Header = () => {
                     </div>
                 </div>
             </div>        
-            <div class="main-header">
+            <div ref={mainHeader} class="main-header">
             <div class="logo"><a href="/"><img alt="logo" src="https://fallfestivalatl.org/wp-content/uploads/2021/06/2021-LHMT-Logo-Dark-FF-72.png"></img></a></div>
-                <span class="mobile-icon" onclick={() => openSideNav()}>&#8801;</span>
-                <ul style={sideNavClass}>
-                    <li><a href="/">{t('header.dropdownOne.heading')}</a>
+                <ul ref={sideNav} class="closeSideNav">
+                    <span onClick={() => closeSideNav()}>&#10005;</span>
+                    <li><p>{t('header.dropdownOne.heading')}</p>
                         <ul>
                             <li><a href="/item1">{t('header.dropdownOne.item1')}</a></li>
                             <li><a href="/item1">{t('header.dropdownOne.item2')}</a></li>
-                            <li><a href="/item1">{t('header.dropdownOne.item3')}</a></li>
                         </ul>
                     </li>
 
-                    <li><a href="/events">{t('header.dropdownTwo.heading')}</a>
+                    <li><p>{t('header.dropdownTwo.heading')}</p>
                         <ul>
                             <li><a href="/item1">{t('header.dropdownTwo.item1')}</a></li>
                             <li><a href="/item1">{t('header.dropdownTwo.item2')}</a></li>
-                            <li><a href="/item1">{t('header.dropdownTwo.item3')}</a></li>
                         </ul>
                     </li>
 
-                    <li><a href="/food-menu">{t('header.dropdownThree.heading')}</a>
+                    <li><p>{t('header.dropdownThree.heading')}</p>
                         <ul>
                             <li><a href="/item1">{t('header.dropdownThree.item1')}</a></li>
                             <li><a href="/item1">{t('header.dropdownThree.item2')}</a></li>
                             <li><a href="/item1">{t('header.dropdownThree.item3')}</a></li>
+                            <li><a href="/item1">{t('header.dropdownThree.item4')}</a></li>
                         </ul>
                     </li>
 
-                    <li><a href="/other">{t('header.dropdownFour.heading')}</a>
-                        <ul>
-                            <li><a href="/item1">{t('header.dropdownFour.item1')}</a></li>
-                            <li><a href="/item1">{t('header.dropdownFour.item2')}</a></li>
-                            <li><a href="/item1">{t('header.dropdownFour.item3')}</a></li>
-                        </ul>
-                    </li>
-
-                    <li><a href="/other">{t('header.dropdownFive.heading')}</a>
-                        <ul>
-                            <li><a href="/item1">{t('header.dropdownFive.item1')}</a></li>
-                            <li><a href="/item1">{t('header.dropdownFive.item2')}</a></li>
-                            <li><a href="/item1">{t('header.dropdownFive.item3')}</a></li>
-                        </ul>
+                    <li><p><a href="/">{t('header.dropdownFour.heading')}</a></p>
                     </li>
                 </ul>
+                <span onClick={() => openSideNav()} class="mobile-icon">&#8801;</span>
             </div>
         </nav>
         </>

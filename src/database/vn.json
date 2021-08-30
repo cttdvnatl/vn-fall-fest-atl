@@ -1,34 +1,24 @@
 {
     "header": {
         "dropdownOne": {
-            "heading": "AboutEN",
-            "item1": "item1",
-            "item2": "item2",
-            "item3": "item3"
+            "heading": "Lễ Hội Mùa Thu",
+            "item1": "Mục Đich",
+            "item2": "Lịch Sử"
         },
         "dropdownTwo": {
-            "heading": "Sponsors",
-            "item1": "item1",
-            "item2": "item2",
-            "item3": "item3"
+            "heading": "Nhà bảo chợ hiện Tại",
+            "item1": "Làm nhà tài trợ quá khứ",
+            "item2": "Nhà bảo Chợ"
         },
         "dropdownThree": {
-            "heading": "Events",
-            "item1": "item1",
-            "item2": "item2",
-            "item3": "item3"
+            "heading": "Sự Kiện",
+            "item1": "Văn Nghệ",
+            "item2": "Cúc Môn Thi",
+            "item3": "Xổ Số",
+            "item4": "Thức ăn và đồ uống"
         },
         "dropdownFour": {
-            "heading": "Volunteer",
-            "item1": "item1",
-            "item2": "item2",
-            "item3": "item3"
-        },
-        "dropdownFive": {
-            "heading": "Contact",
-            "item1": "item1",
-            "item2": "item2",
-            "item3": "item3"
+            "heading": "Liên lạc"
         }
     }
 }
