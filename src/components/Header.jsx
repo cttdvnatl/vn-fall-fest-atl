@@ -61,7 +61,7 @@ const Header = () => {
 
     //desktop to mobile view
     const resizeCallback = useCallback(() => {
-        if (window.innerWidth < 950) {
+        if (window.innerWidth < 1065) {
             nav.current.classList.remove('desktop-view')
             nav.current.classList.add('mobile-view')
         }
@@ -84,7 +84,7 @@ const Header = () => {
     }, [resizeCallback, scrollCallback]);
 
     function openSideNav() {
-        if(window.innerWidth < 950) {
+        if(window.innerWidth < 1065) {
             sideNav.current.classList.remove("closeSideNav");
             sideNav.current.classList.add("openSideNav");
         }
