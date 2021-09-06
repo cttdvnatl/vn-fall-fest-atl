@@ -1,0 +1,13 @@
+.slideshow-container {
+    width: 100%;
+    height: 500px;
+}
+
+.slideshow-container .slides {
+    width: 100%;
+}
+
+.slideshow-container .slides img {
+    width: 100%;
+    height: 700px;
+}
