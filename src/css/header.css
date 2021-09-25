@@ -203,6 +203,8 @@ nav.mobile-view div.main-header {
     width: 100%;
     background-color: #C7E689;
     height: 75px;
+    top: 0;
+    left: 0;
 }
 
 nav.mobile-view div.is-sticky.main-header {
@@ -210,6 +212,7 @@ nav.mobile-view div.is-sticky.main-header {
     width: 100%;
     top: 0;
     left: 0;
+    background-color: #C7E689;
     z-index: 9999;
 }
 
@@ -223,6 +226,7 @@ nav.mobile-view div.main-header ul.openSideNav {
     transition: width 1s;
     display: flex;
     flex-direction: column;
+    position: fixed;
 }
 
 nav.mobile-view div.main-header ul.closeSideNav {
@@ -233,6 +237,7 @@ nav.mobile-view div.main-header ul.closeSideNav {
     background-color: #C7E689;
     box-shadow: 5px 5px 5px black;
     transition: width 1s;
+    position: fixed;
 }
 
 nav.mobile-view div.main-header ul.closeSideNav li{
@@ -241,9 +246,10 @@ nav.mobile-view div.main-header ul.closeSideNav li{
 
 nav.mobile-view div.main-header ul li {
     float: left;
-    padding: 15px;
-    border-bottom: solid black 1px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     cursor: pointer;
+    padding-left: 10px;
 }
 
 nav.mobile-view div.main-header ul li a {
@@ -273,16 +279,18 @@ nav.mobile-view div.main-header ul li ul {
     list-style: none;
     position: relative;
     width: 100%;
+    border: none;
 }
 
-nav.mobile-view div.main-header ul li:hover ul {
+nav.mobile-view div.main-header ul li:active ul {
     display: flex;
     flex-direction: column;
 } 
 
 nav.mobile-view div.main-header ul li ul li {
-    border-top: 0.5px black solid;
-    border-bottom: none;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom:.3px solid;
 } 
 
 /*mobile icon*/
@@ -301,10 +309,10 @@ nav.mobile-view span {
 
 /*logo*/
 nav.mobile-view div.logo {
-    margin: none;
+    padding-left: 25px;
+    float: left;
 }
 
 nav.mobile-view div.logo img {
     width: 150px;
-    float: left;
 }

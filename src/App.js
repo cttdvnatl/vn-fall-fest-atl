@@ -13,7 +13,7 @@ import HomePage from './pages/HomePage';
 
 //Website Cookie for Language
 setTranslations({vn, en})
-setDefaultLanguage('en')
+setDefaultLanguage('vn')
 
 function checkLangCookie() {
     const language = getCookie("language");
