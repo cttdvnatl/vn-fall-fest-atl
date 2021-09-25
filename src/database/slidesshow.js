@@ -1,6 +1,6 @@
 const slides = [
     {
-        "slide": "./img/image1.jpg",
+        "slide": "https://fallfestivalatl.org/wp-content/uploads/2021/06/LHMT-2019-FP1-1.jpg",
         "slideNumber": "1"
     },
     {
@@ -8,7 +8,7 @@ const slides = [
         "slideNumber": "2"
     },
     {
-        "slide": "./img/image3.jpg",
+        "slide": "https://fallfestivalatl.org/wp-content/uploads/2021/06/LHMT-2019-FP1-1.jpg",
         "slideNumber": "3"
     }
 ]
