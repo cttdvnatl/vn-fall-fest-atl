@@ -113,7 +113,7 @@ const Header = () => {
             <div ref={mainHeader} class="main-header">
             <div class="logo"><a href="/"><img alt="logo" src="https://fallfestivalatl.org/wp-content/uploads/2021/06/2021-LHMT-Logo-Dark-FF-72.png"></img></a></div>
                 <ul ref={sideNav} class="closeSideNav">
-                    <span onClick={() => closeSideNav()}>&#10005;</span>
+                    <span class="close" onClick={() => closeSideNav()}>&#10005;</span>
                     <li><p>{t('header.dropdownOne.heading')}</p>
                         <ul>
                             <li><a href="/item1">{t('header.dropdownOne.item1')}</a></li>
@@ -156,7 +156,7 @@ const Header = () => {
                     </li>
                    
                 </ul>
-                <span onClick={() => openSideNav()} class="mobile-icon">&#8801;</span>
+                <span onClick={() => openSideNav()} class="open">&#8801;</span>
             </div>
         </nav>
         </>
