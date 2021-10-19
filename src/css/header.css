@@ -252,6 +252,10 @@ nav.mobile-view div.main-header ul li {
     border-top: 1px solid;
 }
 
+nav.mobile-view div.main-header ul li.active {
+    background-color: grey;
+}
+
 nav.mobile-view div.main-header ul li p {
     padding: 10px;
 }
@@ -305,6 +309,7 @@ nav.mobile-view div.main-header ul li ul li {
 nav.mobile-view div.main-header ul li ul li a {
     padding-left: 20px;
 }
+
 
 
 /*mobile icon*/
