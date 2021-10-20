@@ -62,7 +62,7 @@ const Header = () => {
 
     //desktop to mobile view
     const resizeCallback = useCallback(() => {
-        if (window.innerWidth < 1085) {
+        if (window.innerWidth < 1200) {
             nav.current.classList.remove('desktop-view')
             nav.current.classList.add('mobile-view')
         }
@@ -85,7 +85,7 @@ const Header = () => {
     }, [resizeCallback, scrollCallback]);
 
     const openSideNav = () => {
-        if(window.innerWidth < 1085) {
+        if(window.innerWidth < 1200) {
             sideNav.current.classList.remove("closeSideNav");
             sideNav.current.classList.add("openSideNav");
         }
@@ -96,12 +96,11 @@ const Header = () => {
     }
 
     const toggleSubmenu = (index, e) => {
-        e.stopPropagation();
-        if(window.innerWidth < 1450) {
+        console.log("submenu")
+        if(window.innerWidth < 1200) {
             for(let i = 0; i < sideNav.current.children.length; i++) {
                 if(i === index && !sideNav.current.children[i].classList.contains("active")) {
                     sideNav.current.children[i].classList.add("active");
-                    sideNav.current.children[i].children[1].setAttribute("style", "display:block; font-size:10px");
                 }
                 else {
                     sideNav.current.children[i].classList.remove("active");    
@@ -110,6 +109,7 @@ const Header = () => {
                 }
             }
         }
+        
     }
 
     return (
@@ -132,27 +132,27 @@ const Header = () => {
             <div class="logo"><a href="/"><img alt="logo" src="https://fallfestivalatl.org/wp-content/uploads/2021/06/2021-LHMT-Logo-Dark-FF-72.png"></img></a></div>
                 <ul ref={sideNav} class="closeSideNav">
                     <span class="close" onClick={() => closeSideNav()}>&#10005;</span>
-                    <li class="" onclick={(e) => {toggleSubmenu(1, e)}}><p>{t('header.dropdownOne.heading')}</p>
+                    <li onClick={(e) => {toggleSubmenu(1, e)}}><p>{t('header.dropdownOne.heading')}</p>
                         <ul>
                             <li><a href="/item1">{t('header.dropdownOne.item1')}</a></li>
                             <li><a href="/item2">{t('header.dropdownOne.item2')}</a></li>
                         </ul>
                     </li>
-                    <li><p>{t('header.dropdownTwo.heading')}</p>
+                    <li onClick={(e) => {toggleSubmenu(2, e)}}><p>{t('header.dropdownTwo.heading')}</p>
                     <ul>
                             <li><a href="/item1">{t('header.dropdownTwo.item1')}</a></li>
                             <li><a href="/item2">{t('header.dropdownTwo.item2')}</a></li>
                         </ul>
                    </li>
 
-                    <li><p>{t('header.dropdownThree.heading')}</p>
+                    <li onClick={(e) => {toggleSubmenu(3, e)}}><p>{t('header.dropdownThree.heading')}</p>
                         <ul>
                             <li><a href="/item1">{t('header.dropdownThree.item1')}</a></li>
                             <li><a href="/item2">{t('header.dropdownThree.item2')}</a></li>
                         </ul>
                     </li>
 
-                    <li><p>{t('header.dropdownFour.heading')}</p>
+                    <li onClick={(e) => {toggleSubmenu(4, e)}}><p>{t('header.dropdownFour.heading')}</p>
                         <ul>
                             <li><a href="/item1">{t('header.dropdownFour.item1')}</a></li>
                             <li><a href="/item2">{t('header.dropdownFour.item2')}</a></li>
@@ -160,14 +160,14 @@ const Header = () => {
                         </ul> 
                     </li>
 
-                    <li><p>{t('header.dropdownFive.heading')}</p>
+                    <li onClick={(e) => {toggleSubmenu(5, e)}}><p>{t('header.dropdownFive.heading')}</p>
                         <ul>
                             <li><a href="/item1">{t('header.dropdownFive.item1')}</a></li>
                             <li><a href="/item2">{t('header.dropdownFive.item2')}</a></li>
                         </ul>
                     </li>
 
-                    <li><p>{t('header.dropdownSix.heading')}</p>
+                    <li><p><a href={t('header.dropdownSix.href')}>{t('header.dropdownSix.heading')}</a></p>
                         <ul>
                         </ul>
                     </li>

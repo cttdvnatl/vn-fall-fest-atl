@@ -19,7 +19,7 @@
             "heading": "Sponsors",
             "item1": "This Year Sponsors",
             "item2": "Previous Years Sponsors",
-            "item3": "Sign Up to be Our Sponsors Next Year"
+            "item3": "Sign Up To Be a Sponsor"
         },
         "dropdownFive": {
             "heading": "About Us",
@@ -27,6 +27,7 @@
             "item2": "Our History"
         },
         "dropdownSix": {
+            "href": "/contact",
             "heading": "Contact"
         }
     },

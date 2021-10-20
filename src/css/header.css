@@ -222,7 +222,7 @@ nav.mobile-view div.main-header ul.openSideNav {
     height: 100%;
     width: 250px;
     background-color: #C7E689;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 2px 0px 10px 0px black;
     transition: width 1s;
     display: flex;
     flex-direction: column;
@@ -236,7 +236,6 @@ nav.mobile-view div.main-header ul.closeSideNav {
     height: 100%;
     width: 0px;
     background-color: #C7E689;
-    box-shadow: 5px 5px 5px black;
     transition: width 1s;
     position: fixed;
 }
@@ -252,25 +251,14 @@ nav.mobile-view div.main-header ul li {
     border-top: 1px solid;
 }
 
-nav.mobile-view div.main-header ul li.active {
-    background-color: grey;
-}
-
 nav.mobile-view div.main-header ul li p {
-    padding: 10px;
+    user-select: none;
 }
 
 nav.mobile-view div.main-header ul li:last-child {
     border-bottom: 1px solid;
 }
 
-nav.mobile-view div.main-header ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-}
-
-
 nav.mobile-view div.main-header ul li p {
     text-decoration: none;
     color: black;
@@ -278,11 +266,9 @@ nav.mobile-view div.main-header ul li p {
     padding: 10px;
 }
 
-nav.mobile-view div.main-header ul li p a {
+nav.mobile-view div.main-header ul li a {
     text-decoration: none;
     color: black;
-    font-size: 18px;
-    padding: 10px;
 }
 
 /*Dropdown*/
@@ -295,7 +281,12 @@ nav.mobile-view div.main-header ul li ul {
     width: 100%;
 }
 
-nav.mobile-view div.main-header ul li:active ul {
+nav.mobile-view div.main-header ul li.active  {
+    background-color: #cccccc;
+    transition: background-color .5s;
+} 
+
+nav.mobile-view div.main-header ul li.active ul {
     display: flex;
     flex-direction: column;
 } 
