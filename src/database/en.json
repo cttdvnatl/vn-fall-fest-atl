@@ -19,7 +19,7 @@
             "heading": "Sponsors",
             "item1": "This Year Sponsors",
             "item2": "Previous Years Sponsors",
-            "item3": "Sign Up to be Our Sponsors Next Year"
+            "item3": "Sign Up To Be a Sponsor"
         },
         "dropdownFive": {
             "heading": "About Us",
@@ -27,7 +27,32 @@
             "item2": "Our History"
         },
         "dropdownSix": {
+            "href": "/contact",
             "heading": "Contact"
         }
-    }
+    },
+    "slides": [
+        {
+            "slide": "https://fallfestivalatl.org/wp-content/uploads/2021/06/LHMT-2019-FP1-1.jpg",
+            "slideNumber": "1"
+        },
+        {
+            "slide": "./img/image2.jpg",
+            "slideNumber": "2"
+        },
+        {
+            "slide": "https://fallfestivalatl.org/wp-content/uploads/2021/06/LHMT-2019-FP1-1.jpg",
+            "slideNumber": "3"
+        }
+    ],
+    "sponsorList": [
+        {
+            "title": "sponsors",
+            "content": [
+                {
+
+                }
+            ]
+        }
+    ]
 }

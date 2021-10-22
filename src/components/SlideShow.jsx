@@ -1,35 +1,34 @@
 import React, {useState, useEffect} from 'react';
 import slidecontent from '../database/slidesshow.js';
+import {getLanguage, useTranslation} from 'react-multi-lang';
+import vn from '../database/vn';
+import en from '../database/en';
 
 const Slides = ({list}) => {
     const [currentSlide, setSlide] = useState(0)
     const { length } = list
 
-
-
     const nextSlide = () => {
-        setSlide(currentSlide === length - 1 ? 0 : currentSlide + 1)
+        setSlide(currentSlide === length - 1 ? 0 : currentSlide + 1)  
+        console.log(currentSlide)
     }
 
     const prevSlide = () => {
-        setSlide(currentSlide === length - 1 ? 0 : currentSlide - 1)
+        setSlide(currentSlide === 0 ? length - 1 : currentSlide - 1)
+        console.log(currentSlide)
     }
 
-    useEffect(() => {
-        setTimeout(() => {
-            nextSlide()
-        }, 10000)
-        return function() {
-            clearTimeout(nextSlide);
-        }
-    })
+    
 
-    if (!Array.isArray(list) || length <= 0) {
-        return null;
-    }
+//    setTimeout(() => {
+//        setSlide(currentSlide === length - 1 ? 0 : currentSlide + 1)
+//    }, 3000)
+
     
     return (
         <>
+            <div class="slide-overlay-left" onClick={prevSlide}></div>
+            <div class="slide-overlay-right" onClick={nextSlide}></div>
         {list.map((slides, index) => (
             <div class={index === currentSlide ? "slides active" : "slides"} key={slides.title} aria-hidden={index !== currentSlide} style={{}}>
                 <img alt={slides.slideNumber} src={slides.slide}></img>
@@ -40,10 +39,21 @@ const Slides = ({list}) => {
 }
 
 const SlideShow = () => {
+    useTranslation()
+
+    let Data;
+
+    if (getLanguage() === 'vn') {
+        Data = vn.slides;
+    }
+    if (getLanguage() === 'en') {
+        Data = en.slides;
+    }
+
     return (
         <>
         <div class="slideshow-container">
-            <Slides list={slidecontent} />
+            <Slides list={Data} />
         </div>
         </>
     )

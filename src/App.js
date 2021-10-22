@@ -5,11 +5,20 @@ import {
   Route
 } from 'react-router-dom';
 import {setLanguage, getLanguage, setTranslations, setDefaultLanguage} from 'react-multi-lang';
-import Header from './components/Header';
-import Footer from './components/Footer';
+
+//databas imports
 import en from './database/en.json';
 import vn from './database/vn.json';
+
+//conponent imports
+import Header from './components/Header';
+import Footer from './components/Footer';
+
+//page imports
 import HomePage from './pages/HomePage';
+import ContactPage from './pages/ContactPage';
+
+
 
 //Website Cookie for Language
 setTranslations({vn, en})
@@ -51,9 +60,10 @@ function App() {
   return (
     <>
     <Header/>
-    <Router>
-      <Route path="/" component={HomePage}/>
-    </Router>
+        <Router>
+        <Route path="/" component={HomePage} exact/>
+        <Route path="/contact" component={ContactPage}/>
+        </Router>
     <Footer/>
     </>
   );
