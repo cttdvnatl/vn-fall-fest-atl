@@ -16,10 +16,10 @@
             "item2": "Sơ Đồ Quầy Hàng"
         },
         "dropdownFour": {
-        "heading": "Nhà Tài Trợ",
-        "item1": "Các Nhà Tài Trợ Năm Nay",
-        "item2": "Các Nhà Tài Trợ Những Năm Trước",
-        "item3": "Ghi Danh Làm Nhà Tài Trợ Năm Sau"
+        "heading": "Các Nhà Tài Trợ",
+        "item1": "Năm Nay",
+        "item2": "Những Năm Trước",
+        "item3": "Ghi Danh"
     },
         "dropdownFive": {
         "heading": "Ban Tổ Chức",
