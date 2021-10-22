@@ -5,12 +5,15 @@
 .slideshow-container .slides {
     width: 100%;
     height: 700px;
-    display: none;
+    opacity: 0;
+    user-select: none;
+    transition: .3s ease;
+    position: absolute;
+    z-index: 1;
 }
 
 .slideshow-container .slides.active {
-    width: 100%;
-    display: block;
+    opacity: 1;
 }
 
 .slideshow-container .slides img {
@@ -23,6 +26,7 @@
     width: 15%; 
     height: 700px;
     position: absolute;
+    z-index: 2;
 }
 
 .slideshow-container .slide-overlay-right {
@@ -30,6 +34,7 @@
     width: 15%; 
     height: 700px;
     position: absolute;
+    z-index: 2;
 }
 
 .slideshow-container .slide-overlay-left:hover {
