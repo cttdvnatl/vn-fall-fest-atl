@@ -6,7 +6,6 @@ const Header = () => {
     const nav = useRef(null);
     const sideNav = useRef(null);
     const mainHeader = useRef(null);
-    const mobileDropdown = useRef(null)
 
     const displayNone = {
         display : 'none',
@@ -167,11 +166,7 @@ const Header = () => {
                         </ul>
                     </li>
 
-                    <li><p><a href={t('header.dropdownSix.href')}>{t('header.dropdownSix.heading')}</a></p>
-                        <ul>
-                        </ul>
-                    </li>
-                   
+                    <li><p><a href={t('header.dropdownSix.href')}>{t('header.dropdownSix.heading')}</a></p></li>
                 </ul>
                 <span onClick={() => openSideNav()} class="open">&#8801;</span>
             </div>
