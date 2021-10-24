@@ -73,7 +73,6 @@ nav.desktop-view div.main-header ul {
 
 
 nav.desktop-view div.main-header ul li {
-    padding-top: 30px;
     float: left;
 }
 
@@ -81,8 +80,8 @@ nav.desktop-view div.main-header ul li p {
     text-decoration: none;
     color: black;
     font-size: 18px;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    padding-top: 35px;
+    padding-bottom: 42px;
     padding-right: 60px;
     cursor: pointer;
 }
@@ -90,6 +89,7 @@ nav.desktop-view div.main-header ul li p {
 nav.desktop-view div.main-header ul li p:hover {
     color: white;
     transition: .2s;
+    border-bottom: 3px black solid;
 }
 
 nav.desktop-view div.main-header ul li p a {
@@ -108,8 +108,9 @@ nav.desktop-view div.main-header ul li p a:hover {
 nav.desktop-view div.main-header ul li ul {
     display: none;
     position: absolute;
-    background-color: #C7E689;
+    background-color: white;
     min-width: 100px;
+    border-left: 1px black solid;
 }
 
 nav.desktop-view div.main-header ul li ul {
