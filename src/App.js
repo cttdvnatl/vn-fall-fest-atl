@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 import {setLanguage, getLanguage, setTranslations, setDefaultLanguage} from 'react-multi-lang';
 
-//databas imports
+//database imports
 import en from './database/en.json';
 import vn from './database/vn.json';
 

@@ -1,33 +1,37 @@
 {
     "header": {
         "dropdownOne": {
+            "heading": "Trang Chủ",
+            "href": "/"
+        },
+        "dropdownTwo": {
             "heading": "Lịch Trình Lễ Hội",
             "item1": "Các Cuộc Thi",
             "item2": "Sổ Xố"
         },
-        "dropdownTwo": {
+        "dropdownThree": {
             "heading": "Văn Nghệ",
             "item1": "Ca Sĩ",
             "item2": "Lịch Trình Diễn"
         },
-        "dropdownThree": {
+        "dropdownFour": {
             "heading": "Ẩm Thực",
             "item1": "Món Ăn & Thức Uống",
             "item2": "Sơ Đồ Quầy Hàng"
         },
-        "dropdownFour": {
-        "heading": "Nhà Tài Trợ",
-        "item1": "Các Nhà Tài Trợ Năm Nay",
-        "item2": "Các Nhà Tài Trợ Những Năm Trước",
-        "item3": "Ghi Danh Làm Nhà Tài Trợ Năm Sau"
-    },
         "dropdownFive": {
+        "heading": "Các Nhà Tài Trợ",
+        "item1": "Năm Nay",
+        "item2": "Những Năm Trước",
+        "item3": "Ghi Danh"
+    },
+        "dropdownSix": {
         "heading": "Ban Tổ Chức",
         "item1": "Mục Đính Của Lễ Hội",
         "item2": "Lịch Sử Của Lễ Hội"
         
     },
-        "dropdownSix": {
+        "dropdownSeven": {
             "href": "/contact",
             "heading": "Liên Lạc"
         }

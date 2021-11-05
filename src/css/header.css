@@ -73,7 +73,6 @@ nav.desktop-view div.main-header ul {
 
 
 nav.desktop-view div.main-header ul li {
-    padding-top: 30px;
     float: left;
 }
 
@@ -81,8 +80,8 @@ nav.desktop-view div.main-header ul li p {
     text-decoration: none;
     color: black;
     font-size: 18px;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    padding-top: 35px;
+    padding-bottom: 44px;
     padding-right: 60px;
     cursor: pointer;
 }
@@ -96,9 +95,10 @@ nav.desktop-view div.main-header ul li p a {
     text-decoration: none;
     color: black;
     font-size: 18px;
+    display: block;
 }
 
-nav.desktop-view div.main-header ul li p a:hover {
+nav.desktop-view div.main-header ul li p:hover a {
     color: white;
     transition: .2s;
 }
@@ -106,39 +106,35 @@ nav.desktop-view div.main-header ul li p a:hover {
 /*Dropdown*/
 
 nav.desktop-view div.main-header ul li ul {
-    display: none;
+    opacity: 0;
     position: absolute;
-    background-color: #C7E689;
-    min-width: 100px;
+    width: 200px;
+    z-index: 10;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
-nav.desktop-view div.main-header ul li ul {
-    width: 130px;
-}
 
 nav.desktop-view div.main-header ul li:hover ul {
-    display: block;
-
+    opacity: 1;
+    transition: .3s opacity;
 } 
 
 nav.desktop-view div.main-header ul li ul li{
-    width: 130px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    border-bottom: .5px solid black;
 }    
 
 nav.desktop-view div.main-header ul li ul li a {
     text-decoration: none;
     color: black;
-    font-size: 18px;
-    padding-left: 5px;
-
+    font-size: 16px;
+    padding: 10px 20px;
+    height: 100%; 
+    width: 100%;
+    display: block;
 }
-
-
-nav.desktop-view div.main-header ul li ul li:hover {
-    background-color: rgba(149, 185, 77, 0.431)
-}  
 
 /*logo*/
 nav.desktop-view div.logo img {
