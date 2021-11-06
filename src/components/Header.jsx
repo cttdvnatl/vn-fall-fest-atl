@@ -14,7 +14,6 @@ const Header = () => {
     const displayViet = {
         display: 'block',
         backgroundColor: '#ffcc00'
-
     }
 
     const displayEng = {
