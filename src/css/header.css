@@ -132,6 +132,12 @@ nav.desktop-view div.main-header ul li ul li a {
     display: block;
 }
 
+nav.desktop-view div.main-header ul li ul li a:hover {
+    color: white;
+    transition: .2s;
+    background-color: #cccccc;
+}
+
 /*logo*/
 nav.desktop-view div.logo img {
     width: 200px;
