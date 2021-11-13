@@ -10,7 +10,6 @@
     user-select: none;
     transition: .3s ease;
     position: absolute;
-    z-index: 1;
 }
 
 .slideshow-container .slides.active {
@@ -27,7 +26,7 @@
     width: 15%; 
     height: 700px;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
 }
 
 .slideshow-container .slide-overlay-right {
@@ -35,7 +34,7 @@
     width: 15%; 
     height: 700px;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
 }
 
 .slideshow-container .slide-overlay-left:hover {

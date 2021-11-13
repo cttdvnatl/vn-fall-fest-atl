@@ -1,8 +1,12 @@
+/*CSS Stylesheet Imports*/
+/* components */
 @import url(./header.css);
 @import url(./footer.css);
-@import url(./homepage.css);
 @import url(./slideshow.css);
 @import url(./sponsors.css);
+
+/* pages */
+@import url(./homepage.css);
 
 * {
     padding: 0;

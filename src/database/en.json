@@ -5,32 +5,29 @@
             "href": "/"
         },
         "dropdownTwo": {
-            "heading": "Festival Schedule",
-            "item1": "Contests",
-            "item2": "Raffles"
+            "heading": "Events",
+            "item1": "Festival Schedule",
+            "href1": "/festival-schedule",
+            "item2": "Musicians",
+            "item3": "Contests",
+            "item4": "Raffles"
         },
         "dropdownThree": {
-            "heading": "Music",
-            "item1": "Musicians",
-            "item2": "Schedule"
-        },
-        "dropdownFour": {
             "heading": "Cuisine",
             "item1": "Menu",
             "item2": "Vendor Map"
         },
-        "dropdownFive": {
+        "dropdownFour": {
             "heading": "Sponsors",
-            "item1": "Current Sponsors",
-            "item2": "Previous Sponsors",
-            "item3": "Sign Up"
+            "item1": "Previous Sponsors",
+            "item2": "Sign Up"
         },
-        "dropdownSix": {
+        "dropdownFive": {
             "heading": "About Us",
             "item1": "Mission Statement",
             "item2": "History"
         },
-        "dropdownSeven": {
+        "dropdownSix": {
             "href": "/contact",
             "heading": "Contact"
         }

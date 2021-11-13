@@ -214,28 +214,27 @@ nav.mobile-view div.is-sticky.main-header {
     z-index: 9999;
 }
 
-nav.mobile-view div.main-header ul.openSideNav {
+nav.mobile-view div.main-header ul{
     position: absolute;
-    top: 0;
-    height: 100%;
-    width: 250px;
     background-color: #C7E689;
     box-shadow: 2px 0px 10px 0px black;
     transition: width 1s;
-    display: flex;
-    flex-direction: column;
+
+    top: 0;
+    height: 100%;
+    transition: width 1s;
     position: fixed;
     z-index: 9999;
 }
 
+nav.mobile-view div.main-header ul.openSideNav {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
 nav.mobile-view div.main-header ul.closeSideNav {
-    position: absolute;
-    top: 0;
-    height: 100%;
     width: 0px;
-    background-color: #C7E689;
-    transition: width 1s;
-    position: fixed;
 }
 
 nav.mobile-view div.main-header ul.closeSideNav li{
@@ -297,6 +296,7 @@ nav.mobile-view div.main-header ul li ul li {
 
 nav.mobile-view div.main-header ul li ul li a {
     padding-left: 20px;
+    display: block;
 }
 
 
