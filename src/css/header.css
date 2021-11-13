@@ -106,20 +106,18 @@ nav.desktop-view div.main-header ul li p:hover a {
 /*Dropdown*/
 
 nav.desktop-view div.main-header ul li ul {
-    opacity: 0;
     position: absolute;
     width: 200px;
     z-index: 10;
     border: 1px solid black;
     background-color: white;
-    display: flex;
-    flex-direction: column;
+    display: none;
 }
 
 
 nav.desktop-view div.main-header ul li:hover ul {
-    opacity: 1;
-    transition: .3s opacity;
+    display: flex;
+    flex-direction: column;
 } 
 
 nav.desktop-view div.main-header ul li ul li{
@@ -131,9 +129,13 @@ nav.desktop-view div.main-header ul li ul li a {
     color: black;
     font-size: 16px;
     padding: 10px 20px;
-    height: 100%; 
-    width: 100%;
     display: block;
+}
+
+nav.desktop-view div.main-header ul li ul li a:hover {
+    color: white;
+    transition: .2s;
+    background-color: #cccccc;
 }
 
 /*logo*/
@@ -212,28 +214,27 @@ nav.mobile-view div.is-sticky.main-header {
     z-index: 9999;
 }
 
-nav.mobile-view div.main-header ul.openSideNav {
+nav.mobile-view div.main-header ul{
     position: absolute;
-    top: 0;
-    height: 100%;
-    width: 250px;
     background-color: #C7E689;
     box-shadow: 2px 0px 10px 0px black;
     transition: width 1s;
-    display: flex;
-    flex-direction: column;
+
+    top: 0;
+    height: 100%;
+    transition: width 1s;
     position: fixed;
     z-index: 9999;
 }
 
+nav.mobile-view div.main-header ul.openSideNav {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
 nav.mobile-view div.main-header ul.closeSideNav {
-    position: absolute;
-    top: 0;
-    height: 100%;
     width: 0px;
-    background-color: #C7E689;
-    transition: width 1s;
-    position: fixed;
 }
 
 nav.mobile-view div.main-header ul.closeSideNav li{
@@ -295,6 +296,7 @@ nav.mobile-view div.main-header ul li ul li {
 
 nav.mobile-view div.main-header ul li ul li a {
     padding-left: 20px;
+    display: block;
 }
 
 

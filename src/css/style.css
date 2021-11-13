@@ -1,15 +1,16 @@
+/*CSS Stylesheet Imports*/
+/* components */
 @import url(./header.css);
 @import url(./footer.css);
-@import url(./homepage.css);
 @import url(./slideshow.css);
 @import url(./sponsors.css);
+
+/* pages */
+@import url(./homepage.css);
+@import url(./festival-schedule.css);
 
 * {
     padding: 0;
     margin: 0;
     font: Helvetica;
-}
-
-body {
-    height: 2000px;
 }

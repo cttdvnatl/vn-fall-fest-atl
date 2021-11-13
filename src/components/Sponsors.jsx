@@ -6,9 +6,14 @@ import en from '../database/en';
 const SponsorsList = (list) => {
     return (
         <>
-        {list.data.map((sponsorList) => (
-            <div class='sponsor'>
-                <h1>{sponsorList.mainSponsors}</h1>
+        {list.data.map((section, index) => (
+            <div class={section.class} key={index}>
+                <h1>{section.title}</h1>
+                {section.content.map((sponsorContent, idx) => (
+                    <div key={idx}>
+                        <img src={sponsorContent.img} alt={sponsorContent.img}></img>
+                    </div>
+                ))}
             </div>
         ))}
         </>
@@ -29,7 +34,6 @@ const Sponsors = () => {
     return (
         <>
         <div class="sponsors">
-            <p>stuff</p>
             <SponsorsList data={Data}/>
         </div>
         </>

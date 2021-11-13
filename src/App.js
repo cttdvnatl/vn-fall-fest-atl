@@ -16,6 +16,7 @@ import Footer from './components/Footer';
 
 //page imports
 import HomePage from './pages/HomePage';
+import FestivalSchedulePage from './pages/FestivalSchedulePage';
 import ContactPage from './pages/ContactPage';
 
 
@@ -63,6 +64,7 @@ function App() {
         <Router>
         <Route path="/" component={HomePage} exact/>
         <Route path="/contact" component={ContactPage}/>
+        <Route path="/festival-schedule" component={FestivalSchedulePage}/>
         </Router>
     <Footer/>
     </>
