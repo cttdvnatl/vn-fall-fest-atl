@@ -51,10 +51,44 @@
     ],
     "sponsorList": [
         {
-            "title": "sponsors",
+            "title": "Main Sponsor",
+            "class": "main-sponsor",
             "content": [
                 {
-
+                    "img": "/sponsor1"
+                }
+            ]
+        },
+        {
+            "title": "Other Sponsors",
+            "class": "other-sponsor",
+            "content": [
+                {
+                    "img": "/sponsor1"
+                },
+                {
+                    "img": "/sponsor1"
+                },
+                {
+                    "img": "/sponsor1"
+                },
+                {
+                    "img": "/sponsor1"
+                },
+                {
+                    "img": "/sponsor1"
+                },
+                {
+                    "img": "/sponsor1"
+                },
+                {
+                    "img": "/sponsor1"
+                },
+                {
+                    "img": "/sponsor1"
+                },
+                {
+                    "img": "/sponsor1"
                 }
             ]
         }
