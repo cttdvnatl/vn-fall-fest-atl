@@ -28,8 +28,8 @@
             "item2": "History"
         },
         "dropdownSix": {
-            "href": "/contact",
-            "heading": "Contact"
+            "heading": "Contact",
+            "href": "/contact"
         }
     },
     "slides": [
