@@ -60,7 +60,7 @@ const Header = () => {
 
     //desktop to mobile view
     const resizeCallback = useCallback(() => {
-        if (window.innerWidth < 1200) {
+        if (window.innerWidth < 1040) {
             nav.current.classList.remove('desktop-view')
             nav.current.classList.add('mobile-view')
         }
@@ -83,7 +83,7 @@ const Header = () => {
     }, [resizeCallback, scrollCallback]);
 
     const openSideNav = () => {
-        if(window.innerWidth < 1200) {
+        if(window.innerWidth < 1040) {
             sideNav.current.classList.remove("closeSideNav");
             sideNav.current.classList.add("openSideNav");
         }
@@ -95,7 +95,7 @@ const Header = () => {
 
     const toggleSubmenu = (index, e) => {
         console.log("submenu")
-        if(window.innerWidth < 1200) {
+        if(window.innerWidth < 1040) {
             for(let i = 0; i < sideNav.current.children.length; i++) {
                 if(i === index && !sideNav.current.children[i].classList.contains("active")) {
                     sideNav.current.children[i].classList.add("active");
