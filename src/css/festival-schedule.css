@@ -1,5 +1,38 @@
 .festival-schedule {
-    width: 100%;
+    margin: auto;
     padding: 30px;
-    text-align: center;
+}
+
+.festival-schedule .schedule {
+    width: 100%;
+}
+
+.festival-schedule h1 {
+    padding: 5px;
+    font-weight: 600;
+}
+
+
+.festival-schedule .schedule p {
+    padding: 5px;
+    font-size: 20px;
+    border: lightgrey solid 1px;
+}
+
+.festival-schedule .schedule p:hover {
+    font-weight: 450;
+}
+
+.festival-schedule .schedule p.day {
+    background-color: #bfbfbf;
+}
+
+.festival-schedule .schedule p.time {
+    padding-left: 20px;
+    background-color: #e6e6e6;
+}
+
+.festival-schedule .schedule p.description {
+    padding-left: 50px;
+    background-color: #f2f2f2;
 }

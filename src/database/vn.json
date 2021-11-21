@@ -89,5 +89,94 @@
                 }
             ]
         }
+    ],
+    "festivalSchedule": [
+        {
+            "day": "1",
+            "content": [
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                }
+            ]
+        },
+        {
+            "day": "2",
+            "content": [
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                }
+            ]
+        },
+        {
+            "day": "3",
+            "content": [
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                }
+            ]
+        }
     ]
 }
