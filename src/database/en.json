@@ -9,6 +9,7 @@
             "item1": "Festival Schedule",
             "href1": "/festival-schedule",
             "item2": "Musicians",
+            "href2": "/musicians",
             "item3": "Contests",
             "item4": "Raffles"
         },
@@ -177,6 +178,28 @@
                     "description": "This is an event placeholder"
                 }
             ]
+        }
+    ],
+    "musicians": [
+        {
+            "img": "https://via.placeholder.com/400",
+            "name": "Musician Name",
+            "caption": "This is a description of the Musician"
+        },
+        {
+            "img": "https://via.placeholder.com/400",
+            "name": "Musician Name",
+            "caption": "This is a description of the Musician"
+        },
+        {
+            "img": "https://via.placeholder.com/400",
+            "name": "Musician Name",
+            "caption": "This is a description of the Musician"
+        },
+        {
+            "img": "https://via.placeholder.com/400",
+            "name": "Musician Name",
+            "caption": "This is a description of the Musician"
         }
     ]
 }

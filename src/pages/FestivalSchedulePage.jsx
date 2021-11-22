@@ -1,5 +1,7 @@
 import React from 'react';
-import {getLanguage, useTranslation} from 'react-multi-lang';
+
+
+/*import {getLanguage, useTranslation} from 'react-multi-lang';
 import vn from '../database/vn';
 import en from '../database/en';
 
@@ -20,34 +22,34 @@ const FestivalSchedule = (list) => {
     )
 }
 
-{/*
-    const FestivalSchedulePage = () => {
-        useTranslation()
-    
-        let Data;
-    
-        if (getLanguage() === 'vn') {
-            Data = vn.festivalSchedule;
-        }
-        if (getLanguage() === 'en') {
-            Data = en.festivalSchedule;
-        }
-    
-        return (
-            <>
-            <div class="festival-schedule">
-            <h1>Festival Schedule</h1>
-            <FestivalSchedule data={Data}/>
-            </div>
-            </>
-        )
+
+const FestivalSchedulePage = () => {
+    useTranslation()
+
+    let Data;
+
+    if (getLanguage() === 'vn') {
+        Data = vn.festivalSchedule;
     }
-*/}
+    if (getLanguage() === 'en') {
+        Data = en.festivalSchedule;
+    }
+
+    return (
+        <>
+        <div class="festival-schedule">
+        <h1>Festival Schedule</h1>
+        <FestivalSchedule data={Data}/>
+        </div>
+        </>
+    )
+}
+*/
 
 const FestivalSchedulePage = () => {
     return (
         <>
-        <iframe src="" style={{width: "100%", height: "700px"}}/>
+        <iframe title="festival-schedule" src="" style={{width: "100%", height: "700px"}}/>
         </>
     )
 }

@@ -9,6 +9,7 @@
             "item1": "Lịch Trình Lễ Hội",
             "href1": "/festival-schedule",
             "item2": "Ca Sĩ",
+            "href2": "/musicians",
             "item3": "Các Cuộc Thi",
             "item4": "Sổ Xố"
         },
@@ -177,6 +178,28 @@
                     "description": "This is an event placeholder"
                 }
             ]
+        }
+    ],
+    "musicians": [
+        {
+            "img": "https://via.placeholder.com/400",
+            "name": "Musician Name",
+            "caption": "This is a description of the Musician"
+        },
+        {
+            "img": "https://via.placeholder.com/400",
+            "name": "Musician Name",
+            "caption": "This is a description of the Musician"
+        },
+        {
+            "img": "https://via.placeholder.com/400",
+            "name": "Musician Name",
+            "caption": "This is a description of the Musician"
+        },
+        {
+            "img": "https://via.placeholder.com/400",
+            "name": "Musician Name",
+            "caption": "This is a description of the Musician"
         }
     ]
 }
