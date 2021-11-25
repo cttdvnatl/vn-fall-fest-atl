@@ -5,6 +5,10 @@
             "href": "/"
         },
         "dropdownTwo": {
+            "heading": "About Us",
+            "href": "/about"
+        },
+        "dropdownThree": {
             "heading": "Sự Kiện",
             "item1": "Lịch Trình Lễ Hội",
             "href1": "/festival-schedule",
@@ -13,21 +17,17 @@
             "item3": "Các Cuộc Thi",
             "item4": "Sổ Xố"
         },
-        "dropdownThree": {
+        "dropdownFour": {
             "heading": "Ẩm Thực",
             "item1": "Món Ăn & Thức Uống",
             "item2": "Sơ Đồ Quầy Hàng"
+
         },
-        "dropdownFour": {
-        "heading": "Các Nhà Tài Trợ",
-        "item1": "Những Năm Trước",
-        "item2": "Ghi Danh"
-    },
         "dropdownFive": {
-        "heading": "Ban Tổ Chức",
-        "item1": "Mục Đính Của Lễ Hội",
-        "item2": "Lịch Sử Của Lễ Hội"
-    },
+            "heading": "Các Nhà Tài Trợ",
+            "item1": "Những Năm Trước",
+            "item2": "Ghi Danh"
+        },
         "dropdownSix": {
             "href": "/contact",
             "heading": "Liên Lạc"

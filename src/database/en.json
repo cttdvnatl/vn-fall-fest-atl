@@ -5,6 +5,11 @@
             "href": "/"
         },
         "dropdownTwo": {
+            "heading": "About Us",
+            "item1": "Mission Statement",
+            "item2": "History"
+        },
+        "dropdownThree": {
             "heading": "Events",
             "item1": "Festival Schedule",
             "href1": "/festival-schedule",
@@ -12,21 +17,17 @@
             "href2": "/musicians",
             "item3": "Contests",
             "item4": "Raffles"
+
         },
-        "dropdownThree": {
+        "dropdownFour": {
             "heading": "Cuisine",
             "item1": "Menu",
             "item2": "Vendor Map"
         },
-        "dropdownFour": {
+        "dropdownFive": {
             "heading": "Sponsors",
             "item1": "Previous Sponsors",
             "item2": "Sign Up"
-        },
-        "dropdownFive": {
-            "heading": "About Us",
-            "item1": "Mission Statement",
-            "item2": "History"
         },
         "dropdownSix": {
             "heading": "Contact",
