@@ -31,6 +31,7 @@ const Sponsors = () => {
     if (getLanguage() === 'en') {
         Data = en.sponsorList;
     }
+    
     return (
         <>
         <div class="sponsors">

@@ -5,32 +5,56 @@
             "href": "/"
         },
         "dropdownTwo": {
+            "heading": "About Us",
+            "href": "/about"
+        },
+        "dropdownThree": {
             "heading": "Sự Kiện",
             "item1": "Lịch Trình Lễ Hội",
             "href1": "/festival-schedule",
             "item2": "Ca Sĩ",
+            "href2": "/musicians",
             "item3": "Các Cuộc Thi",
             "item4": "Sổ Xố"
         },
-        "dropdownThree": {
+        "dropdownFour": {
             "heading": "Ẩm Thực",
             "item1": "Món Ăn & Thức Uống",
             "item2": "Sơ Đồ Quầy Hàng"
+
         },
-        "dropdownFour": {
-        "heading": "Các Nhà Tài Trợ",
-        "item1": "Những Năm Trước",
-        "item2": "Ghi Danh"
-    },
         "dropdownFive": {
-        "heading": "Ban Tổ Chức",
-        "item1": "Mục Đính Của Lễ Hội",
-        "item2": "Lịch Sử Của Lễ Hội"
-    },
+            "heading": "Các Nhà Tài Trợ",
+            "item1": "Những Năm Trước",
+            "item2": "Ghi Danh"
+        },
         "dropdownSix": {
             "href": "/contact",
             "heading": "Liên Lạc"
         }
+    },
+    "about": {
+        "title": {
+            "text1": "About Title",
+            "text2": "Previous Logos"
+        },
+        "paragraphs": [
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tristique gravida ligula vel feugiat. Etiam suscipit laoreet lacus, vitae posuere odio luctus ac. Phasellus ultrices accumsan nisi, nec interdum velit scelerisque sit amet. Cras scelerisque sem et tellus rhoncus, vitae."
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tristique gravida ligula vel feugiat. Etiam suscipit laoreet lacus, vitae posuere odio luctus ac. Phasellus ultrices accumsan nisi, nec interdum velit scelerisque sit amet. Cras scelerisque sem et tellus rhoncus, vitae."
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tristique gravida ligula vel feugiat. Etiam suscipit laoreet lacus, vitae posuere odio luctus ac. Phasellus ultrices accumsan nisi, nec interdum velit scelerisque sit amet. Cras scelerisque sem et tellus rhoncus, vitae."
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tristique gravida ligula vel feugiat. Etiam suscipit laoreet lacus, vitae posuere odio luctus ac. Phasellus ultrices accumsan nisi, nec interdum velit scelerisque sit amet. Cras scelerisque sem et tellus rhoncus, vitae."
+            }
+        ],
+        "logos": [
+
+        ]
     },
     "slides": [
         {
@@ -88,6 +112,117 @@
                     "img": "/sponsor1"
                 }
             ]
+        }
+    ],
+    "festivalSchedule": [
+        {
+            "day": "1",
+            "content": [
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                }
+            ]
+        },
+        {
+            "day": "2",
+            "content": [
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                }
+            ]
+        },
+        {
+            "day": "3",
+            "content": [
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                },
+                {
+                    "time": "00:00",
+                    "description": "This is an event placeholder"
+                }
+            ]
+        }
+    ],
+    "musicians": [
+        {
+            "img": "https://via.placeholder.com/400",
+            "name": "Musician Name",
+            "caption": "This is a description of the Musician"
+        },
+        {
+            "img": "https://via.placeholder.com/400",
+            "name": "Musician Name",
+            "caption": "This is a description of the Musician"
+        },
+        {
+            "img": "https://via.placeholder.com/400",
+            "name": "Musician Name",
+            "caption": "This is a description of the Musician"
+        },
+        {
+            "img": "https://via.placeholder.com/400",
+            "name": "Musician Name",
+            "caption": "This is a description of the Musician"
         }
     ]
 }

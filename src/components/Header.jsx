@@ -131,33 +131,27 @@ const Header = () => {
                 <ul ref={sideNav} class="closeSideNav">
                     <span class="close" onClick={() => closeSideNav()}>&#10005;</span>
                     <li><p><a href={t('header.dropdownOne.href')}>{t('header.dropdownOne.heading')}</a></p></li>
-                    <li onClick={(e) => {toggleSubmenu(2, e)}}><p>{t('header.dropdownTwo.heading')}</p>
+                    <li><p><a href={t('header.dropdownTwo.href')}>{t('header.dropdownTwo.heading')}</a></p></li>
+                    <li onClick={(e) => {toggleSubmenu(3, e)}}><p>{t('header.dropdownThree.heading')}</p>
                         <ul>
-                            <li><a href={t('header.dropdownTwo.href1')}>{t('header.dropdownTwo.item1')}</a></li>
-                            <li><a href="/item2">{t('header.dropdownTwo.item2')}</a></li>
-                            <li><a href="/item3">{t('header.dropdownTwo.item3')}</a></li>
-                            <li><a href="/item4">{t('header.dropdownTwo.item4')}</a></li>
+                            <li><a href={t('header.dropdownThree.href1')}>{t('header.dropdownThree.item1')}</a></li>
+                            <li><a href={t('header.dropdownThree.href2')}>{t('header.dropdownThree.item2')}</a></li>
+                            <li><a href="/item3">{t('header.dropdownThree.item3')}</a></li>
+                            <li><a href="/item4">{t('header.dropdownThree.item4')}</a></li>
                         </ul>
                     </li>
-                    <li onClick={(e) => {toggleSubmenu(3, e)}}><p>{t('header.dropdownThree.heading')}</p>
-                    <ul>
-                            <li><a href="/item1">{t('header.dropdownThree.item1')}</a></li>
-                            <li><a href="/item2">{t('header.dropdownThree.item2')}</a></li>
-                        </ul>
-                   </li>
-
                     <li onClick={(e) => {toggleSubmenu(4, e)}}><p>{t('header.dropdownFour.heading')}</p>
                         <ul>
                             <li><a href="/item1">{t('header.dropdownFour.item1')}</a></li>
                             <li><a href="/item2">{t('header.dropdownFour.item2')}</a></li>
                         </ul>
-                    </li>
+                   </li>
 
                     <li onClick={(e) => {toggleSubmenu(5, e)}}><p>{t('header.dropdownFive.heading')}</p>
                         <ul>
                             <li><a href="/item1">{t('header.dropdownFive.item1')}</a></li>
                             <li><a href="/item2">{t('header.dropdownFive.item2')}</a></li>
-                        </ul> 
+                        </ul>
                     </li>
                     <li><p><a href={t('header.dropdownSix.href')}>{t('header.dropdownSix.heading')}</a></p></li>
                 </ul>

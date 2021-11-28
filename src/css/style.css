@@ -7,7 +7,10 @@
 
 /* pages */
 @import url(./homepage.css);
+@import url(./aboutpage.css);
 @import url(./festival-schedule.css);
+@import url(./homepage.css);
+@import url(./musicians.css);
 
 * {
     padding: 0;
