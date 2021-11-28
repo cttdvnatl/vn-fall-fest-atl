@@ -1,0 +1,39 @@
+.about {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.about .left {
+    width: 50%;
+}
+
+.about .left h1 {
+    font-size: 25px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.about .left .paragraph p {
+    padding-bottom: 13px;
+}
+
+.about .right {
+    width: 40%;
+}
+
+.about .right h1 {
+    font-size: 25px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.about .right .logo {
+    text-align: center;
+    display: block;
+}
+
+.about .right .logo img {
+    width: 200px;
+    padding: 5px;
+    height: auto;
+}
