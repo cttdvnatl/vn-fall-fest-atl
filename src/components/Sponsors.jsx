@@ -7,13 +7,15 @@ const SponsorsList = (list) => {
     return (
         <>
         {list.data.map((section, index) => (
-            <div class={section.class} key={index}>
-                <h1>{section.title}</h1>
+            <div class={section.class + '-container'} key={index}>
+            <h1>{section.title}</h1>
+                <div class={section.class}>
                 {section.content.map((sponsorContent, idx) => (
                     <div key={idx}>
                         <img src={sponsorContent.img} alt={sponsorContent.img}></img>
                     </div>
                 ))}
+                </div>
             </div>
         ))}
         </>

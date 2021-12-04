@@ -31,13 +31,19 @@
     height: auto;
 }
 
-.sponsors .other-sponsor  {
+.sponsors .diamond-sponsor-container {
     width: 100%;
 }
 
-.sponsors .other-sponsor img {
+.sponsors .diamond-sponsor-container .diamond-sponsor {
+    width: 100%;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+}
+
+.sponsors .diamond-sponsor-container .diamond-sponsor img {
     width: 100px;
     padding: 10px;
     height: 100px;
-    float: left;
 }

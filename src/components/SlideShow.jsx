@@ -26,11 +26,13 @@ const Slides = ({list}) => {
     
     return (
         <>
-            <div class="slide-overlay-left" onClick={prevSlide}></div>
-            <div class="slide-overlay-right" onClick={nextSlide}></div>
+
         {list.map((slides, index) => (
             <div class={index === currentSlide ? "slides active" : "slides"} key={slides.title} aria-hidden={index !== currentSlide} style={{}}>
-                <img alt={slides.slideNumber} src={slides.slide}></img>
+                    <div class="slide-overlay-left" onClick={prevSlide}></div>
+                    <div class="slide-overlay-right" onClick={nextSlide}></div>
+                    <img alt={slides.slideNumber} src={slides.slide}></img>
+                    <div class="filler"/>
             </div>
         ))}
         </>
