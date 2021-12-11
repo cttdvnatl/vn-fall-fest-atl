@@ -121,50 +121,77 @@
             "slideNumber": "3"
         }
     ],
-    "sponsorList": [
-        {
-            "title": "Main Sponsor",
-            "class": "main-sponsor",
-            "content": [
-                {
-                    "img": "/sponsor1"
-                }
-            ]
-        },
-        {
-            "title": "Other Sponsors",
-            "class": "other-sponsor",
-            "content": [
-                {
-                    "img": "/sponsor1"
-                },
-                {
-                    "img": "/sponsor1"
-                },
-                {
-                    "img": "/sponsor1"
-                },
-                {
-                    "img": "/sponsor1"
-                },
-                {
-                    "img": "/sponsor1"
-                },
-                {
-                    "img": "/sponsor1"
-                },
-                {
-                    "img": "/sponsor1"
-                },
-                {
-                    "img": "/sponsor1"
-                },
-                {
-                    "img": "/sponsor1"
-                }
-            ]
-        }
-    ],
+    "sponsorList": {
+        "mainSponsor": [
+            {
+                "title": "Main Sponsor",
+                "class": "main-sponsor",
+                "img": "/sponsor1"
+            }
+        ],
+        "otherSponsors": [
+            {
+                "title": "Diamond Sponsors",
+                "class": "other-sponsor",
+                "content": [
+                    {
+                        "img": "/sponsor1"
+                    },
+                    {
+                        "img": "/sponsor1"
+                    },
+                    {
+                        "img": "/sponsor1"
+                    },
+                    {
+                        "img": "/sponsor1"
+                    }
+                ]
+            },
+            {
+                "title": "Gold Sponsors",
+                "class": "other-sponsor",
+                "content": [
+                    {
+                        "img": "/sponsor1"
+                    },
+                    {
+                        "img": "/sponsor1"
+                    },
+                    {
+                        "img": "/sponsor1"
+                    },
+                    {
+                        "img": "/sponsor1"
+                    },
+                    {
+                        "img": "/sponsor1"
+                    },
+                    {
+                        "img": "/sponsor1"
+                    },
+                    {
+                        "img": "/sponsor1"
+                    },
+                    {
+                        "img": "/sponsor1"
+                    },
+                    {
+                        "img": "/sponsor1"
+                    },
+                    {
+                        "img": "/sponsor1"
+                    },
+                    {
+                        "img": "/sponsor1"
+                    },
+                    {
+                        "img": "/sponsor1"
+                    }
+                ]
+            }
+        ]
+    },
     "festivalSchedule": [
         {
             "day": "1",

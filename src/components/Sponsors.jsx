@@ -3,9 +3,25 @@ import {getLanguage, useTranslation} from 'react-multi-lang';
 import vn from '../database/vn';
 import en from '../database/en';
 
-const SponsorsList = (list) => {
+const MainSponsor = (list) => {
     return (
-        <>
+        <div class="left">
+        {list.data.map((section, index) => (
+            <div class={section.class + '-container'} key={index}>
+            <h1>{section.title}</h1>
+                <div class={section.class}>
+                    <img src={section.img} alt={section.img}></img>
+                </div>
+            </div>
+        ))}
+        </div>
+
+    )
+}
+
+const OtherSponsors = (list) => {
+    return (
+        <div class="right">
         {list.data.map((section, index) => (
             <div class={section.class + '-container'} key={index}>
             <h1>{section.title}</h1>
@@ -18,26 +34,30 @@ const SponsorsList = (list) => {
                 </div>
             </div>
         ))}
-        </>
+        </div>
     )
 }
 
 const Sponsors = () => {
     useTranslation()
 
-    let Data;
+    let mainSponsorData;
+    let otherSponsorsData;
 
     if (getLanguage() === 'vn') {
-        Data = vn.sponsorList;
+        mainSponsorData = vn.sponsorList.mainSponsor;
+        otherSponsorsData = vn.sponsorList.otherSponsors;
     }
     if (getLanguage() === 'en') {
-        Data = en.sponsorList;
+        mainSponsorData = en.sponsorList.mainSponsor;
+        otherSponsorsData = en.sponsorList.otherSponsors;
     }
     
     return (
         <>
         <div class="sponsors">
-            <SponsorsList data={Data}/>
+            <MainSponsor data={mainSponsorData}/>
+            <OtherSponsors data={otherSponsorsData}/>
         </div>
         </>
     )
