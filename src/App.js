@@ -22,7 +22,6 @@ import MusiciansPage from './pages/MusiciansPage';
 import ContactPage from './pages/ContactPage';
 
 
-
 //Website Cookie for Language
 setTranslations({vn, en})
 setDefaultLanguage('vn')

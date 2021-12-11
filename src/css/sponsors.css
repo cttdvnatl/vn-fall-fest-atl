@@ -7,8 +7,11 @@
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        align-items: center;
-        align-content: center;
+    }
+    .sponsors .right .other-sponsor-container {
+        width: 90%;
+        margin: auto;
+        padding-top: 30px;
     }
 }
 
@@ -20,24 +23,44 @@
         display: flex;
         text-align: center;
     }
+    .sponsors .left {
+        padding-left: 40px;
+    }
+    .sponsors .right .other-sponsor-container {
+        width: 55%;
+        padding-left: 15px;
+        padding-top: 30px;
+    }
 }
 
-
-.sponsors .main-sponsor {
+.sponsors .left {
     width: 100%;
+    text-align: center;
+    margin: auto;
 }
-.sponsors .main-sponsor img {
+
+.sponsors .left .main-sponsor {
+    width: 100%;
+    text-align: center;
+}
+
+.sponsors .left .main-sponsor img {
     width: 500px;
     height: auto;
 }
 
-.sponsors .other-sponsor  {
+.sponsors .right {
     width: 100%;
 }
 
-.sponsors .other-sponsor img {
-    width: 100px;
+.sponsors .right .other-sponsor-container .other-sponsor {
+    width: 100%;
+    overflow-x: scroll; 
+    display: inline-flex;
+}
+
+.sponsors .right .other-sponsor-container .other-sponsor img {
+    width: 160px;
     padding: 10px;
-    height: 100px;
-    float: left;
+    height: 80px;
 }
