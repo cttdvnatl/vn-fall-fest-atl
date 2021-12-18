@@ -11,6 +11,7 @@
 @import url(./festival-schedule.css);
 @import url(./homepage.css);
 @import url(./musicians.css);
+@import url(./contest.css);
 
 * {
     padding: 0;

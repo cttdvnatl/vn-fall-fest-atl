@@ -1,0 +1,17 @@
+.contest-page {
+    text-align: center;
+    margin: 30px;
+}
+
+.contest-page img {
+    width: 80%;
+    margin: 15px;
+}
+
+.contest-page .contest-container {
+    margin: 7px;
+}
+
+.contest-page .contest-container a {
+    text-decoration: none;
+}

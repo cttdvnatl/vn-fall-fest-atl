@@ -15,6 +15,7 @@
             "item2": "Musicians",
             "href2": "/musicians",
             "item3": "Contests",
+            "href3": "/contests",
             "item4": "Raffles"
 
         },
@@ -126,7 +127,7 @@
             {
                 "title": "Main Sponsor",
                 "class": "main-sponsor",
-                "img": "/sponsor1"
+                "img": "https://via.placeholder.com/1000x1000"
             }
         ],
         "otherSponsors": [
@@ -135,16 +136,16 @@
                 "class": "other-sponsor",
                 "content": [
                     {
-                        "img": "/sponsor1"
+                        "img": "https://via.placeholder.com/160x80"
                     },
                     {
-                        "img": "/sponsor1"
+                        "img": "https://via.placeholder.com/160x80"
                     },
                     {
-                        "img": "/sponsor1"
+                        "img": "https://via.placeholder.com/160x80"
                     },
                     {
-                        "img": "/sponsor1"
+                        "img": "https://via.placeholder.com/160x80"
                     }
                 ]
             },
@@ -153,40 +154,28 @@
                 "class": "other-sponsor",
                 "content": [
                     {
-                        "img": "/sponsor1"
+                        "img": "https://via.placeholder.com/160x80"
                     },
                     {
-                        "img": "/sponsor1"
+                        "img": "https://via.placeholder.com/160x80"
                     },
                     {
-                        "img": "/sponsor1"
+                        "img": "https://via.placeholder.com/160x80"
                     },
                     {
-                        "img": "/sponsor1"
+                        "img": "https://via.placeholder.com/160x80"
                     },
                     {
-                        "img": "/sponsor1"
+                        "img": "https://via.placeholder.com/160x80"
                     },
                     {
-                        "img": "/sponsor1"
+                        "img": "https://via.placeholder.com/160x80"
                     },
                     {
-                        "img": "/sponsor1"
+                        "img": "https://via.placeholder.com/160x80"
                     },
                     {
-                        "img": "/sponsor1"
-                    },
-                    {
-                        "img": "/sponsor1"
-                    },
-                    {
-                        "img": "/sponsor1"
-                    },
-                    {
-                        "img": "/sponsor1"
-                    },
-                    {
-                        "img": "/sponsor1"
+                        "img": "https://via.placeholder.com/160x80"
                     }
                 ]
             }
@@ -302,5 +291,22 @@
             "name": "Musician Name",
             "caption": "This is a description of the Musician"
         }
-    ]
+    ],
+    "contests": {
+        "image": "https://via.placeholder.com/850x1100",
+        "content": [
+            {
+                "link": "",
+                "formName": "Some sort of contest"
+            },
+            {
+                "link": "",
+                "formName": "Some other contest"
+            },
+            {
+                "link": "",
+                "formName": "Another Contest"
+            }
+        ]
+    }
 }
