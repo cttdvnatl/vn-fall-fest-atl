@@ -25,7 +25,7 @@ const MusiciansPage = () => {
     if (getLanguage() === 'vn') {
         Data = vn.musicians;
     }
-    if (getLanguage() === 'en') {
+    else if (getLanguage() === 'en') {
         Data = en.musicians;
     }
 

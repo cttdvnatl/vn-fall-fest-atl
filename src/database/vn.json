@@ -182,95 +182,102 @@
             }
         ]
     },
-    "festivalSchedule": [
-        {
-            "day": "1",
-            "content": [
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                }
-            ]
-        },
-        {
-            "day": "2",
-            "content": [
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                }
-            ]
-        },
-        {
-            "day": "3",
-            "content": [
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                }
-            ]
-        }
-    ],
+    "festivalSchedule": {
+        "schedule1": [
+            {
+                "image": "https://via.placeholder.com/1100x650"
+            }
+        ],
+        "schedule2": [
+            {
+                "day": "1",
+                "content": [
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    }
+                ]
+            },
+            {
+                "day": "2",
+                "content": [
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    }
+                ]
+            },
+            {
+                "day": "3",
+                "content": [
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    }
+                ]
+            }
+        ]
+    },
     "musicians": [
         {
             "img": "https://via.placeholder.com/400",
