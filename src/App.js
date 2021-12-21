@@ -19,8 +19,9 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import FestivalSchedulePage from './pages/FestivalSchedulePage';
 import MusiciansPage from './pages/MusiciansPage';
-import ContactPage from './pages/ContactPage';
 import ContestPage from './pages/ContestPage';
+import RafflesPage from './pages/RafflesPage';
+import ContactPage from './pages/ContactPage';
 
 
 //Website Cookie for Language
@@ -69,6 +70,7 @@ function App() {
             <Route path="/festival-schedule" component={FestivalSchedulePage}/>
             <Route path="/musicians" component={MusiciansPage}/>
             <Route path="/contests" component={ContestPage}/>
+            <Route path="/raffles" component={RafflesPage}/>
             <Route path="/contact" component={ContactPage}/>
         </Router>
     <Footer/>

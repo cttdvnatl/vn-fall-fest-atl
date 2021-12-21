@@ -137,7 +137,7 @@ const Header = () => {
                             <li><a href={t('header.dropdownThree.href1')}>{t('header.dropdownThree.item1')}</a></li>
                             <li><a href={t('header.dropdownThree.href2')}>{t('header.dropdownThree.item2')}</a></li>
                             <li><a href={t('header.dropdownThree.href3')}>{t('header.dropdownThree.item3')}</a></li>
-                            <li><a href="/item4">{t('header.dropdownThree.item4')}</a></li>
+                            <li><a href={t('header.dropdownThree.href4')}>{t('header.dropdownThree.item4')}</a></li>
                         </ul>
                     </li>
                     <li onClick={(e) => {toggleSubmenu(4, e)}}><p>{t('header.dropdownFour.heading')}</p>

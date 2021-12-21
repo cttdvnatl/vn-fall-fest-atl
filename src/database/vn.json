@@ -16,7 +16,8 @@
             "href2": "/musicians",
             "item3": "Các Cuộc Thi",
             "href3": "/contests",
-            "item4": "Sổ Xố"
+            "item4": "Sổ Xố",
+            "href4": "/raffles"
         },
         "dropdownFour": {
             "heading": "Ẩm Thực",
@@ -308,5 +309,12 @@
                 "formName": "Another Contest"
             }
         ]
-    }
+    },
+    "raffles": [
+        {
+            "title": "Title",
+            "info": "This is some info",
+            "img": "https://via.placeholder.com/1100x650"
+        }
+    ]
 }
