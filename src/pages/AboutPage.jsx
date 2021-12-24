@@ -40,11 +40,11 @@ const AboutPage = () => {
         ParagraphData = vn.about.paragraphs;
         LogoData = vn.about.logos;
     }
-    if (getLanguage() === 'en') {
+    else if (getLanguage() === 'en') {
         ParagraphData = en.about.paragraphs;
         LogoData = en.about.logos;
     }
-
+    
     return (
         <>
         <div class="about">

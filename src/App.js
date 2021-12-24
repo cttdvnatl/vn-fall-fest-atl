@@ -19,6 +19,9 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import FestivalSchedulePage from './pages/FestivalSchedulePage';
 import MusiciansPage from './pages/MusiciansPage';
+import ContestPage from './pages/ContestPage';
+import RafflesPage from './pages/RafflesPage';
+import MenuPage from './pages/MenuPage';
 import ContactPage from './pages/ContactPage';
 
 
@@ -63,11 +66,14 @@ function App() {
     <>
     <Header/>
         <Router>
-        <Route path="/" component={HomePage} exact/>
-        <Route path="/about" component={AboutPage}/>
-        <Route path="/festival-schedule" component={FestivalSchedulePage}/>
-        <Route path="/musicians" component={MusiciansPage}/>
-        <Route path="/contact" component={ContactPage}/>
+            <Route path="/" component={HomePage} exact/>
+            <Route path="/about" component={AboutPage}/>
+            <Route path="/festival-schedule" component={FestivalSchedulePage}/>
+            <Route path="/musicians" component={MusiciansPage}/>
+            <Route path="/contests" component={ContestPage}/>
+            <Route path="/raffles" component={RafflesPage}/>
+            <Route path="/menu" component={MenuPage}/>
+            <Route path="/contact" component={ContactPage}/>
         </Router>
     <Footer/>
     </>

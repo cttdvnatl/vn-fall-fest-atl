@@ -15,12 +15,14 @@
             "item2": "Musicians",
             "href2": "/musicians",
             "item3": "Contests",
-            "item4": "Raffles"
-
+            "href3": "/contests",
+            "item4": "Raffles",
+            "href4": "/raffles"
         },
         "dropdownFour": {
             "heading": "Cuisine",
             "item1": "Menu",
+            "href1": "/menu",
             "item2": "Vendor Map"
         },
         "dropdownFive": {
@@ -126,7 +128,7 @@
             {
                 "title": "Main Sponsor",
                 "class": "main-sponsor",
-                "img": "/sponsor1"
+                "img": "https://via.placeholder.com/1000x1000"
             }
         ],
         "otherSponsors": [
@@ -135,16 +137,16 @@
                 "class": "other-sponsor",
                 "content": [
                     {
-                        "img": "/sponsor1"
+                        "img": "https://via.placeholder.com/160x80"
                     },
                     {
-                        "img": "/sponsor1"
+                        "img": "https://via.placeholder.com/160x80"
                     },
                     {
-                        "img": "/sponsor1"
+                        "img": "https://via.placeholder.com/160x80"
                     },
                     {
-                        "img": "/sponsor1"
+                        "img": "https://via.placeholder.com/160x80"
                     }
                 ]
             },
@@ -153,134 +155,129 @@
                 "class": "other-sponsor",
                 "content": [
                     {
-                        "img": "/sponsor1"
+                        "img": "https://via.placeholder.com/160x80"
                     },
                     {
-                        "img": "/sponsor1"
+                        "img": "https://via.placeholder.com/160x80"
                     },
                     {
-                        "img": "/sponsor1"
+                        "img": "https://via.placeholder.com/160x80"
                     },
                     {
-                        "img": "/sponsor1"
+                        "img": "https://via.placeholder.com/160x80"
                     },
                     {
-                        "img": "/sponsor1"
+                        "img": "https://via.placeholder.com/160x80"
                     },
                     {
-                        "img": "/sponsor1"
+                        "img": "https://via.placeholder.com/160x80"
                     },
                     {
-                        "img": "/sponsor1"
+                        "img": "https://via.placeholder.com/160x80"
                     },
                     {
-                        "img": "/sponsor1"
-                    },
-                    {
-                        "img": "/sponsor1"
-                    },
-                    {
-                        "img": "/sponsor1"
-                    },
-                    {
-                        "img": "/sponsor1"
-                    },
-                    {
-                        "img": "/sponsor1"
+                        "img": "https://via.placeholder.com/160x80"
                     }
                 ]
             }
         ]
     },
-    "festivalSchedule": [
-        {
-            "day": "1",
-            "content": [
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                }
-            ]
-        },
-        {
-            "day": "2",
-            "content": [
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                }
-            ]
-        },
-        {
-            "day": "3",
-            "content": [
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                },
-                {
-                    "time": "00:00",
-                    "description": "This is an event placeholder"
-                }
-            ]
-        }
-    ],
+    "festivalSchedule": {
+        "schedule1": [
+            {
+                "image": "https://via.placeholder.com/1100x650"
+            }
+        ],
+        "schedule2": [
+            {
+                "day": "1",
+                "content": [
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    }
+                ]
+            },
+            {
+                "day": "2",
+                "content": [
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    }
+                ]
+            },
+            {
+                "day": "3",
+                "content": [
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    },
+                    {
+                        "time": "00:00",
+                        "description": "This is an event placeholder"
+                    }
+                ]
+            }
+        ]
+    },
     "musicians": [
         {
             "img": "https://via.placeholder.com/400",
@@ -302,5 +299,37 @@
             "name": "Musician Name",
             "caption": "This is a description of the Musician"
         }
-    ]
+    ],
+    "contests": {
+        "image": "https://via.placeholder.com/850x1100",
+        "content": [
+            {
+                "link": "",
+                "formName": "Some sort of contest"
+            },
+            {
+                "link": "",
+                "formName": "Some other contest"
+            },
+            {
+                "link": "",
+                "formName": "Another Contest"
+            }
+        ]
+    },
+    "raffles": [
+        {
+            "title": "Title",
+            "info": "This is some info",
+            "img": "https://via.placeholder.com/1100x650"
+        }
+    ],
+    "menu": {
+        "pageTitle": "Menu Page",
+        "content": [
+            {
+                "img": "https://via.placeholder.com/1100x650"
+            }
+        ]
+    }
 }
