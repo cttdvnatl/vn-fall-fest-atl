@@ -44,7 +44,7 @@ const AboutPage = () => {
         ParagraphData = en.about.paragraphs;
         LogoData = en.about.logos;
     }
-
+    
     return (
         <>
         <div class="about">

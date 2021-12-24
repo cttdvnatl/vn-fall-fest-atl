@@ -22,6 +22,7 @@
         "dropdownFour": {
             "heading": "Ẩm Thực",
             "item1": "Món Ăn & Thức Uống",
+            "href1": "/menu",
             "item2": "Sơ Đồ Quầy Hàng"
 
         },
@@ -323,5 +324,13 @@
             "info": "This is some info",
             "img": "https://via.placeholder.com/1100x650"
         }
-    ]
+    ],
+    "menu": {
+        "pageTitle": "Menu Page",
+        "content": [
+            {
+                "img": "https://via.placeholder.com/1100x650"
+            }
+        ]
+    }
 }

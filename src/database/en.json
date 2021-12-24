@@ -22,6 +22,7 @@
         "dropdownFour": {
             "heading": "Cuisine",
             "item1": "Menu",
+            "href1": "/menu",
             "item2": "Vendor Map"
         },
         "dropdownFive": {
@@ -322,5 +323,13 @@
             "info": "This is some info",
             "img": "https://via.placeholder.com/1100x650"
         }
-    ]
+    ],
+    "menu": {
+        "pageTitle": "Menu Page",
+        "content": [
+            {
+                "img": "https://via.placeholder.com/1100x650"
+            }
+        ]
+    }
 }
