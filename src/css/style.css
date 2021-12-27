@@ -14,6 +14,7 @@
 @import url(./contest.css);
 @import url(./raffles.css);
 @import url(./menu.css);
+@import url(./vendors.css);
 
 * {
     padding: 0;

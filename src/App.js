@@ -22,6 +22,7 @@ import MusiciansPage from './pages/MusiciansPage';
 import ContestPage from './pages/ContestPage';
 import RafflesPage from './pages/RafflesPage';
 import MenuPage from './pages/MenuPage';
+import VendorsPage from './pages/VendorsPage'
 import ContactPage from './pages/ContactPage';
 
 
@@ -73,6 +74,7 @@ function App() {
             <Route path="/contests" component={ContestPage}/>
             <Route path="/raffles" component={RafflesPage}/>
             <Route path="/menu" component={MenuPage}/>
+            <Route path="/vendors" component={VendorsPage}/>
             <Route path="/contact" component={ContactPage}/>
         </Router>
     <Footer/>
