@@ -37,6 +37,16 @@
             "heading": "Liên Lạc"
         }
     },
+    "socialIcons": [
+        {
+            "link": "https://facebook.com",
+            "image": "http://73.137.118.190:81/img/social-icons/facebook/107175_circle_facebook_icon.png"
+        },
+        {
+            "link": "https://youtube.com",
+            "image": "http://73.137.118.190:81/img/social-icons/youtube/317714_video_youtube_icon.png"
+        }
+    ],
     "about": {
         "title": {
             "text1": "About Title",

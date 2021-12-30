@@ -1,5 +1,7 @@
 import React, {useRef, useCallback, useEffect} from 'react';
 import { useTranslation, setLanguage, getLanguage } from 'react-multi-lang';
+import SocialIcons from './SocialIcons';
+import Sponsors from './Sponsors'
 
 const Header = () => {
 
@@ -118,6 +120,7 @@ const Header = () => {
                     <div class="back-to-main">
                         <a href="https://www.hvmatl.org">Back to main site</a>
                     </div>
+                    <SocialIcons/>
                 </div>
                 <div class="top-header-items-right">
                     <div class="translation-button">

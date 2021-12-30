@@ -14,15 +14,26 @@ nav.desktop-view div.top-header {
 
 /* Top Header Items left*/
 nav.desktop-view div.top-header div.top-header-items-left {
-    display: inline;
+    display: inline-flex;
     float: left;    
-}
-
-/* Back to Main */
-nav.desktop-view div.top-header div.top-header-items-left div.back-to-main {
     padding-top: 15px;
 }
 
+nav.desktop-view div.top-header div.top-header-items-left .social-icons-component {
+    display: inline-flex;
+    margin-left: 10px;
+}
+
+nav.desktop-view div.top-header div.top-header-items-left .social-icons-component a {
+    margin: 5px;
+}
+
+nav.desktop-view div.top-header div.top-header-items-left .social-icons-component a img {
+    width: 25px;
+    height: auto;
+}
+
+/* Back to Main */
 nav.desktop-view div.top-header div.top-header-items-left div.back-to-main a{
     text-decoration: none;
     padding-left: 10px;
