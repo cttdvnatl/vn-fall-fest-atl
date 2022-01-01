@@ -4,6 +4,7 @@
 @import url(./footer.css);
 @import url(./slideshow.css);
 @import url(./sponsors.css);
+@import url(./photogallery.css);
 
 /* pages */
 @import url(./homepage.css);
@@ -14,6 +15,7 @@
 @import url(./contest.css);
 @import url(./raffles.css);
 @import url(./menu.css);
+@import url(./vendors.css);
 
 * {
     padding: 0;

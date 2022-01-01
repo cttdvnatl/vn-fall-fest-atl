@@ -1,0 +1,29 @@
+.photo-gallery-component {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.photo-gallery-component .gallery-style-1-container {
+    width: 100%;
+    background-color: black;
+    margin: auto;
+}
+
+.photo-gallery-component .gallery-style-1-container .gallery-style-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+.photo-gallery-component .gallery-style-1-container .gallery-style-1 div {
+    margin: 10px;
+    flex: 1;
+}
+
+.photo-gallery-component .gallery-style-1-container .gallery-style-1 img {
+    height: auto;
+    width: 100%;
+}

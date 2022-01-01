@@ -23,7 +23,8 @@
             "heading": "Cuisine",
             "item1": "Menu",
             "href1": "/menu",
-            "item2": "Vendor Map"
+            "item2": "Vendor Map",
+            "href2": "/vendors"
         },
         "dropdownFive": {
             "heading": "Sponsors",
@@ -34,6 +35,37 @@
             "heading": "Contact",
             "href": "/contact"
         }
+    },
+    "socialIcons": [
+        {
+            "link": "https://facebook.com",
+            "image": "http://73.137.118.190:81/img/social-icons/facebook/107175_circle_facebook_icon.png"
+        },
+        {
+            "link": "https://youtube.com",
+            "image": "http://73.137.118.190:81/img/social-icons/youtube/317714_video_youtube_icon.png"
+        }
+    ],
+    "photoGalleries": {
+        "galleryOne": [
+            {
+                "galleryStyle": "gallery-style-1",
+                "content": [
+                    {
+                        "img": "https://via.placeholder.com/600x400"
+                    },
+                    {
+                        "img": "https://via.placeholder.com/600x400"
+                    },
+                    {
+                        "img": "https://via.placeholder.com/600x400"
+                    },
+                    {
+                        "img": "https://via.placeholder.com/600x400"
+                    }
+                ]
+            }
+        ]
     },
     "about": {
         "title": {
@@ -326,6 +358,14 @@
     ],
     "menu": {
         "pageTitle": "Menu Page",
+        "content": [
+            {
+                "img": "https://via.placeholder.com/1100x650"
+            }
+        ]
+    },
+    "vendors": {
+        "pageTitle": "Vendors",
         "content": [
             {
                 "img": "https://via.placeholder.com/1100x650"

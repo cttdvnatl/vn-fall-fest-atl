@@ -15,7 +15,6 @@ const MainSponsor = (list) => {
             </div>
         ))}
         </div>
-
     )
 }
 

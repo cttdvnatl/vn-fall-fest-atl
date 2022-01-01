@@ -1,0 +1,14 @@
+.vendors-page {
+    margin: 30px;
+    text-align: center;
+}
+
+.vendors-page h1 {
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+
+.vendors-page .vendor p {
+    padding-top: 3px;
+    padding-bottom: 15px;
+}

@@ -1,5 +1,7 @@
 import React, {useRef, useCallback, useEffect} from 'react';
 import { useTranslation, setLanguage, getLanguage } from 'react-multi-lang';
+import SocialIcons from './SocialIcons';
+import Sponsors from './Sponsors'
 
 const Header = () => {
 
@@ -118,6 +120,7 @@ const Header = () => {
                     <div class="back-to-main">
                         <a href="https://www.hvmatl.org">Back to main site</a>
                     </div>
+                    <SocialIcons/>
                 </div>
                 <div class="top-header-items-right">
                     <div class="translation-button">
@@ -143,10 +146,9 @@ const Header = () => {
                     <li onClick={(e) => {toggleSubmenu(4, e)}}><p>{t('header.dropdownFour.heading')}</p>
                         <ul>
                             <li><a href={t('header.dropdownFour.href1')}>{t('header.dropdownFour.item1')}</a></li>
-                            <li><a href="/item2">{t('header.dropdownFour.item2')}</a></li>
+                            <li><a href={t('header.dropdownFour.href2')}>{t('header.dropdownFour.item2')}</a></li>
                         </ul>
                    </li>
-
                     <li onClick={(e) => {toggleSubmenu(5, e)}}><p>{t('header.dropdownFive.heading')}</p>
                         <ul>
                             <li><a href="/item1">{t('header.dropdownFive.item1')}</a></li>
