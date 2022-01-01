@@ -65,6 +65,7 @@
 
 .sponsors .right .other-sponsor-container {
     border: lightgray 1px solid;
+    box-shadow: 5px 5px 10px grey;
     padding: 25px;
     margin: 15px;
 }

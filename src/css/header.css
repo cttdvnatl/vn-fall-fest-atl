@@ -164,33 +164,52 @@ nav.desktop-view div.logo img {
 
 
 
+
+
+
+
+
+
+
 /*Mobile View
 /*Header
 /*CSS
-
-/* Top Header CSS*/
+/* Top Header Items left*/
 nav.mobile-view div.top-header {
     background-color: #C7E689;
     height: 50px;
     width: 100%;
     border-bottom: solid 1px black;
+    display: block;
+    position: relative;
 }
 
-/* Top Header Items left*/
 nav.mobile-view div.top-header div.top-header-items-left {
-    display: inline;
-    float: left;
-    padding: 7px;
+    display: inline-flex;
+    float: left;    
+    padding-top: 15px;
+}
+
+nav.mobile-view div.top-header div.top-header-items-left .social-icons-component {
+    display: inline-flex;
+    margin-left: 10px;
+}
+
+nav.mobile-view div.top-header div.top-header-items-left .social-icons-component a {
+    margin: 5px;
+}
+
+nav.mobile-view div.top-header div.top-header-items-left .social-icons-component a img {
+    width: 25px;
+    height: auto;
 }
 
 /* Back to Main */
-nav.mobile-view div.top-header div.top-header-items-left div.back-to-main {
-    padding: 10px;
-}
-
 nav.mobile-view div.top-header div.top-header-items-left div.back-to-main a{
     text-decoration: none;
+    padding-left: 10px;
 }
+
 /* Top Header Items Right*/
 nav.mobile-view div.top-header div.top-header-items-right {
     float: right;

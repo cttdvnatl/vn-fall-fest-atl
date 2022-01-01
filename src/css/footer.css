@@ -1,4 +1,8 @@
 .footer {
     height: 300px;
+    box-shadow: -5px -5px 10px grey;
     background-color: #C7E689;
+    background-image: url("https://fallfestivalatl.org/wp-content/uploads/2021/06/2021-LHMT-Logo-Dark-FF-72.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
