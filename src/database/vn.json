@@ -29,8 +29,7 @@
         },
         "dropdownFive": {
             "heading": "Các Nhà Tài Trợ",
-            "item1": "Những Năm Trước",
-            "item2": "Ghi Danh"
+            "href": "/sponsors"
         },
         "dropdownSix": {
             "href": "/contact",

@@ -28,8 +28,7 @@
         },
         "dropdownFive": {
             "heading": "Sponsors",
-            "item1": "Previous Sponsors",
-            "item2": "Sign Up"
+            "href": "/sponsors"
         },
         "dropdownSix": {
             "heading": "Contact",

@@ -17,12 +17,12 @@ const Paragraphs = (list) => {
 
 const Logos = (list) => {
     return (
-        <div class="logo">
+        <div class="logo-container">
         {list.data.map((logo) => (
-            <>
+            <div class="logo">
             <img src={logo.src} alt={logo.year}/>
-            {/*<p class="text-overlay">{logo.year}</p>*/}
-            </>
+            <span>{logo.year}</span>
+            </div>
         ))}
         </div>
     )
