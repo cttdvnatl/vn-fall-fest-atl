@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React from 'react';
 import {getLanguage, useTranslation} from 'react-multi-lang';
 import vn from '../database/vn';
 import en from '../database/en';
@@ -11,7 +11,7 @@ const MainSponsor = (list) => {
             <h1>{section.title}</h1>
                 <div class={section.class}>
                     <img src={section.img} alt={section.img}></img>
-                </div>
+                </div> 
             </div>
         ))}
         </div>
@@ -19,22 +19,14 @@ const MainSponsor = (list) => {
 }
 
 const OtherSponsors = (list) => {
-    let sponsors = useRef(null);
-
-    //const executeScroll = (scrollParam) => sponsors.current.scrollLeft += scrollParam
-
     return (
         <div class="right">
         {list.data.map((section, index) => (
-            <div class={section.class + '-container'} ref={sponsors} key={index}>
-            {/*<button onClick={() => executeScroll(10)}>LEFT</button>
-            <button onClick={() => executeScroll(-10)}>RIGHT</button>*/}
+            <div class={section.class + '-container'} key={index}>
             <h1>{section.title}</h1>
                 <div class={section.class}>
                 {section.content.map((sponsorContent, idx) => (
-                    <div key={idx}>
-                        <img src={sponsorContent.img} alt={sponsorContent.img}></img>
-                    </div>
+                        <img src={sponsorContent.img} alt={sponsorContent.img}key={idx}></img>
                 ))}
                 </div>
             </div>
@@ -43,7 +35,7 @@ const OtherSponsors = (list) => {
     )
 }
 
-const Sponsors = () => {
+const SponsorsPage = () => {
     useTranslation()
 
     let mainSponsorData;
@@ -60,7 +52,7 @@ const Sponsors = () => {
     
     return (
         <>
-        <div class="sponsors">
+        <div class="sponsors-page">
             <MainSponsor data={mainSponsorData}/>
             <OtherSponsors data={otherSponsorsData}/>
         </div>
@@ -68,4 +60,4 @@ const Sponsors = () => {
     )
 }
 
-export default Sponsors;
+export default SponsorsPage;

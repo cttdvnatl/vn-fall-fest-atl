@@ -5,24 +5,21 @@
 }
 
 .about .left {
-    width: 55%;
-    text-align: center;
+    width: 50%;
 }
 
 .about .left h1 {
     font-size: 25px;
     padding-bottom: 30px;
+    text-align: center;
 }
 
 .about .left .paragraph p {
     padding-bottom: 13px;
-    width: 80%;
-    margin: auto;
 }
 
 .about .right {
     width: 40%;
-
 }
 
 .about .right h1 {
@@ -30,25 +27,15 @@
     padding-bottom: 30px;
     text-align: center;
 }
-.about .right .logo-container {
+.about .right .logo {
     text-align: center;
     display: block;
 }
 
-.about .right .logo-container .logo {
+.about .right .logo img {
     width: 200px;
     padding: 5px;
     height: auto;
     box-shadow: 2px 2px 4px gray;
 }
 
-.about .right .logo-container .logo img {
-    width: 200px;
-    padding: 5px;
-    height: auto;
-    box-shadow: 2px 2px 4px gray;
-}
-
-.about .right .logo-container .logo span {
-    position: absolute;
-}

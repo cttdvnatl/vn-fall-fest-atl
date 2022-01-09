@@ -20,9 +20,14 @@
 * {
     padding: 0;
     margin: 0;
-    font: Helvetica;
+}
+
+@font-face {
+    font-family: Nautigal;
+    src: url(../fonts/TheNautigal-Regular.ttf);
 }
 
 h1 {
-    color: #e6e600;
+    font-family: Nautigal;
+    color: burlywood;
 }

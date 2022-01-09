@@ -1,7 +1,6 @@
 import React, {useRef, useCallback, useEffect} from 'react';
 import { useTranslation, setLanguage, getLanguage } from 'react-multi-lang';
 import SocialIcons from './SocialIcons';
-import Sponsors from './Sponsors'
 
 const Header = () => {
 
@@ -62,7 +61,7 @@ const Header = () => {
 
     //desktop to mobile view
     const resizeCallback = useCallback(() => {
-        if (window.innerWidth < 1040) {
+        if (window.innerWidth < 1100) {
             nav.current.classList.remove('desktop-view')
             nav.current.classList.add('mobile-view')
         }
@@ -85,7 +84,7 @@ const Header = () => {
     }, [resizeCallback, scrollCallback]);
 
     const openSideNav = () => {
-        if(window.innerWidth < 1040) {
+        if(window.innerWidth < 1100) {
             sideNav.current.classList.remove("closeSideNav");
             sideNav.current.classList.add("openSideNav");
         }

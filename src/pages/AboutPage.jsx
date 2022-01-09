@@ -17,12 +17,9 @@ const Paragraphs = (list) => {
 
 const Logos = (list) => {
     return (
-        <div class="logo-container">
+        <div class="logo">
         {list.data.map((logo) => (
-            <div class="logo">
             <img src={logo.src} alt={logo.year}/>
-            <span>{logo.year}</span>
-            </div>
         ))}
         </div>
     )
