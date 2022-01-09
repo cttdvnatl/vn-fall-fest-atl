@@ -29,8 +29,7 @@
         },
         "dropdownFive": {
             "heading": "Các Nhà Tài Trợ",
-            "item1": "Những Năm Trước",
-            "item2": "Ghi Danh"
+            "href": "/sponsors"
         },
         "dropdownSix": {
             "href": "/contact",
@@ -45,6 +44,45 @@
         {
             "link": "https://youtube.com",
             "image": "http://73.137.118.190:81/img/social-icons/youtube/317714_video_youtube_icon.png"
+        }
+    ],
+    "footer": [
+        {
+            "footerSection": "footer-1",
+            "header": "Contact Details",
+            "content": [
+                {
+                    "link": "",
+                    "linkName": "",
+                    "nonLink": "770-921-0077"
+                },
+                {
+                    "link": "",
+                    "linkName": "",
+                    "nonLink": "FallFestival@hvmatl.org"
+                },
+                {
+                    "link": "",
+                    "linkName": "",
+                    "nonLink": "4545 Timmers Way, Norcross, GA 30093"
+                }
+            ]
+        },
+        {
+            "footerSection": "footer-2",
+            "header": "Quick Details",
+            "content": [
+                {
+                    "link": "https://www.cdc.gov/coronavirus/2019-ncov/communication/guidance.html",
+                    "linkName": "CDC COVID-19 Guidance",
+                    "nonLink": ""
+                },
+                {
+                    "link": "https://archatl.com/",
+                    "linkName": "Archdiocese of Atlanta",
+                    "nonLink": ""
+                }
+            ]
         }
     ],
     "photoGalleries": {

@@ -19,10 +19,7 @@ const Logos = (list) => {
     return (
         <div class="logo">
         {list.data.map((logo) => (
-            <>
             <img src={logo.src} alt={logo.year}/>
-            {/*<p class="text-overlay">{logo.year}</p>*/}
-            </>
         ))}
         </div>
     )

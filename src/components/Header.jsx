@@ -1,7 +1,6 @@
 import React, {useRef, useCallback, useEffect} from 'react';
 import { useTranslation, setLanguage, getLanguage } from 'react-multi-lang';
 import SocialIcons from './SocialIcons';
-import Sponsors from './Sponsors'
 
 const Header = () => {
 
@@ -62,7 +61,7 @@ const Header = () => {
 
     //desktop to mobile view
     const resizeCallback = useCallback(() => {
-        if (window.innerWidth < 1040) {
+        if (window.innerWidth < 1100) {
             nav.current.classList.remove('desktop-view')
             nav.current.classList.add('mobile-view')
         }
@@ -85,7 +84,7 @@ const Header = () => {
     }, [resizeCallback, scrollCallback]);
 
     const openSideNav = () => {
-        if(window.innerWidth < 1040) {
+        if(window.innerWidth < 1100) {
             sideNav.current.classList.remove("closeSideNav");
             sideNav.current.classList.add("openSideNav");
         }
@@ -148,13 +147,8 @@ const Header = () => {
                             <li><a href={t('header.dropdownFour.href1')}>{t('header.dropdownFour.item1')}</a></li>
                             <li><a href={t('header.dropdownFour.href2')}>{t('header.dropdownFour.item2')}</a></li>
                         </ul>
-                   </li>
-                    <li onClick={(e) => {toggleSubmenu(5, e)}}><p>{t('header.dropdownFive.heading')}</p>
-                        <ul>
-                            <li><a href="/item1">{t('header.dropdownFive.item1')}</a></li>
-                            <li><a href="/item2">{t('header.dropdownFive.item2')}</a></li>
-                        </ul>
                     </li>
+                    <li><p><a href={t('header.dropdownFive.href')}>{t('header.dropdownFive.heading')}</a></p></li>
                     <li><p><a href={t('header.dropdownSix.href')}>{t('header.dropdownSix.heading')}</a></p></li>
                 </ul>
                 <span onClick={() => openSideNav()} class="open">&#8801;</span>

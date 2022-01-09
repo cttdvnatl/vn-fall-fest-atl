@@ -1,8 +1,51 @@
-.footer {
+.footer-component {
     height: 300px;
     box-shadow: -5px -5px 10px grey;
     background-color: #C7E689;
-    background-image: url("https://fallfestivalatl.org/wp-content/uploads/2021/06/2021-LHMT-Logo-Dark-FF-72.png");
-    background-repeat: no-repeat;
-    background-position: center;
+    display: inline-flex;
+    width: 100%;
+}
+
+.footer-component .footer-1 {
+    width: 50%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.footer-component .footer-img {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
+
+.footer-component .footer-img img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.footer-component .footer-1 h2 {
+    font-size: 16px;
+}
+
+.footer-component .footer-1 h2 a{
+    color: black;
+    text-decoration: none;
+}
+
+.footer-component .footer-2 {
+    width: 50%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.footer-component .footer-1 h2 {
+    font-size: 16px;
+    margin: 10px;
+}
+
+.footer-component .footer-2 h2 a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
 }
