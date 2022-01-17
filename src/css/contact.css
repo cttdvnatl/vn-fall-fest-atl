@@ -9,9 +9,10 @@
 }
 
 .contact-page .contact-form-row {
-    margin: 30px;
     width: 100%;
+    padding-bottom: 30px;
     display: inline-flex;
+    margin: auto;
 }
 
 .contact-page .contact-form-row .contact-form-input {
@@ -27,6 +28,9 @@
     width: 40%;
     height: 40px;
     font-size: 20px;
+    box-shadow: 0 0 9px 1px grey;
+    background: #fff;
+    border-radius: 8px;
 }
 
 .contact-page .contact-form-row .contact-form-input-message {
@@ -41,12 +45,24 @@
     height: 300px;
     margin: auto;
     font-size: 20px;
-    box-shadow: inset 0 0 5px 5px #888;
+    box-shadow: 0 0 6px 3px grey;
+    border-radius: 8px;
     background: #fff;
 }
 
 .contact-page .contact-form-row .contact-form-submit {
     margin: auto;
-    width: 70px;
-    height: 70px;
+    margin-top: 10px;
+    padding: 11px;
+    background-color: white;
+    border: 1px grey solid;
+    border-radius: 6px;
+}
+
+.contact-page .contact-form-row .contact-form-submit:hover {
+    background-color: #f2f2f2
+}
+
+.contact-page .contact-form-row .contact-form-submit:active {
+    background-color: #e6e6e6
 }
