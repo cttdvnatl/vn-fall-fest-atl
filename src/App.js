@@ -26,6 +26,9 @@ import VendorsPage from './pages/VendorsPage'
 import SponsorsPage from './pages/SponsorsPage';
 import ContactPage from './pages/ContactPage';
 
+//Error/Success Pages
+import FormSubmitSuccessPage from './pages/FormSubmitSuccessPage';
+import FormSubmitErrorPage from './pages/FormSubmitErrorPage';
 
 //Website Cookie for Language
 setTranslations({vn, en})
@@ -78,6 +81,8 @@ function App() {
             <Route path="/vendors" component={VendorsPage}/>
             <Route path="/sponsors" component={SponsorsPage}/>
             <Route path="/contact" component={ContactPage}/>
+            <Route path="/form-success" component={FormSubmitSuccessPage}/>
+            <Route path="/form-error" component={FormSubmitErrorPage}/>
         </Router>
     <Footer/>
     </>

@@ -1,0 +1,52 @@
+.contact-page {
+    padding: 30px;
+    text-align: center;
+    display: block;
+}
+
+.contact-page h1 {
+    margin: 15px;
+}
+
+.contact-page .contact-form-row {
+    margin: 30px;
+    width: 100%;
+    display: inline-flex;
+}
+
+.contact-page .contact-form-row .contact-form-input {
+    width: 100%;
+}
+
+.contact-page .contact-form-row .contact-form-input label {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.contact-page .contact-form-row .contact-form-input input {
+    width: 40%;
+    height: 40px;
+    font-size: 20px;
+}
+
+.contact-page .contact-form-row .contact-form-input-message {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-page .contact-form-row .contact-form-input-message textarea {
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    font-size: 20px;
+    box-shadow: inset 0 0 5px 5px #888;
+    background: #fff;
+}
+
+.contact-page .contact-form-row .contact-form-submit {
+    margin: auto;
+    width: 70px;
+    height: 70px;
+}
