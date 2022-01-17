@@ -1,4 +1,14 @@
 {
+    "topHeader": {
+        "button1": {
+            "text": "Directions",
+            "popUpImage": ""
+        },
+        "button2": {
+            "text": "Donate",
+            "popUpImage": ""
+        }
+    },
     "header": {
         "dropdownOne": {
             "heading": "Home",
@@ -126,55 +136,55 @@
         ],
         "logos": [
             {
-                "src": "http://73.137.118.190:81/img/logos/2021.jpg",
+                "src": "http://73.137.118.190:81/img/logos/festival-banners/2021.jpg",
                 "year": "2021"
             },
             {
-                "src": "http://73.137.118.190:81/img/logos/2020.jpg",
+                "src": "http://73.137.118.190:81/img/logos/festival-banners/2020.jpg",
                 "year": "2020"
             },
             {
-                "src": "http://73.137.118.190:81/img/logos/2019.jpg",
+                "src": "http://73.137.118.190:81/img/logos/festival-banners/2019.jpg",
                 "year": "2019"
             },
             {
-                "src": "http://73.137.118.190:81/img/logos/2018.jpg",
+                "src": "http://73.137.118.190:81/img/logos/festival-banners/2018.jpg",
                 "year": "2018"
             },
             {
-                "src": "http://73.137.118.190:81/img/logos/2017.jpg",
+                "src": "http://73.137.118.190:81/img/logos/festival-banners/2017.jpg",
                 "year": "2017"
             },
             {
-                "src": "http://73.137.118.190:81/img/logos/2016.jpg",
+                "src": "http://73.137.118.190:81/img/logos/festival-banners/2016.jpg",
                 "year": "2016"
             },
             {
-                "src": "http://73.137.118.190:81/img/logos/2015.jpg",
+                "src": "http://73.137.118.190:81/img/logos/festival-banners/2015.jpg",
                 "year": "2015"
             },
             {
-                "src": "http://73.137.118.190:81/img/logos/2014.jpg",
+                "src": "http://73.137.118.190:81/img/logos/festival-banners/2014.jpg",
                 "year": "2014"
             },
             {
-                "src": "http://73.137.118.190:81/img/logos/2013.jpg",
+                "src": "http://73.137.118.190:81/img/logos/festival-banners/2013.jpg",
                 "year": "2013"
             },
             {
-                "src": "http://73.137.118.190:81/img/logos/2012.jpg",
+                "src": "http://73.137.118.190:81/img/logos/festival-banners/2012.jpg",
                 "year": "2012"
             },
             {
-                "src": "http://73.137.118.190:81/img/logos/2011.jpg",
+                "src": "http://73.137.118.190:81/img/logos/festival-banners/2011.jpg",
                 "year": "2011"
             },
             {
-                "src": "http://73.137.118.190:81/img/logos/2010.jpg",
+                "src": "http://73.137.118.190:81/img/logos/festival-banners/2010.jpg",
                 "year": "2010"
             },
             {
-                "src": "http://73.137.118.190:81/img/logos/2009.jpg",
+                "src": "http://73.137.118.190:81/img/logos/festival-banners/2009.jpg",
                 "year": "2009"
             }
         ]
@@ -409,5 +419,11 @@
                 "img": "https://via.placeholder.com/1100x650"
             }
         ]
+    },
+    "contact": {
+        "pageTitle": "Contact Us",
+        "textBoxName": "Name",
+        "textBoxEmail": "Email",
+        "textBoxMessage": "Message"
     }
 }

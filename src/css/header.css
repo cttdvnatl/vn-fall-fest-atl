@@ -42,12 +42,30 @@ nav.desktop-view div.top-header div.top-header-items-left div.back-to-main a{
 nav.desktop-view div.top-header div.top-header-items-right {
     float: right;
     padding-top: 10px;
+    display: inline-flex;
 }
+
+/*Top Header Buttons*/
+nav.desktop-view div.top-header div.top-header-items-right .top-header-button {
+    margin: auto;
+    padding: 7px;
+    margin-right: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+nav.desktop-view div.top-header div.top-header-items-right .top-header-button:hover{
+    color: white;
+    transition: .3s;
+}
+
 /* Translation Button*/
 nav.desktop-view div.top-header div.top-header-items-right div.translation-button button.translation-button {
     color: red;
     padding: 6px 10px 6px 10px;
     margin-right: 3px;
+    margin-left: 10px;
     font-size: 14px;
     border: 1px solid black;
     border-radius: 10px 10px 10px 10px;
@@ -213,8 +231,25 @@ nav.mobile-view div.top-header div.top-header-items-left div.back-to-main a{
 /* Top Header Items Right*/
 nav.mobile-view div.top-header div.top-header-items-right {
     float: right;
-    padding: 10px;
+    padding-top: 10px;
+    display: inline-flex;
 }
+
+/*Top Header Buttons*/
+nav.mobile-view div.top-header div.top-header-items-right .top-header-button {
+    margin: auto;
+    padding: 7px;
+    margin-right: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+nav.mobile-view div.top-header div.top-header-items-right .top-header-button:hover{
+    color: white;
+    transition: .3s;
+}
+
 /* Translation Button*/
 nav.mobile-view div.top-header div.top-header-items-right div.translation-button button.translation-button {
     color: red;

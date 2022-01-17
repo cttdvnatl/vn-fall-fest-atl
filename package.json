@@ -4,6 +4,7 @@
   "homepage": "https://fallfestival.hvmatl.org",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.4.0",
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",

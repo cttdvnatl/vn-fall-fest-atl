@@ -1,6 +1,7 @@
 import React, {useRef, useCallback, useEffect} from 'react';
 import { useTranslation, setLanguage, getLanguage } from 'react-multi-lang';
 import SocialIcons from './SocialIcons';
+//import PopUp from './PopUp';
 
 const Header = () => {
 
@@ -11,6 +12,10 @@ const Header = () => {
     const displayNone = {
         display : 'none',
     }
+
+    //const displayBlock = {
+    //    display: 'block'
+    //}
 
     const displayViet = {
         display: 'block',
@@ -48,7 +53,28 @@ const Header = () => {
         displayVN = displayNone;
         displayEN = displayEng;
     }
+    /*
+    //function for popups
+    let PopUpStyle = {};
+    let checkPopUp;
+    let PopUpData = 'topHeader.button1.image1'
+
+    if (checkPopUp === 'display') {
+        PopUpStyle = displayBlock
+    }
+    else {
+        PopUpStyle = displayNone
+    }
+
+    function triggerPopUp(popUpParam) {
+        checkPopUp = 'display';
+        PopUpData = popUpParam;
+    }
     
+    function closePopUp() {
+       checkPopUp = ''
+    }*/
+
 //making top header disappear after 1 scroll
     const scrollCallback = useCallback(() => {
         const sticky = mainHeader.current.offsetTop;
@@ -108,11 +134,13 @@ const Header = () => {
                 }
             }
         }
-        
     }
 
     return (
-        <>
+        <> 
+        {/*<div style={PopUpStyle}>
+            <PopUp data={PopUpData}/>
+        </div>*/}
         <nav ref={nav} class=''>
             <div class="top-header">
                 <div class="top-header-items-left">
@@ -122,6 +150,8 @@ const Header = () => {
                     <SocialIcons/>
                 </div>
                 <div class="top-header-items-right">
+                    <a href="/direction" class="top-header-button">{t('topHeader.button1.text')}</a>
+                    <a href="/donate" class="top-header-button">{t('topHeader.button2.text')}</a>
                     <div class="translation-button">
                         <button style={displayVN} id="vn" class="translation-button" onClick={() => setLanguageVN()}>Tiếng Việt</button>
                         <button style={displayEN} id="en" class="translation-button" onClick={() => setLanguageEN()}>English</button>                
@@ -129,7 +159,7 @@ const Header = () => {
                 </div>
             </div>      
             <div ref={mainHeader} class="main-header">
-            <div class="logo"><a href="/"><img alt="logo" src="https://fallfestivalatl.org/wp-content/uploads/2021/06/2021-LHMT-Logo-Dark-FF-72.png"></img></a></div>
+            <div class="logo"><a href="/"><img alt="logo" src="http://73.137.118.190:81/img/logos/2021/2021-LHMT-Logo-Dark-FF-72.png"></img></a></div>
                 <ul ref={sideNav} class="closeSideNav">
                     <span class="close" onClick={() => closeSideNav()}>&#10005;</span>
                     <li><p><a href={t('header.dropdownOne.href')}>{t('header.dropdownOne.heading')}</a></p></li>
