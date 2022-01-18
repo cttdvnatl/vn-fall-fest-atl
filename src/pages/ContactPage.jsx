@@ -1,6 +1,7 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { useTranslation } from 'react-multi-lang';
 import emailjs from '@emailjs/browser';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 const ContactPage = () => {
     const t = useTranslation();
@@ -10,12 +11,13 @@ const ContactPage = () => {
     const nameInput = useRef();
     const emailInput = useRef();
     const message = useRef();
-    const errorMessage = useRef();
-
+    const textErrorMessage = useRef();
+    const captchaErrorMessage = useRef();
+    const [captcha, setCaptcha] = useState(false)
 
     const sendEmail = (e) => {
         e.preventDefault();
-        if (nameInput.current.value !== '' && emailInput !== '' && message !== '') {
+        if (nameInput.current.value !== '' && emailInput !== '' && message !== '' && captcha === true) {
             submit.current.remove()
             emailjs.sendForm('service_sp14yo9', 'template_32mxm9p', form.current, 'user_1frMaiJsHvHVAu5PqTi5X')
               .then((result) => {
@@ -26,8 +28,11 @@ const ContactPage = () => {
                   window.location.href = "/form-error";
               });
         }
-        else {
-            errorMessage.current.style.display = 'block';
+        else if (nameInput.current.value === '' && emailInput === '' && message === '') {
+            textErrorMessage.current.style.display = 'block';
+        }
+        else if (captcha === false) {
+            captchaErrorMessage.current.style.display = 'block';
         }
     };
 
@@ -54,7 +59,15 @@ const ContactPage = () => {
                         <textarea ref={message} name="message" />
                     </div>
                 </div>
-                <h4 ref={errorMessage} style={{padding: '10px', margin: 'auto', fontFamily: 'sans-serif', display: 'none', color: 'red'}}>Fill in ALL fields</h4>
+                <h4 ref={textErrorMessage} style={{padding: '10px', margin: 'auto', fontFamily: 'sans-serif', display: 'none', color: 'red'}}>Fill in ALL fields</h4>
+                <h4 ref={captchaErrorMessage} style={{padding: '10px', margin: 'auto', fontFamily: 'sans-serif', display: 'none', color: 'red'}}>Captcha Failed</h4>
+                <div class="captcha" style={{width: '100%'}}>
+                    <ReCAPTCHA
+                        style={{padding: '10px', margin: 'auto', width: '20%'}}
+                        sitekey="6LdxPhkeAAAAAKQ0myRsb9eAPskcHKCn8rYNBncj"
+                        onChange={() => setCaptcha(true)}
+                    />
+                </div>
                 <div class="contact-form-row">
                     <input ref={submit} class="contact-form-submit" type="submit" value="Send" />
                 </div>
