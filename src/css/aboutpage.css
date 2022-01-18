@@ -1,11 +1,24 @@
+@media only screen and (min-width: 900px) {
+    .about {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .about {
+        flex-direction: column;
+    }
+}
+
 .about {
     padding: 30px;
     display: flex;
-    flex-direction: row;
+    max-width: 1300px;
+    margin: auto;
 }
 
 .about .left {
-    width: 50%;
+    width: 100%;
 }
 
 .about .left h1 {
@@ -19,7 +32,8 @@
 }
 
 .about .right {
-    width: 40%;
+    width: 100%;
+    margin: auto;
 }
 
 .about .right h1 {
