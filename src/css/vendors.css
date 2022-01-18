@@ -12,3 +12,8 @@
     padding-top: 3px;
     padding-bottom: 15px;
 }
+
+.vendors-page .vendor img {
+    width: 90%;
+    margin: auto;
+}

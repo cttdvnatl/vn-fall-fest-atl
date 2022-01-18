@@ -5,7 +5,9 @@
 
 .contest-page img {
     width: 80%;
-    margin: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin: auto;
 }
 
 .contest-page .contest-container {

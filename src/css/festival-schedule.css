@@ -5,11 +5,17 @@
 
 .festival-schedule-page .schedule {
     width: 100%;
+    margin: auto;
 }
 
 .festival-schedule-page h1 {
     padding: 5px;
     font-weight: 600;
+}
+
+.festival-schedule-page .schedule img {
+    width: 90%;
+    margin: auto;
 }
 
 

@@ -9,6 +9,7 @@
 
 .musicians .musician img {
     padding-bottom: 10px;
+    margin: auto;
 }
 
 .musicians .musician h1 {
