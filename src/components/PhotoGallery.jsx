@@ -7,9 +7,7 @@ const PhotoGallery = (list) => {
             <div class={section.galleryStyle + '-container'} key={index}>
                 <div class={section.galleryStyle}>
                 {section.content.map((content, idx) => (
-                    <div class="img-container" key={idx}>
-                        <img src={content.img} alt={content.img}/>
-                    </div>
+                        <img src={content.img} alt={content.img} key={idx}/>
                 ))}
                 </div>
             </div>

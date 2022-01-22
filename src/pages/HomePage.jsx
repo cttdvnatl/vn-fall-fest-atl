@@ -9,20 +9,24 @@ import PhotoGallery from '../components/PhotoGallery';
 const Homepage = () => {
     useTranslation();
 
-    let photoGalleryData;
+    let photoGalleryDataOne;
+    let photoGalleryDataTwo;
 
     if (getLanguage() === 'vn') {
-        photoGalleryData = vn.photoGalleries.galleryOne;
+        photoGalleryDataOne = vn.photoGalleries.galleryOne;
+        photoGalleryDataTwo = vn.photoGalleries.galleryTwo;
     }
     else if (getLanguage() === 'en') {
-        photoGalleryData = en.photoGalleries.galleryOne;
+        photoGalleryDataOne = en.photoGalleries.galleryOne;
+        photoGalleryDataTwo = en.photoGalleries.galleryTwo;
     }
 
     return (
         <>
         <SlideShow/>
         <Sponsors/>
-        <PhotoGallery data={photoGalleryData}/>
+        <PhotoGallery data={photoGalleryDataOne}/>
+        <PhotoGallery data={photoGalleryDataTwo}/>
         </>
     )
 }

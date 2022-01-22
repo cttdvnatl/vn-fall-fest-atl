@@ -113,6 +113,25 @@
                     }
                 ]
             }
+        ],
+        "galleryTwo": [
+            {
+                "galleryStyle": "gallery-style-2",
+                "content": [
+                    {
+                        "img": "https://via.placeholder.com/600x400"
+                    },
+                    {
+                        "img": "https://via.placeholder.com/600x400"
+                    },
+                    {
+                        "img": "https://via.placeholder.com/600x400"
+                    },
+                    {
+                        "img": "https://via.placeholder.com/600x400"
+                    }
+                ]
+            }
         ]
     },
     "about": {
@@ -417,6 +436,51 @@
         "content": [
             {
                 "img": "https://via.placeholder.com/1100x650"
+            }
+        ]
+    },
+    "directions": {
+        "pageTitle": "Directions",
+        "routes": [
+            {   
+                "title": "Route One",
+                "content": [
+                    {
+                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidi, "
+                    },
+                    {
+                        "instruction": "Lorem ipsum dolor sit amet, consectetur, "
+                    },
+                    {
+                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
+                    },
+                    {
+                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing empor incididunt ut , "
+                    },
+                    {
+                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
+                    }
+                ]
+            },
+            {   
+                "title": "Route Two",
+                "content": [
+                    {
+                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
+                    },
+                    {
+                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
+                    },
+                    {
+                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
+                    },
+                    {
+                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
+                    },
+                    {
+                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
+                    }
+                ]
             }
         ]
     },
