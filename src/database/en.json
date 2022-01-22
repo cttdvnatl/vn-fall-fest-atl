@@ -113,6 +113,25 @@
                     }
                 ]
             }
+        ],
+        "galleryTwo": [
+            {
+                "galleryStyle": "gallery-style-2",
+                "content": [
+                    {
+                        "img": "https://via.placeholder.com/600x400"
+                    },
+                    {
+                        "img": "https://via.placeholder.com/600x400"
+                    },
+                    {
+                        "img": "https://via.placeholder.com/600x400"
+                    },
+                    {
+                        "img": "https://via.placeholder.com/600x400"
+                    }
+                ]
+            }
         ]
     },
     "about": {
