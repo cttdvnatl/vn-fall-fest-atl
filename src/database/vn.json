@@ -440,6 +440,51 @@
             }
         ]
     },
+    "directions": {
+        "pageTitle": "Directions",
+        "routes": [
+            {   
+                "title": "Route One",
+                "content": [
+                    {
+                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidi, "
+                    },
+                    {
+                        "instruction": "Lorem ipsum dolor sit amet, consectetur, "
+                    },
+                    {
+                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
+                    },
+                    {
+                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing empor incididunt ut , "
+                    },
+                    {
+                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
+                    }
+                ]
+            },
+            {   
+                "title": "Route Two",
+                "content": [
+                    {
+                        "instruction": "Lorem ipsum dolor sit amet, consectetur "
+                    },
+                    {
+                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut "
+                    },
+                    {
+                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing tempor incididunt ut  "
+                    },
+                    {
+                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscin, "
+                    },
+                    {
+                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
+                    }
+                ]
+            }
+        ]
+    },
     "contact": {
         "pageTitle": "Contact Us",
         "textBoxName": "Name",
