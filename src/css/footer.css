@@ -13,24 +13,24 @@
 }
 
 .footer-component .footer-img {
-    text-align: center;
-    position: absolute;
-    width: 100%;
+    width: 40%;
+    margin: auto;
 }
 
 .footer-component .footer-img img {
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+    width: 100%;
 }
 
-.footer-component .footer-1 h2 {
+.footer-component .footer-1 p {
     font-size: 16px;
+    margin: 3px;
 }
 
-.footer-component .footer-1 h2 a{
+.footer-component .footer-1 a {
     color: black;
     text-decoration: none;
+    font-size: 16px;
+    margin: 3px;
 }
 
 .footer-component .footer-2 {
@@ -39,13 +39,16 @@
     margin-top: 5%;
 }
 
-.footer-component .footer-1 h2 {
+.footer-component .footer-2 p {
     font-size: 16px;
     margin: 10px;
+    margin: 3px;
 }
 
-.footer-component .footer-2 h2 a{
+.footer-component .footer-2 a{
     color: black;
     text-decoration: none;
     font-size: 16px;
+    margin: 5px;
+    margin: 3px;
 }

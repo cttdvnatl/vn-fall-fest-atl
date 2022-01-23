@@ -25,12 +25,12 @@
 }
 
 .contact-page .contact-form-row .contact-form-input input {
-    width: 40%;
+    width: 35%;
     height: 40px;
     font-size: 20px;
-    box-shadow: 0 0 9px 1px grey;
+    box-shadow: 0 0 4px .5px grey;
     background: #fff;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 .contact-page .contact-form-row .contact-form-input-message {
