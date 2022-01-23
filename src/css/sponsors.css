@@ -23,6 +23,11 @@
     width: 90%;
 }
 
+.sponsors-page .right .other-sponsor-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .sponsors-page .right .other-sponsor-container .other-sponsor {
     width: 100%;
     justify-content: center;

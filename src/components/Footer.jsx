@@ -10,7 +10,9 @@ const FooterItems = (list) => {
             <div class={section.footerSection} key={index}>
                 <h1>{section.header}</h1>
                 {section.content.map((footerContent, idx) => (
-                    <h2><a href={footerContent.link} key={idx}>{footerContent.linkName}</a>{footerContent.nonLink}</h2>
+                    <>
+                        <p>{footerContent.nonLink}</p><a href={footerContent.link} key={idx}>{footerContent.linkName}</a>
+                    </>
                 ))}
             </div>
         ))}
@@ -35,7 +37,7 @@ const Footer = () => {
         <div class="footer-component">
             <div class="footer-img">
                 <img alt="logo" src="http://73.137.118.190:81/img/logos/2021/2021-LHMT-Logo-Dark-FF-72.png"/>
-            </div>  
+            </div>
             <FooterItems data={Data}/>
         </div>
         </>
