@@ -1,54 +1,80 @@
 .footer-component {
-    height: 300px;
     box-shadow: -5px -5px 10px grey;
-    background-color: #C7E689;
-    display: inline-flex;
+    background-color: #C7E689; 
     width: 100%;
 }
 
-.footer-component .footer-1 {
-    width: 50%;
-    text-align: center;
-    margin-top: 5%;
+@media only screen and (min-width: 700px) {
+    .footer-component {
+        display: inline-flex;
+        height: 300px;
+    }
+    .footer-component .footer-img {
+        width: 40%;
+        margin: auto;
+        margin-left: 10px;
+    }
+    .footer-component .footer-img img {
+        width: 100%;
+    }
+    .footer-component .footer-1 {
+        width: 50%;
+        text-align: center;
+        margin-top: 5%;
+    }
+    .footer-component .footer-2 {
+        width: 50%;
+        text-align: center;
+        margin-top: 5%;
+    }
 }
 
-.footer-component .footer-img {
-    width: 40%;
-    margin: auto;
-}
-
-.footer-component .footer-img img {
-    width: 100%;
+@media only screen and (max-width: 700px) {
+    .footer-component {
+        display: flex;
+        flex-direction: column;
+        height: 550px;
+    }
+    .footer-component .footer-img {
+        width: 100%;
+        margin: auto;
+        margin-left: 10px;
+    }
+    .footer-component .footer-img img {
+        margin: auto;
+        display: block;
+        width: 40%;
+    }
+    .footer-component .footer-1 {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .footer-component .footer-2 {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
 }
 
 .footer-component .footer-1 p {
     font-size: 16px;
-    margin: 3px;
+    margin: 10px;
 }
 
 .footer-component .footer-1 a {
     color: black;
     text-decoration: none;
     font-size: 16px;
-    margin: 3px;
-}
-
-.footer-component .footer-2 {
-    width: 50%;
-    text-align: center;
-    margin-top: 5%;
 }
 
 .footer-component .footer-2 p {
     font-size: 16px;
-    margin: 10px;
-    margin: 3px;
+    margin: 15px;
 }
 
 .footer-component .footer-2 a{
     color: black;
     text-decoration: none;
     font-size: 16px;
-    margin: 5px;
-    margin: 3px;
 }
