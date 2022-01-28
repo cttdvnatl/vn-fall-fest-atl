@@ -29,6 +29,8 @@
 
 .about .left .paragraph p {
     padding-bottom: 13px;
+    width: 90%;
+    margin: auto;
 }
 
 .about .right {

@@ -28,10 +28,10 @@ const ContactPage = () => {
                   window.location.href = "/form-error";
               });
         }
-        else if (nameInput.current.value === '' && emailInput.current.value === '' && message.current.value === '') {
+        if (nameInput.current.value === '' && emailInput.current.value === '' && message.current.value === '') {
             textErrorMessage.current.style.display = 'block';
         }
-        else if (captcha === false) {
+        if (captcha === false) {
             captchaErrorMessage.current.style.display = 'block';
         }
     };
