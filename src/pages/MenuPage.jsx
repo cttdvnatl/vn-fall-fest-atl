@@ -13,7 +13,6 @@ const Menu = (list) => {
     ))}
     </>
     )
-
 }
 
 const MenuPage = () => {

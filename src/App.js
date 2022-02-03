@@ -26,6 +26,7 @@ import VendorsPage from './pages/VendorsPage'
 import SponsorsPage from './pages/SponsorsPage';
 import ContactPage from './pages/ContactPage';
 import DirectionsPage from './pages/DirectionsPage';
+import DonationsPage from './pages/DonationsPage';
 
 //Error/Success Pages
 import FormSubmitSuccessPage from './pages/FormSubmitSuccessPage';
@@ -84,7 +85,8 @@ function App() {
             <Route path="/contact" component={ContactPage}/>
             <Route path="/form-success" component={FormSubmitSuccessPage}/>
             <Route path="/form-error" component={FormSubmitErrorPage}/>
-            <Route path="/direction" component={DirectionsPage}/>
+            <Route path="/directions" component={DirectionsPage}/>
+            <Route path="/donations" component={DonationsPage}/>
         </Router>
     <Footer/>
     </>

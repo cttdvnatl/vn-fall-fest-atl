@@ -150,8 +150,8 @@ const Header = () => {
                     <SocialIcons/>
                 </div>
                 <div class="top-header-items-right">
-                    <a href="/direction" class="top-header-button">{t('topHeader.button1.text')}</a>
-                    <a href="/donate" class="top-header-button">{t('topHeader.button2.text')}</a>
+                    <a href={t('topHeader.link1.link')} class="top-header-button">{t('topHeader.link1.text')}</a>
+                    <a href={t('topHeader.link2.link')} class="top-header-button">{t('topHeader.link2.text')}</a>
                     <div class="translation-button">
                         <button style={displayVN} id="vn" class="translation-button" onClick={() => setLanguageVN()}>Tiếng Việt</button>
                         <button style={displayEN} id="en" class="translation-button" onClick={() => setLanguageEN()}>English</button>                
