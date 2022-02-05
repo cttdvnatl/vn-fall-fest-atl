@@ -21,10 +21,10 @@ const ContactPage = () => {
             submit.current.remove()
             emailjs.sendForm('service_sp14yo9', 'template_32mxm9p', form.current, 'user_1frMaiJsHvHVAu5PqTi5X')
               .then((result) => {
-                  console.log(result.text);
+                  //console.log(result.text);
                   window.location.href = "/form-success";
               }, (error) => {
-                  console.log(error.text);
+                  //console.log(error.text);
                   window.location.href = "/form-error";
               });
         }
