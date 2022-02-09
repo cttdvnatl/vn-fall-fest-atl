@@ -1,12 +1,12 @@
 {
     "topHeader": {
-        "button1": {
+        "link1": {
             "text": "Directions",
-            "popUpImage": ""
+            "link": "/directions"
         },
-        "button2": {
+        "link2": {
             "text": "Donate",
-            "popUpImage": ""
+            "link": "/donations"
         }
     },
     "header": {
@@ -481,6 +481,24 @@
                         "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
                     }
                 ]
+            }
+        ]
+    },
+    "donations": {
+        "pageTitle": "Support  Us  With  Donations",
+        "text": "Donation Links",
+        "content": [
+            {
+                "image": "",
+                "link": "/"
+            },
+            {
+                "image": "",
+                "link": "/"
+            },
+            {
+                "image": "",
+                "link": "/"
             }
         ]
     },
