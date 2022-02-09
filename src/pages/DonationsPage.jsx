@@ -22,7 +22,7 @@ const Donations = (list) => {
 const DonationsPage = () => {
     const t = useTranslation();
 
-    let Data
+    let Data;
 
     if (getLanguage() === 'vn') {
         Data = vn.donations.content;
