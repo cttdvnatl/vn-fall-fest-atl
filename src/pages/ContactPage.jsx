@@ -28,7 +28,7 @@ const ContactPage = () => {
                   window.location.href = "/form-error";
               });
         }
-        if (nameInput.current.value === '' && emailInput.current.value === '' && message.current.value === '') {
+        if (nameInput.current.value === '' || emailInput.current.value === '' || message.current.value === '') {
             textErrorMessage.current.style.display = 'block';
         }
         if (captcha === false) {
