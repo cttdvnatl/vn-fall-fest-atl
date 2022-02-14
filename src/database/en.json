@@ -98,6 +98,7 @@
         "galleryOne": [
             {
                 "galleryStyle": "gallery-style-1",
+                "background": "background-color-black",
                 "content": [
                     {
                         "img": "https://via.placeholder.com/600x400"
@@ -116,7 +117,7 @@
         ],
         "galleryTwo": [
             {
-                "galleryStyle": "gallery-style-2",
+                "galleryStyle": "gallery-style-1",
                 "content": [
                     {
                         "img": "https://via.placeholder.com/600x400"
