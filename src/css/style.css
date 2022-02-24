@@ -33,4 +33,9 @@
 h1 {
     font-family: Nautigal;
     color: burlywood;
+    font-size: 35px;
+}
+
+p {
+    color: #737373;
 }
