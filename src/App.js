@@ -68,29 +68,32 @@ function getCookie(cookieParam) {
 
 checkLangCookie()
 
+//Changes Document Title based on language
+getLanguage() === 'en' ? document.title = "Vietnamese Fall Festival" : document.title = "Lễ Hội Mùa Thu"
+
 function App() {
-  return (
-    <>
-    <Header/>
-        <Router>
-            <Route path="/" component={HomePage} exact/>
-            <Route path="/about" component={AboutPage}/>
-            <Route path="/festival-schedule" component={FestivalSchedulePage}/>
-            <Route path="/musicians" component={MusiciansPage}/>
-            <Route path="/contests" component={ContestPage}/>
-            <Route path="/raffles" component={RafflesPage}/>
-            <Route path="/menu" component={MenuPage}/>
-            <Route path="/vendors" component={VendorsPage}/>
-            <Route path="/sponsors" component={SponsorsPage}/>
-            <Route path="/contact" component={ContactPage}/>
-            <Route path="/form-success" component={FormSubmitSuccessPage}/>
-            <Route path="/form-error" component={FormSubmitErrorPage}/>
-            <Route path="/directions" component={DirectionsPage}/>
-            <Route path="/donations" component={DonationsPage}/>
-        </Router>
-    <Footer/>
-    </>
-  );
+    return (
+        <>
+        <Header/>
+            <Router>
+                <Route path="/" component={HomePage} exact/>
+                <Route path="/about" component={AboutPage}/>
+                <Route path="/festival-schedule" component={FestivalSchedulePage}/>
+                <Route path="/musicians" component={MusiciansPage}/>
+                <Route path="/contests" component={ContestPage}/>
+                <Route path="/raffles" component={RafflesPage}/>
+                <Route path="/menu" component={MenuPage}/>
+                <Route path="/vendors" component={VendorsPage}/>
+                <Route path="/sponsors" component={SponsorsPage}/>
+                <Route path="/contact" component={ContactPage}/>
+                <Route path="/form-success" component={FormSubmitSuccessPage}/>
+                <Route path="/form-error" component={FormSubmitErrorPage}/>
+                <Route path="/directions" component={DirectionsPage}/>
+                <Route path="/donations" component={DonationsPage}/>
+            </Router>
+        <Footer/>
+        </>
+    );
 }
 
 export default App;
