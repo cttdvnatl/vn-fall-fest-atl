@@ -5,6 +5,11 @@
     text-align: center;
 }
 
+.sponsors-page h1 {
+    padding-bottom: 10px;
+}
+
+
 .sponsors-page .left .main-sponsor-container .main-sponsor {
     margin: auto;
 }
