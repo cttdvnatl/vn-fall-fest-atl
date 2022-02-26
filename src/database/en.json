@@ -135,6 +135,22 @@
             }
         ]
     },
+    "festival-statistics": {
+        "headers": {
+            "heading1": "Volunteers",
+            "heading2": "Festival Days",
+            "heading3": "Professional Entertainers",
+            "heading4": "Festival Guests",
+            "heading5": "Food and Drink Items"
+        },
+        "values": {
+            "value1": "1000+",
+            "value2": "3",
+            "value3": "10",
+            "value4": "40,000+",
+            "value5": "100+"
+        }
+    },
     "about": {
         "title": {
             "text1": "About Title",
