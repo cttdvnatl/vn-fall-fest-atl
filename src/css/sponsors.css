@@ -135,8 +135,8 @@
 .sponsors .right .other-sponsor-container .other-sponsor {
     width: 100%;
     overflow-x: scroll; 
-    /*-ms-overflow-style: none;
-    scrollbar-width: none;*/
+    -ms-overflow-style: none;
+    scrollbar-width: none;
     display: inline-flex;
     transition: transform 0.3s ease;
 }
@@ -147,7 +147,8 @@
 
 .sponsors .right .other-sponsor-container .other-sponsor img {
     width: 160px;
-    margin: 10px;
+    padding: 10px;
+    margin: auto;
     height: 80px;
     box-shadow: grey 2px 5px 7px;
 }

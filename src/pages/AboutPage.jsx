@@ -29,7 +29,7 @@ const Logos = (list) => {
 const AboutPage = () => {
     //const en = GetExternalApi('http://localhost:8080/getjson/en.json')
     //const vn = GetExternalApi('http://localhost:8080/getjson/vn.json')
-
+    console.log(en)
     useTranslation()
 
     const t = useTranslation()
