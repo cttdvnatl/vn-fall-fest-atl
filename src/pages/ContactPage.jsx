@@ -13,12 +13,12 @@ const ContactPage = () => {
     const message = useRef();
     const textErrorMessage = useRef();
     const captchaErrorMessage = useRef();
-    const [captcha, setCaptcha] = useState(false)
+    const [captcha, setCaptcha] = useState(false);
 
     const sendEmail = (e) => {
         e.preventDefault();
         if (nameInput.current.value !== '' && emailInput !== '' && message !== '' && captcha === true) {
-            submit.current.remove()
+            submit.current.remove();
             emailjs.sendForm('service_sp14yo9', 'template_32mxm9p', form.current, 'user_1frMaiJsHvHVAu5PqTi5X')
               .then((result) => {
                   //console.log(result.text);

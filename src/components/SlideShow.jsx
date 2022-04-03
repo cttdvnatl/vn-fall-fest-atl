@@ -4,29 +4,23 @@ import vn from '../database/vn';
 import en from '../database/en';
 
 const Slides = ({list}) => {
-    const [currentSlide, setSlide] = useState(0)
-    const { length } = list
+    const [currentSlide, setSlide] = useState(0);
+    const { length } = list;
 
     const nextSlide = () => {
-        setSlide(currentSlide === length - 1 ? 0 : currentSlide + 1)  
-        console.log(currentSlide)
+        setSlide(currentSlide === length - 1 ? 0 : currentSlide + 1);
     }
 
     const prevSlide = () => {
-        setSlide(currentSlide === 0 ? length - 1 : currentSlide - 1)
-        console.log(currentSlide)
+        setSlide(currentSlide === 0 ? length - 1 : currentSlide - 1);
     }
 
-    
-
 //    setTimeout(() => {
-//        setSlide(currentSlide === length - 1 ? 0 : currentSlide + 1)
+//        setSlide(currentSlide === length - 1 ? 0 : currentSlide + 1);
 //    }, 3000)
 
-    
     return (
         <>
-
         {list.map((slides, index) => (
             <div class={index === currentSlide ? "slides active" : "slides"} key={slides.title} aria-hidden={index !== currentSlide} style={{}}>
                     <div class="slide-overlay-left" onClick={prevSlide}></div>
@@ -40,7 +34,7 @@ const Slides = ({list}) => {
 }
 
 const SlideShow = () => {
-    useTranslation()
+    useTranslation();
 
     let Data;
 

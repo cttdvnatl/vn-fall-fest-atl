@@ -1,5 +1,6 @@
 import React from 'react';
 import {getLanguage, useTranslation} from 'react-multi-lang';
+//import GetExternalApi from '../functions/GetExternalApi';
 import vn from '../database/vn';
 import en from '../database/en';
 
@@ -26,6 +27,9 @@ const Logos = (list) => {
 }
 
 const AboutPage = () => {
+    //const en = GetExternalApi('http://localhost:8080/getjson/en.json')
+    //const vn = GetExternalApi('http://localhost:8080/getjson/vn.json')
+
     useTranslation()
 
     const t = useTranslation()

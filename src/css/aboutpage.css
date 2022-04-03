@@ -22,7 +22,6 @@
 }
 
 .about .left h1 {
-    font-size: 25px;
     padding-bottom: 30px;
     text-align: center;
 }
@@ -31,6 +30,8 @@
     padding-bottom: 13px;
     width: 90%;
     margin: auto;
+    text-indent: 50px;
+    line-height: 150%;
 }
 
 .about .right {
@@ -39,8 +40,7 @@
 }
 
 .about .right h1 {
-    font-size: 25px;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
     text-align: center;
 }
 .about .right .logo {
