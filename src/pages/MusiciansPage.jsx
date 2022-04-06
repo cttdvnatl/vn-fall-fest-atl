@@ -7,10 +7,12 @@ const Musicians = (list) => {
     return (
         <>
         {list.data.map((musicians) => (
-            <div class="musician">
-            <img src={musicians.img} alt={musicians.img}/>
-            <h1>{musicians.name}</h1>
-            <p>{musicians.caption}</p>
+            <div class={musicians.style + ' musician'}>
+                <img src={musicians.img} alt={musicians.img}/>
+                <div class="column">
+                    <h1>{musicians.name}</h1>
+                    <p>{musicians.caption}</p>
+                </div>
             </div>
         ))}
         </>

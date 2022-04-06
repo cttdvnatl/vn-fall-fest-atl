@@ -19,7 +19,7 @@ const ContactPage = () => {
         e.preventDefault();
         if (nameInput.current.value !== '' && emailInput !== '' && message !== '' && captcha === true) {
             submit.current.remove();
-            emailjs.sendForm('service_sp14yo9', 'template_32mxm9p', form.current, 'user_1frMaiJsHvHVAu5PqTi5X')
+            emailjs.sendForm('service_fczangn', 'template_32mxm9p', form.current, 'user_1frMaiJsHvHVAu5PqTi5X')
               .then((result) => {
                   //console.log(result.text);
                   window.location.href = "/form-success";

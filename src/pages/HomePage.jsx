@@ -3,8 +3,9 @@ import {getLanguage, useTranslation} from 'react-multi-lang';
 import vn from '../database/vn';
 import en from '../database/en';
 import SlideShow from '../components/SlideShow';
-import Sponsors from '../components/Sponsors'
+import Sponsors from '../components/Sponsors';
 import PhotoGallery from '../components/PhotoGallery';
+import FestivalStatistics from '../components/FestivalStatistics';
 
 const Homepage = () => {
     useTranslation();
@@ -27,6 +28,7 @@ const Homepage = () => {
         <Sponsors/>
         <PhotoGallery data={photoGalleryDataOne}/>
         <PhotoGallery data={photoGalleryDataTwo}/>
+        <FestivalStatistics/>
         </>
     )
 }

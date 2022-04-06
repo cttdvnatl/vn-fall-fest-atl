@@ -11,7 +11,9 @@
 }
 
 .about {
-    padding: 30px;
+    padding: 40px;
+    padding-top: 60px;
+    padding-bottom: 140px;
     display: flex;
     max-width: 1300px;
     margin: auto;
