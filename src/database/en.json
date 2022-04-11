@@ -455,43 +455,37 @@
         "pageTitle": "Directions",
         "routes": [
             {   
-                "title": "Route One",
+                "title": "From South Of Highway 85",
                 "content": [
                     {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidi, "
+                        "instruction": "Take Highway 85 North to exit 102 Beaver Ruin road"
                     },
                     {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur, "
+                        "instruction": "Take a right at the traffic light onto Beaver Ruin road"
                     },
                     {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
+                        "instruction": "Take a left at the traffic light onto Shackleford road"
                     },
-                    {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing empor incididunt ut , "
-                    },
-                    {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
-                    }
+                  {
+                    "instruction": "The Festival is on the left after the church main entrance, follow the signs to Festival's parking lots"
+                  }
                 ]
             },
             {   
-                "title": "Route Two",
+                "title": "From North of Highway 85",
                 "content": [
-                    {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
-                    },
-                    {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
-                    },
-                    {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
-                    },
-                    {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
-                    },
-                    {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
-                    }
+                  {
+                    "instruction": "Take Highway 85 South to exit 102 Beaver Ruin road"
+                  },
+                  {
+                    "instruction": "Take a left at the traffic light onto Beaver Ruin road"
+                  },
+                  {
+                    "instruction": "Cross the bridge then take a left at the traffic light onto Shackleford road"
+                  },
+                  {
+                    "instruction": "The Festival is on the left after the church main entrance, follow the signs to Festival's parking lots"
+                  }
                 ]
             }
         ]

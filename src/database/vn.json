@@ -455,46 +455,40 @@
     "directions": {
         "pageTitle": "Directions",
         "routes": [
-            {   
-                "title": "Route One",
-                "content": [
-                    {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidi, "
-                    },
-                    {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur, "
-                    },
-                    {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
-                    },
-                    {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing empor incididunt ut , "
-                    },
-                    {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
-                    }
-                ]
-            },
-            {   
-                "title": "Route Two",
-                "content": [
-                    {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur "
-                    },
-                    {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut "
-                    },
-                    {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing tempor incididunt ut  "
-                    },
-                    {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscin, "
-                    },
-                    {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
-                    }
-                ]
-            }
+          {
+            "title": "Từ phía Nam của Xa lộ 85",
+            "content": [
+              {
+                "instruction": "Đi theo Xa lộ 85 về phía Bắc sau đó vào exit 102 Beaver Ruin road"
+              },
+              {
+                "instruction": "Rẽ phải ở đèn giao thông vào đường Beaver Ruin road"
+              },
+              {
+                "instruction": "Rẽ trái ở đèn giao thông vào đường Shackleford"
+              },
+              {
+                "instruction": "Hội chợ nằm bên trái sau lối vào chính của nhà thờ, đi theo biển chỉ dẫn đến bãi đậu xe của Lễ hội"
+              }
+            ]
+          },
+          {
+            "title": "Từ phía Bắc của Xa lộ 85",
+            "content": [
+              {
+                "instruction": "Đi theo Xa lộ 85 về phía Nam sau đó vào exit 102 Beaver Ruin road"
+              },
+              {
+                "instruction": "Rẽ trái ở đèn giao thông vào đường Beaver Ruin road"
+              },
+              {
+                "instruction": "Đi qua cầu rồi rẽ trái ở đèn giao thông vào đường Shackleford road"
+              },
+              {
+                "instruction": "Hội chợ nằm bên trái sau lối vào chính của nhà thờ, đi theo biển chỉ dẫn đến bãi đậu xe của Lễ hội"
+              }
+            ]
+          }
         ]
     },
     "donations": {
