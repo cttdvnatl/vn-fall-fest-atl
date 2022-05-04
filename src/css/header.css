@@ -4,7 +4,7 @@
 
 /* Top Header CSS*/
 nav.desktop-view div.top-header {
-    background-color: #C7E689;
+    background-color: #f0ec1a;
     height: 50px;
     width: 100%;
     border-bottom: solid 1px black;
@@ -83,7 +83,7 @@ nav.desktop-view div.top-header div.top-header-items-right div.translation-butto
 /* Navagation CSS*/
 nav.desktop-view div.main-header {
     width: 100%;
-    background-color: #C7E689;
+    background-color: #f0ec1a;
     height: 100px;
     box-shadow: 0 10px 6px -6px gray;
 }
@@ -165,7 +165,8 @@ nav.desktop-view div.main-header ul li ul li a {
 nav.desktop-view div.main-header ul li ul li a:hover {
     color: white;
     transition: .2s;
-    background-color: #C7E689;
+    font-size:larger;
+    background-color: #f0ec1a;
 }
 
 /*logo*/
