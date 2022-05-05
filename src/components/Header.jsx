@@ -145,9 +145,14 @@ const Header = () => {
             <div class="top-header">
                 <div class="top-header-items-left">
                     <div class="back-to-main">
-                        <a href="https://www.hvmatl.org">Back to main site</a>
+                        <a href="https://www.hvmatl.org">main</a>
                     </div>
                     <SocialIcons/>
+                </div>
+                <div class="top-header-items-center">
+                    <div class="announcement-area">
+                    <p>Friday - Sunday / September 2 - 4</p>
+                    </div>
                 </div>
                 <div class="top-header-items-right">
                     <a href={t('topHeader.link1.link')} class="top-header-button">{t('topHeader.link1.text')}</a>
