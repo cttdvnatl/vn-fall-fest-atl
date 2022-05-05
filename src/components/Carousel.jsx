@@ -3,16 +3,16 @@ import {getLanguage, useTranslation} from 'react-multi-lang';
 import vn from '../database/vn';
 import en from '../database/en';
 
-const Slides = ({list}) => {
-    const [currentSlide, setSlide] = useState(0);
+const CarouselList = ({list}) => {
+    const [currentImage, setImage] = useState(0);
     const { length } = list;
 
     const nextSlide = () => {
-        setSlide(currentSlide === length - 1 ? 0 : currentSlide + 1);
+        setImage(currentImage === length - 1 ? 0 : currentImage + 1);
     }
 
     const prevSlide = () => {
-        setSlide(currentSlide === 0 ? length - 1 : currentSlide - 1);
+        setImage(currentImage === 0 ? length - 1 : currentImage - 1);
     }
 
 //    setTimeout(() => {
@@ -21,11 +21,11 @@ const Slides = ({list}) => {
 
     return (
         <>
-        {list.map((slides, index) => (
-            <div class={index === currentSlide ? "slides active" : "slides"} key={slides.title} aria-hidden={index !== currentSlide} style={{}}>
+        {list.map((carousel, index) => (
+            <div class={index === currentImage ? "slides active" : "slides"} key={carousel.title} aria-hidden={index !== currentImage} style={{}}>
                     <div class="slide-overlay-left" onClick={prevSlide}></div>
                     <div class="slide-overlay-right" onClick={nextSlide}></div>
-                    <img alt={slides.slideNumber} src={slides.slide}></img>
+                    <img alt={carousel.imageNumber} src={carousel.image}></img>
                     <div class="filler"/>
             </div>
         ))}
@@ -33,25 +33,25 @@ const Slides = ({list}) => {
     )
 }
 
-const SlideShow = () => {
+const Carousel = () => {
     useTranslation();
 
     let Data;
 
     if (getLanguage() === 'vn') {
-        Data = vn.slides;
+        Data = vn.carousel;
     }
     if (getLanguage() === 'en') {
-        Data = en.slides;
+        Data = en.carousel;
     }
 
     return (
         <>
         <div class="slideshow-container">
-            <Slides list={Data} />
+            <CarouselList list={Data} />
         </div>
         </>
     )
 }
 
-export default SlideShow;
+export default Carousel;

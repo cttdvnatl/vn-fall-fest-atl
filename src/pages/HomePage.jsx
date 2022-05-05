@@ -2,7 +2,7 @@ import React from 'react';
 import {getLanguage, useTranslation} from 'react-multi-lang';
 import vn from '../database/vn';
 import en from '../database/en';
-import SlideShow from '../components/SlideShow';
+import Carousel from '../components/Carousel';
 import Sponsors from '../components/Sponsors';
 import PhotoGallery from '../components/PhotoGallery';
 import FestivalStatistics from '../components/FestivalStatistics';
@@ -24,7 +24,7 @@ const Homepage = () => {
 
     return (
         <>
-        <SlideShow/>
+        <Carousel/>
         <Sponsors/>
         <PhotoGallery data={photoGalleryDataOne}/>
         <PhotoGallery data={photoGalleryDataTwo}/>

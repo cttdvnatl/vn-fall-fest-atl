@@ -48,11 +48,11 @@
     "socialIcons": [
         {
             "link": "https://facebook.com",
-            "image": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/social-icons/facebook/107175_circle_facebook_icon.png"
+            "image": "http://hvmatl.net/gallery/LHMT_img/Common/social-icons/facebook/107175_circle_facebook_icon.png"
         },
         {
             "link": "https://youtube.com",
-            "image": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/social-icons/youtube/317714_video_youtube_icon.png"
+            "image": "http://hvmatl.net/gallery/LHMT_img/Common/social-icons/youtube/317714_video_youtube_icon.png"
         }
     ],
     "footer": [
@@ -101,16 +101,16 @@
                 "background": "background-color-black",
                 "content": [
                     {
-                        "img": "https://via.placeholder.com/600x400"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
                     },
                     {
-                        "img": "https://via.placeholder.com/600x400"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
                     },
                     {
-                        "img": "https://via.placeholder.com/600x400"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
                     },
                     {
-                        "img": "https://via.placeholder.com/600x400"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
                     }
                 ]
             }
@@ -120,16 +120,19 @@
                 "galleryStyle": "gallery-style-1",
                 "content": [
                     {
-                        "img": "https://via.placeholder.com/600x400"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
                     },
                     {
-                        "img": "https://via.placeholder.com/600x400"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
                     },
                     {
-                        "img": "https://via.placeholder.com/600x400"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
                     },
                     {
-                        "img": "https://via.placeholder.com/600x400"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
+                    },
+                    {
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
                     }
                 ]
             }
@@ -172,71 +175,71 @@
         ],
         "logos": [
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/logos/festival-banners/2021.jpg",
+                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2021.jpg",
                 "year": "2021"
             },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/logos/festival-banners/2020.jpg",
+                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2020.jpg",
                 "year": "2020"
             },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/logos/festival-banners/2019.jpg",
+                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2019.jpg",
                 "year": "2019"
             },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/logos/festival-banners/2018.jpg",
+                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2018.jpg",
                 "year": "2018"
             },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/logos/festival-banners/2017.jpg",
+                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2017.jpg",
                 "year": "2017"
             },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/logos/festival-banners/2016.jpg",
+                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2016.jpg",
                 "year": "2016"
             },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/logos/festival-banners/2015.jpg",
+                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2015.jpg",
                 "year": "2015"
             },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/logos/festival-banners/2014.jpg",
+                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2014.jpg",
                 "year": "2014"
             },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/logos/festival-banners/2013.jpg",
+                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2013.jpg",
                 "year": "2013"
             },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/logos/festival-banners/2012.jpg",
+                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2012.jpg",
                 "year": "2012"
             },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/logos/festival-banners/2011.jpg",
+                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2011.jpg",
                 "year": "2011"
             },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/logos/festival-banners/2010.jpg",
+                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2010.jpg",
                 "year": "2010"
             },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/logos/festival-banners/2009.jpg",
+                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2009.jpg",
                 "year": "2009"
             }
         ]
     },
-    "slides": [
+    "carousel": [
         {
-            "slide": "https://via.placeholder.com/1400x700",
-            "slideNumber": "1"
+            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Carousel/1400x800.png",
+            "imageNumber": "1"
         },
         {
-            "slide": "https://via.placeholder.com/1400x800",
-            "slideNumber": "2"
+            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Carousel/1400x800.png",
+            "imageNumber": "2"
         },
         {
-            "slide": "https://via.placeholder.com/1400x900",
-            "slideNumber": "3"
+            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Carousel/1400x800.png",
+            "imageNumber": "3"
         }
     ],
     "sponsorList": {
@@ -244,7 +247,7 @@
             {
                 "title": "Main Sponsor",
                 "class": "main-sponsor",
-                "img": "https://via.placeholder.com/1000x1000"
+                "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/main/1000x1000.png"
             }
         ],
         "otherSponsors": [
@@ -253,16 +256,16 @@
                 "class": "other-sponsor",
                 "content": [
                     {
-                        "img": "https://via.placeholder.com/160x80"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
                     },
                     {
-                        "img": "https://via.placeholder.com/160x80"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
                     },
                     {
-                        "img": "https://via.placeholder.com/160x80"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
                     },
                     {
-                        "img": "https://via.placeholder.com/160x80"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
                     }
                 ]
             },
@@ -271,28 +274,22 @@
                 "class": "other-sponsor",
                 "content": [
                     {
-                        "img": "https://via.placeholder.com/160x80"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
                     },
                     {
-                        "img": "https://via.placeholder.com/160x80"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
                     },
                     {
-                        "img": "https://via.placeholder.com/160x80"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
                     },
                     {
-                        "img": "https://via.placeholder.com/160x80"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
                     },
                     {
-                        "img": "https://via.placeholder.com/160x80"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
                     },
                     {
-                        "img": "https://via.placeholder.com/160x80"
-                    },
-                    {
-                        "img": "https://via.placeholder.com/160x80"
-                    },
-                    {
-                        "img": "https://via.placeholder.com/160x80"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
                     }
                 ]
             }
@@ -301,7 +298,7 @@
     "festivalSchedule": {
         "schedule1": [
             {
-                "image": "https://via.placeholder.com/1100x650"
+                "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Pages/FestivalSchedule/1100x650.png"
             }
         ],
         "schedule2": [
@@ -397,31 +394,25 @@
     "musicians": [
         {
             "style": "text-left",
-            "img": "https://via.placeholder.com/400",
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Pages/Musicians/400.png",
             "name": "Musician Name",
             "caption": "This is a description of the Musician"
         },
         {
             "style": "text-right",
-            "img": "https://via.placeholder.com/400",
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Pages/Musicians/400.png",
             "name": "Musician Name",
             "caption": "This is a description of the Musician"
         },
         {
             "style": "text-left",
-            "img": "https://via.placeholder.com/400",
-            "name": "Musician Name",
-            "caption": "This is a description of the Musician"
-        },
-        {
-            "style": "text-center",
-            "img": "https://via.placeholder.com/400",
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Pages/Musicians/400.png",
             "name": "Musician Name",
             "caption": "This is a description of the Musician"
         }
     ],
     "contests": {
-        "image": "https://via.placeholder.com/850x1100",
+        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Pages/Contests/1100x650.png",
         "content": [
             {
                 "link": "",
@@ -441,14 +432,14 @@
         {
             "title": "Title",
             "info": "This is some info",
-            "img": "https://via.placeholder.com/1100x650"
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Pages/Raffles/1100x650.png"
         }
     ],
     "menu": {
         "pageTitle": "Menu Page",
         "content": [
             {
-                "img": "https://via.placeholder.com/1100x650"
+                "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Pages/Menu/1100x650.png"
             }
         ]
     },
@@ -456,7 +447,7 @@
         "pageTitle": "Vendors",
         "content": [
             {
-                "img": "https://via.placeholder.com/1100x650"
+                "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Pages/Vendors/1100x650.png"
             }
         ]
     },
@@ -464,43 +455,37 @@
         "pageTitle": "Directions",
         "routes": [
             {   
-                "title": "Route One",
+                "title": "From South Of Highway 85",
                 "content": [
                     {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidi, "
+                        "instruction": "Take Highway 85 North to exit 102 Beaver Ruin road"
                     },
                     {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur, "
+                        "instruction": "Take a right at the traffic light onto Beaver Ruin road"
                     },
                     {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
+                        "instruction": "Take a left at the traffic light onto Shackleford road"
                     },
-                    {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing empor incididunt ut , "
-                    },
-                    {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
-                    }
+                  {
+                    "instruction": "The Festival is on the left after the church main entrance, follow the signs to Festival's parking lots"
+                  }
                 ]
             },
             {   
-                "title": "Route Two",
+                "title": "From North of Highway 85",
                 "content": [
-                    {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
-                    },
-                    {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
-                    },
-                    {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
-                    },
-                    {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
-                    },
-                    {
-                        "instruction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
-                    }
+                  {
+                    "instruction": "Take Highway 85 South to exit 102 Beaver Ruin road"
+                  },
+                  {
+                    "instruction": "Take a left at the traffic light onto Beaver Ruin road"
+                  },
+                  {
+                    "instruction": "Cross the bridge then take a left at the traffic light onto Shackleford road"
+                  },
+                  {
+                    "instruction": "The Festival is on the left after the church main entrance, follow the signs to Festival's parking lots"
+                  }
                 ]
             }
         ]
