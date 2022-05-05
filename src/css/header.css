@@ -22,7 +22,7 @@ nav.desktop-view div.top-header div.top-header-items-left {
 /* Top Header Items center*/
 nav.desktop-view div.top-header div.top-header-items-center {
     display: inline-block;
-    width: 65%;
+    width: 60%;
     padding-top: 10px;
     font-style: italic;
     font-family: 'Franklin Gothic Medium';
