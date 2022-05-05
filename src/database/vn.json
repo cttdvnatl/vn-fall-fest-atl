@@ -231,15 +231,15 @@
     },
     "carousel": [
         {
-            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Carousel/1400x800.png",
+            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022Invite.png",
             "imageNumber": "1"
         },
         {
-            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Carousel/1400x800.png",
+            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022Entertainer.jpg",
             "imageNumber": "2"
         },
         {
-            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Carousel/1400x800.png",
+            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022HappyNewYear.jpg",
             "imageNumber": "3"
         }
     ],
@@ -248,7 +248,7 @@
             {
                 "title": "Main Sponsor",
                 "class": "main-sponsor",
-                "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/main/1000x1000.png"
+                "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/main/S3SPA.png"
             }
         ],
         "otherSponsors": [

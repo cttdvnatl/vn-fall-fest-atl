@@ -151,7 +151,7 @@ const Header = () => {
                 </div>
                 <div class="top-header-items-center">
                     <div class="announcement-area">
-                    <p>Friday - Sunday / September 2 - 4</p>
+                    <p>September 2 - 3 - 4</p>
                     </div>
                 </div>
                 <div class="top-header-items-right">
