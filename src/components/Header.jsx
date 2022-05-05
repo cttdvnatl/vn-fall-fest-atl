@@ -145,9 +145,14 @@ const Header = () => {
             <div class="top-header">
                 <div class="top-header-items-left">
                     <div class="back-to-main">
-                        <a href="https://www.hvmatl.org">Back to main site</a>
+                        <a href="https://www.hvmatl.org">main</a>
                     </div>
                     <SocialIcons/>
+                </div>
+                <div class="top-header-items-center">
+                    <div class="announcement-area">
+                    <p>Friday - Sunday / September 2 - 4</p>
+                    </div>
                 </div>
                 <div class="top-header-items-right">
                     <a href={t('topHeader.link1.link')} class="top-header-button">{t('topHeader.link1.text')}</a>
@@ -159,7 +164,7 @@ const Header = () => {
                 </div>
             </div>      
             <div ref={mainHeader} class="main-header">
-            <div class="logo"><a href="/"><img alt="logo" src="http://75.35.38.163:81/img/logos/2021/2021-LHMT-Logo-Dark-FF-72.png"></img></a></div>
+            <div class="logo"><a href="/"><img alt="logo" src="http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Logos/2021-LHMT-Logo-Dark-FF-72.png"></img></a></div>
                 <ul ref={sideNav} class="closeSideNav">
                     <span class="close" onClick={() => closeSideNav()}>&#10005;</span>
                     <li><p><a href={t('header.dropdownOne.href')}>{t('header.dropdownOne.heading')}</a></p></li>
