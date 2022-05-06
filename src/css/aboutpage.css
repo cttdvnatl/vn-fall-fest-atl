@@ -15,6 +15,7 @@
     padding-top: 60px;
     padding-bottom: 140px;
     display: flex;
+    width: 95%;
     max-width: 1300px;
     margin: auto;
 }
@@ -39,6 +40,7 @@
 .about .right {
     width: 100%;
     margin: auto;
+    margin-top: 0;
 }
 
 .about .right h1 {
