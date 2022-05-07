@@ -102,16 +102,22 @@
                 "background": "background-color-black",
                 "content": [
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne1.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne2.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne3.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne4.png"
+                    },
+                    {
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne5.png"
+                    },
+                    {
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne6.png"
                     }
                 ]
             }
@@ -121,19 +127,31 @@
                 "galleryStyle": "gallery-style-1",
                 "content": [
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo1.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo2.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo3.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo4.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo5.png"
+                    },
+                    {
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo6.png"
+                    },
+                    {
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo7.png"
+                    },
+                    {
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo8.png"
+                    },
+                    {
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo9.png"
                     }
                 ]
             }
