@@ -1,11 +1,26 @@
 import React from 'react';
-import {getLanguage, useTranslation} from 'react-multi-lang';
+import { getLanguage, useTranslation } from 'react-multi-lang';
 import vn from '../database/vn';
 import en from '../database/en';
 import Carousel from '../components/Carousel';
 import Sponsors from '../components/Sponsors';
 import PhotoGallery from '../components/PhotoGallery';
 import FestivalStatistics from '../components/FestivalStatistics';
+
+// temporari component to put a video here.
+// check with An Pham on where to put this as a generic component
+// and where to put the CSS
+// for now, the CSS for this is temporarily in homepage.css
+const VideoResponsive = () => (
+    <div className="video-responsive">
+        <video width="750" height="500" controls>
+            <source
+                src="/resources/pages/home/Promo.mp4"
+                type="video/mp4"
+            />
+        </video>
+    </div>
+);
 
 const Homepage = () => {
     useTranslation();
@@ -24,11 +39,12 @@ const Homepage = () => {
 
     return (
         <>
-        <Carousel/>
-        <Sponsors/>
-        <PhotoGallery data={photoGalleryDataOne}/>
-        <PhotoGallery data={photoGalleryDataTwo}/>
-        <FestivalStatistics/>
+            <Carousel />
+            <Sponsors />
+            <VideoResponsive />
+            <PhotoGallery data={photoGalleryDataOne} />
+            <PhotoGallery data={photoGalleryDataTwo} />
+            <FestivalStatistics />
         </>
     )
 }
