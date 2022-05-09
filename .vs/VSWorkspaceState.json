@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\database",
+    "\\src\\pages"
   ],
+  "SelectedNode": "\\src\\pages\\MusiciansPage.jsx",
   "PreviewInSolutionExplorer": false
 }

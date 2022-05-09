@@ -279,17 +279,17 @@
                 "title": "Diamond Sponsors",
                 "class": "other-sponsor",
                 "content": [
+                  {
+                    "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
+                  },
                     {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
                     },
                     {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
                     },
                     {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
-                    },
-                    {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
                     }
                 ]
             },
@@ -298,22 +298,22 @@
                 "class": "other-sponsor",
                 "content": [
                     {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
                     },
                     {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
                     },
                     {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
                     },
                     {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
                     },
                     {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
                     },
                     {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
                     }
                 ]
             }
@@ -321,9 +321,9 @@
     },
     "festivalSchedule": {
         "schedule1": [
-            {
-                "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Pages/FestivalSchedule/1100x650.png"
-            }
+          {
+            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1.jpg"
+          }
         ],
         "schedule2": [
             {
@@ -418,61 +418,61 @@
     "musicians": [
         {
             "style": "text-left",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Pages/Musicians/400.png",
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon3.jpg",
             "name": "Musician Name",
             "caption": "This is a description of the Musician"
         },
         {
             "style": "text-right",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Pages/Musicians/400.png",
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon3.jpg",
             "name": "Musician Name",
             "caption": "This is a description of the Musician"
         },
         {
             "style": "text-left",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Pages/Musicians/400.png",
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon3.jpg",
             "name": "Musician Name",
             "caption": "This is a description of the Musician"
         }
     ],
-    "contests": {
-        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Pages/Contests/1100x650.png",
-        "content": [
-            {
-                "link": "",
-                "formName": "Some sort of contest"
-            },
-            {
-                "link": "",
-                "formName": "Some other contest"
-            },
-            {
-                "link": "",
-                "formName": "Another Contest"
-            }
-        ]
-    },
+  "contests": {
+    "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon2.jpg",
+    "content": [
+      {
+        "link": "",
+        "formName": "Some sort of contest"
+      },
+      {
+        "link": "",
+        "formName": "Some other contest"
+      },
+      {
+        "link": "",
+        "formName": "Another Contest"
+      }
+    ]
+  },
     "raffles": [
-        {
-            "title": "Title",
-            "info": "This is some info",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Pages/Raffles/1100x650.png"
-        }
+      {
+        "title": "Title",
+        "info": "This is some info",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon2.jpg"
+      }
     ],
     "menu": {
         "pageTitle": "Menu Page",
         "content": [
-            {
-                "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Pages/Menu/1100x650.png"
-            }
+          {
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1.jpg"
+          }
         ]
     },
     "vendors": {
         "pageTitle": "Vendors",
         "content": [
-            {
-                "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Pages/Vendors/1100x650.png"
-            }
+          {
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon2.jpg"
+          }
         ]
     },
     "directions": {
