@@ -33,7 +33,9 @@
 }
 
 .directions-page a {
-    margin: 50px;
+    display: block;
+    margin-top: 30px;
+    color: darkblue;
 }
 
 .directions-page .directions-container h2 {
