@@ -30,15 +30,11 @@ nav.desktop-view div.top-header div.top-header-items-center {
     font-family: 'Franklin Gothic Medium';
 }
 
-nav.desktop-view div.top-header div.top-header-items-center .announcement-area {
-    width: 100%;
-}
-
-nav.desktop-view div.top-header div.top-header-items-center .announcement-area p {
+#eventDate {
     color: hsl(32, 88%, 52%);
-    margin: auto;
-    width: 40%;
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 25px;
 }
 
 nav.desktop-view div.top-header div.top-header-items-left .social-icons-component {
@@ -293,7 +289,7 @@ nav.mobile-view div.top-header div.top-header-items-right .top-header-button:hov
     transition: .3s;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
     .directionAndDonationDesktop {
         padding-top: 5px;
     }
@@ -312,7 +308,14 @@ nav.mobile-view div.top-header div.top-header-items-right .top-header-button:hov
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
+    #eventDate {
+        color: hsl(32, 88%, 52%);
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 15px;
+    }
+
     .directionAndDonationDesktop {
         display: none;
     }
