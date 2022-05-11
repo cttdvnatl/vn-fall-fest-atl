@@ -87,7 +87,7 @@ const Header = () => {
 
     //desktop to mobile view
     const resizeCallback = useCallback(() => {
-        if (window.innerWidth < 1000) {
+        if (window.innerWidth < 1231) {
             nav.current.classList.remove('desktop-view')
             nav.current.classList.add('mobile-view')
         }
@@ -155,8 +155,11 @@ const Header = () => {
                     </div>
                 </div>
                 <div class="top-header-items-right">
-                    <a href={t('topHeader.link1.link')} class="top-header-button">{t('topHeader.link1.text')}</a>
-                    <a href={t('topHeader.link2.link')} class="top-header-button">{t('topHeader.link2.text')}</a>
+                    <div class="directionAndDonationDesktop">
+                        <a href={t('topHeader.link1.link')}>{t('topHeader.link1.text')}</a>
+                        <a href={t('topHeader.link2.link')}>{t('topHeader.link2.text')}</a>
+                    </div>
+                    
                     <div class="translation-button">
                         <button style={displayVN} id="vn" class="translation-button" onClick={() => setLanguageVN()}>Tiếng Việt</button>
                         <button style={displayEN} id="en" class="translation-button" onClick={() => setLanguageEN()}>English</button>                
@@ -164,7 +167,19 @@ const Header = () => {
                 </div>
             </div>      
             <div ref={mainHeader} class="main-header">
-                    <div class="logo"><a href="/"><img alt="logo" src="http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/2022-LHMT-Logo-Dark-FF.png"></img></a></div>
+                <div class="logo">
+                    <a href="/"><img alt="logo" src="http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/2022-LHMT-Logo-Dark-FF.png"></img></a>
+                </div>
+
+                <div>
+                    <span onClick={() => openSideNav()} class="open">&#8801;</span>
+                </div> 
+
+                <div class="directionAndDonationMobile">
+                    <a href={t('topHeader.link1.link')}>{t('topHeader.link1.text')}</a>
+                    <a href={t('topHeader.link2.link')}>{t('topHeader.link2.text')}</a>
+                </div>      
+                    
                 <ul ref={sideNav} class="closeSideNav">
                     <span class="close" onClick={() => closeSideNav()}>&#10005;</span>
                     <li><p><a href={t('header.dropdownOne.href')}>{t('header.dropdownOne.heading')}</a></p></li>
@@ -185,8 +200,7 @@ const Header = () => {
                     </li>
                     <li><p><a href={t('header.dropdownFive.href')}>{t('header.dropdownFive.heading')}</a></p></li>
                     <li><p><a href={t('header.dropdownSix.href')}>{t('header.dropdownSix.heading')}</a></p></li>
-                </ul>
-                <span onClick={() => openSideNav()} class="open">&#8801;</span>
+                </ul>              
             </div>
         </nav>
         </>

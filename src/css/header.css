@@ -293,6 +293,47 @@ nav.mobile-view div.top-header div.top-header-items-right .top-header-button:hov
     transition: .3s;
 }
 
+@media screen and (min-width: 600px) {
+    .directionAndDonationDesktop {
+        padding-top: 5px;
+    }
+
+    .directionAndDonationDesktop a {
+        margin: auto;
+        padding: 7px;
+        margin-right: 25px;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+    }
+
+    .directionAndDonationMobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .directionAndDonationDesktop {
+        display: none;
+    }
+
+    .directionAndDonationMobile {
+        float: right;
+        padding-top: 26px;
+        padding-right: 10px;
+    }
+
+    .directionAndDonationMobile a {
+        font-size: 12px;
+        margin: auto;
+        padding: 5px;
+        margin-right: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+    }
+}
+
 /* Translation Button*/
 nav.mobile-view div.top-header div.top-header-items-right div.translation-button button.translation-button {
     color: red;
