@@ -22,7 +22,7 @@
             "heading": "Events",
             "item1": "Festival Schedule",
             "href1": "/festival-schedule",
-            "item2": "Musicians",
+            "item2": "Entertainers",
             "href2": "/musicians",
             "item3": "Contests",
             "href3": "/contests",
@@ -101,16 +101,22 @@
                 "background": "background-color-black",
                 "content": [
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne1.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne2.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne3.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne4.png"
+                    },
+                    {
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne5.png"
+                    },
+                    {
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne6.png"
                     }
                 ]
             }
@@ -120,19 +126,31 @@
                 "galleryStyle": "gallery-style-1",
                 "content": [
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo1.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo2.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo3.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo4.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/PhotoGallery/600x400.png"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo5.png"
+                    },
+                    {
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo6.png"
+                    },
+                    {
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo7.png"
+                    },
+                    {
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo8.png"
+                    },
+                    {
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo9.png"
                     }
                 ]
             }
@@ -147,7 +165,7 @@
             "heading5": "Food and Drink Items"
         },
         "values": {
-            "value1": "1000+",
+            "value1": "1,000+",
             "value2": "3",
             "value3": "10",
             "value4": "40,000+",
@@ -156,21 +174,27 @@
     },
     "about": {
         "title": {
-            "text1": "About Title",
+            "text1": "About Us",
             "text2": "Previous Logos"
         },
         "paragraphs": [
             {
-                "text": "This is a test local"
+                "text": "Our Holy Vietnamese Martyrs Catholic Church broke ground in 2005 to accommodate a growing population of Vietnamese Catholics in the Atlanta metropolitan area."
             },
             {
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tristique gravida ligula vel feugiat. Etiam suscipit laoreet lacus, vitae posuere odio luctus ac. Phasellus ultrices accumsan nisi, nec interdum velit scelerisque sit amet. Cras scelerisque sem et tellus rhoncus, vitae."
+                "text": "Despite selecting a new, larger location for worship, our congregation continued to grow. With over 4,000 parishioners, our services began to crowd and our classrooms began to overflow. It became apparent that a new, larger church needed to be constructed to replace the buildings that were used, and are still in use today."
             },
             {
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tristique gravida ligula vel feugiat. Etiam suscipit laoreet lacus, vitae posuere odio luctus ac. Phasellus ultrices accumsan nisi, nec interdum velit scelerisque sit amet. Cras scelerisque sem et tellus rhoncus, vitae."
+                "text": "The first fundraising festival was organized on January 24 & 25 of 2009. It was opened to the public as Hội Chợ Mùa Xuân 2009, translated as, “2009 Spring Festival.” The two-day event’s purpose was to fundraise for the development and construction of a new church; and to celebrate the Vietnamese cultural heritage. With over 10,000 festival-goers the first time around, we planned another festival for the fall of 2009. Hội Chợ Mùa Thu 2009 (“2009 Fall Festival”), a three-day event, brought in astonishing 20,000 festival-goers!"
             },
             {
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tristique gravida ligula vel feugiat. Etiam suscipit laoreet lacus, vitae posuere odio luctus ac. Phasellus ultrices accumsan nisi, nec interdum velit scelerisque sit amet. Cras scelerisque sem et tellus rhoncus, vitae."
+                "text": "After many observations and studies, core festival organizers decided to make an annual three-day fall festival, taking advantage of the convenience Labor Day had to offer."
+            },
+            {
+                "text": "Festival attendance grew annually. In a 2011 Fall Festival police survey, approximately 35,000 people entered our church grounds. Today, our Church’s annual fall festival is recognized by Vietnamese communities nation-wide, and is a main staple of Vietnamese Catholic communities in the Southeast United States. We help reunite families and friends, we teach our children and guests our Vietnamese heritage, and we contribute to the vibrancy of the region’s cultural and faith communities."
+            },
+            {
+                "text": "Come join us for our 2022 Fall Festival this September 2nd through September 4th, 2022.  Come enjoy our diverse music, our delicious food, and our rich culture.  Come help us turn our church to a vibrant sanctuary with rich Vietnamese tradition."
             }
         ],
         "logos": [
@@ -230,15 +254,15 @@
     },
     "carousel": [
         {
-            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Carousel/1400x800.png",
+            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022Invite.png",
             "imageNumber": "1"
         },
         {
-            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Carousel/1400x800.png",
+            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022Entertainer.jpg",
             "imageNumber": "2"
         },
         {
-            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Carousel/1400x800.png",
+            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022HappyNewYear.jpg",
             "imageNumber": "3"
         }
     ],
@@ -247,7 +271,7 @@
             {
                 "title": "Main Sponsor",
                 "class": "main-sponsor",
-                "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/main/1000x1000.png"
+                "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/main/S3SPA.png"
             }
         ],
         "otherSponsors": [
@@ -255,17 +279,17 @@
                 "title": "Diamond Sponsors",
                 "class": "other-sponsor",
                 "content": [
+                  {
+                    "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
+                  },
                     {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
                     },
                     {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
                     },
                     {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
-                    },
-                    {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
                     }
                 ]
             },
@@ -274,22 +298,22 @@
                 "class": "other-sponsor",
                 "content": [
                     {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
                     },
                     {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
                     },
                     {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
                     },
                     {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
                     },
                     {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
                     },
                     {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2021/Sponsors/diamond/160x80.png"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
                     }
                 ]
             }
@@ -297,9 +321,9 @@
     },
     "festivalSchedule": {
         "schedule1": [
-            {
-                "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Pages/FestivalSchedule/1100x650.png"
-            }
+          {
+            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
+          }
         ],
         "schedule2": [
             {
@@ -392,63 +416,63 @@
         ]
     },
     "musicians": [
-        {
-            "style": "text-left",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Pages/Musicians/400.png",
-            "name": "Musician Name",
-            "caption": "This is a description of the Musician"
-        },
+      {
+        "style": "text-left",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
+        "name": "Musician Name",
+        "caption": "This is a description of the Musician"
+      },
         {
             "style": "text-right",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Pages/Musicians/400.png",
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
             "name": "Musician Name",
             "caption": "This is a description of the Musician"
         },
         {
             "style": "text-left",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Pages/Musicians/400.png",
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
             "name": "Musician Name",
             "caption": "This is a description of the Musician"
         }
     ],
-    "contests": {
-        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Pages/Contests/1100x650.png",
-        "content": [
-            {
-                "link": "",
-                "formName": "Some sort of contest"
-            },
-            {
-                "link": "",
-                "formName": "Some other contest"
-            },
-            {
-                "link": "",
-                "formName": "Another Contest"
-            }
-        ]
-    },
+  "contests": {
+    "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650_2.jpg",
+    "content": [
+      {
+        "link": "",
+        "formName": "Some sort of contest"
+      },
+      {
+        "link": "",
+        "formName": "Some other contest"
+      },
+      {
+        "link": "",
+        "formName": "Another Contest"
+      }
+    ]
+  },
     "raffles": [
-        {
-            "title": "Title",
-            "info": "This is some info",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Pages/Raffles/1100x650.png"
-        }
+      {
+        "title": "Title",
+        "info": "This is some info",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
+      }
     ],
     "menu": {
         "pageTitle": "Menu Page",
         "content": [
-            {
-                "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Pages/Menu/1100x650.png"
-            }
+          {
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650_2.jpg"
+          }
         ]
     },
     "vendors": {
         "pageTitle": "Vendors",
         "content": [
-            {
-                "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Pages/Vendors/1100x650.png"
-            }
+          {
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
+          }
         ]
     },
     "directions": {

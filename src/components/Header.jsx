@@ -87,7 +87,7 @@ const Header = () => {
 
     //desktop to mobile view
     const resizeCallback = useCallback(() => {
-        if (window.innerWidth < 1100) {
+        if (window.innerWidth < 1200) {
             nav.current.classList.remove('desktop-view')
             nav.current.classList.add('mobile-view')
         }
@@ -110,7 +110,7 @@ const Header = () => {
     }, [resizeCallback, scrollCallback]);
 
     const openSideNav = () => {
-        if(window.innerWidth < 1100) {
+        if(window.innerWidth < 1200) {
             sideNav.current.classList.remove("closeSideNav");
             sideNav.current.classList.add("openSideNav");
         }
@@ -151,7 +151,7 @@ const Header = () => {
                 </div>
                 <div class="top-header-items-center">
                     <div class="announcement-area">
-                    <p>Friday - Sunday / September 2 - 4</p>
+                    <p>September 2 - 3 - 4</p>
                     </div>
                 </div>
                 <div class="top-header-items-right">
@@ -164,7 +164,7 @@ const Header = () => {
                 </div>
             </div>      
             <div ref={mainHeader} class="main-header">
-            <div class="logo"><a href="/"><img alt="logo" src="http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Logos/2021-LHMT-Logo-Dark-FF-72.png"></img></a></div>
+                    <div class="logo"><a href="/"><img alt="logo" src="http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/2022-LHMT-Logo-Dark-FF.png"></img></a></div>
                 <ul ref={sideNav} class="closeSideNav">
                     <span class="close" onClick={() => closeSideNav()}>&#10005;</span>
                     <li><p><a href={t('header.dropdownOne.href')}>{t('header.dropdownOne.heading')}</a></p></li>

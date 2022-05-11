@@ -16,14 +16,14 @@ nav.desktop-view div.top-header {
 nav.desktop-view div.top-header div.top-header-items-left {
     display: inline-flex;
     float: left;    
-    padding-top: 15px;
+    margin-top: 15px;
 }
 
 /* Top Header Items center*/
 nav.desktop-view div.top-header div.top-header-items-center {
     display: inline-block;
     width: 65%;
-    padding-top: 10px;
+    margin-top: 10px;
     font-style: italic;
     font-family: 'Franklin Gothic Medium';
 }
@@ -61,7 +61,7 @@ nav.desktop-view div.top-header div.top-header-items-left div.back-to-main a{
 /* Top Header Items Right*/
 nav.desktop-view div.top-header div.top-header-items-right {
     float: right;
-    padding-top: 10px;
+    margin-top: 10px;
     display: inline-flex;
 }
 
@@ -190,9 +190,19 @@ nav.desktop-view div.main-header ul li ul li a:hover {
 }
 
 /*logo*/
+
+nav.desktop-view div.logo {
+    width: 200px;
+    height: auto;
+    margin-top: 2px;
+    padding-left: 40px;
+    float: left;
+}
+
 nav.desktop-view div.logo img {
     width: 200px;
-    padding-top: 2px;
+    height: auto;
+    margin-top: 2px;
     padding-left: 40px;
     float: left;
 }
@@ -225,14 +235,13 @@ nav.mobile-view div.top-header {
 
 nav.mobile-view div.top-header div.top-header-items-left {
     display: inline-flex;
-    float: left;    
-    padding-top: 15px;
+    float: left;
+    margin-top: 15px;
 }
 /* Top Header Items center*/
 nav.mobile-view div.top-header div.top-header-items-center {
     display: inline-flex;
-    width: 50%;
-    padding-top: 20px;
+    margin-top: 20px;
     font-style: italic;
     font-family: 'Franklin Gothic Medium';
 }
@@ -261,7 +270,7 @@ nav.mobile-view div.top-header div.top-header-items-left div.back-to-main a{
 /* Top Header Items Right*/
 nav.mobile-view div.top-header div.top-header-items-right {
     float: right;
-    padding-top: 10px;
+    margin-top: 10px;
     display: inline-flex;
 }
 
