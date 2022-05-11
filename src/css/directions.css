@@ -25,7 +25,6 @@
 }
 
 .directions-page iframe {
-    margin: 30px;
     width: 95%;
     margin: auto;
     height: 600px;
@@ -33,16 +32,28 @@
     border: 0;
 }
 
-.directions-page .directions-container ul {
+.directions-page a {
+    display: block;
+    margin-top: 30px;
+    color: darkblue;
+}
+
+.directions-page .directions-container h2 {
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.directions-page .directions-container ol {
+    max-width: 400px;
     display: flex;
     flex-direction: column;
-    list-style: none;
     margin: auto;
     padding: 40px;
 }
 
-.directions-page .directions-container ul li {
+.directions-page .directions-container ol li {
     margin: auto;
-    padding: 20px;
-    color: grey;
+    padding: 10px;
+    line-height: 30px;
+    color: #404040;
 }

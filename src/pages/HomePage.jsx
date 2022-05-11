@@ -13,7 +13,7 @@ import FestivalStatistics from '../components/FestivalStatistics';
 // for now, the CSS for this is temporarily in homepage.css
 const VideoResponsive = () => (
     <div className="video-responsive">
-        <video width="750" height="500" controls>
+        <video width="750" height="500" controls autoPlay muted>
             <source
                 src="/resources/pages/home/Promo.mp4"
                 type="video/mp4"
