@@ -22,8 +22,10 @@ nav.desktop-view div.top-header div.top-header-items-left {
 /* Top Header Items center*/
 nav.desktop-view div.top-header div.top-header-items-center {
     display: inline-block;
-    width: 65%;
-    margin-top: 10px;
+    position: absolute;
+    width: 100%;
+    padding-top: 7px;
+    margin: auto;
     font-style: italic;
     font-family: 'Franklin Gothic Medium';
 }
@@ -131,8 +133,8 @@ nav.desktop-view div.main-header ul li p {
     color: black;
     font-size: 18px;
     padding-top: 35px;
-    padding-bottom: 44px;
     padding-right: 60px;
+    padding-bottom: 44px;
     cursor: pointer;
 }
 
@@ -241,7 +243,9 @@ nav.mobile-view div.top-header div.top-header-items-left {
 /* Top Header Items center*/
 nav.mobile-view div.top-header div.top-header-items-center {
     display: inline-flex;
-    margin-top: 20px;
+    position: absolute;
+    margin: auto;
+    margin-top: 15px;
     font-style: italic;
     font-family: 'Franklin Gothic Medium';
 }
@@ -287,6 +291,47 @@ nav.mobile-view div.top-header div.top-header-items-right .top-header-button {
 nav.mobile-view div.top-header div.top-header-items-right .top-header-button:hover{
     color: white;
     transition: .3s;
+}
+
+@media screen and (min-width: 600px) {
+    .directionAndDonationDesktop {
+        padding-top: 5px;
+    }
+
+    .directionAndDonationDesktop a {
+        margin: auto;
+        padding: 7px;
+        margin-right: 25px;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+    }
+
+    .directionAndDonationMobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .directionAndDonationDesktop {
+        display: none;
+    }
+
+    .directionAndDonationMobile {
+        float: right;
+        padding-top: 26px;
+        padding-right: 10px;
+    }
+
+    .directionAndDonationMobile a {
+        font-size: 12px;
+        margin: auto;
+        padding: 5px;
+        margin-right: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+    }
 }
 
 /* Translation Button*/

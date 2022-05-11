@@ -1,5 +1,12 @@
 .contact-page {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffe6;
+}
+
+.contact-form {
     padding: 30px;
+    background-color: white;
     text-align: center;
     display: block;
     width: 70%;
@@ -13,22 +20,22 @@
     margin-bottom: 140px;
 }
 
-.contact-page h1 {
+.contact-form h1 {
     margin-bottom: 40px;
 }
 
-.contact-page .contact-form-row {
+.contact-form .contact-form-row {
     width: 100%;
     padding-bottom: 30px;
     display: inline-flex;
     margin: auto;
 }
 
-.contact-page .contact-form-row .contact-form-input {
+.contact-form .contact-form-row .contact-form-input {
     width: 100%;
 }
 
-.contact-page .contact-form-row .contact-form-input input {
+.contact-form .contact-form-row .contact-form-input input {
     width: 98%;
     height: 40px;
     font-size: 20px;
@@ -37,14 +44,14 @@
     border-radius: 4px;
 }
 
-.contact-page .contact-form-row .contact-form-input-message {
+.contact-form .contact-form-row .contact-form-input-message {
     margin: auto;
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.contact-page .contact-form-row .contact-form-input-message textarea {
+.contact-form .contact-form-row .contact-form-input-message textarea {
     width: 100%;
     height: 300px;
     margin-left: auto;
@@ -55,7 +62,7 @@
     background: #fff;
 }
 
-.contact-page .contact-form-row .contact-form-submit {
+.contact-form .contact-form-row .contact-form-submit {
     margin: auto;
     margin-top: 10px;
     padding: 11px;
@@ -64,10 +71,10 @@
     border-radius: 6px;
 }
 
-.contact-page .contact-form-row .contact-form-submit:hover {
+.contact-form .contact-form-row .contact-form-submit:hover {
     background-color: #f2f2f2
 }
 
-.contact-page .contact-form-row .contact-form-submit:active {
+.contact-form .contact-form-row .contact-form-submit:active {
     background-color: #e6e6e6
 }

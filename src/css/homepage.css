@@ -2,13 +2,14 @@
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
+    background-color: #ffff99;
     height: 0;
 }
   
 .video-responsive video {
-left: 10%;
-top: 0;
-height: 100%;
-width: 80%;
-position: absolute;
+    left: 10%;
+    top: 0;
+    height: 100%;
+    width: 80%;
+    position: absolute;
 }
