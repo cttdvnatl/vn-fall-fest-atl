@@ -175,27 +175,27 @@
     },
     "about": {
         "title": {
-            "text1": "Giới Thiệu",
+            "text1": "About Title",
             "text2": "Previous Logos"
         },
         "paragraphs": [
             {
-                "text": "Nhà Thờ Các Thánh Tử Đạo Việt Nam được khởi công vào năm 2005 để đáp ứng sự gia tăng giáo dân của cộng đồng Công Giáo Việt Nam tại Atlanta và vùng phụ cận."
+                "text": "Our Holy Vietnamese Martyrs Catholic Church broke ground in 2005 to accommodate a growing population of Vietnamese Catholics in the Atlanta metropolitan area."
             },
             {
-                "text": "Tuy đã chọn địa điểm thờ phượng lớn hơn, nhưng với hơn 4,000 giáo dân, các cơ sở hiện có trở nên chật chội và không đủ để đáp ứng nhu cầu thờ phượng và giáo dục của cộng đoàn. Do đó, chúng tôi bắt đầu dự tính xây dựng nhà thờ mới để thay thế những toà nhà cũ, hiện vẫn còn đang được xử dụng."
+                "text": "Despite selecting a new, larger location for worship, our congregation continued to grow. With over 4,000 parishioners, our services began to crowd and our classrooms began to overflow. It became apparent that a new, larger church needed to be constructed to replace the buildings that were used, and are still in use today."
             },
             {
-                "text": "Hội chợ gây quỹ đầu tiên dưới tên Hội Chợ Mùa Xuân 2009, tiếng Anh là ‘2009 Spring Festival,’ bắt đầu ngày 24 & 25 trong tháng Giêng năm 2009. Mục đích của hai ngày hội chợ là để gây quỹ phát triển và xây dựng giáo đường mới, cũng như là để chia xẻ văn hóa Việt Nam đến với tất cả mọi người. Sau khi đón hơn 10,000 khách đến thanh dự hội chợ, chúng tôi đã tổ chức thêm hội chợ mùa thu trong cùng năm. Chúng tôi đã đón hơn 20,000 khách trong ba ngày Hội Chợ Mùa Thu 2009 (‘2009 Fall Festival’)."
+                "text": "The first fundraising festival was organized on January 24 & 25 of 2009. It was opened to the public as Hội Chợ Mùa Xuân 2009, translated as, “2009 Spring Festival.” The two-day event’s purpose was to fundraise for the development and construction of a new church; and to celebrate the Vietnamese cultural heritage. With over 10,000 festival-goers the first time around, we planned another festival for the fall of 2009. Hội Chợ Mùa Thu 2009 (“2009 Fall Festival”), a three-day event, brought in astonishing 20,000 festival-goers!"
             },
             {
-                "text": "Sau nhiều cân nhắc, Ban Tổ Chức đại hội đã quyết định tổ chức ba ngày hội chợ mùa thu trong dịp Lễ Lao Động hằng năm."
+                "text": "After many observations and studies, core festival organizers decided to make an annual three-day fall festival, taking advantage of the convenience Labor Day had to offer."
             },
             {
-                "text": "Khách tham dự hội chợ tăng đều hằng năm. Hội Chợ Mùa Thu 2011 đã mang đến 35,000 khách theo thống kê của Cảnh Sát Hạt Gwinnett. Ngày nay, sự kiện này được xem như một trong những hoạt động tiêu biểu của Cộng Đồng Công Giáo Việt Nam, cũng như của người Việt tại miền Đông Nam Hoa Kỳ. Hội chợ là nơi quy tụ gia đình và bằng hữu, duy trì di sản văn hóa Việt Nam đến thế hệ sau, cũng như giới thiệu văn hóa của chúng ta đến với các cộng đồng khác trong vùng."
+                "text": "Festival attendance grew annually. In a 2011 Fall Festival police survey, approximately 35,000 people entered our church grounds. Today, our Church’s annual fall festival is recognized by Vietnamese communities nation-wide, and is a main staple of Vietnamese Catholic communities in the Southeast United States. We help reunite families and friends, we teach our children and guests our Vietnamese heritage, and we contribute to the vibrancy of the region’s cultural and faith communities."
             },
             {
-                "text": "Xin mời tất cả mọi người đến dự Lễ Hội Mùa Thu 2022 với chúng tôi từ ngày 2 đến ngày 4 tháng 9. Đến để thưởng thức âm nhạc đa dạng, thức ăn ngon miệng, và văn hóa cổ truyền của cộng đồng chúng tôi. Đến để giúp chúng tôi xây dựng giáo xứ thành một nơi nương tựa về tinh thần cho tất cả mọi người qua những truyền thống đậm nét văn hóa Việt Nam."
+                "text": "Come join us for our 2022 Fall Festival this September 2nd through September 4th, 2022.  Come enjoy our diverse music, our delicious food, and our rich culture.  Come help us turn our church to a vibrant sanctuary with rich Vietnamese tradition."
             }
         ],
         "logos": [
@@ -323,7 +323,7 @@
     "festivalSchedule": {
         "schedule1": [
           {
-            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1.jpg"
+            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
           }
         ],
         "schedule2": [
@@ -419,25 +419,25 @@
     "musicians": [
         {
             "style": "text-left",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon3.jpg",
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
             "name": "Musician Name",
             "caption": "This is a description of the Musician"
         },
         {
             "style": "text-right",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon3.jpg",
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
             "name": "Musician Name",
             "caption": "This is a description of the Musician"
         },
         {
             "style": "text-left",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon3.jpg",
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
             "name": "Musician Name",
             "caption": "This is a description of the Musician"
         }
     ],
   "contests": {
-    "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon2.jpg",
+    "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650_2.jpg",
     "content": [
       {
         "link": "",
@@ -457,14 +457,14 @@
       {
         "title": "Title",
         "info": "This is some info",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon2.jpg"
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
       }
     ],
     "menu": {
         "pageTitle": "Menu Page",
         "content": [
           {
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1.jpg"
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650_2.jpg"
           }
         ]
     },
@@ -472,7 +472,7 @@
         "pageTitle": "Vendors",
         "content": [
           {
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon2.jpg"
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
           }
         ]
     },

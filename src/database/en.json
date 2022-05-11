@@ -322,7 +322,7 @@
     "festivalSchedule": {
         "schedule1": [
           {
-            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1.jpg"
+            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
           }
         ],
         "schedule2": [
@@ -416,27 +416,27 @@
         ]
     },
     "musicians": [
-        {
-            "style": "text-left",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon3.jpg",
-            "name": "Musician Name",
-            "caption": "This is a description of the Musician"
-        },
+      {
+        "style": "text-left",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
+        "name": "Musician Name",
+        "caption": "This is a description of the Musician"
+      },
         {
             "style": "text-right",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon3.jpg",
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
             "name": "Musician Name",
             "caption": "This is a description of the Musician"
         },
         {
             "style": "text-left",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon3.jpg",
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
             "name": "Musician Name",
             "caption": "This is a description of the Musician"
         }
     ],
   "contests": {
-    "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon2.jpg",
+    "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650_2.jpg",
     "content": [
       {
         "link": "",
@@ -456,14 +456,14 @@
       {
         "title": "Title",
         "info": "This is some info",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon2.jpg"
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
       }
     ],
     "menu": {
         "pageTitle": "Menu Page",
         "content": [
           {
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1.jpg"
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650_2.jpg"
           }
         ]
     },
@@ -471,7 +471,7 @@
         "pageTitle": "Vendors",
         "content": [
           {
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon2.jpg"
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
           }
         ]
     },
