@@ -1,11 +1,11 @@
 {
     "topHeader": {
         "link1": {
-            "text": "Directions",
+            "text": "Hướng Dẫn Đến",
             "link": "/directions"
         },
         "link2": {
-            "text": "Donate",
+            "text": "Đóng Góp",
             "link": "/donations"
         }
     },
@@ -59,7 +59,7 @@
     "footer": [
         {
             "footerSection": "footer-1",
-            "header": "Contact Details",
+            "header": "Liên Lạc Trực Tiếp",
             "content": [
                 {
                     "link": "",
@@ -74,22 +74,22 @@
                 {
                     "link": "",
                     "linkName": "",
-                    "nonLink": "4545 Timmers Way, Norcross, GA 30093"
+                    "nonLink": "4545 Timmers Way, Norcross GA 30093"
                 }
             ]
         },
         {
             "footerSection": "footer-2",
-            "header": "Quick Details",
+            "header": "Thông Tin Nhanh",
             "content": [
                 {
                     "link": "https://www.cdc.gov/coronavirus/2019-ncov/communication/guidance.html",
-                    "linkName": "CDC COVID-19 Guidance",
+                    "linkName": "Chỉ Dẫn COVID-19 từ CDC",
                     "nonLink": ""
                 },
                 {
                     "link": "https://archatl.com/",
-                    "linkName": "Archdiocese of Atlanta",
+                    "linkName": "Tổng Giáo Phận Atlanta",
                     "nonLink": ""
                 }
             ]
