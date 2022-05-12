@@ -110,10 +110,8 @@ const Header = () => {
     }, [resizeCallback, scrollCallback]);
 
     const openSideNav = () => {
-        if(window.innerWidth < 1000) {
-            sideNav.current.classList.remove("closeSideNav");
-            sideNav.current.classList.add("openSideNav");
-        }
+        sideNav.current.classList.remove("closeSideNav");
+        sideNav.current.classList.add("openSideNav");
     }
     const closeSideNav = () => {
         sideNav.current.classList.remove("openSideNav");
@@ -148,12 +146,9 @@ const Header = () => {
                         <a href="https://www.hvmatl.org">main</a>
                     </div>
                     <SocialIcons/>
+                    <p id="eventDate">September 2 - 3 - 4</p>
                 </div>
-                <div class="top-header-items-center">
-                    <div class="announcement-area">
-                    <p>September 2 - 3 - 4</p>
-                    </div>
-                </div>
+                
                 <div class="top-header-items-right">
                     <div class="directionAndDonationDesktop">
                         <a href={t('topHeader.link1.link')}>{t('topHeader.link1.text')}</a>
