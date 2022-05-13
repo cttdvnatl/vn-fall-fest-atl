@@ -265,20 +265,20 @@
     ],
     "sponsorList": {
         "mainSponsor": [
-            {
-                "title": "Main Sponsor",
-                "class": "main-sponsor",
-                "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/main/S3SPA.png"
-            }
+          {
+            "title": "Main Sponsor",
+            "class": "main-sponsor",
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/main/Main-NP.png"
+          }
         ],
         "otherSponsors": [
             {
                 "title": "Diamond Sponsors",
                 "class": "other-sponsor",
                 "content": [
-                    {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
-                    },
+                  {
+                    "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ParisBanhMi.png"
+                  },
                     {
                         "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
                     },
