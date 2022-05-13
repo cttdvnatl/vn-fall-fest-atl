@@ -17,7 +17,7 @@ const ContactPage = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        if (nameInput.current.value !== '' && emailInput !== '' && message !== '' && captcha === true) {
+        if (message !== '' && captcha === true) {
             submit.current.remove();
             emailjs.sendForm('service_fczangn', 'template_32mxm9p', form.current, 'user_1frMaiJsHvHVAu5PqTi5X')
               .then((result) => {
@@ -28,7 +28,7 @@ const ContactPage = () => {
                   window.location.href = "/form-error";
               });
         }
-        if (nameInput.current.value === '' || emailInput.current.value === '' || message.current.value === '') {
+        if (message.current.value === '') {
             textErrorMessage.current.style.display = 'block';
         }
         if (captcha === false) {
@@ -46,10 +46,10 @@ const ContactPage = () => {
                     <input type="text" name="_form" style={{display: 'none'}}/>
                     <div class="contact-form-row">
                         <div class="contact-form-input contact-form-input-name">
-                            <input placeholder={' ' + t('contact.textBoxName')} ref={nameInput} type="text" name="user_name" />
+                            <input placeholder={' ' + t('contact.textBoxName') + ' (optional)'} ref={nameInput} type="text" name="user_name" />
                         </div>
                         <div class="contact-form-input contact-form-input-email">
-                            <input placeholder={' ' + t('contact.textBoxEmail')} ref={emailInput} type="email" name="user_email" />
+                            <input placeholder={' ' + t('contact.textBoxEmail') + ' (optional)'} ref={emailInput} type="email" name="user_email" />
                         </div>
                     </div>
                     <div class="contact-form-row">
