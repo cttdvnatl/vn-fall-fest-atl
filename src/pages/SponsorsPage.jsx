@@ -52,7 +52,8 @@ const SponsorsPage = () => {
     
     return (
         <>
-        <div class="sponsors-page">
+            <div class="sponsors-page">
+                <a href="http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/Brochure/LHMT2022-Sponsorship_Package_Final.pdf">Sponsor Brochure</a>
             <MainSponsor data={mainSponsorData}/>
             <OtherSponsors data={otherSponsorsData}/>
         </div>
