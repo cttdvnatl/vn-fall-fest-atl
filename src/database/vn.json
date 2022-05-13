@@ -1,11 +1,11 @@
 {
     "topHeader": {
         "link1": {
-            "text": "Directions",
+            "text": "Hướng Dẫn Đến",
             "link": "/directions"
         },
         "link2": {
-            "text": "Donate",
+            "text": "Đóng Góp",
             "link": "/donations"
         }
     },
@@ -59,7 +59,7 @@
     "footer": [
         {
             "footerSection": "footer-1",
-            "header": "Contact Details",
+            "header": "Liên Lạc Trực Tiếp",
             "content": [
                 {
                     "link": "",
@@ -74,22 +74,22 @@
                 {
                     "link": "",
                     "linkName": "",
-                    "nonLink": "4545 Timmers Way, Norcross, GA 30093"
+                    "nonLink": "4545 Timmers Way, Norcross GA 30093"
                 }
             ]
         },
         {
             "footerSection": "footer-2",
-            "header": "Quick Details",
+            "header": "Thông Tin Nhanh",
             "content": [
                 {
                     "link": "https://www.cdc.gov/coronavirus/2019-ncov/communication/guidance.html",
-                    "linkName": "CDC COVID-19 Guidance",
+                    "linkName": "Chỉ Dẫn COVID-19 từ CDC",
                     "nonLink": ""
                 },
                 {
                     "link": "https://archatl.com/",
-                    "linkName": "Archdiocese of Atlanta",
+                    "linkName": "Tổng Giáo Phận Atlanta",
                     "nonLink": ""
                 }
             ]
@@ -265,20 +265,20 @@
     ],
     "sponsorList": {
         "mainSponsor": [
-            {
-                "title": "Main Sponsor",
-                "class": "main-sponsor",
-                "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/main/S3SPA.png"
-            }
+          {
+            "title": "Main Sponsor",
+            "class": "main-sponsor",
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/main/Main-NP.png"
+          }
         ],
         "otherSponsors": [
             {
                 "title": "Diamond Sponsors",
                 "class": "other-sponsor",
                 "content": [
-                    {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
-                    },
+                  {
+                    "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ParisBanhMi.png"
+                  },
                     {
                         "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
                     },
