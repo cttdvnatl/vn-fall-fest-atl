@@ -44,6 +44,19 @@
     border-radius: 4px;
 }
 
+.contact-form .contact-form-row .type {
+    margin: auto;
+}
+
+.contact-form .contact-form-row .type label {
+    font-size: 19px;
+    padding-right: 5px;
+}
+
+.contact-form .contact-form-row .type select {
+    font-size: 19px;
+}
+
 .contact-form .contact-form-row .contact-form-input-message {
     margin: auto;
     display: flex;
@@ -78,3 +91,4 @@
 .contact-form .contact-form-row .contact-form-submit:active {
     background-color: #e6e6e6
 }
+

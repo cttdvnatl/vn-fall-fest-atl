@@ -275,17 +275,14 @@
                 "title": "Diamond Sponsors",
                 "class": "other-sponsor",
                 "content": [
-                  {
-                    "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ParisBanhMi.png"
-                  },
                     {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
+                        "original": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ParisBanhMi.png"
                     },
                     {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
+                        "original": "https://picsum.photos/id/1018/1000/600/"
                     },
                     {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
+                        "original": "https://picsum.photos/id/1015/1000/600/"
                     }
                 ]
             },
@@ -294,22 +291,13 @@
                 "class": "other-sponsor",
                 "content": [
                     {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
+                        "original": "https://picsum.photos/id/1015/1000/600/"
                     },
                     {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
+                        "original": "https://picsum.photos/id/1015/1000/600/"
                     },
                     {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
-                    },
-                    {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
-                    },
-                    {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
-                    },
-                    {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Comming_soon160_80.jpg"
+                        "original": "https://picsum.photos/id/1015/1000/600/"
                     }
                 ]
             }
