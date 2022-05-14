@@ -23,9 +23,10 @@ const CarouselList = ({list}) => {
     return (
         <>
         {list.map((carousel, index) => (
-            <div class={index === currentImage ? "slides active" : "slides"} key={carousel.title} aria-hidden={index !== currentImage} style={{}}>
-        {/*         <div class="slide-overlay-left" onClick={prevSlide}></div>
-                    <div class="slide-overlay-right" onClick={nextSlide}></div>
+            <div class={index === currentImage ? "carousel active" : "carousel"} key={carousel.title} aria-hidden={index !== currentImage} style={{}}>
+        {/*
+                    <div class="carousel-overlay-left" onClick={prevSlide}></div>
+                    <div class="carousel-overlay-right" onClick={nextSlide}></div>
         */}
                     <img alt={carousel.imageNumber} src={carousel.image}></img>
                     <div class="filler"/>
@@ -34,6 +35,7 @@ const CarouselList = ({list}) => {
         </>
     )
 }
+
 
 const Carousel = () => {
     useTranslation();
@@ -49,7 +51,7 @@ const Carousel = () => {
 
     return (
         <>
-        <div class="slideshow-container">
+        <div class="carousel-container">
             <CarouselList list={Data} />
         </div>
         </>

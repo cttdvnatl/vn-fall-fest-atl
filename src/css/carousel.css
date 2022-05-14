@@ -1,8 +1,8 @@
-.slideshow-container {
+.carousel-container {
     width: 100%;
 }
 
-.slideshow-container .slides {
+.carousel-container .carousel {
     width: 100%;
     overflow: hidden;
     display: none;
@@ -11,16 +11,16 @@
 /*    transition: .3s ease;*/
 }
 
-.slideshow-container .slides.active {
+.carousel-container .carousel.active {
     display: block;
 }
 
-.slideshow-container .slides img {
+.carousel-container .carousel img {
     width: 100%;
     box-shadow: 0px 4px 6px grey;
 }
 
-.slideshow-container .slide-overlay-left {
+.carousel-container .carousel-overlay-left {
     left: 0;
     width: 15%; 
     height: 100%;
@@ -28,7 +28,7 @@
     z-index: 1;
 }
 
-.slideshow-container .slide-overlay-right {
+.carousel-container .carousel-overlay-right {
     right: 0;
     width: 15%; 
     height: 100%;
@@ -36,13 +36,13 @@
     z-index: 1;
 }
 
-.slideshow-container .slide-overlay-left:hover {
+.carousel-container .carousel-overlay-left:hover {
     background-color: black;
     opacity: .2;
     box-shadow: 30px 0px 5px 0px;
 }
 
-.slideshow-container .slide-overlay-right:hover {
+.carousel-container .carousel-overlay-right:hover {
     background-color: black;
     opacity: .2;
     box-shadow: -30px 0px 5px 0px;
