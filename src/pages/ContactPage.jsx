@@ -20,7 +20,7 @@ const ContactPage = () => {
         e.preventDefault();
         if (type.current.value !== 'select' && message.current.value !== '' && captcha === true) {
             submit.current.remove();
-            emailjs.sendForm('service_wepjlbi', 'template_tnxqprj', form.current, '-ZHFDCmDLZL4Veu0z')
+            emailjs.sendForm('service_hrn94wi', 'template_tnxqprj', form.current, '-ZHFDCmDLZL4Veu0z')
               .then((result) => {
                   //console.log(result.text);
                   window.location.href = "/form-success";
