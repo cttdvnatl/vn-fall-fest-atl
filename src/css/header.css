@@ -4,7 +4,7 @@
 
 /* Top Header CSS*/
 nav.desktop-view div.top-header {
-    background-color: #f0ec1a;
+    background-image: url('http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Background2.jpg');
     height: 50px;
     width: 100%;
     border-bottom: solid 1px black;
@@ -101,7 +101,7 @@ nav.desktop-view div.top-header div.top-header-items-right div.translation-butto
 /* Navagation CSS*/
 nav.desktop-view div.main-header {
     width: 100%;
-    background-color: #f0ec1a;
+    background-image: url('http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Background1.jpg');
     height: 100px;
     box-shadow: 0 10px 6px -6px gray;
 }
@@ -478,5 +478,6 @@ nav.mobile-view div.logo {
 }
 
 nav.mobile-view div.logo img {
-    width: 150px;
+    width: 140px;
+    margin-left: -20px;
 }

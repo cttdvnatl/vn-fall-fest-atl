@@ -36,12 +36,25 @@
 }
 
 .contact-form .contact-form-row .contact-form-input input {
-    width: 98%;
+    width: 96%;
     height: 40px;
     font-size: 20px;
     box-shadow: 0 0 4px .5px grey;
     background: #fff;
     border-radius: 4px;
+}
+
+.contact-form .contact-form-row .type {
+    margin: auto;
+}
+
+.contact-form .contact-form-row .type label {
+    font-size: 19px;
+    padding-right: 5px;
+}
+
+.contact-form .contact-form-row .type select {
+    font-size: 19px;
 }
 
 .contact-form .contact-form-row .contact-form-input-message {
@@ -78,3 +91,4 @@
 .contact-form .contact-form-row .contact-form-submit:active {
     background-color: #e6e6e6
 }
+
