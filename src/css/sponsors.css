@@ -135,6 +135,7 @@
 .sponsors .right .other-sponsor-container .other-sponsor {   
     margin: auto;
     position: relative;
+    overflow: hidden;
     display: flex;
 }
 
