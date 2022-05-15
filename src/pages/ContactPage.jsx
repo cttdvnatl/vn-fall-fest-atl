@@ -18,9 +18,9 @@ const ContactPage = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        if (type.current.value !== 'select' && message.current.value !== '' && captcha === true) {
+        if (nameInput.current.value !== '' && emailInput.current.value !== '' && type.current.value !== 'select' && message.current.value !== '' && captcha === true) {
             submit.current.remove();
-            emailjs.sendForm('service_wepjlbi', 'template_tnxqprj', form.current, '-ZHFDCmDLZL4Veu0z')
+            emailjs.sendForm('service_hrn94wi', 'template_tnxqprj', form.current, '-ZHFDCmDLZL4Veu0z')
               .then((result) => {
                   //console.log(result.text);
                   window.location.href = "/form-success";
@@ -29,7 +29,7 @@ const ContactPage = () => {
                   window.location.href = "/form-error";
               });
         }
-        if (type.current.value === 'select' || message.current.value === '') {
+        if (nameInput.current.value === '' || emailInput.current.value === '' || type.current.value === 'select' || message.current.value === '') {
             textErrorMessage.current.style.display = 'block';
         }
         if (captcha === false) {
@@ -47,10 +47,10 @@ const ContactPage = () => {
                     <input type="text" name="_form" style={{display: 'none'}}/>
                     <div class="contact-form-row">
                         <div class="contact-form-input contact-form-input-name">
-                            <input placeholder={' ' + t('contact.textBoxName') + ' (optional)'} ref={nameInput} type="text" name="user_name" />
+                            <input placeholder={' ' + t('contact.textBoxName')} ref={nameInput} type="text" name="user_name" />
                         </div>
                         <div class="contact-form-input contact-form-input-email">
-                            <input placeholder={' ' + t('contact.textBoxEmail') + ' (optional)'} ref={emailInput} type="email" name="user_email" />
+                            <input placeholder={' ' + t('contact.textBoxEmail')} ref={emailInput} type="email" name="user_email" />
                         </div>
                     </div>
                     <div class="contact-form-row">
