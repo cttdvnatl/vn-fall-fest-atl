@@ -161,7 +161,7 @@
         "headers": {
             "heading1": "Thiện Nguyện Viên",
             "heading2": "Ngày Lễ Hội",
-            "heading3": "Ca Nhạc Sĩ",
+            "heading3": "Nghệ Sĩ",
             "heading4": "Khách Tham Dự",
             "heading5": "Món Ăn và Thức Uống"
         },
@@ -176,7 +176,7 @@
     "about": {
         "title": {
             "text1": "Giới Thiệu",
-            "text2": "Previous Logos"
+            "text2": "Biểu Tượng Những Năm Trước"
         },
         "paragraphs": [
             {
@@ -422,20 +422,20 @@
         {
             "style": "text-left",
             "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
-            "name": "Musician Name",
-            "caption": "This is a description of the Musician"
+            "name": "Nghệ Sĩ",
+            "caption": "Tên các nghệ sĩ tham gia lễ hội đang được cập nhật. Xin quý vị trở lại."
         },
         {
             "style": "text-right",
             "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
-            "name": "Musician Name",
-            "caption": "This is a description of the Musician"
+            "name": "Nghệ Sĩ",
+            "caption": "Tên các nghệ sĩ tham gia lễ hội đang được cập nhật. Xin quý vị trở lại."
         },
         {
             "style": "text-left",
             "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
-            "name": "Musician Name",
-            "caption": "This is a description of the Musician"
+            "name": "Nghệ Sĩ",
+            "caption": "Tên các nghệ sĩ tham gia lễ hội đang được cập nhật. Xin quý vị trở lại."
         }
     ],
   "contests": {
@@ -443,27 +443,27 @@
     "content": [
       {
         "link": "",
-        "formName": "Some sort of contest"
+        "formName": "Các cuộc thi trong lễ hội đang được cập nhật. Xin quý vị trở lại."
       },
       {
         "link": "",
-        "formName": "Some other contest"
+        "formName": ""
       },
       {
         "link": "",
-        "formName": "Another Contest"
+        "formName": ""
       }
     ]
   },
     "raffles": [
       {
-        "title": "Title",
-        "info": "This is some info",
+        "title": "Sổ Xố",
+        "info": "Trang đang được cập nhật. Xin quý vị trở lại.",
         "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
       }
     ],
     "menu": {
-        "pageTitle": "Menu Page",
+        "pageTitle": "Thực đơn cho những ngày lễ hội đang được cập nhật. Xin quý vị trở lại.",
         "content": [
           {
             "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650_2.jpg"
@@ -471,7 +471,7 @@
         ]
     },
     "vendors": {
-        "pageTitle": "Vendors",
+        "pageTitle": "Sơ đồ quầy hàng cho những ngày lễ hội đang được cập nhật. Xin quý vị trở lại.",
         "content": [
           {
             "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
@@ -485,10 +485,10 @@
             "title": "Từ phía Nam của Xa lộ 85",
             "content": [
               {
-                "instruction": "Đi theo Xa lộ 85 về phía Bắc sau đó vào exit 102 Beaver Ruin road"
+                "instruction": "Đi theo Xa lộ 85 về phía Bắc sau đó vào exit 102 đường Beaver Ruin"
               },
               {
-                "instruction": "Rẽ phải ở đèn giao thông vào đường Beaver Ruin road"
+                "instruction": "Rẽ phải ở đèn giao thông vào đường Beaver Ruin"
               },
               {
                 "instruction": "Rẽ trái ở đèn giao thông vào đường Shackleford"
@@ -502,13 +502,13 @@
             "title": "Từ phía Bắc của Xa lộ 85",
             "content": [
               {
-                "instruction": "Đi theo Xa lộ 85 về phía Nam sau đó vào exit 102 Beaver Ruin road"
+                "instruction": "Đi theo Xa lộ 85 về phía Nam sau đó vào exit 102 đường Beaver Ruin"
               },
               {
-                "instruction": "Rẽ trái ở đèn giao thông vào đường Beaver Ruin road"
+                "instruction": "Rẽ trái ở đèn giao thông vào đường Beaver Ruin"
               },
               {
-                "instruction": "Đi qua cầu rồi rẽ trái ở đèn giao thông vào đường Shackleford road"
+                "instruction": "Đi qua cầu rồi rẽ trái ở đèn giao thông vào đường Shackleford"
               },
               {
                 "instruction": "Hội chợ nằm bên trái sau lối vào chính của nhà thờ, đi theo biển chỉ dẫn đến bãi đậu xe của Lễ hội"
