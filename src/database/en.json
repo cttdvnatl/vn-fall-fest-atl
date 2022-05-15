@@ -73,7 +73,7 @@
                 {
                     "link": "",
                     "linkName": "",
-                    "nonLink": "4545 Timmers Way, Norcross, GA 30093"
+                    "nonLink": "4545 Timmers Way, Norcross GA 30093"
                 }
             ]
         },
@@ -175,7 +175,7 @@
     "about": {
         "title": {
             "text1": "About Us",
-            "text2": "Previous Logos"
+            "text2": "Logos from Previous Festivals"
         },
         "paragraphs": [
             {
@@ -421,20 +421,20 @@
         {
             "style": "text-left",
             "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
-            "name": "Musician Name",
-            "caption": "This is a description of the Musician"
+            "name": "Entertainer",
+            "caption": "This page is currently construction. Please check back."
         },
         {
             "style": "text-right",
             "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
-            "name": "Musician Name",
-            "caption": "This is a description of the Musician"
+            "name": "Entertainer",
+            "caption": "This page is currently construction. Please check back."
         },
         {
             "style": "text-left",
             "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
-            "name": "Musician Name",
-            "caption": "This is a description of the Musician"
+            "name": "Entertainer",
+            "caption": "This page is currently construction. Please check back."
         }
     ],
   "contests": {
@@ -442,27 +442,27 @@
     "content": [
       {
         "link": "",
-        "formName": "Some sort of contest"
+        "formName": "This page is currently construction. Please check back."
       },
       {
         "link": "",
-        "formName": "Some other contest"
+        "formName": ""
       },
       {
         "link": "",
-        "formName": "Another Contest"
+        "formName": ""
       }
     ]
   },
     "raffles": [
       {
-        "title": "Title",
-        "info": "This is some info",
+        "title": "Raffles",
+        "info": "This page is currently construction. Please check back.",
         "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
       }
     ],
     "menu": {
-        "pageTitle": "Menu Page",
+        "pageTitle": "This page is currently construction. Please check back.",
         "content": [
           {
             "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650_2.jpg"
@@ -470,7 +470,7 @@
         ]
     },
     "vendors": {
-        "pageTitle": "Vendors",
+        "pageTitle": "This page is currently construction. Please check back.",
         "content": [
           {
             "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
