@@ -159,9 +159,13 @@
     padding: 10px;
     margin: auto;
     height: 80px;
-    box-shadow: grey 2px 2px 5px;
+    box-shadow: grey 1px 1px 2px;
 }
 
+.sponsors .right .other-sponsor-container .other-sponsor .sponsor-image img:hover {
+    width: 170px;
+    height: 90px;
+}
 
 
 
