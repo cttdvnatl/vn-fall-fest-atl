@@ -321,120 +321,121 @@
             }
         ]
     },
-    "festivalSchedule": {
-        "schedule1": [
+  "festivalSchedule": {
+    "title": "Festival Schedule",
+    "schedule1": [
+      {
+        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
+      }
+    ],
+    "schedule2": [
+      {
+        "day": "1",
+        "content": [
           {
-            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
           }
-        ],
-        "schedule2": [
-            {
-                "day": "1",
-                "content": [
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    }
-                ]
-            },
-            {
-                "day": "2",
-                "content": [
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    }
-                ]
-            },
-            {
-                "day": "3",
-                "content": [
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    }
-                ]
-            }
         ]
-    },
+      },
+      {
+        "day": "2",
+        "content": [
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          }
+        ]
+      },
+      {
+        "day": "3",
+        "content": [
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          }
+        ]
+      }
+    ]
+  },
     "musicians": [
         {
             "style": "text-left",
             "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
             "name": "Entertainer",
-            "caption": "This page is currently construction. Please check back."
+            "caption": "This page is currently under construction. Please check back."
         },
         {
             "style": "text-right",
             "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
             "name": "Entertainer",
-            "caption": "This page is currently construction. Please check back."
+            "caption": "This page is currently under construction. Please check back."
         },
         {
             "style": "text-left",
             "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
             "name": "Entertainer",
-            "caption": "This page is currently construction. Please check back."
+            "caption": "This page is currently under construction. Please check back."
         }
     ],
   "contests": {
@@ -442,7 +443,7 @@
     "content": [
       {
         "link": "",
-        "formName": "This page is currently construction. Please check back."
+        "formName": "This page is currently under construction. Please check back."
       },
       {
         "link": "",
@@ -457,12 +458,12 @@
     "raffles": [
       {
         "title": "Raffles",
-        "info": "This page is currently construction. Please check back.",
+        "info": "This page is currently under construction. Please check back.",
         "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
       }
     ],
     "menu": {
-        "pageTitle": "This page is currently construction. Please check back.",
+        "pageTitle": "This page is currently under construction. Please check back.",
         "content": [
           {
             "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650_2.jpg"
@@ -470,7 +471,7 @@
         ]
     },
     "vendors": {
-        "pageTitle": "This page is currently construction. Please check back.",
+        "pageTitle": "This page is currently under construction. Please check back.",
         "content": [
           {
             "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
