@@ -299,102 +299,103 @@
             }
         ]
     },
-    "festivalSchedule": {
-        "schedule1": [
+  "festivalSchedule": {
+    "title": "Lịch Trình Lễ Hội",
+    "schedule1": [
+      {
+        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
+      }
+    ],
+    "schedule2": [
+      {
+        "day": "1",
+        "content": [
           {
-            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
           }
-        ],
-        "schedule2": [
-            {
-                "day": "1",
-                "content": [
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    }
-                ]
-            },
-            {
-                "day": "2",
-                "content": [
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    }
-                ]
-            },
-            {
-                "day": "3",
-                "content": [
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    },
-                    {
-                        "time": "00:00",
-                        "description": "This is an event placeholder"
-                    }
-                ]
-            }
         ]
-    },
+      },
+      {
+        "day": "2",
+        "content": [
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          }
+        ]
+      },
+      {
+        "day": "3",
+        "content": [
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          },
+          {
+            "time": "00:00",
+            "description": "This is an event placeholder"
+          }
+        ]
+      }
+    ]
+  },
     "musicians": [
         {
             "style": "text-left",
