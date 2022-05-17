@@ -141,7 +141,7 @@
 
 .sponsors .right .other-sponsor-container .other-sponsor .sponsor-image {
     display: flex;
-    width: calc(160px * 12);/*number multiplied by 160 is number of images times 2*/
+    width: calc(160px * 8);/*number multiplied by 160 is number of images times 2*/
     animation: scroll 20s linear infinite;
 }
 
@@ -150,7 +150,7 @@
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-160px * 6));/*The number multiplied by -160 is number of images*/
+        transform: translateX(calc(-160px * 4));/*The number multiplied by -160 is number of images*/
     }
 }
 
