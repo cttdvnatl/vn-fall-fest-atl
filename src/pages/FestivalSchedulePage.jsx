@@ -28,6 +28,7 @@ const FestivalSchedule = (list) => {
 const FestivalSchedulePage = () => {
     useTranslation()
 
+    const t = useTranslation()
     let Data;
 
     if (getLanguage() === 'vn') {
@@ -42,7 +43,7 @@ const FestivalSchedulePage = () => {
     return (
         <>
         <div class="festival-schedule-page">
-        <h1>Festival Schedule</h1>
+                <h1>{t('festivalSchedule.title')}</h1>
             <FestivalSchedule data={Data}/>
         </div>
         </>

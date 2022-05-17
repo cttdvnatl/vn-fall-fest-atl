@@ -120,7 +120,7 @@ const Header = () => {
 
     const toggleSubmenu = (index, e) => {
         console.log("submenu")
-        if(window.innerWidth < 1000) {
+        if(window.innerWidth < 1231) {
             for(let i = 0; i < sideNav.current.children.length; i++) {
                 if(i === index && !sideNav.current.children[i].classList.contains("active")) {
                     sideNav.current.children[i].classList.add("active");
