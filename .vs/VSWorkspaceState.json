@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\database",
+    "\\src\\pages"
   ],
-  "SelectedNode": "\\C:\\Users\\Jackie\\Source\\Repos\\vn-fall-fest-atl",
+  "SelectedNode": "\\src\\database\\vn.json",
   "PreviewInSolutionExplorer": false
 }
