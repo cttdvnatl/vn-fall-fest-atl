@@ -9,7 +9,9 @@ const IconList = (list) => {
         {list.data.map((socialIcons) => (
             <>
             <div class="icon">
-                <a href={socialIcons.link}><img src={socialIcons.image} alt={socialIcons.image}></img></a>
+                <a href={socialIcons.link} target="_blank" rel="noopener noreferrer">
+                    <img src={socialIcons.image} alt={socialIcons.image} />
+                </a>
             </div>
             </>
         ))}

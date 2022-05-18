@@ -47,7 +47,7 @@
     },
     "socialIcons": [
         {
-            "link": "https://facebook.com",
+            "link": "https://www.facebook.com/HoiChoMuaThu",
             "image": "http://hvmatl.net/gallery/LHMT_img/Common/social-icons/facebook/107175_circle_facebook_icon.png"
         },
         {
@@ -271,32 +271,61 @@
           }
         ],
         "otherSponsors": [
-            {
-                "title": "Diamond Sponsors",
-                "class": "other-sponsor",
-                "content": [
-                    {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ParisBanhMi.png"
-                    },
+          {
+              "title": "Diamond Sponsors",
+              "class": "other-sponsor",
+              "content": [
                   {
-                    "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ComGa.png"
+                      "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ParisBanhMi.png"
                   },
                   {
-                    "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-MortgageSelect.png"
+                      "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ComGa.png"
                   },
                   {
-                    "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-S3Spa.png"
+                      "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-MortgageSelect.png"
+                  },
+                  {
+                      "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-S3Spa.png"
                   }
-                ]
-            },
-            {
-                "title": "Gold Sponsors",
-                "class": "other-sponsor",
-                "content": [
-
-                ]
-            }
-        ]
+              ]
+          },
+          {
+            "title": "Gold Sponsors",
+            "class": "other-sponsor",
+            "content": [                 
+              {
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+              },
+              {
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+              },
+              {
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+              },
+              {
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+              }
+            ]
+        },
+        {
+          "title": "Silver Sponsors",
+          "class": "other-sponsor",
+          "content": [
+              {
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+              },
+              {
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+              },
+              {
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+              },
+              {
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+              }
+          ]
+      }
+      ]
     },
   "festivalSchedule": {
     "title": "Festival Schedule",
