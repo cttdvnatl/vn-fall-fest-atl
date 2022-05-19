@@ -48,7 +48,7 @@
     },
     "socialIcons": [
         {
-            "link": "https://facebook.com",
+            "link": "https://www.facebook.com/HoiChoMuaThu",
             "image": "http://hvmatl.net/gallery/LHMT_img/Common/social-icons/facebook/107175_circle_facebook_icon.png"
         },
         {
@@ -102,7 +102,7 @@
                 "background": "background-color-black",
                 "content": [
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne1.png"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne1.jpg"
                     },
                     {
                         "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne2.png"
@@ -258,10 +258,14 @@
             "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022Invite.png",
             "imageNumber": "1"
         },
-        {
-            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022Entertainer.jpg",
-            "imageNumber": "2"
-        }
+      {
+        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022Entertainer.jpg",
+        "imageNumber": "2"
+      },
+      {
+        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022MainPage.jpg",
+        "imageNumber": "3"
+      }
     ],
     "sponsorList": {
         "mainSponsor": [
@@ -274,52 +278,58 @@
         "otherSponsors": [
             {
                 "title": "Diamond Sponsors",
-                "class": "other-sponsor",
+                "class": "diamond-sponsor other-sponsor",
                 "content": [
                     {
                         "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ParisBanhMi.png"
                     },
-                  {
-                    "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ComGa.png"
-                  },
-                  {
-                    "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-MortgageSelect.png"
-                  },
-                  {
-                    "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-S3Spa.png"
-                  },
                     {
-                        "img": "https://picsum.photos/id/1015/1000/600/"
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ComGa.png"
                     },
-                  {
-                    "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne5.png"
-                  }
+                    {
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-MortgageSelect.png"
+                    },
+                    {
+                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-S3Spa.png"
+                    }
                 ]
             },
             {
                 "title": "Gold Sponsors",
-                "class": "other-sponsor",
-                "content": [
-                    {
-                        "img": "https://picsum.photos/id/1015/1000/600/"
-                    },
-                    {
-                        "img": "https://picsum.photos/id/1015/1000/600/"
-                    },
-                    {
-                        "img": "https://picsum.photos/id/1015/1000/600/"
-                    },
-                    {
-                        "img": "https://picsum.photos/id/1015/1000/600/"
-                    },
-                    {
-                        "img": "https://picsum.photos/id/1015/1000/600/"
-                    },
-                    {
-                        "img": "https://picsum.photos/id/1015/1000/600/"
-                    }
+                "class": "gold-sponsor other-sponsor",
+                "content": [                 
+                  {
+                    "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+                  },
+                  {
+                    "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+                  },
+                  {
+                    "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+                  },
+                  {
+                    "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+                  }
                 ]
-            }
+            },
+            {
+              "title": "Silver Sponsors",
+              "class": "silver-sponsor other-sponsor",
+              "content": [
+                  {
+                    "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+                  },
+                  {
+                    "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+                  },
+                  {
+                    "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+                  },
+                  {
+                    "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+                  }
+              ]
+          }
         ]
     },
   "festivalSchedule": {
@@ -422,22 +432,46 @@
     "musicians": [
         {
             "style": "text-left",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/NhuY.jpg",
             "name": "Nghệ Sĩ",
-            "caption": "Tên các nghệ sĩ tham gia lễ hội đang được cập nhật. Xin quý vị trở lại."
+            "caption": "Như Ý"
         },
-        {
-            "style": "text-right",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
-            "name": "Nghệ Sĩ",
-            "caption": "Tên các nghệ sĩ tham gia lễ hội đang được cập nhật. Xin quý vị trở lại."
-        },
-        {
-            "style": "text-left",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
-            "name": "Nghệ Sĩ",
-            "caption": "Tên các nghệ sĩ tham gia lễ hội đang được cập nhật. Xin quý vị trở lại."
-        }
+      {
+        "style": "text-right",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/DuongTrieuVu.jpg",
+        "name": "Nghệ Sĩ",
+        "caption": "Dương Triệu Vũ"
+      },
+      {
+        "style": "text-left",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/JustinNguyen.jpg",
+        "name": "Nghệ Sĩ",
+        "caption": "Justin Nguyễn"
+      },
+      {
+        "style": "text-right",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/MinhTuyet.jpg",
+        "name": "Nghệ Sĩ",
+        "caption": "Minh Tuyết"
+      },
+      {
+        "style": "text-left",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/NguyenHongNhung.jpg",
+        "name": "Nghệ Sĩ",
+        "caption": "Nguyễn Hồng Nhung"
+      },
+      {
+        "style": "text-right",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/HoLeThu.jpg",
+        "name": "Nghệ Sĩ",
+        "caption": "Hồ Lệ Thu"
+      },
+      {
+        "style": "text-left",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/MaiTienDung.jpg",
+        "name": "Nghệ Sĩ",
+        "caption": "Mai Tiến Dũng"
+      }
     ],
   "contests": {
     "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650_2.jpg",
@@ -459,8 +493,8 @@
     "raffles": [
       {
         "title": "Sổ Xố",
-        "info": "Trang đang được cập nhật. Xin quý vị trở lại.",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
+        "info": "Giải Độc Đắc",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Raffles/Raffle.jpg"
       }
     ],
     "menu": {
