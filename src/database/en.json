@@ -101,7 +101,7 @@
                 "background": "background-color-black",
                 "content": [
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne1.png"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne1.jpg"
                     },
                     {
                         "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne2.png"
@@ -257,10 +257,14 @@
             "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022Invite.png",
             "imageNumber": "1"
         },
-        {
-            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022Entertainer.jpg",
-            "imageNumber": "2"
-        }
+      {
+        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022Entertainer.jpg",
+        "imageNumber": "2"
+      },
+      {
+        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022MainPage.jpg",
+        "imageNumber": "3"
+      }
     ],
     "sponsorList": {
         "mainSponsor": [
@@ -464,8 +468,8 @@
     "raffles": [
       {
         "title": "Raffles",
-        "info": "This page is currently under construction. Please check back.",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
+        "info": "GRAND PRIZE",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Raffles/Raffle.jpg"
       }
     ],
     "menu": {
