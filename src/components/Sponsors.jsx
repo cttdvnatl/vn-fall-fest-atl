@@ -23,25 +23,26 @@ const OtherSponsors = (list) => {
     
     return (
         <div class="right">
-        {list.data.map((section, index) => (
-            <div class={section.class + '-container'} ref={sponsors} key={index}>
-            {/*<button onClick={() => executeScroll(10)}>LEFT</button>
-            <button onClick={() => executeScroll(-10)}>RIGHT</button>*/}
-            <h1>{section.title}</h1>
-                <div class={section.class}>
-                {section.content.map((sponsorContent, idx) => (
-                    <div class="sponsor-image" key={idx}>
-                        <img class="1" src={sponsorContent.img} alt={sponsorContent.img}></img>
+            {list.data.map((section, index) => (
+                <div class={section.class + '-container'} ref={sponsors} key={index}>
+                    {/*<button onClick={() => executeScroll(10)}>LEFT</button>
+                    <button onClick={() => executeScroll(-10)}>RIGHT</button>*/}
+                    <h1>{section.title}</h1>               
+                    
+                    <div class={section.class}>
+                        {section.content.map((sponsorContent, idx) => (
+                            <div class="sponsor-image" key={idx}>
+                                <img class="1" src={sponsorContent.img} alt={sponsorContent.img}></img>
+                            </div>
+                        ))}
+                        {section.content.map((sponsorContent, idx) => (
+                            <div class="sponsor-image" key={idx}>
+                                <img class="1" src={sponsorContent.img} alt={sponsorContent.img}></img>
+                            </div>
+                        ))}
                     </div>
-                ))}
-                {section.content.map((sponsorContent, idx) => (
-                    <div class="sponsor-image" key={idx}>
-                        <img class="1" src={sponsorContent.img} alt={sponsorContent.img}></img>
-                    </div>
-                ))}
                 </div>
-            </div>
-        ))}
+            ))}
         </div>
     )
 }

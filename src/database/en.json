@@ -47,7 +47,7 @@
     },
     "socialIcons": [
         {
-            "link": "https://facebook.com",
+            "link": "https://www.facebook.com/HoiChoMuaThu",
             "image": "http://hvmatl.net/gallery/LHMT_img/Common/social-icons/facebook/107175_circle_facebook_icon.png"
         },
         {
@@ -101,7 +101,7 @@
                 "background": "background-color-black",
                 "content": [
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne1.png"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne1.jpg"
                     },
                     {
                         "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne2.png"
@@ -257,10 +257,14 @@
             "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022Invite.png",
             "imageNumber": "1"
         },
-        {
-            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022Entertainer.jpg",
-            "imageNumber": "2"
-        }
+      {
+        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022Entertainer.jpg",
+        "imageNumber": "2"
+      },
+      {
+        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022MainPage.jpg",
+        "imageNumber": "3"
+      }
     ],
     "sponsorList": {
         "mainSponsor": [
@@ -271,55 +275,61 @@
           }
         ],
         "otherSponsors": [
-            {
-                "title": "Diamond Sponsors",
-                "class": "other-sponsor",
-                "content": [
-                    {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ParisBanhMi.png"
-                    },
+          {
+              "title": "Diamond Sponsors",
+              "class": "diamond-sponsor other-sponsor",
+              "content": [
                   {
-                    "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ComGa.png"
+                      "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ParisBanhMi.png"
                   },
                   {
-                    "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-MortgageSelect.png"
+                      "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ComGa.png"
                   },
                   {
-                    "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-S3Spa.png"
+                      "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-MortgageSelect.png"
                   },
-                    {
-                        "img": "https://picsum.photos/id/1015/1000/600/"
-                    },
-                    {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne5.png"
-                    }
-                ]
-            },
-            {
-                "title": "Gold Sponsors",
-                "class": "other-sponsor",
-                "content": [
-                    {
-                        "img": "https://picsum.photos/id/1015/1000/600/"
-                    },
-                    {
-                        "img": "https://picsum.photos/id/1015/1000/600/"
-                    },
-                    {
-                        "img": "https://picsum.photos/id/1015/1000/600/"
-                    },
-                    {
-                        "img": "https://picsum.photos/id/1015/1000/600/"
-                    },
-                    {
-                        "img": "https://picsum.photos/id/1015/1000/600/"
-                    },
-                    {
-                        "img": "https://picsum.photos/id/1015/1000/600/"
-                    }
-                ]
-            }
-        ]
+                  {
+                      "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-S3Spa.png"
+                  }
+              ]
+          },
+          {
+            "title": "Gold Sponsors",
+            "class": "gold-sponsor other-sponsor",
+            "content": [                 
+              {
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+              },
+              {
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+              },
+              {
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+              },
+              {
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+              }
+            ]
+        },
+        {
+          "title": "Silver Sponsors",
+          "class": "silver-sponsor other-sponsor",
+          "content": [
+              {
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+              },
+              {
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+              },
+              {
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+              },
+              {
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+              }
+          ]
+      }
+      ]
     },
   "festivalSchedule": {
     "title": "Festival Schedule",
@@ -421,22 +431,46 @@
     "musicians": [
         {
             "style": "text-left",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/NhuY.jpg",
             "name": "Entertainer",
-            "caption": "This page is currently under construction. Please check back."
+            "caption": "NHU Y"
         },
-        {
-            "style": "text-right",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
-            "name": "Entertainer",
-            "caption": "This page is currently under construction. Please check back."
-        },
-        {
-            "style": "text-left",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
-            "name": "Entertainer",
-            "caption": "This page is currently under construction. Please check back."
-        }
+      {
+        "style": "text-right",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/DuongTrieuVu.jpg",
+        "name": "Entertainer",
+        "caption": "DUONG TRIEU VU"
+      },
+      {
+        "style": "text-left",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/JustinNguyen.jpg",
+        "name": "Entertainer",
+        "caption": "JUSTIN NGUYEN"
+      },
+            {
+        "style": "text-right",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/MinhTuyet.jpg",
+        "name": "Entertainer",
+        "caption": "MINH TUYET"
+      },
+      {
+        "style": "text-left",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/NguyenHongNhung.jpg",
+        "name": "Entertainer",
+        "caption": "NGUYEN HONG NHUNG"
+      },
+            {
+        "style": "text-right",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/HoLeThu.jpg",
+        "name": "Entertainer",
+        "caption": "HO LE THU"
+      },
+      {
+        "style": "text-left",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/MaiTienDung.jpg",
+        "name": "Entertainer",
+        "caption": "MAI TIEN DUNG"
+      }
     ],
   "contests": {
     "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650_2.jpg",
@@ -458,8 +492,8 @@
     "raffles": [
       {
         "title": "Raffles",
-        "info": "This page is currently under construction. Please check back.",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
+        "info": "GRAND PRIZE",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Raffles/Raffle.jpg"
       }
     ],
     "menu": {
