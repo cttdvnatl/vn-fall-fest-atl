@@ -432,22 +432,46 @@
     "musicians": [
         {
             "style": "text-left",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/NhuY.jpg",
             "name": "Nghệ Sĩ",
-            "caption": "Tên các nghệ sĩ tham gia lễ hội đang được cập nhật. Xin quý vị trở lại."
+            "caption": "Như Ý"
         },
-        {
-            "style": "text-right",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
-            "name": "Nghệ Sĩ",
-            "caption": "Tên các nghệ sĩ tham gia lễ hội đang được cập nhật. Xin quý vị trở lại."
-        },
-        {
-            "style": "text-left",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
-            "name": "Nghệ Sĩ",
-            "caption": "Tên các nghệ sĩ tham gia lễ hội đang được cập nhật. Xin quý vị trở lại."
-        }
+      {
+        "style": "text-right",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/DuongTrieuVu.jpg",
+        "name": "Nghệ Sĩ",
+        "caption": "Dương Triệu Vũ"
+      },
+      {
+        "style": "text-left",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/JustinNguyen.jpg",
+        "name": "Nghệ Sĩ",
+        "caption": "Justin Nguyễn"
+      },
+      {
+        "style": "text-right",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/MinhTuyet.jpg",
+        "name": "Nghệ Sĩ",
+        "caption": "Minh Tuyết"
+      },
+      {
+        "style": "text-left",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/NguyenHongNhung.jpg",
+        "name": "Nghệ Sĩ",
+        "caption": "Nguyễn Hồng Nhung"
+      },
+      {
+        "style": "text-right",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/HoLeThu.jpg",
+        "name": "Nghệ Sĩ",
+        "caption": "Hồ Lệ Thu"
+      },
+      {
+        "style": "text-left",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/MaiTienDung.jpg",
+        "name": "Nghệ Sĩ",
+        "caption": "Mai Tiến Dũng"
+      }
     ],
   "contests": {
     "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650_2.jpg",

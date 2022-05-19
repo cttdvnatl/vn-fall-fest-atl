@@ -431,22 +431,46 @@
     "musicians": [
         {
             "style": "text-left",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/NhuY.jpg",
             "name": "Entertainer",
-            "caption": "This page is currently under construction. Please check back."
+            "caption": "NHU Y"
         },
-        {
-            "style": "text-right",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
-            "name": "Entertainer",
-            "caption": "This page is currently under construction. Please check back."
-        },
-        {
-            "style": "text-left",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon400.jpg",
-            "name": "Entertainer",
-            "caption": "This page is currently under construction. Please check back."
-        }
+      {
+        "style": "text-right",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/DuongTrieuVu.jpg",
+        "name": "Entertainer",
+        "caption": "DUONG TRIEU VU"
+      },
+      {
+        "style": "text-left",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/JustinNguyen.jpg",
+        "name": "Entertainer",
+        "caption": "JUSTIN NGUYEN"
+      },
+            {
+        "style": "text-right",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/MinhTuyet.jpg",
+        "name": "Entertainer",
+        "caption": "MINH TUYET"
+      },
+      {
+        "style": "text-left",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/NguyenHongNhung.jpg",
+        "name": "Entertainer",
+        "caption": "NGUYEN HONG NHUNG"
+      },
+            {
+        "style": "text-right",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/HoLeThu.jpg",
+        "name": "Entertainer",
+        "caption": "HO LE THU"
+      },
+      {
+        "style": "text-left",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/MaiTienDung.jpg",
+        "name": "Entertainer",
+        "caption": "MAI TIEN DUNG"
+      }
     ],
   "contests": {
     "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650_2.jpg",
