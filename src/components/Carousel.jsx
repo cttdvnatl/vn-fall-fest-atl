@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useRef, useEffect} from 'react';
 import {getLanguage, useTranslation} from 'react-multi-lang';
 import vn from '../database/vn';
 import en from '../database/en';
@@ -56,6 +56,36 @@ const CarouselList = ({list}) => {
     )
 }
 
+const VideoOverlay = () => {
+    const videoContainer = useRef(null);
+    const video = useRef(null);
+    
+    const closeVideoOverlay = () => {
+        videoContainer.current.classList.remove("active")   
+    }
+
+    useEffect(() => {
+        video.current.onended = function() {
+            closeVideoOverlay()
+        };
+    }, [])
+
+    return (
+        <>
+        <div ref={videoContainer} className="video-responsive active">
+            <span onClick={() => closeVideoOverlay()}>X</span>
+            <video ref={video} width="750" height="500" autoPlay muted>
+                <source
+                    src="/resources/pages/home/Promo.mp4"
+                    type="video/mp4"
+                />
+            </video>
+            <div className="gray-overlay"/>
+        </div>
+        </>
+    )
+}
+
 
 const Carousel = () => {
     useTranslation();
@@ -73,6 +103,7 @@ const Carousel = () => {
         <>
         <div class="carousel-container">
             <CarouselList list={Data}/>
+            <VideoOverlay/>
         </div>
         </>
     )
