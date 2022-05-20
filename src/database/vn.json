@@ -270,65 +270,65 @@
     "sponsorList": {
         "mainSponsor": [
           {
-            "title": "Main Sponsor",
+            "title": "Nhà Tài Trợ Chính",
             "class": "main-sponsor",
             "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/main/Main-NP.png"
           }
         ],
         "otherSponsors": [
-            {
-                "title": "Diamond Sponsors",
-                "class": "diamond-sponsor other-sponsor",
-                "content": [
-                    {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ParisBanhMi.png"
-                    },
-                    {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ComGa.png"
-                    },
-                    {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-MortgageSelect.png"
-                    },
-                    {
-                        "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-S3Spa.png"
-                    }
-                ]
-            },
-            {
-                "title": "Gold Sponsors",
-                "class": "gold-sponsor other-sponsor",
-                "content": [                 
-                  {
-                    "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
-                  },
-                  {
-                    "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
-                  },
-                  {
-                    "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
-                  },
-                  {
-                    "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
-                  }
-                ]
-            },
-            {
-              "title": "Silver Sponsors",
-              "class": "silver-sponsor other-sponsor",
-              "content": [
-                  {
-                    "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
-                  },
-                  {
-                    "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
-                  },
-                  {
-                    "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
-                  },
-                  {
-                    "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
-                  }
-              ]
+          {
+            "title": "Các Nhà Tài Trợ Hạng Kim Cương",
+            "class": "diamond-sponsor other-sponsor",
+            "content": [
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ParisBanhMi.png"
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ComGa.png"
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-MortgageSelect.png"
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-S3Spa.png"
+              }
+            ]
+          },
+          {
+            "title": "Các Nhà Tài Trợ Hạng Vàng",
+            "class": "gold-sponsor other-sponsor",
+            "content": [
+              {
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+              },
+              {
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+              },
+              {
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+              },
+              {
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+              }
+            ]
+          },
+          {
+            "title": "Các Nhà Tài Trợ Hạng Bạc",
+            "class": "silver-sponsor other-sponsor",
+            "content": [
+              {
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+              },
+              {
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+              },
+              {
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+              },
+              {
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+              }
+            ]
           }
         ]
     },
