@@ -474,6 +474,7 @@
       }
     ],
   "contests": {
+    "title": "Đơn Đăng Ký Dự Thi",
     "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650_2.jpg",
     "content": [
       {
@@ -570,10 +571,10 @@
             }
         ]
     },
-    "contact": {
-        "pageTitle": "Contact Us",
-        "textBoxName": "Name",
-        "textBoxEmail": "Email",
-        "textBoxMessage": "Message"
-    }
+  "contact": {
+    "pageTitle": "Liên Lạc",
+    "textBoxName": "Tên",
+    "textBoxEmail": "Địa Chỉ Email",
+    "textBoxMessage": "Tin Nhắn"
+  }
 }
