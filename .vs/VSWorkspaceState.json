@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\database"
   ],
   "PreviewInSolutionExplorer": false
 }

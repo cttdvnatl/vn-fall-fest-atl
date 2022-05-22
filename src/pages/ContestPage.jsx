@@ -6,7 +6,6 @@ import vn from '../database/vn.json';
 const ContestList = (list) => {
     return (
         <>
-        <h1>Contest Forms</h1>
         {list.data.map((contest) => (
             <div class="contest-container">
                 <a href={contest.link}>{contest.formName}</a>
@@ -19,6 +18,7 @@ const ContestList = (list) => {
 const ContestPage = () => {
     useTranslation();
 
+    const t = useTranslation()
     let contestData;
 
     if (getLanguage() === 'vn') {
@@ -31,6 +31,7 @@ const ContestPage = () => {
     return (
         <>
         <div class="contest-page">
+            <h1>{t('contests.title')}</h1>
             <ContestList data={contestData.content}/>
             <img src={contestData.image} alt={contestData.image}/>
         </div>
