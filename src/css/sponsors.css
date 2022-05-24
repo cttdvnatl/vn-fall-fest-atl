@@ -72,7 +72,8 @@
     }
 
     .sponsors .right {
-        width: 100%;
+        width: 95%;
+        margin: auto;
     }
 }
 
@@ -84,6 +85,10 @@
         display: flex;
         text-align: center;
     }
+/*
+    .sponsors .left .main-sponsor img {
+        width: 
+    }*/
 
     .sponsors .right .other-sponsor-container {
         width: 90%;
@@ -111,6 +116,7 @@
 
 .sponsors .left .main-sponsor img {
     width: 540px;
+    max-width: 80%;
     height: auto;
     padding: 30px;
     box-shadow: grey 2px 5px 7px;
