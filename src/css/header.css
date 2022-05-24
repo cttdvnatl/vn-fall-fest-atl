@@ -355,6 +355,7 @@ nav.mobile-view div.main-header {
     background-color: #ffff4d;
     box-shadow: grey 10px 5px 5px;
     height: 75px;
+    z-index: 9999;
     top: 0;
     left: 0;
 }
@@ -365,7 +366,7 @@ nav.mobile-view div.is-sticky.main-header {
     top: 0;
     left: 0;
     background-color: #ffff4d;
-    z-index: 999;
+    z-index: 9999;
 }
 
 nav.mobile-view div.main-header ul {
