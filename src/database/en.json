@@ -258,12 +258,8 @@
             "imageNumber": "1"
         },
       {
-        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022Entertainer.jpg",
-        "imageNumber": "2"
-      },
-      {
         "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022MainPage.jpg",
-        "imageNumber": "3"
+        "imageNumber": "2"
       }
     ],
     "sponsorList": {
@@ -449,9 +445,9 @@
       },
             {
         "style": "text-right",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/MinhTuyet.jpg",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/HaVyComingSoon.jpg",
         "name": "Entertainer",
-        "caption": "MINH TUYET"
+        "caption": "HA VY"
       },
       {
         "style": "text-left",
