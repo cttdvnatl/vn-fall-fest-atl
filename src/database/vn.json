@@ -549,25 +549,30 @@
           }
         ]
     },
-    "donations": {
-        "pageTitle": "Support  Us  With  Donations",
-        "text": "Donation Links",
-        "content": [
-            {
-                "image": "",
-                "link": "/"
-            },
-            {
-                "image": "",
-                "link": "/"
-            },
-            {
-                "image": "",
-                "link": "/"
-            }
-        ]
-    },
+  "donations": {
+    "pageTitle": "Hỗ Trợ Chúng Tôi Bằng Cách Đóng Góp",
+    "text": "Links Đóng Góp",
+    "content": [
+      {
+        "image": "",
+        "link": "/"
+      },
+      {
+        "image": "",
+        "link": "/"
+      },
+      {
+        "image": "",
+        "link": "/"
+      }
+    ]
+  },
   "contact": {
+    "subjectSelect": "Chọn Một Chủ Đề",
+    "generalInfo": "Thông Thường",
+    "sponsorship": "Tài Trợ",
+    "volunteering": "Thiện Nguyện",
+    "supportDonation": "Hỗ Trợ và Quyên Góp",
     "pageTitle": "Liên Lạc",
     "textBoxName": "Tên",
     "textBoxEmail": "Địa Chỉ Email",

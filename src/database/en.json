@@ -566,10 +566,15 @@
             }
         ]
     },
-    "contact": {
-        "pageTitle": "Contact Us",
-        "textBoxName": "Name",
-        "textBoxEmail": "Email",
-        "textBoxMessage": "Message"
-    }
+  "contact": {
+    "subjectSelect": "Select a Subject",
+    "generalInfo": "General Information",
+    "sponsorship": "Sponsorship",
+    "volunteering": "Volunteering",
+    "supportDonation": "Support and Donation",
+    "pageTitle": "Contact Us",
+    "textBoxName": "Name",
+    "textBoxEmail": "Email",
+    "textBoxMessage": "Message"
+  }
 }
