@@ -186,7 +186,7 @@
                 "text": "Tuy đã chọn địa điểm thờ phượng lớn hơn, nhưng với hơn 4,000 giáo dân, các cơ sở hiện có trở nên chật chội và không đủ để đáp ứng nhu cầu thờ phượng và giáo dục của cộng đoàn. Do đó, chúng tôi bắt đầu dự tính xây dựng nhà thờ mới để thay thế những toà nhà cũ, hiện vẫn còn đang được xử dụng."
             },
             {
-                "text": "Hội chợ gây quỹ đầu tiên dưới tên Hội Chợ Mùa Xuân 2009, tiếng Anh là ‘2009 Spring Festival,’ bắt đầu ngày 24 & 25 trong tháng Giêng năm 2009. Mục đích của hai ngày hội chợ là để gây quỹ phát triển và xây dựng giáo đường mới, cũng như là để chia xẻ văn hóa Việt Nam đến với tất cả mọi người. Sau khi đón hơn 10,000 khách đến thanh dự hội chợ, chúng tôi đã tổ chức thêm hội chợ mùa thu trong cùng năm. Chúng tôi đã đón hơn 20,000 khách trong ba ngày Hội Chợ Mùa Thu 2009 (‘2009 Fall Festival’)."
+                "text": "Hội chợ gây quỹ đầu tiên dưới tên Hội Chợ Mùa Xuân 2009, tiếng Anh là ‘2009 Spring Festival,’ bắt đầu ngày 24 và 25 trong tháng Giêng năm 2009. Mục đích của hai ngày hội chợ là để gây quỹ phát triển và xây dựng giáo đường mới, cũng như là để chia xẻ văn hóa Việt Nam đến với tất cả mọi người. Sau khi đón hơn 10,000 khách đến thanh dự hội chợ, chúng tôi đã tổ chức thêm hội chợ mùa thu trong cùng năm. Chúng tôi đã đón hơn 20,000 khách trong ba ngày Hội Chợ Mùa Thu 2009 (2009 Fall Festival)."
             },
             {
                 "text": "Sau nhiều cân nhắc, Ban Tổ Chức đại hội đã quyết định tổ chức ba ngày hội chợ mùa thu trong dịp Lễ Lao Động hằng năm."
@@ -429,37 +429,37 @@
         {
             "style": "text-left",
             "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/NhuY.jpg",
-            "name": "Nghệ Sĩ",
+            "name": "Ca Sĩ",
             "caption": "Như Ý"
         },
       {
         "style": "text-right",
         "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/DuongTrieuVu.jpg",
-        "name": "Nghệ Sĩ",
+        "name": "Ca Sĩ",
         "caption": "Dương Triệu Vũ"
       },
       {
         "style": "text-left",
         "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/JustinNguyen.jpg",
-        "name": "Nghệ Sĩ",
+        "name": "Ca Sĩ",
         "caption": "Justin Nguyễn"
       },
       {
         "style": "text-right",
         "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/HaVyComingSoon.jpg",
-        "name": "Nghệ Sĩ",
+        "name": "Ca Sĩ",
         "caption": "Hạ Vy"
       },
       {
         "style": "text-left",
         "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/NguyenHongNhung.jpg",
-        "name": "Nghệ Sĩ",
+        "name": "Ca Sĩ",
         "caption": "Nguyễn Hồng Nhung"
       },
       {
         "style": "text-right",
         "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/HoLeThu.jpg",
-        "name": "Nghệ Sĩ",
+        "name": "Ca Sĩ",
         "caption": "Hồ Lệ Thu"
       },
       {
@@ -549,25 +549,30 @@
           }
         ]
     },
-    "donations": {
-        "pageTitle": "Support  Us  With  Donations",
-        "text": "Donation Links",
-        "content": [
-            {
-                "image": "",
-                "link": "/"
-            },
-            {
-                "image": "",
-                "link": "/"
-            },
-            {
-                "image": "",
-                "link": "/"
-            }
-        ]
-    },
+  "donations": {
+    "pageTitle": "Hỗ Trợ Chúng Tôi Bằng Cách Đóng Góp",
+    "text": "Links Đóng Góp",
+    "content": [
+      {
+        "image": "",
+        "link": "/"
+      },
+      {
+        "image": "",
+        "link": "/"
+      },
+      {
+        "image": "",
+        "link": "/"
+      }
+    ]
+  },
   "contact": {
+    "subjectSelect": "Chọn Một Chủ Đề",
+    "generalInfo": "Thông Thường",
+    "sponsorship": "Tài Trợ",
+    "volunteering": "Thiện Nguyện",
+    "supportDonation": "Hỗ Trợ và Quyên Góp",
     "pageTitle": "Liên Lạc",
     "textBoxName": "Tên",
     "textBoxEmail": "Địa Chỉ Email",

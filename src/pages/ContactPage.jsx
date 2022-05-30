@@ -57,11 +57,11 @@ const ContactPage = () => {
                         <div class="type">
                             <label for="type">Subject:</label>
                             <select name="type" ref={type}>
-                                <option value="select" disabled selected hidden>Select a Subject</option>
-                                <option value="General Information">General Information</option>
-                                <option value="Sponsorship">Sponsorship</option>
-                                <option value="Volunteering">Volunteering</option>
-                                <option value="Support and Donation">Support and Donation</option>
+                                    <option value="select" disabled selected hidden>{t('contact.subjectSelect')}</option>
+                                    <option value="General Information">{t('contact.generalInfo')}</option>
+                                    <option value="Sponsorship">{t('contact.sponsorship')}</option>
+                                    <option value="Volunteering">{t('contact.volunteering')}</option>
+                                    <option value="Support and Donation">{t('contact.supportDonation')}</option>
                             </select>
                         </div>
                     </div>
