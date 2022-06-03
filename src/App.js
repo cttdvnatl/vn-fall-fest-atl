@@ -5,6 +5,7 @@ import {
   Route
 } from 'react-router-dom';
 import {setLanguage, getLanguage, setTranslations, setDefaultLanguage} from 'react-multi-lang';
+import ReactGA from 'react-ga4';
 
 //database imports
 import en from './database/en.json';
@@ -31,6 +32,10 @@ import DonationsPage from './pages/DonationsPage';
 //Error/Success Pages
 import FormSubmitSuccessPage from './pages/FormSubmitSuccessPage';
 import FormSubmitErrorPage from './pages/FormSubmitErrorPage';
+
+//React-GA/Google Analytics 4
+ReactGA.initialize("G-QJ9L91FVH1");
+ReactGA.send("pageview");
 
 //Website Cookie for Language
 setTranslations({vn, en})
