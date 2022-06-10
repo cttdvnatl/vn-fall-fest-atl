@@ -1,6 +1,9 @@
 {
   "name": "fall-fest",
   "version": "0.1.0",
+  "engines": {
+    "npm": "8.5.5"
+  },
   "homepage": "https://fallfestival.hvmatl.org",
   "private": true,
   "dependencies": {
