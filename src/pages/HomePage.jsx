@@ -26,9 +26,10 @@ const Homepage = () => {
         <>
             <Carousel />
             <Sponsors />
+            <FestivalStatistics />
             <PhotoGallery data={photoGalleryDataOne} />
             <PhotoGallery data={photoGalleryDataTwo} />
-            <FestivalStatistics />
+            
         </>
     )
 }
