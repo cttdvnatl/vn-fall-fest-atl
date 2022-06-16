@@ -6,31 +6,48 @@ import en from '../database/en';
 const MainSponsor = (list) => {
     return (
         <div class="left">
-        {list.data.map((section, index) => (
-            <div class={section.class + '-container'} key={index}>
-            <h1>{section.title}</h1>
-                <div class={section.class}>
-                    <img src={section.img} alt={section.img}></img>
-                </div> 
-            </div>
-        ))}
+            {list.data.map((section, index) => (
+                <div class={section.class + '-container'} key={index}>
+                    <h1>{section.title}</h1>
+
+                    <div class={section.class}>
+                        <img src={section.img} alt={section.img}></img>
+                    </div> 
+                </div>
+            ))}
         </div>
     )
 }
 
+const shuffleArray = (array) => {
+    let i = array.length - 1;
+    for (; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+    return array;
+}
+
 const OtherSponsors = (list) => {
+    list.data.map(section => {
+        section.content = shuffleArray(section.content);
+    })
+
     return (
         <div class="right">
-        {list.data.map((section, index) => (
-            <div class={section.class + '-container'} key={index}>
-            <h1>{section.title}</h1>
-                <div class={section.class}>
-                {section.content.map((sponsorContent, idx) => (
-                        <img src={sponsorContent.img} alt={sponsorContent.img}key={idx}></img>
-                ))}
+            {list.data.map((section, index) => (
+                <div class={section.class + '-container'} key={index}>
+                    <h1>{section.title}</h1>
+
+                    <div class={section.class}>
+                        {section.content.map((sponsorContent, idx) => (
+                            <img src={sponsorContent.img} alt={sponsorContent.img}key={idx}></img>
+                        ))}
+                    </div>
                 </div>
-            </div>
-        ))}
+            ))}
         </div>
     )
 }
