@@ -34,7 +34,8 @@
 }
 
 .musicians .column h1 {
-    font-size: 20px;
+    font-size: 30px;
+    padding-bottom: 10px;
 }
 
 .musicians .column p {

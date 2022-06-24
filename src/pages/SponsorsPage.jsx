@@ -32,7 +32,9 @@ const shuffleArray = (array) => {
 
 const OtherSponsors = (list) => {
     list.data.map(section => {
-        section.content = shuffleArray(section.content);
+        return (
+            section.content = shuffleArray(section.content)
+        )
     })
 
     return (
