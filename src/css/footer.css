@@ -10,12 +10,14 @@
         height: 300px;
     }
     .footer-component .footer-img {
-        width: 40%;
+        width: 50%;
+        height: 100%;
         margin: auto;
         margin-left: 10px;
     }
     .footer-component .footer-img img {
-        width: 100%;
+        width: auto;
+        max-height: 100%;
     }
     .footer-component .footer-1 {
         width: 50%;

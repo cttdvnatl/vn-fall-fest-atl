@@ -203,6 +203,8 @@ nav.desktop-view div.logo img {
     margin-top: 2px;
     padding-left: 40px;
     float: left;
+    position: absolute;
+    z-index: 998;
 }
 
 
@@ -481,5 +483,7 @@ nav.mobile-view div.logo {
 
 nav.mobile-view div.logo img {
     width: 140px;
-    margin-left: -20px;
+    margin-left: 20px;
+    position: absolute;
+    z-index: 998;
 }
