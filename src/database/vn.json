@@ -469,24 +469,28 @@
         "caption": "Mai Tiến Dũng"
       }
     ],
-  "contests": {
-    "title": "Đơn Đăng Ký Dự Thi",
-    "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650_2.jpg",
-    "content": [
-      {
-        "link": "",
-        "formName": "Các cuộc thi trong lễ hội đang được cập nhật. Xin quý vị trở lại."
-      },
-      {
-        "link": "",
-        "formName": ""
-      },
-      {
-        "link": "",
-        "formName": ""
-      }
-    ]
-  },
+    "contests": {
+      "title": "Contest Forms",
+      "image": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/ContestInfoPoster.jpg",
+      "content": [
+        {
+          "link": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/KaraokeSignupFormandInfoV1.pdf",
+          "formName": "Karaoke Signup Form and Info V1"
+        },
+        {
+          "link": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/LanternContestSignupFormandInfoV1.pdf",
+          "formName": "Lantern Contest Signup Form and Info V1"
+        },
+        {
+          "link": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/MissTeenSignupFormandInfoV1.pdf",
+          "formName": "Miss Teen Signup Form and Info V1"
+        },
+        {
+          "link": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/MrEleganceSignupFormandInfoV1.pdf",
+          "formName": "Mr. Elegance Signup Form and Info V1"
+        }
+      ]
+    },
     "raffles": [
       {
         "title": "Sổ Xố",
