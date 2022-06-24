@@ -470,20 +470,24 @@
       }
     ],
   "contests": {
-    "title": "Đơn Đăng Ký Dự Thi",
-    "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650_2.jpg",
+    "title": "Đơn Đăng Ký Các Cuộc Thi",
+    "image": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/ContestInfoPoster.jpg",
     "content": [
       {
-        "link": "",
-        "formName": "Các cuộc thi trong lễ hội đang được cập nhật. Xin quý vị trở lại."
+        "link": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/KaraokeSignupFormandInfoV1.pdf",
+        "formName": "Giải Thi Giọng Ca Vàng KARAOKE"
       },
       {
-        "link": "",
-        "formName": ""
+        "link": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/LanternContestSignupFormandInfoV1.pdf",
+        "formName": "Giải Thi Lồng Đèn"
       },
       {
-        "link": "",
-        "formName": ""
+        "link": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/MissTeenSignupFormandInfoV1.pdf",
+        "formName": "Giải Thi Hoa Khôi"
+      },
+      {
+        "link": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/MrEleganceSignupFormandInfoV1.pdf",
+        "formName": "Giải Thi Nam Thanh Lịch"
       }
     ]
   },
