@@ -198,10 +198,10 @@ nav.desktop-view div.logo {
 }
 
 nav.desktop-view div.logo img {
-    width: 200px;
+    width: 100px;
     height: auto;
     margin-top: 2px;
-    padding-left: 40px;
+    padding-left: 150px;
     float: left;
     position: absolute;
     z-index: 998;
@@ -482,7 +482,7 @@ nav.mobile-view div.logo {
 }
 
 nav.mobile-view div.logo img {
-    width: 140px;
+    width: 77px;
     margin-left: 20px;
     position: absolute;
     z-index: 998;
