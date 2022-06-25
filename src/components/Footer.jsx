@@ -36,7 +36,7 @@ const Footer = () => {
         <>
         <div class="footer-component">
             <div class="footer-img">
-                    <img alt="logo" src="http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/2022-LHMT-Logo-Dark-FF.png"/>
+                    <img alt="logo" src="http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/LogoSucSongMoi.png"/>
             </div>
             <FooterItems data={Data}/>
         </div>

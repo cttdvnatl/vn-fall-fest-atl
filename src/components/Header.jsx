@@ -163,7 +163,7 @@ const Header = () => {
             </div>      
             <div ref={mainHeader} class="main-header">
                 <div class="logo">
-                    <a href="/"><img alt="logo" src="http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/2022-LHMT-Logo-Dark-FF.png"></img></a>
+                        <a href="/"><img alt="logo" src="http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/LogoSucSongMoi.png"></img></a>
                 </div>
 
                 <div>
