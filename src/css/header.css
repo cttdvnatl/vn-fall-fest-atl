@@ -102,7 +102,7 @@ nav.desktop-view div.top-header div.top-header-items-right div.translation-butto
 nav.desktop-view div.main-header {
     width: 100%;
     background-image: url('http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Background1.jpg');
-    height: 100px;
+    height: 150px;
     box-shadow: 0 10px 6px -6px gray;
 }
 
@@ -128,9 +128,9 @@ nav.desktop-view div.main-header ul li p {
     text-decoration: none;
     color: black;
     font-size: 18px;
-    padding-top: 35px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     padding-right: 60px;
-    padding-bottom: 44px;
     cursor: pointer;
 }
 
@@ -198,10 +198,10 @@ nav.desktop-view div.logo {
 }
 
 nav.desktop-view div.logo img {
-    width: 200px;
+    width: 150px;
     height: auto;
     margin-top: 2px;
-    padding-left: 40px;
+    padding-left: 150px;
     float: left;
     position: absolute;
     z-index: 998;
@@ -231,6 +231,7 @@ nav.mobile-view div.top-header {
     border-bottom: solid 1px black;
     display: block;
     position: relative;
+    background-image: url('http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Background2.jpg');
 }
 
 nav.mobile-view div.top-header div.top-header-items-left {
@@ -324,12 +325,12 @@ nav.mobile-view div.top-header div.top-header-items-right .top-header-button:hov
 
     .directionAndDonationMobile {
         float: right;
-        padding-top: 26px;
+        padding-top: 45px;
         padding-right: 10px;
     }
 
     .directionAndDonationMobile a {
-        font-size: 12px;
+        font-size: 15px;
         margin: auto;
         padding: 5px;
         margin-right: 5px;
@@ -356,9 +357,10 @@ nav.mobile-view div.main-header {
     width: 100%;
     background-color: #ffff4d;
     box-shadow: grey 10px 5px 5px;
-    height: 75px;
+    height: 125px;
     z-index: 9999;
     top: 0;
+    background-image: url('http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Background1.jpg');
     left: 0;
 }
 
@@ -462,6 +464,7 @@ nav.mobile-view span.open {
     display: block;
     font-size: 50px;
     float: right;
+    margin-top: 20px;
     margin-right: 10px;
     cursor: pointer;
 }   
@@ -482,7 +485,7 @@ nav.mobile-view div.logo {
 }
 
 nav.mobile-view div.logo img {
-    width: 140px;
+    width: 130px;
     margin-left: 20px;
     position: absolute;
     z-index: 998;
