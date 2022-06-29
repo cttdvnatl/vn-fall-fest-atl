@@ -6,7 +6,6 @@ import {
 } from 'react-router-dom';
 import {setLanguage, getLanguage, setTranslations, setDefaultLanguage} from 'react-multi-lang';
 import ReactGA from 'react-ga4';
-import {Helmet} from "react-helmet";
 
 //database imports
 import en from './database/en.json';
@@ -80,10 +79,6 @@ getLanguage() === 'en' ? document.title = "Vietnamese Fall Festival - Lễ Hội
 function App() {
     return (
         <>
-        <Helmet>
-            <meta name="description" content="Vietnamese Fall Festival of Atlanta - Lễ Hội Mùa Thu"/>
-            <meta name="keywords" content="Fall Festival, Atlanta, HVMATL"/>
-        </Helmet>
         <Header/>
             <Router>
                 <Route path="/" component={HomePage} exact/>

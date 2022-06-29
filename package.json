@@ -22,7 +22,6 @@
     "react-ga": "^3.3.0",
     "react-ga4": "^1.4.1",
     "react-google-recaptcha": "^2.1.0",
-    "react-helmet": "^6.1.0",
     "react-image-gallery": "^1.2.8",
     "react-multi-lang": "^2.1.1",
     "react-router-dom": "^5.2.0",
