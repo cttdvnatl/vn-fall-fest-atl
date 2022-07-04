@@ -74,7 +74,7 @@ function getCookie(cookieParam) {
 checkLangCookie()
 
 //Changes Document Title based on language
-getLanguage() === 'en' ? document.title = "Vietnamese Fall Festival - Lễ Hội Mùa Thu" : document.title = "Lễ Hội Mùa Thu - Vietnamese Fall Festival"
+getLanguage() === 'en' ? document.title = "Vietnamese Fall Festival of Atlanta - Lễ Hội Mùa Thu" : document.title = "Lễ Hội Mùa Thu - Vietnamese Fall Festival of Atlanta"
 
 function App() {
     return (
