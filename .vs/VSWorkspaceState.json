@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\database"
+    "\\src\\components",
+    "\\src\\css",
+    "\\src\\database",
+    "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\database\\vn.json",
   "PreviewInSolutionExplorer": false
 }
