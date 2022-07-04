@@ -450,23 +450,17 @@
         "name": "Ca Sĩ",
         "caption": "Justin Nguyễn"
       },
-            {
+      {
         "style": "text-right",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/ha-vy-frame.png",
-        "name": "Ca Sĩ",
-        "caption": "Hạ Vy"
-      },
-      {
-        "style": "text-left",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/duong-trieu-vu-frame.png",
-        "name": "Ca Sĩ",
-        "caption": "Dương Triệu Vũ"
-      },
-      {
-        "style": "text-left",
         "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/nguyen-hong-nhung-frame.png",
         "name": "Ca Sĩ",
         "caption": "Nguyễn Hồng Nhung"
+      },
+      {
+        "style": "text-left",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/ha-vy-frame.png",
+        "name": "Ca Sĩ",
+        "caption": "Hạ Vy"
       },
       {
         "style": "text-right",
@@ -474,11 +468,17 @@
         "name": "Ca Sĩ",
         "caption": "Hồ Lệ Thu"
       },
+            {
+        "style": "text-left",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/duong-trieu-vu-frame.png",
+        "name": "Ca Sĩ",
+        "caption": "Dương Triệu Vũ"
+      },
       {
-        "style": "text-right",
+        "style": "text-center",
         "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/trung-cang-band-frame.png",
         "name": "",
-        "caption": ""
+        "caption": "Ban Nhạc Trung Cang"
       }
     ],
   "contests": {
