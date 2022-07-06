@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useRef} from 'react';
 import {getLanguage, useTranslation} from 'react-multi-lang';
 import vn from '../database/vn';
 import en from '../database/en';
@@ -54,7 +54,10 @@ const OtherSponsors = (list) => {
     )
 }
 
-const SponsorsPage = () => {
+const SponsorsPage = (props) => {
+    const sponsors = useRef(null);
+    const brochure = useRef(null);
+
     useTranslation()
 
     let mainSponsorData;
@@ -69,10 +72,18 @@ const SponsorsPage = () => {
         otherSponsorsData = en.sponsorList.otherSponsors;
     }
     
+    useEffect(() => {
+        if (props.type === 'small') {
+            brochure.current.style.display = 'none';
+            sponsors.current.classList.add('sponsor-small-images')
+        }
+    })
+
+
     return (
         <>
-            <div class="sponsors-page">
-                <a href="http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/Brochure/LHMT2022-Sponsorship_Package_Final.pdf">Sponsor Brochure</a>
+        <div ref={sponsors} class="sponsors-page">
+            <a ref={brochure} class="sponsor-brochure" href="http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/Brochure/LHMT2022-Sponsorship_Package_Final.pdf">Sponsor Brochure</a>
             <MainSponsor data={mainSponsorData}/>
             <OtherSponsors data={otherSponsorsData}/>
         </div>

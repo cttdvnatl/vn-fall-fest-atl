@@ -45,6 +45,24 @@
     box-shadow: 3px 3px 6px gray;
 }
 
+/*For smaller images*/
+@media only screen and (max-width: 600px) {
+    .sponsor-small-images .right .other-sponsor-container .other-sponsor img {
+        margin: 10px;
+        width: 45% !important;
+        max-width: 300px;
+        box-shadow: 3px 3px 6px gray;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .sponsor-small-images .right .other-sponsor-container .other-sponsor img {
+        margin: 10px;
+        width: 27% !important;
+        max-width: 300px;
+        box-shadow: 3px 3px 6px gray;
+    }
+}
 
 
 

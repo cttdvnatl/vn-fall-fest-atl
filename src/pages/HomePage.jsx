@@ -3,7 +3,8 @@ import { getLanguage, useTranslation } from 'react-multi-lang';
 import vn from '../database/vn';
 import en from '../database/en';
 import Carousel from '../components/Carousel';
-import Sponsors from '../components/Sponsors';
+//import Sponsors from '../components/Sponsors';
+import Sponsors from './SponsorsPage';
 import PhotoGallery from '../components/PhotoGallery';
 import FestivalStatistics from '../components/FestivalStatistics';
 
@@ -25,7 +26,7 @@ const Homepage = () => {
     return (
         <>
             <Carousel />
-            <Sponsors />
+            <Sponsors type={'small'} />
             <FestivalStatistics />
             <PhotoGallery data={photoGalleryDataOne} />
             <PhotoGallery data={photoGalleryDataTwo} />
