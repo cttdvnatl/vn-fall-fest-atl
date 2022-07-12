@@ -32,12 +32,20 @@
     src: url(../fonts/TheNautigal-Regular.ttf);
 }
 
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
 h1 {
     font-family: Nautigal;
     color: burlywood;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 p {
     color: #737373;
+    /*font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+    font-family: Roboto;
+    font-size: 23px;
 }
