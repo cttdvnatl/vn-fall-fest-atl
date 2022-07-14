@@ -268,6 +268,10 @@
       {
         "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Raffles/Raffle.jpg",
         "imageNumber": "4"
+      },
+      {
+        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/MainPoster.jpg",
+        "imageNumber": "5"
       }
     ],
     "sponsorList": {
@@ -292,26 +296,32 @@
                   {
                       "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/EIG.jpg"
                   },
-                  {
-                      "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-S3Spa.png"
-                  }
+                {
+                  "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-S3Spa.png"
+                },
+                {
+                  "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Zurno.png"
+                }
               ]
           },
           {
             "title": "Gold Sponsors",
             "class": "gold-sponsor other-sponsor",
-            "content": [                 
+            "content": [
               {
-                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/KangenWater.png"
               },
               {
-                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/NewStar.jpg"
               },
               {
-                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/LaTepGroup.png"
               },
               {
-                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/CaoKhaiThue.png"
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/MagnoliaComfortMedical.png"
               }
             ]
         },
