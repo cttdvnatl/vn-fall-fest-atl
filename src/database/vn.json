@@ -280,7 +280,8 @@
           {
             "title": "Nhà Tài Trợ Chính",
             "class": "main-sponsor",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/main/Main-NP.png"
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/main/Main-NP.png",
+            "website": "https://www.npattorney.com"
           }
         ],
         "otherSponsors": [
@@ -289,19 +290,24 @@
             "class": "diamond-sponsor other-sponsor",
             "content": [
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ParisBanhMi.png"
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ParisBanhMi.png",
+                "website": "https://parisbanhmi.com"
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ComGa.png"
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ComGa.png",
+                "website": "https://www.comgahoustonduluth.com"
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/EIG.jpg"
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/EIG.jpg",
+                "website": null
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-S3Spa.png"
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-S3Spa.png",
+                "website": "https://s3spa.com"
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Zurno.png"
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Zurno.png",
+                "website": null
               }
             ]
           },
@@ -310,22 +316,28 @@
             "class": "gold-sponsor other-sponsor",
             "content": [
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/KangenWater.png"
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/KangenWater.png",
+                "website": null
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/NewStar.jpg"
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/NewStar.jpg",
+                "website": "https://newstarsspa.com"
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/LaTepGroup.png"
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/LaTepGroup.png",
+                "website": null
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/CaoKhaiThue.png"
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/CaoKhaiThue.png",
+                "website": "https://caokhaithue.com"
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/MagnoliaComfortMedical.png"
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/MagnoliaComfortMedical.png",
+                "website": null
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/UD.png"
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/UD.png",
+                "website": "https://www.uniteddigestive.com"
               }
             ]
           },
@@ -334,16 +346,20 @@
             "class": "silver-sponsor other-sponsor",
             "content": [
               {
-                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png",
+                "website": null
               },
               {
-                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png",
+                "website": null
               },
               {
-                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png",
+                "website": null
               },
               {
-                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png"
+                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png",
+                "website": null
               }
             ]
           }

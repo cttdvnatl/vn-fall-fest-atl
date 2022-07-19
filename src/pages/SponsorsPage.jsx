@@ -11,7 +11,9 @@ const MainSponsor = (list) => {
                     <h1>{section.title}</h1>
 
                     <div class={section.class}>
-                        <img src={section.img} alt={section.img}></img>
+                        <a target="_blank" rel="noopener noreferrer" href={section.website}>
+                            <img src={section.img} alt={section.img} key={index} />
+                        </a>                      
                     </div> 
                 </div>
             ))}
@@ -45,7 +47,9 @@ const OtherSponsors = (list) => {
 
                     <div class={section.class}>
                         {section.content.map((sponsorContent, idx) => (
-                            <img src={sponsorContent.img} alt={sponsorContent.img}key={idx}></img>
+                            <a target="_blank" rel="noopener noreferrer" href={sponsorContent.website}>
+                                <img src={sponsorContent.img} alt={sponsorContent.img} key={idx} />
+                            </a>                             
                         ))}
                     </div>
                 </div>
