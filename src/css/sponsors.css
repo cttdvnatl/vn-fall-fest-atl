@@ -61,6 +61,7 @@
         width: 27% !important;
         max-width: 300px;
         box-shadow: 3px 3px 6px gray;
+        height: 150px;
     }
 }
 
