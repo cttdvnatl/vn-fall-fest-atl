@@ -26,11 +26,10 @@ const Homepage = () => {
     return (
         <>
             <Carousel />
-            <Sponsors type={'small'} />
+            <Sponsors type={'small'} />           
             <FestivalStatistics />
             <PhotoGallery data={photoGalleryDataOne} />
-            <PhotoGallery data={photoGalleryDataTwo} />
-            
+            <PhotoGallery data={photoGalleryDataTwo} />            
         </>
     )
 }
