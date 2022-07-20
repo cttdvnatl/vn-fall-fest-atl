@@ -25,8 +25,8 @@ const Homepage = () => {
 
     return (
         <>
-            <Sponsors type={'small'} />
             <Carousel />
+            <Sponsors type={'small'} />           
             <FestivalStatistics />
             <PhotoGallery data={photoGalleryDataOne} />
             <PhotoGallery data={photoGalleryDataTwo} />            
