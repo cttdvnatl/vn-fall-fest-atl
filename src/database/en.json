@@ -472,33 +472,33 @@
     "musicians": [
       {
         "style": "text-right",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/mai-tien-dung-frame.png",
+        "name": "Singer",
+        "caption": "Mai Tien Dung"
+    },
+      {
+        "style": "text-left",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/ho-hoang-yen-frame.png",
+        "name": "Singer",
+        "caption": "Ho Hoang Yen"
+    },
+      {
+        "style": "text-right",
         "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/huong-thuy-frame.png",
         "name": "Singer",
         "caption": "Huong Thuy"
     },
-        {
-            "style": "text-left",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/mai-tien-dung-frame.png",
-            "name": "Singer",
-            "caption": "Mai Tien Dung"
-        },
+    {
+      "style": "text-left",
+      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/justin-nguyen-frame.png",
+      "name": "Singer",
+      "caption": "Justin Nguyen"
+    },
       {
         "style": "text-right",
         "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/nhu-y-frame.png",
         "name": "Singer",
         "caption": "Nhu Y"
-      },
-      {
-        "style": "text-left",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/justin-nguyen-frame.png",
-        "name": "Singer",
-        "caption": "Justin Nguyen"
-      },
-      {
-        "style": "text-right",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/nguyen-hong-nhung-frame.png",
-        "name": "Singer",
-        "caption": "Nguyen Hong Nhung"
       },
       {
         "style": "text-left",
@@ -508,15 +508,21 @@
       },
       {
         "style": "text-right",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/ho-le-thu-frame.png",
-        "name": "Singer",
-        "caption": "Ho Le Thu"
-      },
-            {
-        "style": "text-left",
         "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/duong-trieu-vu-frame.png",
         "name": "Singer",
         "caption": "Duong Trieu Vu"
+      },
+      {
+        "style": "text-left",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/nguyen-hong-nhung-frame.png",
+        "name": "Singer",
+        "caption": "Nguyen Hong Nhung"
+      },
+      {
+        "style": "text-right",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/ho-le-thu-frame.png",
+        "name": "Singer",
+        "caption": "Ho Le Thu"
       },
       {
         "style": "text-center",
