@@ -126,33 +126,33 @@
             {
                 "galleryStyle": "gallery-style-2",
                 "content": [
-                    {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo1.png"
-                    },
-                    {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo2.png"
-                    },
-                    {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo3.png"
-                    },
-                    {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo4.png"
-                    },
-                    {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo5.png"
-                    },
-                    {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo6.png"
-                    },
-                    {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo7.png"
-                    },
-                    {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo8.png"
-                    },
-                    {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo9.png"
-                    }
+                  {
+                    "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/nguyen-hong-nhung-poster.jpg"
+                },
+                {
+                    "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/ha-vy-poster.jpg"
+                },
+                {
+                    "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/duong-trieu-vu-poster.jpg"
+                },
+                {
+                    "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/mai-tien-dung-poster.jpg"
+                },
+                {
+                    "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/huong-thuy-poster.jpg"
+                },
+                {
+                    "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/nhu-y-poster.jpg"
+                },
+                {
+                    "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/ho-hoang-yen-poster.jpg"
+                },
+                {
+                    "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/justin-nguyen-poster.jpg"
+                },
+                {
+                    "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/ho-le-thu-poster.jpg"
+                }
                 ]
             }
         ]
