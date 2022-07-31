@@ -137,6 +137,7 @@ nav.desktop-view
 }
 
 /* Translation Button*/
+
 nav.desktop-view
   div.top-header
   div.top-header-items-right
@@ -177,7 +178,7 @@ nav.desktop-view
 
 nav.desktop-view div.main-header {
   width: 100%;
-  /* background-image: url("http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Background1.jpg"); */
+  background-image: url("http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Background1.jpg"); 
   box-shadow: 0 10px 6px -6px gray;
 }
 
@@ -192,7 +193,7 @@ nav.desktop-view div.is-sticky.main-header {
 nav.desktop-view div.main-header ul {
   list-style: none;
   display: flex;
-  margin-right: 160px;
+  margin-right: 60px;
 }
 
 nav.desktop-view div.main-header ul li {
@@ -233,6 +234,14 @@ nav.desktop-view div.main-header ul li p a {
 nav.desktop-view div.main-header ul li p:hover a {
   color: black;
   transition: 0.2s;
+}
+
+#translation {
+  margin-right: 160px;
+  margin-left: 60px;
+  font-size: 18px;
+  padding: 4px;
+  border-color: lightgray;
 }
 
 /*Dropdown*/

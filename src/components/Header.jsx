@@ -31,7 +31,6 @@ const Header = () => {
   let displayVN = {};
 
   const t = useTranslation();
-
   function setLangCookie() {
     document.cookie = "language = " + getLanguage();
   }
@@ -157,25 +156,6 @@ const Header = () => {
                 {t("topHeader.link2.text")}
               </a>
             </div>
-
-            <div class="translation-button">
-              <button
-                style={displayVN}
-                id="vn"
-                class="translation-button"
-                onClick={() => setLanguageVN()}
-              >
-                Tiếng Việt
-              </button>
-              <button
-                style={displayEN}
-                id="en"
-                class="translation-button"
-                onClick={() => setLanguageEN()}
-              >
-                English
-              </button>
-            </div>
           </div>
         </div>
         <div ref={mainHeader} class="main-header">
@@ -198,6 +178,31 @@ const Header = () => {
             <a href={t("topHeader.link1.link")}>{t("topHeader.link1.text")}</a>
             <a href={t("topHeader.link2.link")}>{t("topHeader.link2.text")}</a>
           </div>
+
+          {/* 
+              <button
+                // style={displayVN}
+                id="vn"
+                class="translation__button"
+                onClick={() => {
+                  setLanguageVN();
+                  console.log(getLanguage());
+                }}
+              >
+                Tiếng Việt
+              </button>
+              <button
+                // style={displayEN}
+                id="en"
+                class="translation__button"
+                onClick={() => {
+                  setLanguageEN();
+                  console.log(getLanguage());
+                }}
+              >
+                English
+              </button> 
+          */}
 
           <ul ref={sideNav} class="closeSideNav">
             <span class="close" onClick={() => closeSideNav()}>
@@ -229,6 +234,7 @@ const Header = () => {
                     {t("header.dropdownThree.item1")}
                   </a>
                 </li>
+
                 <li>
                   <a href={t("header.dropdownThree.href2")}>
                     {t("header.dropdownThree.item2")}
@@ -280,11 +286,21 @@ const Header = () => {
               </p>
             </li>
           </ul>
+          <select
+            id="translation"
+            defaultValue={getLanguage() === "vn" ? "vn" : "en"}
+            onChange={(event) => {
+              event.target.value === "vn" ? setLanguageVN() : setLanguageEN();
+            }}
+          >
+            <option value="vn">Tiếng Việt</option>
+            <option value="en">English</option>
+          </select>
         </div>
-        <div className="arrows" onClick={() => console.log('test')}>
-            <span className="arrow"></span>
-            <span className="arrow"></span>
-            <span className="arrow"></span>
+        <div className="arrows" onClick={() => console.log("test")}>
+          <span className="arrow"></span>
+          <span className="arrow"></span>
+          <span className="arrow"></span>
         </div>
       </nav>
     </>

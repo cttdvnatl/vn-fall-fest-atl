@@ -68,7 +68,7 @@
 .rewards {
   display: flex;
   flex-direction: column;
-  padding: 0 80px;
+  padding: 160px 80px;
 }
 
 .share__container,
