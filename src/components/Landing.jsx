@@ -1,10 +1,26 @@
-import React, { useState } from "react";
+import React, { useRef, useState, useCallback, useEffect } from "react";
 
 const Landing = () => {
   let [video, setVideo] = useState(true);
+  let landing = useRef(null);
+
+  const detectScroll = useCallback((e) => {
+    if (window.scrollY > 0) {
+      landing.current.classList.add("sticky");
+    } else {
+      landing.current.classList.remove("sticky");
+    }
+  });
+
+  useEffect(() => {
+    window.addEventListener("scroll", detectScroll);
+    return () => {
+      window.removeEventListener("scroll", detectScroll);
+    };
+  }, [detectScroll]);
 
   return (
-    <div className="landing">
+    <div ref={landing} className="landing">
       <div className="background__wrapper">
         {/* <video preload autoPlay muted className="background__video">
           <source src="/resources/pages/home/Promo.mp4" type="video/mp4" />
