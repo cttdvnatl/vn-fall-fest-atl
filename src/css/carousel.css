@@ -1,110 +1,113 @@
 .carousel-container {
-    display: block;
-    height: auto;
-    width: 100%;
-    position: relative;
+  display: block;
+  height: auto;
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .carousel-container .carousel {
-    width: 100%;
-    height: auto;
-    position: absolute;
-    overflow: hidden;
-    display: block;
-    opacity: 0;
-    box-shadow: 0px 4px 6px grey;
-    transition: .5s ease;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  overflow: hidden;
+  display: block;
+  opacity: 0;
+  box-shadow: 0px 4px 6px grey;
+  transition: 0.5s ease;
 }
 
 .carousel-container .carousel.active {
-    opacity: 100;
+  opacity: 100;
 }
 
 .carousel-container .carousel img {
-    width: 100%;
-    height: auto;
-    box-shadow: 0px 4px 6px grey;
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 4px 6px grey;
 }
 
 .carousel-container .filler {
-    opacity: 0;
-    width: 100%;
-    height: auto;
-    box-shadow: 0px 4px 6px grey;
+  opacity: 0;
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 4px 6px grey;
 }
 
 .carousel-container .carousel-overlay-left {
-    left: 0;
-    width: 15%; 
-    height: 100%;
-    position: absolute;
-    z-index: 1;
+  left: 0;
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
 }
 
 .carousel-container .carousel-overlay-right {
-    right: 0;
-    width: 15%; 
-    height: 100%;
-    position: absolute;
-    z-index: 1;
+  right: 0;
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
 }
 
 .carousel-container .carousel-overlay-left:hover {
-    background-color: black;
-    opacity: .2;
-    box-shadow: 30px 0px 5px 0px;
+  background-color: black;
+  opacity: 0.2;
+  box-shadow: 30px 0px 5px 0px;
 }
 
 .carousel-container .carousel-overlay-right:hover {
-    background-color: black;
-    opacity: .2;
-    box-shadow: -30px 0px 5px 0px;
+  background-color: black;
+  opacity: 0.2;
+  box-shadow: -30px 0px 5px 0px;
 }
 
 .carousel-container .video-responsive {
-    display: none;
+  display: none;
 }
 
 .carousel-container .video-responsive.active {
-    display: block;
-    z-index: 999;
+  display: block;
+  z-index: 999;
 }
 
 .carousel-container .video-responsive span {
-    left: 12%;
-    top: 2.5%;
-    background-color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 40px;
-    position: absolute;
-    opacity: 1 !important;
-    cursor: pointer;
-    z-index: 1000;
+  left: 12%;
+  top: 2.5%;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 40px;
+  position: absolute;
+  opacity: 1 !important;
+  cursor: pointer;
+  z-index: 1000;
 }
 
 .carousel-container .video-responsive span:hover {
-    background-color: lightgray;;
+  background-color: lightgray;
 }
 
 .carousel-container .video-responsive video {
-    left: 10%;
-    top: 2.5%;
-    height: 95%;
-    width: 80%;
-    position: absolute;
-    opacity: 1 !important;
-    z-index: 999;
+  left: 10%;
+  top: 2.5%;
+  height: 95%;
+  width: 80%;
+  position: absolute;
+  opacity: 1 !important;
+  z-index: 999;
 }
 
 .carousel-container .video-responsive .gray-overlay {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    position: absolute;
-    background-color: grey;
-    opacity: 0.7;
-    z-index: 998;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  background-color: grey;
+  opacity: 0.7;
+  z-index: 998;
 }
