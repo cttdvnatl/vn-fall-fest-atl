@@ -146,3 +146,10 @@ h3 {
   font-size: 30px;
   margin-bottom: 24px;
 }
+
+
+@media (max-width:1231px){
+  .video > video{
+    margin-top: 40px;
+  }
+}
