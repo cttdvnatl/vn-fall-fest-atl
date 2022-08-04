@@ -72,7 +72,7 @@ const VideoOverlay = () => {
 
     return (
         <>
-        <div ref={videoContainer} className="video-responsive active">
+        <div ref={videoContainer} className={"video-responsive active"}>
             <span onClick={() => closeVideoOverlay()}>X</span>
             <video ref={video} width="750" height="500" autoPlay muted>
                 <source
