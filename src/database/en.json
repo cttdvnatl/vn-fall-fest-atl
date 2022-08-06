@@ -126,31 +126,31 @@
                 "galleryStyle": "gallery-style-2",
                 "content": [
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/nguyen-hong-nhung-poster.jpg"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/singers-poster-01.jpg"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/ha-vy-poster.jpg"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/singers-poster-02.jpg"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/duong-trieu-vu-poster.jpg"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/singers-poster-03.jpg"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/mai-tien-dung-poster.jpg"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo3.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/huong-thuy-poster.jpg"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/singers-poster-04.jpg"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/nhu-y-poster.jpg"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo4.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/ho-hoang-yen-poster.jpg"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo6.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/justin-nguyen-poster.jpg"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo2.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/ho-le-thu-poster.jpg"
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo5.png"
                     }
                 ]
             }
@@ -376,7 +376,7 @@
     "title": "Festival Schedule",
     "schedule1": [
       {
-        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
+        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/FestivalSchedule/ProgramSchedule.jpg"
       }
     ],
     "schedule2": [
@@ -561,10 +561,10 @@
       }
     ],
     "menu": {
-        "pageTitle": "This page is currently under construction. Please check back.",
+        "pageTitle": "Menu For Festival Days.",
         "content": [
           {
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650_2.jpg"
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Menu/2022_Menu.jpg"
           }
         ]
     },

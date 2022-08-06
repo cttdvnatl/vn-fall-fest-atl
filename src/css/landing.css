@@ -1,13 +1,9 @@
 .landing {
   margin-bottom: 240px;
-  padding-top: 170px;
   position: relative;
-  transition: all 250ms ease-in;
 }
 
-.sticky {
-  padding-top: 120px;
-}
+
 
 .video {
   margin: auto auto;
