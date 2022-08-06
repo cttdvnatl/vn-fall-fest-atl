@@ -24,29 +24,37 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 @font-face {
-    font-family: Nautigal;
-    src: url(../fonts/TheNautigal-Regular.ttf);
+  font-family: Nautigal;
+  src: url(../fonts/TheNautigal-Regular.ttf);
 }
 
 @font-face {
-    font-family: Roboto;
-    src: url(../fonts/Roboto-Regular.ttf);
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
 }
 
 h1 {
-    font-family: Nautigal;
-    color: burlywood;
-    font-size: 40px;
+  font-family: Nautigal;
+  color: burlywood;
+  font-size: 40px;
 }
 
 p {
-    color: #737373;
-    /*font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
-    font-family: Roboto;
-    font-size: 23px;
+  color: #737373;
+  /*font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+  font-family: Roboto;
+  font-size: 23px;
+}
+
+.app {
+  padding-top: 170px;
+  transition: all 250ms ease-in;
+}
+.sticky {
+  padding-top: 120px;
 }
