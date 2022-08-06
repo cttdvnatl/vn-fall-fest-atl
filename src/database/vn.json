@@ -127,31 +127,31 @@
                 "galleryStyle": "gallery-style-2",
                 "content": [
                   {
-                    "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/singers-poster-01.jpg"
-                  },
-                  {
-                      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/singers-poster-02.jpg"
-                  },
-                  {
-                      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/singers-poster-03.jpg"
-                  },
-                  {
-                      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo3.png"
-                  },
-                  {
-                      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/singers-poster-04.jpg"
-                  },
-                  {
-                      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo4.png"
-                  },
-                  {
-                      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo6.png"
+                    "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo1.png"
                   },
                   {
                       "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo2.png"
                   },
                   {
+                      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo3.png"
+                  },
+                  {
+                      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo4.png"
+                  },
+                  {
                       "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo5.png"
+                  },
+                  {
+                      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo6.png"
+                  },
+                  {
+                      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo7.png"
+                  },
+                  {
+                      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo8.png"
+                  },
+                  {
+                      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo9.png"
                   }
                 ]
             }
@@ -562,7 +562,7 @@
       }
     ],
     "menu": {
-        "pageTitle": "Thực đơn cho những ngày lễ hội.",
+        "pageTitle": "Thực Đơn Cho Những Ngày Lễ Hội",
         "content": [
           {
             "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Menu/2022_Menu.jpg"

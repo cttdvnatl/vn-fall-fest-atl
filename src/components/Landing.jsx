@@ -68,13 +68,6 @@ const Landing = () => {
           </figure>
         </div>
         <div className="reward__container">
-          <figure className="reward__image--wrapper">
-            <img
-              src="https://hvmatl.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png"
-              alt=""
-              className="reward__image"
-            />
-          </figure>
           <div className="reward">
             <h3 className="reward__header">Raffle!</h3>
             <p className="reward__para">10 chances to WIN 10 great prizes</p>
@@ -83,6 +76,13 @@ const Landing = () => {
               fallfest.raffle@hvmatl.org to purchase your raffle tickets.
             </p>
           </div>
+          <figure className="reward__image--wrapper">
+            <img
+              src="https://hvmatl.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png"
+              alt=""
+              className="reward__image"
+            />
+          </figure>
         </div>
         <div className="reward__container">
           <div className="reward">
