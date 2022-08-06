@@ -377,7 +377,7 @@
     "title": "Lịch Trình Lễ Hội",
     "schedule1": [
       {
-        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
+        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/FestivalSchedule/ProgramSchedule.jpg"
       }
     ],
     "schedule2": [
@@ -562,10 +562,10 @@
       }
     ],
     "menu": {
-        "pageTitle": "Thực đơn cho những ngày lễ hội đang được cập nhật. Xin quý vị trở lại.",
+        "pageTitle": "Thực đơn cho những ngày lễ hội.",
         "content": [
           {
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650_2.jpg"
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Menu/2022_Menu.jpg"
           }
         ]
     },

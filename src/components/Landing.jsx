@@ -1,26 +1,10 @@
-import React, { useRef, useState, useCallback, useEffect } from "react";
+import React, { useState } from "react";
 
 const Landing = () => {
   let [video, setVideo] = useState(true);
-  let landing = useRef(null);
-
-  const detectScroll = useCallback((e) => {
-    if (window.scrollY > 0) {
-      landing.current.classList.add("sticky");
-    } else {
-      landing.current.classList.remove("sticky");
-    }
-  });
-
-  useEffect(() => {
-    window.addEventListener("scroll", detectScroll);
-    return () => {
-      window.removeEventListener("scroll", detectScroll);
-    };
-  }, [detectScroll]);
 
   return (
-    <div ref={landing} className="landing">
+    <div className="landing">
       <div className="background__wrapper">
         {/* <video preload autoPlay muted className="background__video">
           <source src="/resources/pages/home/Promo.mp4" type="video/mp4" />
@@ -84,13 +68,6 @@ const Landing = () => {
           </figure>
         </div>
         <div className="reward__container">
-          <figure className="reward__image--wrapper">
-            <img
-              src="https://hvmatl.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png"
-              alt=""
-              className="reward__image"
-            />
-          </figure>
           <div className="reward">
             <h3 className="reward__header">Raffle!</h3>
             <p className="reward__para">10 chances to WIN 10 great prizes</p>
@@ -99,6 +76,13 @@ const Landing = () => {
               fallfest.raffle@hvmatl.org to purchase your raffle tickets.
             </p>
           </div>
+          <figure className="reward__image--wrapper">
+            <img
+              src="https://hvmatl.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png"
+              alt=""
+              className="reward__image"
+            />
+          </figure>
         </div>
         <div className="reward__container">
           <div className="reward">

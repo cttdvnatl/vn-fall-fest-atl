@@ -134,6 +134,7 @@ nav {
   position: relative;
   position: fixed;
   z-index: 999;
+  top: 0;
   transition: all 250ms ease-in;
 }
 
@@ -541,4 +542,19 @@ nav.mobile-view div.logo img {
   width: 120px;
   margin: auto 120px;
   z-index: 998;
+}
+
+@media (max-width: 650px) {
+  nav.mobile-view div.logo img {
+    width: 100px;
+    margin: auto 60px;
+  }
+
+  nav.mobile-view span.open {
+    margin: auto 60px;
+  }
+
+  .directionAndDonationMobile {
+    display: none;
+  }
 }
