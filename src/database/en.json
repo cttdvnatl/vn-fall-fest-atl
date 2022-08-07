@@ -568,13 +568,20 @@
           }
         ]
     },
-    "vendors": {
-        "pageTitle": "This page is currently under construction. Please check back.",
-        "content": [
-          {
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
-          }
-        ]
+  "vendors": {
+    "pageTitle": "This page is currently under construction. Please check back.",
+    "content": [
+      {
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
+      }
+    ]
+  },
+      "landing": {
+        "reward_1": "Come join us in liking your favorite singers and sharing the post on our Facebook page!",
+        "reward_2": "We will be choosing 10 random individuals that \"shared or liked\" before August 7, 2022 to recieve a limited edition stainless steel mug with the 2022 Fall Festival Logo!",
+        "reward_3": "10 chances to WIN 10 great prizes",
+        "reward_4": "Grab 5 raffles and get 1 FREE! Contact us at fallfest.raffle@hvmatl.org to purchase your raffle tickets.",
+        "reward_5": "You can be the luckiest of them all on September 4th and bring yourself a BRAND NEW LEXUS!!!"
     },
     "directions": {
         "pageTitle": "Directions",
