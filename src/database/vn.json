@@ -1,378 +1,378 @@
 {
-    "topHeader": {
-        "link1": {
-            "text": "Hướng Dẫn Đến",
-            "link": "/directions"
-        },
-        "link2": {
-            "text": "Đóng Góp",
-            "link": "/donations"
-        }
+  "topHeader": {
+    "link1": {
+      "text": "Hướng Dẫn Đến",
+      "link": "/directions"
     },
-    "header": {
-        "dropdownOne": {
-            "heading": "Trang Chủ",
-            "href": "/"
-        },
-        "dropdownTwo": {
-            "heading": "Giới Thiệu",
-            "href": "/about"
-        },
-        "dropdownThree": {
-            "heading": "Sự Kiện",
-            "item1": "Lịch Trình Lễ Hội",
-            "href1": "/festival-schedule",
-            "item2": "Chương Trình Văn Nghệ",
-            "href2": "/musicians",
-            "item3": "Các Cuộc Thi",
-            "href3": "/contests",
-            "item4": "Sổ Xố",
-            "href4": "/raffles"
-        },
-        "dropdownFour": {
-            "heading": "Ẩm Thực",
-            "item1": "Món Ăn & Thức Uống",
-            "href1": "/menu",
-            "item2": "Sơ Đồ Quầy Hàng",
-            "href2": "/vendors"
+    "link2": {
+      "text": "Đóng Góp",
+      "link": "/donations"
+    }
+  },
+  "header": {
+    "dropdownOne": {
+      "heading": "Trang Chủ",
+      "href": "/"
+    },
+    "dropdownTwo": {
+      "heading": "Giới Thiệu",
+      "href": "/about"
+    },
+    "dropdownThree": {
+      "heading": "Sự Kiện",
+      "item1": "Lịch Trình Lễ Hội",
+      "href1": "/festival-schedule",
+      "item2": "Chương Trình Văn Nghệ",
+      "href2": "/musicians",
+      "item3": "Các Cuộc Thi",
+      "href3": "/contests",
+      "item4": "Sổ Xố",
+      "href4": "/raffles"
+    },
+    "dropdownFour": {
+      "heading": "Ẩm Thực",
+      "item1": "Món Ăn & Thức Uống",
+      "href1": "/menu",
+      "item2": "Sơ Đồ Quầy Hàng",
+      "href2": "/vendors"
 
-        },
-        "dropdownFive": {
-            "heading": "Các Nhà Tài Trợ",
-            "href": "/sponsors"
-        },
-        "dropdownSix": {
-            "href": "/contact",
-            "heading": "Liên Lạc"
-        }
     },
-    "socialIcons": [
+    "dropdownFive": {
+      "heading": "Các Nhà Tài Trợ",
+      "href": "/sponsors"
+    },
+    "dropdownSix": {
+      "href": "/contact",
+      "heading": "Liên Lạc"
+    }
+  },
+  "socialIcons": [
+    {
+      "link": "https://www.facebook.com/HoiChoMuaThu",
+      "image": "http://hvmatl.net/gallery/LHMT_img/Common/social-icons/facebook/107175_circle_facebook_icon.png"
+    },
+    {
+      "link": "https://youtube.com",
+      "image": "http://hvmatl.net/gallery/LHMT_img/Common/social-icons/youtube/317714_video_youtube_icon.png"
+    }
+  ],
+  "footer": [
+    {
+      "footerSection": "footer-1",
+      "header": "Liên Lạc Trực Tiếp",
+      "content": [
         {
-            "link": "https://www.facebook.com/HoiChoMuaThu",
-            "image": "http://hvmatl.net/gallery/LHMT_img/Common/social-icons/facebook/107175_circle_facebook_icon.png"
+          "link": "",
+          "linkName": "",
+          "nonLink": "770-921-0077"
         },
         {
-            "link": "https://youtube.com",
-            "image": "http://hvmatl.net/gallery/LHMT_img/Common/social-icons/youtube/317714_video_youtube_icon.png"
-        }
-    ],
-    "footer": [
-        {
-            "footerSection": "footer-1",
-            "header": "Liên Lạc Trực Tiếp",
-            "content": [
-                {
-                    "link": "",
-                    "linkName": "",
-                    "nonLink": "770-921-0077"
-                },
-                {
-                    "link": "",
-                    "linkName": "",
-                    "nonLink": "FallFestival@hvmatl.org"
-                },
-                {
-                    "link": "",
-                    "linkName": "",
-                    "nonLink": "4545 Timmers Way, Norcross GA 30093"
-                }
-            ]
+          "link": "",
+          "linkName": "",
+          "nonLink": "FallFestival@hvmatl.org"
         },
         {
-            "footerSection": "footer-2",
-            "header": "Thông Tin Nhanh",
-            "content": [
-                {
-                    "link": "https://www.cdc.gov/coronavirus/2019-ncov/communication/guidance.html",
-                    "linkName": "Chỉ Dẫn COVID-19 từ CDC",
-                    "nonLink": ""
-                },
-                {
-                    "link": "https://archatl.com/",
-                    "linkName": "Tổng Giáo Phận Atlanta",
-                    "nonLink": ""
-                }
-            ]
+          "link": "",
+          "linkName": "",
+          "nonLink": "4545 Timmers Way, Norcross GA 30093"
         }
-    ],
-    "photoGalleries": {
-        "galleryOne": [
-            {
-                "galleryStyle": "gallery-style-1",
-                "background": "background-color-black",
-                "content": [
-                    {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne1.jpg"
-                    },
-                    {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne2.png"
-                    },
-                    {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne3.png"
-                    },
-                    {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne4.png"
-                    },
-                    {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne5.png"
-                    },
-                    {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne6.png"
-                    }
-                ]
-            }
-        ],
-        "galleryTwo": [
-            {
-                "galleryStyle": "gallery-style-2",
-                "content": [
-                  {
-                    "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/singers-poster-01.jpg"
-                  },
-                  {
-                      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/singers-poster-02.jpg"
-                  },
-                  {
-                      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/singers-poster-03.jpg"
-                  },
-                  {
-                      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo3.png"
-                  },
-                  {
-                      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/singers-poster-04.jpg"
-                  },
-                  {
-                      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo4.png"
-                  },
-                  {
-                      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo6.png"
-                  },
-                  {
-                      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo2.png"
-                  },
-                  {
-                      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo5.png"
-                  }
-                ]
-            }
+      ]
+    },
+    {
+      "footerSection": "footer-2",
+      "header": "Thông Tin Nhanh",
+      "content": [
+        {
+          "link": "https://www.cdc.gov/coronavirus/2019-ncov/communication/guidance.html",
+          "linkName": "Chỉ Dẫn COVID-19 từ CDC",
+          "nonLink": ""
+        },
+        {
+          "link": "https://archatl.com/",
+          "linkName": "Tổng Giáo Phận Atlanta",
+          "nonLink": ""
+        }
+      ]
+    }
+  ],
+  "photoGalleries": {
+    "galleryOne": [
+      {
+        "galleryStyle": "gallery-style-1",
+        "background": "background-color-black",
+        "content": [
+          {
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne1.jpg"
+          },
+          {
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne2.png"
+          },
+          {
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne3.png"
+          },
+          {
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne4.png"
+          },
+          {
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne5.png"
+          },
+          {
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne6.png"
+          }
         ]
-    },
-    "festival-statistics": {
-        "headers": {
-            "heading1": "Thiện Nguyện Viên",
-            "heading2": "Ngày Lễ Hội",
-            "heading3": "Nghệ Sĩ",
-            "heading4": "Khách Tham Dự",
-            "heading5": "Món Ăn và Thức Uống"
-        },
-        "values": {
-            "value1": "1,000+",
-            "value2": "3",
-            "value3": "10",
-            "value4": "40,000+",
-            "value5": "100+"
-        }
-    },
-    "about": {
-        "title": {
-            "text1": "Giới Thiệu",
-            "text2": "Biểu Tượng Những Năm Trước"
-        },
-        "paragraphs": [
-            {
-                "text": "Nhà Thờ Các Thánh Tử Đạo Việt Nam được khởi công vào năm 2005 để đáp ứng sự gia tăng giáo dân của cộng đồng Công Giáo Việt Nam tại Atlanta và vùng phụ cận."
-            },
-            {
-                "text": "Tuy đã chọn địa điểm thờ phượng lớn hơn, nhưng với hơn 4,000 giáo dân, các cơ sở hiện có trở nên chật chội và không đủ để đáp ứng nhu cầu thờ phượng và giáo dục của cộng đoàn. Do đó, chúng tôi bắt đầu dự tính xây dựng nhà thờ mới để thay thế những toà nhà cũ, hiện vẫn còn đang được xử dụng."
-            },
-            {
-                "text": "Hội chợ gây quỹ đầu tiên dưới tên Hội Chợ Mùa Xuân 2009, tiếng Anh là ‘2009 Spring Festival,’ bắt đầu ngày 24 và 25 trong tháng Giêng năm 2009. Mục đích của hai ngày hội chợ là để gây quỹ phát triển và xây dựng giáo đường mới, cũng như là để chia xẻ văn hóa Việt Nam đến với tất cả mọi người. Sau khi đón hơn 10,000 khách đến thanh dự hội chợ, chúng tôi đã tổ chức thêm hội chợ mùa thu trong cùng năm. Chúng tôi đã đón hơn 20,000 khách trong ba ngày Hội Chợ Mùa Thu 2009 (2009 Fall Festival)."
-            },
-            {
-                "text": "Sau nhiều cân nhắc, Ban Tổ Chức đại hội đã quyết định tổ chức ba ngày hội chợ mùa thu trong dịp Lễ Lao Động hằng năm."
-            },
-            {
-                "text": "Khách tham dự hội chợ tăng đều hằng năm. Hội Chợ Mùa Thu 2011 đã mang đến 35,000 khách theo thống kê của Cảnh Sát Hạt Gwinnett. Ngày nay, sự kiện này được xem như một trong những hoạt động tiêu biểu của Cộng Đồng Công Giáo Việt Nam, cũng như của người Việt tại miền Đông Nam Hoa Kỳ. Hội chợ là nơi quy tụ gia đình và bằng hữu, duy trì di sản văn hóa Việt Nam đến thế hệ sau, cũng như giới thiệu văn hóa của chúng ta đến với các cộng đồng khác trong vùng."
-            },
-            {
-                "text": "Xin mời tất cả mọi người đến dự Lễ Hội Mùa Thu 2022 với chúng tôi từ ngày 2 đến ngày 4 tháng 9. Đến để thưởng thức âm nhạc đa dạng, thức ăn ngon miệng, và văn hóa cổ truyền của cộng đồng chúng tôi. Đến để giúp chúng tôi xây dựng giáo xứ thành một nơi nương tựa về tinh thần cho tất cả mọi người qua những truyền thống đậm nét văn hóa Việt Nam."
-            }
-        ],
-        "logos": [
-            {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2021.jpg",
-                "year": "2021"
-            },
-            {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2020.jpg",
-                "year": "2020"
-            },
-            {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2019.jpg",
-                "year": "2019"
-            },
-            {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2018.jpg",
-                "year": "2018"
-            },
-            {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2017.jpg",
-                "year": "2017"
-            },
-            {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2016.jpg",
-                "year": "2016"
-            },
-            {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2015.jpg",
-                "year": "2015"
-            },
-            {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2014.jpg",
-                "year": "2014"
-            },
-            {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2013.jpg",
-                "year": "2013"
-            },
-            {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2012.jpg",
-                "year": "2012"
-            },
-            {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2011.jpg",
-                "year": "2011"
-            },
-            {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2010.jpg",
-                "year": "2010"
-            },
-            {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2009.jpg",
-                "year": "2009"
-            }
-        ]
-    },
-    "carousel": [
-        {
-            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022Invite.png",
-            "imageNumber": "1"
-        },
-      {
-        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022MainPage.jpg",
-        "imageNumber": "2"
-      },
-      {
-        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png",
-        "imageNumber": "3"
-      },
-      {
-        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Raffles/Raffle.jpg",
-        "imageNumber": "4"
-      },
-      {
-        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/MainPoster.jpg",
-        "imageNumber": "5"
-      },
-      {
-        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/MugGift.jpg",
-        "imageNumber": "6"
       }
     ],
-    "sponsorList": {
-        "mainSponsor": [
+    "galleryTwo": [
+      {
+        "galleryStyle": "gallery-style-2",
+        "content": [
           {
-            "title": "Nhà Tài Trợ Chính",
-            "class": "main-sponsor",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/main/Main-NP.png",
-            "website": "https://www.npattorney.com"
-          }
-        ],
-        "otherSponsors": [
-          {
-            "title": "Các Nhà Tài Trợ Hạng Kim Cương",
-            "class": "diamond-sponsor other-sponsor",
-            "content": [
-              {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ParisBanhMi.png",
-                "website": "https://parisbanhmi.com"
-              },
-              {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ComGa.png",
-                "website": "https://www.comgahoustonduluth.com"
-              },
-              {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/EIG.jpg",
-                "website": null
-              },
-              {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-S3Spa.png",
-                "website": "https://s3spa.com"
-              },
-              {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Zurno.png",
-                "website": null
-              }
-            ]
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo1.png"
           },
           {
-            "title": "Các Nhà Tài Trợ Hạng Vàng",
-            "class": "gold-sponsor other-sponsor",
-            "content": [
-              {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/KangenWater.png",
-                "website": null
-              },
-              {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/NewStar.jpg",
-                "website": "https://newstarsspa.com"
-              },
-              {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/LaTepGroup.png",
-                "website": null
-              },
-              {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/CaoKhaiThue.png",
-                "website": "https://caokhaithue.com"
-              },
-              {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/MagnoliaComfortMedical.png",
-                "website": null
-              },
-              {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/UD.png",
-                "website": "https://www.uniteddigestive.com"
-              },
-              {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/GTRealty.png",
-                "website": null
-              }
-            ]
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo2.png"
           },
           {
-            "title": "Các Nhà Tài Trợ Hạng Bạc",
-            "class": "silver-sponsor other-sponsor",
-            "content": [
-              {
-                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png",
-                "website": null
-              },
-              {
-                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png",
-                "website": null
-              },
-              {
-                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png",
-                "website": null
-              },
-              {
-                "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png",
-                "website": null
-              }
-            ]
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo3.png"
+          },
+          {
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo4.png"
+          },
+          {
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo5.png"
+          },
+          {
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo6.png"
+          },
+          {
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo7.png"
+          },
+          {
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo8.png"
+          },
+          {
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo9.png"
           }
         ]
+      }
+    ]
+  },
+  "festival-statistics": {
+    "headers": {
+      "heading1": "Thiện Nguyện Viên",
+      "heading2": "Ngày Lễ Hội",
+      "heading3": "Nghệ Sĩ",
+      "heading4": "Khách Tham Dự",
+      "heading5": "Món Ăn và Thức Uống"
     },
+    "values": {
+      "value1": "1,000+",
+      "value2": "3",
+      "value3": "10",
+      "value4": "40,000+",
+      "value5": "100+"
+    }
+  },
+  "about": {
+    "title": {
+      "text1": "Giới Thiệu",
+      "text2": "Biểu Tượng Những Năm Trước"
+    },
+    "paragraphs": [
+      {
+        "text": "Nhà Thờ Các Thánh Tử Đạo Việt Nam được khởi công vào năm 2005 để đáp ứng sự gia tăng giáo dân của cộng đồng Công Giáo Việt Nam tại Atlanta và vùng phụ cận."
+      },
+      {
+        "text": "Tuy đã chọn địa điểm thờ phượng lớn hơn, nhưng với hơn 4,000 giáo dân, các cơ sở hiện có trở nên chật chội và không đủ để đáp ứng nhu cầu thờ phượng và giáo dục của cộng đoàn. Do đó, chúng tôi bắt đầu dự tính xây dựng nhà thờ mới để thay thế những toà nhà cũ, hiện vẫn còn đang được xử dụng."
+      },
+      {
+        "text": "Hội chợ gây quỹ đầu tiên dưới tên Hội Chợ Mùa Xuân 2009, tiếng Anh là ‘2009 Spring Festival,’ bắt đầu ngày 24 và 25 trong tháng Giêng năm 2009. Mục đích của hai ngày hội chợ là để gây quỹ phát triển và xây dựng giáo đường mới, cũng như là để chia xẻ văn hóa Việt Nam đến với tất cả mọi người. Sau khi đón hơn 10,000 khách đến thanh dự hội chợ, chúng tôi đã tổ chức thêm hội chợ mùa thu trong cùng năm. Chúng tôi đã đón hơn 20,000 khách trong ba ngày Hội Chợ Mùa Thu 2009 (2009 Fall Festival)."
+      },
+      {
+        "text": "Sau nhiều cân nhắc, Ban Tổ Chức đại hội đã quyết định tổ chức ba ngày hội chợ mùa thu trong dịp Lễ Lao Động hằng năm."
+      },
+      {
+        "text": "Khách tham dự hội chợ tăng đều hằng năm. Hội Chợ Mùa Thu 2011 đã mang đến 35,000 khách theo thống kê của Cảnh Sát Hạt Gwinnett. Ngày nay, sự kiện này được xem như một trong những hoạt động tiêu biểu của Cộng Đồng Công Giáo Việt Nam, cũng như của người Việt tại miền Đông Nam Hoa Kỳ. Hội chợ là nơi quy tụ gia đình và bằng hữu, duy trì di sản văn hóa Việt Nam đến thế hệ sau, cũng như giới thiệu văn hóa của chúng ta đến với các cộng đồng khác trong vùng."
+      },
+      {
+        "text": "Xin mời tất cả mọi người đến dự Lễ Hội Mùa Thu 2022 với chúng tôi từ ngày 2 đến ngày 4 tháng 9. Đến để thưởng thức âm nhạc đa dạng, thức ăn ngon miệng, và văn hóa cổ truyền của cộng đồng chúng tôi. Đến để giúp chúng tôi xây dựng giáo xứ thành một nơi nương tựa về tinh thần cho tất cả mọi người qua những truyền thống đậm nét văn hóa Việt Nam."
+      }
+    ],
+    "logos": [
+      {
+        "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2021.jpg",
+        "year": "2021"
+      },
+      {
+        "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2020.jpg",
+        "year": "2020"
+      },
+      {
+        "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2019.jpg",
+        "year": "2019"
+      },
+      {
+        "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2018.jpg",
+        "year": "2018"
+      },
+      {
+        "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2017.jpg",
+        "year": "2017"
+      },
+      {
+        "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2016.jpg",
+        "year": "2016"
+      },
+      {
+        "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2015.jpg",
+        "year": "2015"
+      },
+      {
+        "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2014.jpg",
+        "year": "2014"
+      },
+      {
+        "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2013.jpg",
+        "year": "2013"
+      },
+      {
+        "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2012.jpg",
+        "year": "2012"
+      },
+      {
+        "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2011.jpg",
+        "year": "2011"
+      },
+      {
+        "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2010.jpg",
+        "year": "2010"
+      },
+      {
+        "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2009.jpg",
+        "year": "2009"
+      }
+    ]
+  },
+  "carousel": [
+    {
+      "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022Invite.png",
+      "imageNumber": "1"
+    },
+    {
+      "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022MainPage.jpg",
+      "imageNumber": "2"
+    },
+    {
+      "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png",
+      "imageNumber": "3"
+    },
+    {
+      "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Raffles/Raffle.jpg",
+      "imageNumber": "4"
+    },
+    {
+      "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/MainPoster.jpg",
+      "imageNumber": "5"
+    },
+    {
+      "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/MugGift.jpg",
+      "imageNumber": "6"
+    }
+  ],
+  "sponsorList": {
+    "mainSponsor": [
+      {
+        "title": "Nhà Tài Trợ Chính",
+        "class": "main-sponsor",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/main/Main-NP.png",
+        "website": "https://www.npattorney.com"
+      }
+    ],
+    "otherSponsors": [
+      {
+        "title": "Các Nhà Tài Trợ Hạng Kim Cương",
+        "class": "diamond-sponsor other-sponsor",
+        "content": [
+          {
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ParisBanhMi.png",
+            "website": "https://parisbanhmi.com"
+          },
+          {
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ComGa.png",
+            "website": "https://www.comgahoustonduluth.com"
+          },
+          {
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/EIG.jpg",
+            "website": null
+          },
+          {
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-S3Spa.png",
+            "website": "https://s3spa.com"
+          },
+          {
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Zurno.png",
+            "website": null
+          }
+        ]
+      },
+      {
+        "title": "Các Nhà Tài Trợ Hạng Vàng",
+        "class": "gold-sponsor other-sponsor",
+        "content": [
+          {
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/KangenWater.png",
+            "website": null
+          },
+          {
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/NewStar.jpg",
+            "website": "https://newstarsspa.com"
+          },
+          {
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/LaTepGroup.png",
+            "website": null
+          },
+          {
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/CaoKhaiThue.png",
+            "website": "https://caokhaithue.com"
+          },
+          {
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/MagnoliaComfortMedical.png",
+            "website": null
+          },
+          {
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/UD.png",
+            "website": "https://www.uniteddigestive.com"
+          },
+          {
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/GTRealty.png",
+            "website": null
+          }
+        ]
+      },
+      {
+        "title": "Các Nhà Tài Trợ Hạng Bạc",
+        "class": "silver-sponsor other-sponsor",
+        "content": [
+          {
+            "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png",
+            "website": null
+          },
+          {
+            "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png",
+            "website": null
+          },
+          {
+            "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png",
+            "website": null
+          },
+          {
+            "img": "https://www.logodesign.net/logo/line-art-house-with-leaves-5828ld.png",
+            "website": null
+          }
+        ]
+      }
+    ]
+  },
   "festivalSchedule": {
     "title": "Lịch Trình Lễ Hội",
     "schedule1": [
@@ -470,24 +470,24 @@
       }
     ]
   },
-    "musicians": [
-      {
-        "style": "text-right",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/mai-tien-dung-frame.png",
-        "name": "Ca Sĩ",
-        "caption": "Mai Tiến Dũng"
+  "musicians": [
+    {
+      "style": "text-right",
+      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/mai-tien-dung-frame.png",
+      "name": "Ca Sĩ",
+      "caption": "Mai Tiến Dũng"
     },
-      {
-        "style": "text-left",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/ho-hoang-yen-frame.png",
-        "name": "Ca Sĩ",
-        "caption": "Hồ Hoàng Yến"
+    {
+      "style": "text-left",
+      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/ho-hoang-yen-frame.png",
+      "name": "Ca Sĩ",
+      "caption": "Hồ Hoàng Yến"
     },
-      {
-        "style": "text-right",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/huong-thuy-frame.png",
-        "name": "Ca Sĩ",
-        "caption": "Hương Thủy"
+    {
+      "style": "text-right",
+      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/huong-thuy-frame.png",
+      "name": "Ca Sĩ",
+      "caption": "Hương Thủy"
     },
     {
       "style": "text-left",
@@ -495,43 +495,43 @@
       "name": "Ca Sĩ",
       "caption": "Justin Nguyễn"
     },
-      {
-        "style": "text-right",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/nhu-y-frame.png",
-        "name": "Ca Sĩ",
-        "caption": "Như Ý"
-      },
-      {
-        "style": "text-left",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/ha-vy-frame.png",
-        "name": "Ca Sĩ",
-        "caption": "Hạ Vy"
-      },
-      {
-        "style": "text-right",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/duong-trieu-vu-frame.png",
-        "name": "Ca Sĩ",
-        "caption": "Dương Triệu Vũ"
-      },
-      {
-        "style": "text-left",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/nguyen-hong-nhung-frame.png",
-        "name": "Ca Sĩ",
-        "caption": "Nguyễn Hồng Nhung"
-      },
-      {
-        "style": "text-right",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/ho-le-thu-frame.png",
-        "name": "Ca Sĩ",
-        "caption": "Hồ Lệ Thu"
-      },
-      {
-        "style": "text-center",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/trung-cang-band-frame.png",
-        "name": "",
-        "caption": "Ban Nhạc Trung Cang"
-      }
-    ],
+    {
+      "style": "text-right",
+      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/nhu-y-frame.png",
+      "name": "Ca Sĩ",
+      "caption": "Như Ý"
+    },
+    {
+      "style": "text-left",
+      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/ha-vy-frame.png",
+      "name": "Ca Sĩ",
+      "caption": "Hạ Vy"
+    },
+    {
+      "style": "text-right",
+      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/duong-trieu-vu-frame.png",
+      "name": "Ca Sĩ",
+      "caption": "Dương Triệu Vũ"
+    },
+    {
+      "style": "text-left",
+      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/nguyen-hong-nhung-frame.png",
+      "name": "Ca Sĩ",
+      "caption": "Nguyễn Hồng Nhung"
+    },
+    {
+      "style": "text-right",
+      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/ho-le-thu-frame.png",
+      "name": "Ca Sĩ",
+      "caption": "Hồ Lệ Thu"
+    },
+    {
+      "style": "text-center",
+      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/trung-cang-band-frame.png",
+      "name": "",
+      "caption": "Ban Nhạc Trung Cang"
+    }
+  ],
   "contests": {
     "title": "Đơn Đăng Ký Các Cuộc Thi",
     "image": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/ContestInfoPoster.jpg",
@@ -554,68 +554,75 @@
       }
     ]
   },
-    "raffles": [
+  "raffles": [
+    {
+      "title": "Sổ Xố",
+      "info": "",
+      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png"
+    }
+  ],
+  "menu": {
+    "pageTitle": "Thực Đơn Cho Những Ngày Lễ Hội",
+    "content": [
       {
-        "title": "Sổ Xố",
-        "info": "Ngày nay, xe hơi rất khó tìm, nhưng chúng tôi đã đảm bảo một chiếc Lexus IS300 2022 sẽ được giao cho người chiến thắng vào tháng Chín này. Mua vé xổ số cho bạn ngay bây giờ để có cơ hội làm như vậy. Mua 5 vé và nhận 1 VÉ MIỄN PHÍ. Liên hệ với chúng tôi tại fallfest.raffle@hvmatl.org để nhận vé xổ số của bạn. Hẹn gặp lại mọi người sớm tại Lễ hội mùa thu năm 2022.",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png"
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Menu/2022_Menu.jpg"
       }
-    ],
-    "menu": {
-        "pageTitle": "Thực đơn cho những ngày lễ hội.",
+    ]
+  },
+  "vendors": {
+    "pageTitle": "Sơ đồ quầy hàng cho những ngày lễ hội đang được cập nhật. Xin quý vị trở lại.",
+    "content": [
+      {
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
+      }
+    ]
+  },
+  "landing": {
+    "reward_1": "Hãy đến trang Facebook của Lễ Hội Mùa Thu để 'like' những ca sĩ bạn yêu thích và 'share' những bài đăng của chúng tôi trước ngày 7 tháng 8 năm 2022. Ban Tổ Chức sẽ chọn 10 người may mắn để tặng ly cách nhiệt quý hiếm có in biểu tượng chính thức của Lễ Hội Mùa Thu 2022.",
+    "reward_2": "Mua 5 vé, TẶNG 1 vé.",
+    "reward_3": "Tất cả các giải sẽ có người trúng!",
+    "reward_4": "Xin liên lạc qua fallfest.raffle@hvmatl.org để có được cơ hội trúng nhiều giải thưởng giá trị.",
+    "reward_5": "Nếu bạn đã mua vé sổ xố, bạn sẽ có cơ hội làm chủ chiếc Lexus IS 300 đời 2022 này!"
+  },
+  "directions": {
+    "pageTitle": "Directions",
+    "routes": [
+      {
+        "title": "Từ phía Nam của Xa lộ 85",
         "content": [
           {
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Menu/2022_Menu.jpg"
-          }
-        ]
-    },
-    "vendors": {
-        "pageTitle": "Sơ đồ quầy hàng cho những ngày lễ hội đang được cập nhật. Xin quý vị trở lại.",
-        "content": [
-          {
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
-          }
-        ]
-    },
-    "directions": {
-        "pageTitle": "Directions",
-        "routes": [
-          {
-            "title": "Từ phía Nam của Xa lộ 85",
-            "content": [
-              {
-                "instruction": "Đi theo Xa lộ 85 về phía Bắc sau đó vào exit 102 đường Beaver Ruin"
-              },
-              {
-                "instruction": "Rẽ phải ở đèn giao thông vào đường Beaver Ruin"
-              },
-              {
-                "instruction": "Rẽ trái ở đèn giao thông vào đường Shackleford"
-              },
-              {
-                "instruction": "Hội chợ nằm bên trái sau lối vào chính của nhà thờ, đi theo biển chỉ dẫn đến bãi đậu xe của Lễ hội"
-              }
-            ]
+            "instruction": "Đi theo Xa lộ 85 về phía Bắc sau đó vào exit 102 đường Beaver Ruin"
           },
           {
-            "title": "Từ phía Bắc của Xa lộ 85",
-            "content": [
-              {
-                "instruction": "Đi theo Xa lộ 85 về phía Nam sau đó vào exit 102 đường Beaver Ruin"
-              },
-              {
-                "instruction": "Rẽ trái ở đèn giao thông vào đường Beaver Ruin"
-              },
-              {
-                "instruction": "Đi qua cầu rồi rẽ trái ở đèn giao thông vào đường Shackleford"
-              },
-              {
-                "instruction": "Hội chợ nằm bên trái sau lối vào chính của nhà thờ, đi theo biển chỉ dẫn đến bãi đậu xe của Lễ hội"
-              }
-            ]
+            "instruction": "Rẽ phải ở đèn giao thông vào đường Beaver Ruin"
+          },
+          {
+            "instruction": "Rẽ trái ở đèn giao thông vào đường Shackleford"
+          },
+          {
+            "instruction": "Hội chợ nằm bên trái sau lối vào chính của nhà thờ, đi theo biển chỉ dẫn đến bãi đậu xe của Lễ hội"
           }
         ]
-    },
+      },
+      {
+        "title": "Từ phía Bắc của Xa lộ 85",
+        "content": [
+          {
+            "instruction": "Đi theo Xa lộ 85 về phía Nam sau đó vào exit 102 đường Beaver Ruin"
+          },
+          {
+            "instruction": "Rẽ trái ở đèn giao thông vào đường Beaver Ruin"
+          },
+          {
+            "instruction": "Đi qua cầu rồi rẽ trái ở đèn giao thông vào đường Shackleford"
+          },
+          {
+            "instruction": "Hội chợ nằm bên trái sau lối vào chính của nhà thờ, đi theo biển chỉ dẫn đến bãi đậu xe của Lễ hội"
+          }
+        ]
+      }
+    ]
+  },
   "donations": {
     "pageTitle": "Hỗ Trợ Chúng Tôi Bằng Cách Đóng Góp",
     "text": "Links Đóng Góp",

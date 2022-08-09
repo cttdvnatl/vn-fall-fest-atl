@@ -126,31 +126,31 @@
                 "galleryStyle": "gallery-style-2",
                 "content": [
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/singers-poster-01.jpg"
-                    },
-                    {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/singers-poster-02.jpg"
-                    },
-                    {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/singers-poster-03.jpg"
-                    },
-                    {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo3.png"
-                    },
-                    {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/singers-poster-04.jpg"
-                    },
-                    {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo4.png"
-                    },
-                    {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo6.png"
+                      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo1.png"
                     },
                     {
                         "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo2.png"
                     },
                     {
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo3.png"
+                    },
+                    {
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo4.png"
+                    },
+                    {
                         "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo5.png"
+                    },
+                    {
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo6.png"
+                    },
+                    {
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo7.png"
+                    },
+                    {
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo8.png"
+                    },
+                    {
+                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo9.png"
                     }
                 ]
             }
@@ -556,25 +556,32 @@
     "raffles": [
       {
         "title": "Raffles",
-        "info": "Cars are hard to find nowadays, but we have secured a 2022 Lexus IS 300 to be delivered to the winner this September. Get your raffle tickets now for chances to do so. Buy 5 tickets and get 1 FREE. Contact us at fallfest.raffle@hvmatl.org to get your raffle tickets. See everyone soon at the 2022 Fall Festival.",
+        "info": "",
         "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png"
       }
     ],
     "menu": {
-        "pageTitle": "Menu For Festival Days.",
+        "pageTitle": "Menu for Festival Days",
         "content": [
           {
             "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Menu/2022_Menu.jpg"
           }
         ]
     },
-    "vendors": {
-        "pageTitle": "This page is currently under construction. Please check back.",
-        "content": [
-          {
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
-          }
-        ]
+  "vendors": {
+    "pageTitle": "This page is currently under construction. Please check back.",
+    "content": [
+      {
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
+      }
+    ]
+  },
+      "landing": {
+        "reward_1": "Like your favorite singers and share the entire post. We will randomly select 10 people from all 'likes/shares' submitted before August 7th, 2022 and send you a limited edition of an insulated stainless steel mug with the official 2022 Fall Festival logo.",
+        "reward_2": "Buy 5, get 1 FREE.",
+        "reward_3": "Prizes will have winners!",
+        "reward_4": "Contact us at fallfest.raffle@hvmatl.org for your chance to win many valuable prizes.",
+        "reward_5": "If you have purchased a raffle ticket, you will have a chance to be the owner of this 2022 Lexus IS 300!"
     },
     "directions": {
         "pageTitle": "Directions",

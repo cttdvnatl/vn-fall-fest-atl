@@ -1,6 +1,13 @@
 import React, { useState } from "react";
+import { getLanguage, useTranslation } from 'react-multi-lang';
+import vn from '../database/vn';
+import en from '../database/en';
 
 const Landing = () => {
+    useTranslation()
+    const t = useTranslation()
+
+
   let [video, setVideo] = useState(true);
 
   return (
@@ -49,14 +56,9 @@ const Landing = () => {
       <div className="rewards">
         <div className="reward__container">
           <div className="reward">
-            <h3 className="reward__header">Share!</h3>
+            <h3 className="reward__header">Like and Share!</h3>
             <p className="reward__para">
-              Come join us in liking your favorite singers and sharing the post!
-            </p>
-            <p className="reward__para">
-              We will be choosing 10 random individuals that "shared or liked"
-              before August 7, 2022 to recieve a limited edition stainless stell
-              mug with the 2022 Fall Festival Logo!
+               {t('landing.reward_1')}
             </p>
           </div>
           <figure className="reward__image--wrapper">
@@ -69,11 +71,13 @@ const Landing = () => {
         </div>
         <div className="reward__container">
           <div className="reward">
-            <h3 className="reward__header">Raffle!</h3>
-            <p className="reward__para">10 chances to WIN 10 great prizes</p>
+            <h3 className="reward__header">Raffles!</h3>
             <p className="reward__para">
-              Grab 5 raffles and get 1 FREE! Contact us at
-              fallfest.raffle@hvmatl.org to purchase your raffle tickets.
+               {t('landing.reward_2')}
+            </p>
+                      <p className="reward__para">{t('landing.reward_3')}</p>
+            <p className="reward__para">
+                {t('landing.reward_4')}
             </p>
           </div>
           <figure className="reward__image--wrapper">
@@ -88,8 +92,7 @@ const Landing = () => {
           <div className="reward">
             <h3 className="reward__header">Grand Prize!</h3>
             <p className="reward__para">
-              You can be the luckiest of them all on September 4th and bring
-              yourself a BRAND NEW LEXUS!!!
+               {t('landing.reward_5')}
             </p>
           </div>
           <figure className="reward__image--wrapper">
