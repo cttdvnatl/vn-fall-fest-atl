@@ -48,7 +48,7 @@ const OtherSponsors = (list) => {
                     <div class={section.class}>
                         {section.content.map((sponsorContent, idx) => (
                             <a target="_blank" rel="noopener noreferrer" href={sponsorContent.website}>
-                                <img src={sponsorContent.img} alt={sponsorContent.img} key={idx} />
+                                <img className='sponsor__image' src={sponsorContent.img} alt={sponsorContent.img} key={idx} />
                             </a>                             
                         ))}
                     </div>

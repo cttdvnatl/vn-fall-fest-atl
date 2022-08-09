@@ -32,7 +32,7 @@ const OtherSponsors = (list) => {
                     <div class={section.class}>
                         {section.content.map((sponsorContent, idx) => (
                             <div class="sponsor-image" key={idx}>
-                                <img class="1" src={sponsorContent.img} alt={sponsorContent.img}></img>
+                                <img className="1" src={sponsorContent.img} alt={sponsorContent.img}></img>
                             </div>
                         ))}
                         {section.content.map((sponsorContent, idx) => (
