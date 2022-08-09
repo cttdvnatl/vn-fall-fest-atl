@@ -56,12 +56,9 @@ const Landing = () => {
       <div className="rewards">
         <div className="reward__container">
           <div className="reward">
-            <h3 className="reward__header">Share!</h3>
+            <h3 className="reward__header">Like and Share!</h3>
             <p className="reward__para">
                {t('landing.reward_1')}
-            </p>
-            <p className="reward__para">
-               {t('landing.reward_2')}
             </p>
           </div>
           <figure className="reward__image--wrapper">
@@ -74,7 +71,10 @@ const Landing = () => {
         </div>
         <div className="reward__container">
           <div className="reward">
-            <h3 className="reward__header">Raffle!</h3>
+            <h3 className="reward__header">Raffles!</h3>
+            <p className="reward__para">
+               {t('landing.reward_2')}
+            </p>
                       <p className="reward__para">{t('landing.reward_3')}</p>
             <p className="reward__para">
                 {t('landing.reward_4')}
