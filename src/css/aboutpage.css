@@ -1,32 +1,10 @@
-@media only screen and (min-width: 900px) {
-    .about {
-        flex-direction: row;
-    }
-}
-
-@media only screen and (max-width: 900px) {
-    .about {
-        flex-direction: column;
-    }
-}
-
 .about {
     padding: 40px;
     padding-top: 60px;
     padding-bottom: 140px;
-    display: flex;
     width: 95%;
     max-width: 1300px;
     margin: auto;
-}
-
-.about .left {
-    width: 100%;
-}
-
-.about .left h1 {
-    padding-bottom: 30px;
-    text-align: center;
 }
 
 .about .left .paragraph p {
@@ -37,13 +15,7 @@
     line-height: 150%;
 }
 
-.about .right {
-    width: 100%;
-    margin: auto;
-    margin-top: 0;
-}
-
-.about .right h1 {
+.about h1 {
     padding-bottom: 35px;
     text-align: center;
 }
@@ -57,5 +29,33 @@
     padding: 5px;
     height: auto;
     box-shadow: 2px 2px 4px gray;
+}
+
+.poster-container {
+    text-align: center;
+}
+
+.poster {
+    width: 1000px;
+    margin: 10px;
+}
+
+@media only screen and (min-width: 900px) {
+    .about {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .about {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1185px) {
+    .poster {
+        width: 500px;
+        margin: 10px;
+    }
 }
 
