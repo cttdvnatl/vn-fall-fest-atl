@@ -249,7 +249,21 @@
             {
                 "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2009.jpg",
                 "year": "2009"
-            }
+            }           
+        ],
+        "posters": [
+          {
+            "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/About/BTC_BDH.PNG"
+          },
+          {
+            "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/About/LHMT_2022_By_The_Number.jpg"
+          },
+          {
+            "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/About/Muc_Dich.PNG"
+          },
+          {
+            "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/About/Y_Nghia_Bieu_Tuong.PNG"
+          }
         ]
     },
     "carousel": [
