@@ -16,7 +16,8 @@
 }
 
 .about h1 {
-    padding-bottom: 35px;
+    font-size: 70px;
+    padding-bottom: 15px;
     text-align: center;
 }
 .about .right .logo {
