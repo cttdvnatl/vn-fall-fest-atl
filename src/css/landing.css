@@ -1,5 +1,4 @@
 .landing {
-  margin-bottom: 240px;
   position: relative;
 }
 
@@ -173,6 +172,9 @@ h3 {
 
   .reward__container{
     margin-top: 60px;
+  }
+  .landing{
+    margin-bottom: unset;
   }
 }
 
