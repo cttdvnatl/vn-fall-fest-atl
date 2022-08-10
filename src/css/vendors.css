@@ -4,8 +4,9 @@
 }
 
 .vendors-page h1 {
+    font-size: 70px;
     padding-top: 10px;
-    padding-bottom: 3px;
+    padding-bottom: 15px;
 }
 
 .vendors-page .vendor p {

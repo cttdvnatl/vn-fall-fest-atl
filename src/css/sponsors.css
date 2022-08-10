@@ -6,7 +6,8 @@
 }
 
 .sponsors-page h1 {
-  padding-bottom: 10px;
+  font-size: 70px;
+  padding-bottom: 15px;
 }
 
 .sponsors-page .left .main-sponsor-container .main-sponsor {
@@ -45,7 +46,11 @@
   height: 150px;
 } 
 
-
+.sponsors-page .sponsor-brochure {
+  font-size: 30px;
+  margin-bottom: 25px;
+  text-decoration: none;
+}
 
 /*For smaller images*/
 
