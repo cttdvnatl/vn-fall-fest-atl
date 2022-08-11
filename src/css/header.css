@@ -174,7 +174,7 @@ nav.desktop-view div.main-header ul li {
 nav.desktop-view div.main-header ul li p {
   text-decoration: none;
   color: black;
-  font-size: 18px;
+  font-size: 22px;
   cursor: pointer;
   margin-left: 60px;
 }
@@ -187,7 +187,7 @@ nav.desktop-view div.main-header ul li p:hover {
 nav.desktop-view div.main-header ul li p a {
   text-decoration: none;
   color: black;
-  font-size: 18px;
+  font-size: 22px;
   display: block;
   position: relative;
 }
@@ -255,7 +255,7 @@ nav.desktop-view div.logo img {
   width: 120px;
   height: auto;
   margin-top: 2px;
-  margin-left: 150px;
+  margin-left: 50px;
   z-index: 998;
 }
 
