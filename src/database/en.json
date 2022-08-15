@@ -7,6 +7,10 @@
         "link2": {
             "text": "Donate",
             "link": "/donations"
+        },
+        "link3": {
+          "text": "Volunteer Form",
+          "link": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Volunteer/ArchdioceseVolunteerApplicationVietnameseAndWaiver_ver2022.pdf"
         }
     },
     "header": {
@@ -589,13 +593,13 @@
       }
     ]
   },
-      "landing": {
-        "reward_1": "Like your favorite singers and share the entire post. We will randomly select 10 people from all 'likes/shares' submitted before August 7th, 2022 and send you a limited edition of an insulated stainless steel mug with the official 2022 Fall Festival logo.",
-        "reward_2": "Buy 5, get 1 FREE.",
-        "reward_3": "Prizes will have winners!",
-        "reward_4": "Contact us at fallfest.raffle@hvmatl.org for your chance to win many valuable prizes.",
-        "reward_5": "If you have purchased a raffle ticket, you will have a chance to be the owner of this 2022 Lexus IS 300!"
-    },
+  "landing": {
+    "reward_1": "Congratulations to the limited edition of an insulated stainless steel mug winners.",
+    "reward_2": "Buy 5, get 1 FREE.",
+    "reward_3": "Prizes will have winners!",
+    "reward_4": "Contact us at fallfest.raffle@hvmatl.org for your chance to win many valuable prizes.",
+    "reward_5": "If you have purchased a raffle ticket, you will have a chance to be the owner of this 2022 Lexus IS 300!"
+  },
     "directions": {
         "pageTitle": "Directions",
         "routes": [

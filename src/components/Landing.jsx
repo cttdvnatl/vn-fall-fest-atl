@@ -63,7 +63,7 @@ const Landing = () => {
           </div>
           <figure className="reward__image--wrapper">
             <img
-              src="http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/MugGift.jpg"
+              src="http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/MugGift1.jpg"
               alt=""
               className="reward__image"
             />

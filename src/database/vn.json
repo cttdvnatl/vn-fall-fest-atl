@@ -7,6 +7,10 @@
     "link2": {
       "text": "Đóng Góp",
       "link": "/donations"
+    },
+    "link3": {
+      "text": "Volunteer Form",
+      "link": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Volunteer/ArchdioceseVolunteerApplicationVietnameseAndWaiver_ver2022.pdf"
     }
   },
   "header": {
@@ -590,7 +594,7 @@
     ]
   },
   "landing": {
-    "reward_1": "Hãy đến trang Facebook của Lễ Hội Mùa Thu để 'like' những ca sĩ bạn yêu thích và 'share' những bài đăng của chúng tôi trước ngày 7 tháng 8 năm 2022. Ban Tổ Chức sẽ chọn 10 người may mắn để tặng ly cách nhiệt quý hiếm có in biểu tượng chính thức của Lễ Hội Mùa Thu 2022.",
+    "reward_1": "Xin chúc mừng 10 người may mắn được tặng ly cách nhiệt quý hiếm có in biểu tượng chính thức của Lễ Hội Mùa Thu 2022.",
     "reward_2": "Mua 5 vé, TẶNG 1 vé.",
     "reward_3": "Tất cả các giải sẽ có người trúng!",
     "reward_4": "Xin liên lạc qua fallfest.raffle@hvmatl.org để có được cơ hội trúng nhiều giải thưởng giá trị.",
