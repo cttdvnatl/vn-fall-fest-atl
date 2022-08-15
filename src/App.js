@@ -110,7 +110,6 @@ function App() {
         <Route path="/contests" component={ContestPage} />
         <Route path="/raffles" component={RafflesPage} />
         <Route path="/menu" component={MenuPage} />
-        <Route path="/vendors" component={VendorsPage} />
         <Route path="/sponsors" component={SponsorsPage} />
         <Route path="/contact" component={ContactPage} />
         <Route path="/form-success" component={FormSubmitSuccessPage} />
