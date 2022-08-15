@@ -32,9 +32,8 @@
         "dropdownFour": {
             "heading": "Cuisine",
             "item1": "Menu",
-            "href1": "/menu",
-            "item2": "Vendor Map",
-            "href2": "/vendors"
+            "href1": "/menu"
+          
         },
         "dropdownFive": {
             "heading": "Sponsors",
