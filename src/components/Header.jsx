@@ -156,6 +156,9 @@ const Header = () => {
               <a href={t("topHeader.link2.link")}>
                 {t("topHeader.link2.text")}
               </a>
+              <a href={t("topHeader.link3.link")} download>
+                {t("topHeader.link3.text")}
+              </a>
             </div>
 
             <div class="translation-button">
