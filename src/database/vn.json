@@ -32,9 +32,7 @@
     "dropdownFour": {
       "heading": "Ẩm Thực",
       "item1": "Món Ăn & Thức Uống",
-      "href1": "/menu",
-      "item2": "Sơ Đồ Quầy Hàng",
-      "href2": "/vendors"
+      "href1": "/menu"
 
     },
     "dropdownFive": {
