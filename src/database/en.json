@@ -31,7 +31,9 @@
             "item3": "Contests",
             "href3": "/contests",
             "item4": "Raffles",
-            "href4": "/raffles"
+            "href4": "/raffles",
+            "item5": "Hội Thảo",
+            "href5": "/seminar"
         },
         "dropdownFour": {
             "heading": "Cuisine",
@@ -563,6 +565,9 @@
         "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png"
       }
     ],
+    "seminarPoster": {
+      "img": "https://hvmatl.com/gallery/LHMT_img/LHMT2022/Carousel/HoiThao.jpg"
+    },
     "menu": {
         "pageTitle": "Menu for Festival Days",
         "content": [

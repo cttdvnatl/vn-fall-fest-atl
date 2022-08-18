@@ -31,7 +31,9 @@
       "item3": "Các Cuộc Thi",
       "href3": "/contests",
       "item4": "Sổ Xố",
-      "href4": "/raffles"
+      "href4": "/raffles",
+      "item5": "Hội Thảo",
+      "href5": "/seminar"
     },
     "dropdownFour": {
       "heading": "Ẩm Thực",
@@ -563,6 +565,9 @@
       "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png"
     }
   ],
+  "seminarPoster": {
+    "img": "https://hvmatl.com/gallery/LHMT_img/LHMT2022/Carousel/HoiThao.jpg"
+  },
   "menu": {
     "pageTitle": "Thực Đơn Cho Những Ngày Lễ Hội",
     "content": [
