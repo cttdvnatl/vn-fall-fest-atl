@@ -56,19 +56,34 @@ const Landing = () => {
       <div className="rewards">
         <div className="reward__container">
           <div className="reward">
-            <h3 className="reward__header">Like and Share!</h3>
+            <h3 className="reward__header">Spirit Day</h3>
             <p className="reward__para">
-               {t('landing.reward_1')}
+               {t('landing.reward_6')}
             </p>
           </div>
           <figure className="reward__image--wrapper">
             <img
-              src="http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/MugGift1.jpg"
+              src="http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/SpiritDay.jpg"
               alt=""
               className="reward__image"
             />
           </figure>
         </div>
+              <div className="reward__container">
+                  <div className="reward">
+                      <h3 className="reward__header">Like and Share!</h3>
+                      <p className="reward__para">
+                          {t('landing.reward_1')}
+                      </p>
+                  </div>
+                  <figure className="reward__image--wrapper">
+                      <img
+                          src="http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/MugGift1.jpg"
+                          alt=""
+                          className="reward__image"
+                      />
+                  </figure>
+              </div>
         <div className="reward__container">
           <div className="reward">
             <h3 className="reward__header">Raffles!</h3>
