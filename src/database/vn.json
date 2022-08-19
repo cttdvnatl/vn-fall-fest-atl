@@ -24,16 +24,16 @@
     },
     "dropdownThree": {
       "heading": "Sự Kiện",
-      "item1": "Lịch Trình Lễ Hội",
-      "href1": "/festival-schedule",
+      "item1": "Hội Thảo",
+      "href1": "/seminar",
       "item2": "Chương Trình Văn Nghệ",
       "href2": "/musicians",
       "item3": "Các Cuộc Thi",
       "href3": "/contests",
       "item4": "Sổ Xố",
       "href4": "/raffles",
-      "item5": "Hội Thảo",
-      "href5": "/seminar"
+      "item5": "Lịch Trình Lễ Hội",
+      "href5": "/festival-schedule"
     },
     "dropdownFour": {
       "heading": "Ẩm Thực",
