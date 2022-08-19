@@ -24,6 +24,7 @@ import FestivalSchedulePage from "./pages/FestivalSchedulePage";
 import MusiciansPage from "./pages/MusiciansPage";
 import ContestPage from "./pages/ContestPage";
 import RafflesPage from "./pages/RafflesPage";
+import SeminarPage from "./pages/SeminarPage";
 import MenuPage from "./pages/MenuPage";
 import VendorsPage from "./pages/VendorsPage";
 import SponsorsPage from "./pages/SponsorsPage";
@@ -109,6 +110,7 @@ function App() {
         <Route path="/musicians" component={MusiciansPage} />
         <Route path="/contests" component={ContestPage} />
         <Route path="/raffles" component={RafflesPage} />
+        <Route path="/seminar" component={SeminarPage} />
         <Route path="/menu" component={MenuPage} />
         <Route path="/sponsors" component={SponsorsPage} />
         <Route path="/contact" component={ContactPage} />
