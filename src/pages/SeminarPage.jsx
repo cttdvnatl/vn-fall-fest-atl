@@ -18,7 +18,7 @@ const SeminarPage = () => {
 
     return (
         <>
-            <div class="">
+            <div class="seminar-page">
                 <img src={seminarPoster.img} alt={seminarPoster.img} />
             </div>
         </>
