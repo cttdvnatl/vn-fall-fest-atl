@@ -35,25 +35,48 @@ const Landing = () => {
           target={"_blank"}
         >
           <img
-            src="/resources/pages/home/NewBackground.png"
+            src="/resources/pages/home/MainPoster2.jpg"
             alt=""
             className="background__image"
           />
         </a>
-        <div className="landing__header__container">
-          <h1 className="landing__header">
-            lễ hội <br />
-            <span>mùa thu</span>
-          </h1>
-          <h2 className="landing__header--en">FALL FESTIVAL</h2>
-          <h3 className="landing__subheader">SEPTEMBER 2 - 4, 2022</h3>
-          <p className="landing__address">
-            4545 Timmers Way, Norcross GA 30093
-          </p>
-        </div>
-      </div>
+       </div>
 
       <div className="rewards">
+              <div className="reward__container">
+                  <div className="reward">
+                      <h3 className="reward__header">Raffles!</h3>
+                      <p className="reward__para">
+                          {t('landing.reward_2')}
+                      </p>
+                      <p className="reward__para">{t('landing.reward_3')}</p>
+                      <p className="reward__para">
+                          {t('landing.reward_4')}
+                      </p>
+                  </div>
+                  <figure className="reward__image--wrapper">
+                      <img
+                          src="https://hvmatl.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png"
+                          alt=""
+                          className="reward__image"
+                      />
+                  </figure>
+              </div>
+              <div className="reward__container">
+                  <div className="reward">
+                      <h3 className="reward__header">Grand Prize!</h3>
+                      <p className="reward__para">
+                          {t('landing.reward_5')}
+                      </p>
+                  </div>
+                  <figure className="reward__image--wrapper">
+                      <img
+                          src="https://hvmatl.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/Raffle.jpg"
+                          alt=""
+                          className="reward__image"
+                      />
+                  </figure>
+              </div>
         <div className="reward__container">
           <div className="reward">
             <h3 className="reward__header">Spirit Day</h3>
@@ -84,40 +107,6 @@ const Landing = () => {
                       />
                   </figure>
               </div>
-        <div className="reward__container">
-          <div className="reward">
-            <h3 className="reward__header">Raffles!</h3>
-            <p className="reward__para">
-               {t('landing.reward_2')}
-            </p>
-                      <p className="reward__para">{t('landing.reward_3')}</p>
-            <p className="reward__para">
-                {t('landing.reward_4')}
-            </p>
-          </div>
-          <figure className="reward__image--wrapper">
-            <img
-              src="https://hvmatl.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png"
-              alt=""
-              className="reward__image"
-            />
-          </figure>
-        </div>
-        <div className="reward__container">
-          <div className="reward">
-            <h3 className="reward__header">Grand Prize!</h3>
-            <p className="reward__para">
-               {t('landing.reward_5')}
-            </p>
-          </div>
-          <figure className="reward__image--wrapper">
-            <img
-              src="https://hvmatl.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/Raffle.jpg"
-              alt=""
-              className="reward__image"
-            />
-          </figure>
-        </div>
       </div>
     </div>
   );
