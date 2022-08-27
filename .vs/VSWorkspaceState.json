@@ -1,11 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\public",
+    "\\public\\resources",
+    "\\public\\resources\\pages",
+    "\\public\\resources\\pages\\home",
     "\\src",
     "\\src\\components",
     "\\src\\database",
     "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\database\\vn.json",
+  "SelectedNode": "\\public\\resources\\pages\\home\\Promo.mp4",
   "PreviewInSolutionExplorer": false
 }
