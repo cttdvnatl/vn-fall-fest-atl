@@ -3,13 +3,12 @@
     "",
     "\\public",
     "\\public\\resources",
-    "\\public\\resources\\pages",
     "\\public\\resources\\pages\\home",
     "\\src",
     "\\src\\components",
     "\\src\\database",
     "\\src\\pages"
   ],
-  "SelectedNode": "\\public\\resources\\pages\\home\\Promo.mp4",
+  "SelectedNode": "\\src\\database\\vn.json",
   "PreviewInSolutionExplorer": false
 }
