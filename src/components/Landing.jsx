@@ -18,24 +18,35 @@ const Landing = () => {
         </video> */}
  
         <a
-         /* href="https://hvmatl.com/gallery/LHMT_img/LHMT2022/Carousel/MainPoster.jpg"
-          target={"_blank"}*/
+          href="https://hvmatl.com/gallery/LHMT_img/LHMT2022/Carousel/MainPoster.jpg"
+          target={"_blank"}
         >
  
           <img
-            src="https://hvmatl.com/gallery/LHMT_img/LHMT2022/Pages/FestivalSchedule/GeneralProgram.jpg"
+                      src="https://hvmatl.com/gallery/LHMT_img/LHMT2022/Carousel/MainPoster2.jpg"
             alt=""
             className="background__image"
           />
-          <img
-            src="https://hvmatl.com/gallery/LHMT_img/LHMT2022/Pages/FestivalSchedule/SpiritualProgram.jpg"
-            alt=""
-            className="background__image"
-          />
+
         </a>
        </div>
 
       <div className="rewards">
+              <div className="reward__container">
+                  <div className="reward">
+                      <h3 className="reward__header">Raffle Winners!</h3>
+                      <p className="reward__para">
+                          {t('landing.reward_6')}
+                      </p>
+                  </div>
+                  <figure className="reward__image--wrapper">
+                      <img
+                          src="https://hvmatl.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/RaffleWinners.jpg"
+                          alt=""
+                          className="reward__image"
+                      />
+                  </figure>
+              </div>
               <div className="reward__container">
                   <div className="reward">
                       <h3 className="reward__header">Bingo!</h3>
