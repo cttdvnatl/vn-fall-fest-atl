@@ -1,5 +1,5 @@
 import React, { useCallback, useRef, useEffect } from "react";
-import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
+import { Routes, Route, BrowserRouter as Router, useLocation } from "react-router-dom";
 import {
   setLanguage,
   getLanguage,
@@ -9,12 +9,34 @@ import {
 import ReactGA from "react-ga4";
 
 //database imports
-import en from "./2022/database/en.json";
-import vn from "./2022/database/vn.json";
+import en2022 from "./2022/database/en.json";
+import vn2022 from "./2022/database/vn.json";
+
+import en2023 from "./2023/database/en.json";
+import vn2023 from "./2023/database/vn.json";
 
 //Route imports
 import { Route2022 } from "./routes/Route2022";
 import { Route2023 } from "./routes/Route2023";
+
+//Database to use depending on URL
+//UPDATE EVERY NEW YEAR
+let en = en2023;//Se
+let vn = vn2023;
+
+let currentPath = window.location.pathname;
+
+switch ((currentPath[1] + currentPath[2] + currentPath[3] + currentPath[4]).toString()) {
+  case "2022":
+    console.log("data = 2022")
+    en = en2022;
+    vn = vn2022;
+    break;
+  default:
+    console.log("data = 2023")
+    en = en2023;//set current year
+    vn = vn2023;//set current year
+}
 
 //React-GA/Google Analytics 4
 ReactGA.initialize("G-QJ9L91FVH1");
