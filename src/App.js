@@ -21,8 +21,8 @@ import { Route2023 } from "./routes/Route2023";
 
 //Database to use depending on URL
 //UPDATE EVERY NEW YEAR
-let en = en2023;//Se
-let vn = vn2023;
+let en = en2023;//Set to current year
+let vn = vn2023;//Set to current year
 
 let currentPath = window.location.pathname;
 
