@@ -1,6 +1,6 @@
 import React, { useCallback, useRef, useEffect } from "react";
-import "./css/style.css";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import "./2022/css/style.css";
+import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import {
   setLanguage,
   getLanguage,
@@ -9,32 +9,37 @@ import {
 } from "react-multi-lang";
 import ReactGA from "react-ga4";
 
+//Layout imports
+import { Layout2022 } from "./layouts/Layout2022";
+import { Layout2023 } from "./layouts/Layout2023";
+
 //database imports
-import en from "./database/en.json";
-import vn from "./database/vn.json";
+import en from "./2022/database/en.json";
+import vn from "./2022/database/vn.json";
 
 //conponent imports
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "./2022/components/Header";
+import Footer from "./2022/components/Footer";
 
 //page imports
-import HomePage from "./pages/HomePage";
-import AboutPage from "./pages/AboutPage";
-import FestivalSchedulePage from "./pages/FestivalSchedulePage";
-import MusiciansPage from "./pages/MusiciansPage";
-import ContestPage from "./pages/ContestPage";
-import RafflesPage from "./pages/RafflesPage";
-import SeminarPage from "./pages/SeminarPage";
-import MenuPage from "./pages/MenuPage";
-import VendorsPage from "./pages/VendorsPage";
-import SponsorsPage from "./pages/SponsorsPage";
-import ContactPage from "./pages/ContactPage";
-import DirectionsPage from "./pages/DirectionsPage";
-import DonationsPage from "./pages/DonationsPage";
+import {HomePage} from "./2022/pages/HomePage";
+import {AboutPage} from "./2022/pages/AboutPage";
+import {FestivalSchedulePage} from "./2022/pages/FestivalSchedulePage";
+import {MusiciansPage} from "./2022/pages/MusiciansPage";
+import {ContestPage} from "./2022/pages/ContestPage";
+import {RafflesPage} from "./2022/pages/RafflesPage";
+import {SeminarPage} from "./2022/pages/SeminarPage";
+import {MenuPage} from "./2022/pages/MenuPage";
+import {VendorsPage} from "./2022/pages/VendorsPage";
+import {SponsorsPage} from "./2022/pages/SponsorsPage";
+import {ContactPage} from "./2022/pages/ContactPage";
+import {DirectionsPage} from "./2022/pages/DirectionsPage";
+import {DonationsPage} from "./2022/pages/DonationsPage";
 
 //Error/Success Pages
-import FormSubmitSuccessPage from "./pages/FormSubmitSuccessPage";
-import FormSubmitErrorPage from "./pages/FormSubmitErrorPage";
+import {FormSubmitSuccessPage} from "./2022/pages/FormSubmitSuccessPage";
+import {FormSubmitErrorPage} from "./2022/pages/FormSubmitErrorPage";
+
 
 //React-GA/Google Analytics 4
 ReactGA.initialize("G-QJ9L91FVH1");
@@ -104,20 +109,41 @@ function App() {
     <div className="app" ref={body}>
       <Header />
       <Router>
-        <Route path="/" component={HomePage} exact />
-        <Route path="/about" component={AboutPage} />
-        <Route path="/festival-schedule" component={FestivalSchedulePage} />
-        <Route path="/musicians" component={MusiciansPage} />
-        <Route path="/contests" component={ContestPage} />
-        <Route path="/raffles" component={RafflesPage} />
-        <Route path="/seminar" component={SeminarPage} />
-        <Route path="/menu" component={MenuPage} />
-        <Route path="/sponsors" component={SponsorsPage} />
-        <Route path="/contact" component={ContactPage} />
-        <Route path="/form-success" component={FormSubmitSuccessPage} />
-        <Route path="/form-error" component={FormSubmitErrorPage} />
-        <Route path="/directions" component={DirectionsPage} />
-        <Route path="/donations" component={DonationsPage} />
+        <Routes>
+          <Route element={<Layout2023/>}>
+            <Route path="/" element={<HomePage/>} />
+            <Route path="/about" element={<AboutPage/>} />
+            <Route path="/festival-schedule" element={<FestivalSchedulePage/>} />
+            <Route path="/musicians" element={<MusiciansPage/>} />
+            <Route path="/contests" element={<ContestPage/>} />
+            <Route path="/raffles" element={<RafflesPage/>} />
+            <Route path="/seminar" element={<SeminarPage/>} />
+            <Route path="/menu" element={<MenuPage/>} />
+            <Route path="/sponsors" element={<SponsorsPage/>} />
+            <Route path="/contact" element={<ContactPage/>} />
+            <Route path="/form-success" element={<FormSubmitSuccessPage/>} />
+            <Route path="/form-error" element={<FormSubmitErrorPage/>} />
+            <Route path="/directions" element={<DirectionsPage/>} />
+            <Route path="/donations" element={<DonationsPage/>} />
+          </Route>
+
+          <Route element={<Layout2022/>}>
+            <Route path="/" element={<HomePage/>} />
+            <Route path="/about" element={<AboutPage/>} />
+            <Route path="/festival-schedule" element={<FestivalSchedulePage/>} />
+            <Route path="/musicians" element={<MusiciansPage/>} />
+            <Route path="/contests" element={<ContestPage/>} />
+            <Route path="/raffles" element={<RafflesPage/>} />
+            <Route path="/seminar" element={<SeminarPage/>} />
+            <Route path="/menu" element={<MenuPage/>} />
+            <Route path="/sponsors" element={<SponsorsPage/>} />
+            <Route path="/contact" element={<ContactPage/>} />
+            <Route path="/form-success" element={<FormSubmitSuccessPage/>} />
+            <Route path="/form-error" element={<FormSubmitErrorPage/>} />
+            <Route path="/directions" element={<DirectionsPage/>} />
+            <Route path="/donations" element={<DonationsPage/>} />
+          </Route>
+        </Routes>
       </Router>
       <Footer />
     </div>
