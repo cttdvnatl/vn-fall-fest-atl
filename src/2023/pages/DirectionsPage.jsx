@@ -22,7 +22,7 @@ const Direction = (list) => {
     )
 }
 
-const DirectionsPage = () => {
+export const DirectionsPage = () => {
     const t = useTranslation();
 
     let Data
@@ -47,5 +47,3 @@ const DirectionsPage = () => {
         </div>
     )
 }
-
-export default DirectionsPage;

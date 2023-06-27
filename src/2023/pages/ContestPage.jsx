@@ -15,7 +15,7 @@ const ContestList = (list) => {
     )
 }
 
-const ContestPage = () => {
+export const ContestPage = () => {
     useTranslation();
 
     const t = useTranslation()
@@ -39,4 +39,3 @@ const ContestPage = () => {
     )
 }
 
-export default ContestPage;

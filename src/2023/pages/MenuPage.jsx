@@ -15,7 +15,7 @@ const Menu = (list) => {
     )
 }
 
-const MenuPage = () => {
+export const MenuPage = () => {
     const t = useTranslation()
     
     let Data;
@@ -35,6 +35,4 @@ const MenuPage = () => {
         </div>
         </>
     )
-}
-
-export default MenuPage;
+} 

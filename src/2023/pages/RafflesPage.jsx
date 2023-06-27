@@ -17,7 +17,7 @@ const Raffles = (list) => {
   )
 }
 
-const RafflesPage = () => {
+export const RafflesPage = () => {
     
     useTranslation()
 
@@ -37,6 +37,4 @@ const RafflesPage = () => {
         </div>
         </>
     )
-}
-
-export default RafflesPage;
+} 

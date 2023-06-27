@@ -19,7 +19,7 @@ const Donations = (list) => {
     )
 }
 
-const DonationsPage = () => {
+export const DonationsPage = () => {
     const t = useTranslation();
 
     let Data;
@@ -41,5 +41,3 @@ const DonationsPage = () => {
         </>
     )
 }
-
-export default DonationsPage;

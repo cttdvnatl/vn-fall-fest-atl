@@ -19,7 +19,7 @@ const Musicians = (list) => {
     )
 }
 
-const MusiciansPage = () => {
+export const MusiciansPage = () => {
     useTranslation()
 
     let Data;
@@ -38,6 +38,4 @@ const MusiciansPage = () => {
         </div>
         </>
     )
-}
-
-export default MusiciansPage;
+} 

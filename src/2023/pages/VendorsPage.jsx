@@ -16,7 +16,7 @@ const Vendors = (list) => {
 
 }
 
-const VendorsPage = () => {
+export const VendorsPage = () => {
     const t = useTranslation()
     
     let Data;
@@ -36,6 +36,4 @@ const VendorsPage = () => {
         </div>
         </>
     )
-}
-
-export default VendorsPage;
+} 

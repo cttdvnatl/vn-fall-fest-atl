@@ -4,12 +4,12 @@ import vn from "../database/vn";
 import en from "../database/en";
 import Carousel from "../components/Carousel";
 //import Sponsors from '../components/Sponsors';
-import Sponsors from "./SponsorsPage";
+import {SponsorsPage} from "./SponsorsPage";
 import PhotoGallery from "../components/PhotoGallery";
 import FestivalStatistics from "../components/FestivalStatistics";
 import Landing from "../components/Landing";
 
-const Homepage = () => {
+export const HomePage = () => {
   useTranslation();
 
   let photoGalleryDataOne;
@@ -27,12 +27,10 @@ const Homepage = () => {
     <>
       {/* <Carousel /> */}
       <Landing />
-      <Sponsors type={"small"} />
+      <SponsorsPage type={"small"} />
       <FestivalStatistics />
       <PhotoGallery data={photoGalleryDataOne} />
       <PhotoGallery data={photoGalleryDataTwo} />
     </>
   );
 };
-
-export default Homepage;

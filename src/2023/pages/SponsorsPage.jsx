@@ -58,7 +58,7 @@ const OtherSponsors = (list) => {
     )
 }
 
-const SponsorsPage = (props) => {
+export const SponsorsPage = (props) => {
     const sponsors = useRef(null);
     const brochure = useRef(null);
 
@@ -93,6 +93,4 @@ const SponsorsPage = (props) => {
         </div>
         </>
     )
-}
-
-export default SponsorsPage;
+} 

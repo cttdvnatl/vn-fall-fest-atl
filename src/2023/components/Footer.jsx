@@ -20,7 +20,7 @@ const FooterItems = (list) => {
     )
 }
 
-const Footer = () => {
+export const Footer = () => {
     useTranslation()
 
     let Data;
@@ -43,5 +43,3 @@ const Footer = () => {
         </>
     )
 }
-
-export default Footer;

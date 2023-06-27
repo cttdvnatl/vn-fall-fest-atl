@@ -3,7 +3,7 @@ import { useTranslation, setLanguage, getLanguage } from "react-multi-lang";
 import SocialIcons from "./SocialIcons";
 //import PopUp from './PopUp';
 
-const Header = () => {
+export const Header = () => {
   const nav = useRef(null);
   const sideNav = useRef(null);
   const mainHeader = useRef(null);
@@ -284,6 +284,4 @@ const Header = () => {
       </nav>
     </>
   );
-};
-
-export default Header;
+}; 

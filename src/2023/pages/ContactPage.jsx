@@ -3,7 +3,7 @@ import { useTranslation } from 'react-multi-lang';
 import emailjs from '@emailjs/browser';
 import ReCAPTCHA from 'react-google-recaptcha';
 
-const ContactPage = () => {
+export const ContactPage = () => {
     const t = useTranslation();
 
     const form = useRef();
@@ -88,5 +88,3 @@ const ContactPage = () => {
         </>
     )
 }
-
-export default ContactPage;

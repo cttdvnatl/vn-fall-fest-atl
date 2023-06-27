@@ -25,7 +25,7 @@ const FestivalSchedule = (list) => {
 }
 
 
-const FestivalSchedulePage = () => {
+export const FestivalSchedulePage = () => {
     useTranslation()
 
     const t = useTranslation()
@@ -49,5 +49,3 @@ const FestivalSchedulePage = () => {
         </>
     )
 }
-
-export default FestivalSchedulePage;

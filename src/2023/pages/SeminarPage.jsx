@@ -3,7 +3,7 @@ import { getLanguage, useTranslation } from 'react-multi-lang';
 import en from '../database/en.json';
 import vn from '../database/vn.json';
 
-const SeminarPage = () => {
+export const SeminarPage = () => {
     
     useTranslation()
 
@@ -23,6 +23,4 @@ const SeminarPage = () => {
             </div>
         </>
     )
-}
-
-export default SeminarPage;
+} 
