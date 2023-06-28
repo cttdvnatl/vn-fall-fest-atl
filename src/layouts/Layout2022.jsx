@@ -4,7 +4,6 @@ import {Footer} from '../2022/components/Footer';
 export const Layout2022 = () => {
   return (
     <div>
-        2022
         <Header/>
         <Outlet/>
         <Footer/>

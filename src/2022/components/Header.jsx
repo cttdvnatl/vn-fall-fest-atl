@@ -2,6 +2,7 @@ import React, { useRef, useCallback, useEffect } from "react";
 import { useTranslation, setLanguage, getLanguage } from "react-multi-lang";
 import SocialIcons from "./SocialIcons";
 //import PopUp from './PopUp';
+import { ArchiveDropdown } from "../../shared-components/ArchiveDropdown";
 
 export const Header = () => {
   const nav = useRef(null);
@@ -160,7 +161,7 @@ export const Header = () => {
                 {t("topHeader.link3.text")}
               </a>
             </div>
-
+            <ArchiveDropdown year={2022}/>
             <div class="translation-button">
               <button
                 style={displayVN}

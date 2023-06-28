@@ -2,11 +2,11 @@
     "topHeader": {
         "link1": {
             "text": "Directions",
-            "link": "/directions"
+            "link": "/2022/directions"
         },
         "link2": {
             "text": "Donate",
-            "link": "/donations"
+            "link": "/2022/donations"
         },
         "link3": {
           "text": "Volunteer Form",
