@@ -184,7 +184,7 @@ export const Header = () => {
         </div>
         <div ref={mainHeader} class="main-header">
           <div class="logo">
-            <a href="/">
+            <a href="/2022">
               <img
                 alt="logo"
                 src="http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/LogoSucSongMoi.png"
