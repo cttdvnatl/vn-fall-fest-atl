@@ -16,38 +16,38 @@
     "header": {
         "dropdownOne": {
             "heading": "Home",
-            "href": "/"
+            "href": "/2022/"
         },
         "dropdownTwo": {
             "heading": "About Us",
-            "href": "/about"
+            "href": "/2022/about"
         },
         "dropdownThree": {
             "heading": "Events",
             "item1": "Seminar",
-            "href1": "/seminar",
+            "href1": "/2022/seminar",
             "item2": "Entertainers",
-            "href2": "/musicians",
+            "href2": "/2022/musicians",
             "item3": "Contests",
-            "href3": "/contests",
+            "href3": "/2022/contests",
             "item4": "Raffles",
-            "href4": "/raffles",
+            "href4": "/2022/raffles",
             "item5": "Festival Schedule",
-            "href5": "/festival-schedule"
+            "href5": "/2022/festival-schedule"
         },
         "dropdownFour": {
             "heading": "Cuisine",
             "item1": "Menu",
-            "href1": "/menu"
+            "href1": "/2022/menu"
           
         },
         "dropdownFive": {
             "heading": "Sponsors",
-            "href": "/sponsors"
+            "href": "/2022/sponsors"
         },
         "dropdownSix": {
             "heading": "Contact",
-            "href": "/contact"
+            "href": "/2022/contact"
         }
     },
     "socialIcons": [
