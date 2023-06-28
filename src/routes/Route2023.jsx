@@ -1,9 +1,9 @@
 import React from 'react';
-import "../2023/css/style.css";
 import { Routes, Route } from "react-router-dom";
 
 //Layout imports
 import { Layout2023 } from "../layouts/Layout2023";
+
 
 //page imports
 import {HomePage} from "../2023/pages/HomePage";
@@ -23,7 +23,8 @@ import {DonationsPage} from "../2023/pages/DonationsPage";
 import {FormSubmitSuccessPage} from "../2023/pages/FormSubmitSuccessPage";
 import {FormSubmitErrorPage} from "../2023/pages/FormSubmitErrorPage";
 
-export const Route2023 = () => {
+
+const Route2023 = () => {
     return (
         <Routes>
             <Route element={<Layout2023/>}>
@@ -45,3 +46,5 @@ export const Route2023 = () => {
         </Routes>
     )
 }
+
+export default Route2023

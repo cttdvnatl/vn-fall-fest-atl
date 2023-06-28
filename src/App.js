@@ -1,5 +1,5 @@
-import React, { useCallback, useRef, useEffect } from "react";
-import { Routes, Route, BrowserRouter as Router, useLocation } from "react-router-dom";
+import React, { useCallback, useRef, useEffect, lazy, Suspense } from "react";
+import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import {
   setLanguage,
   getLanguage,
@@ -16,15 +16,18 @@ import en2023 from "./2023/database/en.json";
 import vn2023 from "./2023/database/vn.json";
 
 //Route imports
-import { Route2022 } from "./routes/Route2022";
-import { Route2023 } from "./routes/Route2023";
+//import { Route2022 } from "./routes/Route2022";
+////import { Route2023 } from "./routes/Route2023";
+
+const Route2022 = lazy(() => import('./routes/Route2022'));
+const Route2023 = lazy(() => import('./routes/Route2023'));
+
+let currentPath = window.location.pathname;
 
 //Database to use depending on URL
 //UPDATE EVERY NEW YEAR
 let en = en2023;//Set to current year
 let vn = vn2023;//Set to current year
-
-let currentPath = window.location.pathname;
 
 switch ((currentPath[1] + currentPath[2] + currentPath[3] + currentPath[4]).toString()) {
   case "2022":
@@ -106,10 +109,12 @@ function App() {
   return (
     <div className="app" ref={body}>
       <Router>
-        <Routes>
-          <Route path="/*" element={<Route2023/>}/>
-          <Route path="/2022/*" element={<Route2022/>}/>
-        </Routes>
+        <Suspense fallback={<></>}> {/* lazyloading docs: https://legacy.reactjs.org/docs/code-splitting.html#reactlazy */}
+          <Routes>
+            <Route path="/*" element={<Route2023/>}/>
+            <Route path="/2022/*" element={<Route2022/>}/>
+          </Routes>
+        </Suspense>
       </Router>
     </div>
   );

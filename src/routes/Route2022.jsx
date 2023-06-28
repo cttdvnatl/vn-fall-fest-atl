@@ -1,5 +1,4 @@
 import React from 'react';
-import "../2022/css/style.css";
 import { Routes, Route } from "react-router-dom";
 
 //Layout imports
@@ -24,7 +23,7 @@ import {DonationsPage} from "../2022/pages/DonationsPage";
 import {FormSubmitSuccessPage} from "../2022/pages/FormSubmitSuccessPage";
 import {FormSubmitErrorPage} from "../2022/pages/FormSubmitErrorPage";
 
-export const Route2022 = () => {
+const Route2022 = () => {
     return (
         <Routes>
             <Route element={<Layout2022/>}>
@@ -46,3 +45,5 @@ export const Route2022 = () => {
         </Routes>
     )
 }
+
+export default Route2022
