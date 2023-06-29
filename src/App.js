@@ -16,11 +16,8 @@ import en2023 from "./2023/database/en.json";
 import vn2023 from "./2023/database/vn.json";
 
 //Route imports
-//import { Route2022 } from "./routes/Route2022";
-////import { Route2023 } from "./routes/Route2023";
-
-const Route2022 = lazy(() => import('./routes/Route2022'));
-const Route2023 = lazy(() => import('./routes/Route2023'));
+const Route2022 = lazy(() => import('./routes/Route2022'));//lazy loading to prevent all css file being imported at once
+const Route2023 = lazy(() => import('./routes/Route2023'));//leading to newer site affecting styling of old archived sites
 
 let currentPath = window.location.pathname;
 

@@ -1,4 +1,4 @@
-import React, { useRef, useCallback, useEffect } from "react";
+import React, { useRef, useCallback, useEffect, useState } from "react";
 import { useTranslation, setLanguage, getLanguage } from "react-multi-lang";
 import SocialIcons from "./SocialIcons";
 import { ArchiveDropdown } from "../../shared-components/ArchiveDropdown";
@@ -8,6 +8,9 @@ export const Header = () => {
   const nav = useRef(null);
   const sideNav = useRef(null);
   const mainHeader = useRef(null);
+  const archiveDropdown = useRef(null);
+  
+  const [archiveDropdownStyle, setArchiveDropdownStyle] = useState(null);
 
   const displayNone = {
     display: "none",
@@ -79,8 +82,13 @@ export const Header = () => {
     const sticky = nav.current.offsetTop;
     if (window.pageYOffset > sticky) {
       nav.current.classList.add("is-sticky");
+      setArchiveDropdownStyle({display: "none"})
     } else {
       nav.current.classList.remove("is-sticky");
+      const timer = setTimeout(() => {
+        setArchiveDropdownStyle({display: "block"})
+      }, 170);
+      return () => clearTimeout(timer);
     }
   }, []);
 
@@ -161,7 +169,9 @@ export const Header = () => {
                 {t("topHeader.link3.text")}
               </a>
             </div>
-            <ArchiveDropdown year={2023}/>
+            <div style={archiveDropdownStyle}>
+              <ArchiveDropdown ref={archiveDropdown} year={2023}/>
+            </div>
             <div class="translation-button">
               <button
                 style={displayVN}
