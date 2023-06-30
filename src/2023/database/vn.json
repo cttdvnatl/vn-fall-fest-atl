@@ -10,7 +10,7 @@
     },
     "link3": {
       "text": "Volunteer Form",
-      "link": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Volunteer/ArchdioceseVolunteerApplicationVietnameseAndWaiver_ver2022.pdf"
+      "link": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Volunteer/ArchdioceseVolunteerApplicationVietnameseAndWaiver_ver2022.pdf"
     }
   },
   "header": {
@@ -302,7 +302,7 @@
       {
         "title": "Nhà Tài Trợ Chính",
         "class": "main-sponsor",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/main/Main-NP.png",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Main/2023-Fall-Festival-Main-Nguyen-Pham.png",
         "website": "https://www.npattorney.com"
       }
     ],
@@ -312,71 +312,31 @@
         "class": "diamond-sponsor other-sponsor",
         "content": [
           {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ParisBanhMi.png",
-            "website": "https://parisbanhmi.com"
-          },
-          {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ComGa.png",
-            "website": "https://www.comgahoustonduluth.com"
-          },
-          {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/EIG.jpg",
-            "website": null
-          },
-          {
             "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-S3Spa.png",
             "website": "https://s3spa.com"
           },
           {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Zurno.png",
-            "website": null
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/NewStar.jpg",
+            "website": "https://newstarsspa.com"
           }
         ]
-      },
+    },
       {
         "title": "Các Nhà Tài Trợ Hạng Vàng",
         "class": "gold-sponsor other-sponsor",
         "content": [
-          {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/KangenWater.png",
-            "website": null
-          },
-          {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/NewStar.jpg",
-            "website": "https://newstarsspa.com"
-          },
-          {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/LaTepGroup.png",
-            "website": null
-          },
-          {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/CaoKhaiThue.png",
-            "website": "https://caokhaithue.com"
-          },
-          {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/MagnoliaComfortMedical.png",
-            "website": null
-          },
-          {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/UD.png",
-            "website": "https://www.uniteddigestive.com"
-          },
-          {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/GTRealty.png",
-            "website": null
-          },
-          {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/VietHomeCare.png",
-            "website": "https://www.viethomecare.org/"
-          },
-          {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/TPLGroup.png",
-            "website": "https://www.absoluteml.com/"
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-Fall-Festival-Gold-Latep-Group.png",
+                "website": null
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/TPLGroup.png",
+                "website": "https://www.absoluteml.com/"
+              }
+            ]
           }
         ]
-      }
-    ]
-  },
+      },
   "festivalSchedule": {
     "title": "Lịch Trình Lễ Hội",
     "schedule1": [
