@@ -199,7 +199,7 @@
                 "text": "Festival attendance grew annually. In a 2011 Fall Festival police survey, approximately 35,000 people entered our church grounds. Today, our Church’s annual fall festival is recognized by Vietnamese communities nation-wide, and is a main staple of Vietnamese Catholic communities in the Southeast United States. We help reunite families and friends, we teach our children and guests our Vietnamese heritage, and we contribute to the vibrancy of the region’s cultural and faith communities."
             },
             {
-                "text": "Come join us for our 2022 Fall Festival this September 2nd through September 4th, 2022.  Come enjoy our diverse music, our delicious food, and our rich culture.  Come help us turn our church to a vibrant sanctuary with rich Vietnamese tradition."
+                "text": "Come join us for our 2023 Fall Festival this September 2nd through September 4th, 2023.  Come enjoy our diverse music, our delicious food, and our rich culture.  Come help us turn our church to a vibrant sanctuary with rich Vietnamese tradition."
             }
         ],
         "logos": [
@@ -549,6 +549,10 @@
     ]
   },
   "landing": {
+    "poster": {
+      "link": "https://hvmatl.com/gallery/LHMT_img/LHMT2022/Carousel/MainPoster.jpg",
+      "image": "https://hvmatl.com/gallery/LHMT_img/LHMT2022/Carousel/MainPoster2.jpg"
+    },
     "reward_1": "Congratulations to the limited edition of an insulated stainless steel mug winners.",
     "reward_2": "Buy 5, get 1 FREE.",
     "reward_3": "Prizes will have winners!",
@@ -557,6 +561,51 @@
     "reward_6": "You could be one of the winners! Please check your tickets. Thank you for supporting the 2022 Fall Festival with your raffle tickets purchase.",
     "reward_7": "Big prizes for Bingo this year! We invite you to come and enjoy this fun game!"
   },
+
+  "rewards": [
+    {
+      "title": "Raffles",
+      "paragraphs": [
+        {
+          "text": "Buy 5, get 1 FREE"
+        },
+        {
+          "text": "Prizes will have winners!"
+        },
+        {
+          "text": "Contact us at fallfest.raffle@hvmatl.org for your"
+        },
+        {
+          "text": "chance to win many valuable prizes."
+        }
+      ],
+      "image": "https://hvmatl.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png"
+    },
+    {
+      "title": "Grand Prize!",
+      "paragraphs": [
+        {
+          "text": "If you have purchased a raffle ticket, you will have a "
+        },
+        {
+          "text": "chance to be the owner of this 2022 Lexus IS 300!"
+        }
+      ],
+      "image": "https://hvmatl.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png"
+    },
+    {
+      "title": "Bingo!",
+      "paragraphs": [
+        {
+          "text": "Big prizes for Bingo this year! We invite you to come "
+        },
+        {
+          "text": "and enjoy this fun game!"
+        }
+      ],
+      "image": "https://hvmatl.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png"
+    }
+  ],
     "directions": {
         "pageTitle": "Directions",
         "routes": [
