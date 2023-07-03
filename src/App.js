@@ -7,6 +7,7 @@ import {
   setDefaultLanguage,
 } from "react-multi-lang";
 import ReactGA from "react-ga4";
+import Loading from "./shared-components/Loading";
 
 //database imports
 import en2022 from "./2022/database/en.json";
@@ -106,7 +107,7 @@ function App() {
   return (
     <div className="app" ref={body}>
       <Router>
-        <Suspense fallback={<></>}> {/* lazyloading docs: https://legacy.reactjs.org/docs/code-splitting.html#reactlazy */}
+        <Suspense fallback={<Loading/>}> {/* lazyloading docs: https://legacy.reactjs.org/docs/code-splitting.html#reactlazy */}
           <Routes>
             <Route path="/*" element={<Route2023/>}/>
             <Route path="/2022/*" element={<Route2022/>}/>
