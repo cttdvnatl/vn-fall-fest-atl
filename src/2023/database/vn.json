@@ -10,7 +10,7 @@
     },
     "link3": {
       "text": "Volunteer Form",
-      "link": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Volunteer/ArchdioceseVolunteerApplicationVietnameseAndWaiver_ver2022.pdf"
+      "link": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Volunteer/ArchdioceseVolunteerApplicationVietnameseAndWaiver_ver2022.pdf"
     }
   },
   "header": {
@@ -199,7 +199,7 @@
         "text": "Khách tham dự hội chợ tăng đều hằng năm. Hội Chợ Mùa Thu 2011 đã mang đến 35,000 khách theo thống kê của Cảnh Sát Hạt Gwinnett. Ngày nay, sự kiện này được xem như một trong những hoạt động tiêu biểu của Cộng Đồng Công Giáo Việt Nam, cũng như của người Việt tại miền Đông Nam Hoa Kỳ. Hội chợ là nơi quy tụ gia đình và bằng hữu, duy trì di sản văn hóa Việt Nam đến thế hệ sau, cũng như giới thiệu văn hóa của chúng ta đến với các cộng đồng khác trong vùng."
       },
       {
-        "text": "Xin mời tất cả mọi người đến dự Lễ Hội Mùa Thu 2022 với chúng tôi từ ngày 2 đến ngày 4 tháng 9. Đến để thưởng thức âm nhạc đa dạng, thức ăn ngon miệng, và văn hóa cổ truyền của cộng đồng chúng tôi. Đến để giúp chúng tôi xây dựng giáo xứ thành một nơi nương tựa về tinh thần cho tất cả mọi người qua những truyền thống đậm nét văn hóa Việt Nam."
+        "text": "Xin mời tất cả mọi người đến dự Lễ Hội Mùa Thu 2023 với chúng tôi từ ngày 2 đến ngày 4 tháng 9. Đến để thưởng thức âm nhạc đa dạng, thức ăn ngon miệng, và văn hóa cổ truyền của cộng đồng chúng tôi. Đến để giúp chúng tôi xây dựng giáo xứ thành một nơi nương tựa về tinh thần cho tất cả mọi người qua những truyền thống đậm nét văn hóa Việt Nam."
       }
     ],
     "logos": [
@@ -302,7 +302,7 @@
       {
         "title": "Nhà Tài Trợ Chính",
         "class": "main-sponsor",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/main/Main-NP.png",
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Main/2023-Fall-Festival-Main-Nguyen-Pham.png",
         "website": "https://www.npattorney.com"
       }
     ],
@@ -312,71 +312,31 @@
         "class": "diamond-sponsor other-sponsor",
         "content": [
           {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ParisBanhMi.png",
-            "website": "https://parisbanhmi.com"
-          },
-          {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ComGa.png",
-            "website": "https://www.comgahoustonduluth.com"
-          },
-          {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/EIG.jpg",
-            "website": null
-          },
-          {
             "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-S3Spa.png",
             "website": "https://s3spa.com"
           },
           {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Zurno.png",
-            "website": null
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/NewStar.jpg",
+            "website": "https://newstarsspa.com"
           }
         ]
-      },
+    },
       {
         "title": "Các Nhà Tài Trợ Hạng Vàng",
         "class": "gold-sponsor other-sponsor",
         "content": [
-          {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/KangenWater.png",
-            "website": null
-          },
-          {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/NewStar.jpg",
-            "website": "https://newstarsspa.com"
-          },
-          {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/LaTepGroup.png",
-            "website": null
-          },
-          {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/CaoKhaiThue.png",
-            "website": "https://caokhaithue.com"
-          },
-          {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/MagnoliaComfortMedical.png",
-            "website": null
-          },
-          {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/UD.png",
-            "website": "https://www.uniteddigestive.com"
-          },
-          {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/GTRealty.png",
-            "website": null
-          },
-          {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/VietHomeCare.png",
-            "website": "https://www.viethomecare.org/"
-          },
-          {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/TPLGroup.png",
-            "website": "https://www.absoluteml.com/"
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-Fall-Festival-Gold-Latep-Group.png",
+                "website": null
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/TPLGroup.png",
+                "website": "https://www.absoluteml.com/"
+              }
+            ]
           }
         ]
-      }
-    ]
-  },
+      },
   "festivalSchedule": {
     "title": "Lịch Trình Lễ Hội",
     "schedule1": [
@@ -589,14 +549,55 @@
     ]
   },
   "landing": {
-    "reward_1": "Xin chúc mừng 10 người may mắn được tặng ly cách nhiệt quý hiếm có in biểu tượng chính thức của Lễ Hội Mùa Thu 2022.",
-    "reward_2": "Mua 5 vé, TẶNG 1 vé.",
-    "reward_3": "Tất cả các giải sẽ có người trúng!",
-    "reward_4": "Xin liên lạc qua fallfest.raffle@hvmatl.org để có được cơ hội trúng nhiều giải thưởng giá trị.",
-    "reward_5": "Nếu bạn đã mua vé sổ xố, bạn sẽ có cơ hội làm chủ chiếc Lexus IS 300 đời 2022 này!",
-    "reward_6": "Bạn có thể là một trong những người thắng giải! Vui lòng kiểm tra vé của bạn. Cảm ơn bạn đã ủng hộ Lễ hội mùa thu 2022 bằng cách mua vé xổ số.",
-    "reward_7": "Giải thưởng lớn cho Lô Tô năm nay! Chúng tôi mời bạn đến và tham gia trò chơi thú vị này!"
+    "poster": {
+      "link": "https://hvmatl.com/gallery/LHMT_img/LHMT2023/Carousel/Posters/MainPoster2.png",
+      "image": "https://hvmatl.com/gallery/LHMT_img/LHMT2023/Carousel/Posters/MainPoster2.png"
+    }
   },
+  "rewards": [
+    {
+      "title": "Raffles",
+      "paragraphs": [
+        {
+          "text": "Buy 5, get 1 FREE"
+        },
+        {
+          "text": "Prizes will have winners!"
+        },
+        {
+          "text": "Contact us at fallfest.raffle@hvmatl.org for your"
+        },
+        {
+          "text": "chance to win many valuable prizes."
+        }
+      ],
+      "image": "https://hvmatl.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png"
+    },
+    {
+      "title": "Grand Prize!",
+      "paragraphs": [
+        {
+          "text": "If you have purchased a raffle ticket, you will have a "
+        },
+        {
+          "text": "chance to be the owner of this 2022 Lexus IS 300!"
+        }
+      ],
+      "image": "https://hvmatl.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png"
+    },
+    {
+      "title": "Bingo!",
+      "paragraphs": [
+        {
+          "text": "Big prizes for Bingo this year! We invite you to come "
+        },
+        {
+          "text": "and enjoy this fun game!"
+        }
+      ],
+      "image": "https://hvmatl.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png"
+    }
+  ],
   "directions": {
     "pageTitle": "Directions",
     "routes": [
