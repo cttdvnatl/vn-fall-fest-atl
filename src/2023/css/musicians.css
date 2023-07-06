@@ -1,0 +1,43 @@
+.musicians {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+.musicians .text-center {
+    padding: 30px;
+}
+
+.musicians .text-right {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.musicians .text-left {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 30px;
+}
+
+.musicians img {
+    padding-bottom: 10px;
+}
+
+.musicians .column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+.musicians .column h1 {
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.musicians .column p {
+    font-size: 30px;
+}

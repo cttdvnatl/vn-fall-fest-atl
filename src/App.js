@@ -1,6 +1,5 @@
-import React, { useCallback, useRef, useEffect } from "react";
-import "./css/style.css";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import React, { useCallback, useRef, useEffect, lazy, Suspense } from "react";
+import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import {
   setLanguage,
   getLanguage,
@@ -10,31 +9,37 @@ import {
 import ReactGA from "react-ga4";
 
 //database imports
-import en from "./database/en.json";
-import vn from "./database/vn.json";
+import en2022 from "./2022/database/en.json";
+import vn2022 from "./2022/database/vn.json";
 
-//conponent imports
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import en2023 from "./2023/database/en.json";
+import vn2023 from "./2023/database/vn.json";
 
-//page imports
-import HomePage from "./pages/HomePage";
-import AboutPage from "./pages/AboutPage";
-import FestivalSchedulePage from "./pages/FestivalSchedulePage";
-import MusiciansPage from "./pages/MusiciansPage";
-import ContestPage from "./pages/ContestPage";
-import RafflesPage from "./pages/RafflesPage";
-import SeminarPage from "./pages/SeminarPage";
-import MenuPage from "./pages/MenuPage";
-import VendorsPage from "./pages/VendorsPage";
-import SponsorsPage from "./pages/SponsorsPage";
-import ContactPage from "./pages/ContactPage";
-import DirectionsPage from "./pages/DirectionsPage";
-import DonationsPage from "./pages/DonationsPage";
+//Route imports
+//import { Route2022 } from "./routes/Route2022";
+////import { Route2023 } from "./routes/Route2023";
 
-//Error/Success Pages
-import FormSubmitSuccessPage from "./pages/FormSubmitSuccessPage";
-import FormSubmitErrorPage from "./pages/FormSubmitErrorPage";
+const Route2022 = lazy(() => import('./routes/Route2022'));
+const Route2023 = lazy(() => import('./routes/Route2023'));
+
+let currentPath = window.location.pathname;
+
+//Database to use depending on URL
+//UPDATE EVERY NEW YEAR
+let en = en2023;//Set to current year
+let vn = vn2023;//Set to current year
+
+switch ((currentPath[1] + currentPath[2] + currentPath[3] + currentPath[4]).toString()) {
+  case "2022":
+    console.log("data = 2022")
+    en = en2022;
+    vn = vn2022;
+    break;
+  default:
+    console.log("data = 2023")
+    en = en2023;//set current year
+    vn = vn2023;//set current year
+}
 
 //React-GA/Google Analytics 4
 ReactGA.initialize("G-QJ9L91FVH1");
@@ -100,26 +105,17 @@ function App() {
       window.removeEventListener("scroll", detectScroll);
     };
   }, [detectScroll]);
+
   return (
     <div className="app" ref={body}>
-      <Header />
       <Router>
-        <Route path="/" component={HomePage} exact />
-        <Route path="/about" component={AboutPage} />
-        <Route path="/festival-schedule" component={FestivalSchedulePage} />
-        <Route path="/musicians" component={MusiciansPage} />
-        <Route path="/contests" component={ContestPage} />
-        <Route path="/raffles" component={RafflesPage} />
-        <Route path="/seminar" component={SeminarPage} />
-        <Route path="/menu" component={MenuPage} />
-        <Route path="/sponsors" component={SponsorsPage} />
-        <Route path="/contact" component={ContactPage} />
-        <Route path="/form-success" component={FormSubmitSuccessPage} />
-        <Route path="/form-error" component={FormSubmitErrorPage} />
-        <Route path="/directions" component={DirectionsPage} />
-        <Route path="/donations" component={DonationsPage} />
+        <Suspense fallback={<></>}> {/* lazyloading docs: https://legacy.reactjs.org/docs/code-splitting.html#reactlazy */}
+          <Routes>
+            <Route path="/*" element={<Route2023/>}/>
+            <Route path="/2022/*" element={<Route2022/>}/>
+          </Routes>
+        </Suspense>
       </Router>
-      <Footer />
     </div>
   );
 }

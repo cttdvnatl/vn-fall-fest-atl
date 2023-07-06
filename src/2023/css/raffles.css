@@ -1,0 +1,20 @@
+.raffles-page {
+    margin: 30px;
+    text-align: center;
+}
+
+.raffles-page h1 {
+    font-size: 70px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+
+.raffles-page p {
+    padding-top: 3px;
+    padding-bottom: 15px;
+}
+
+.raffles-page img {
+    width: 90%;
+    margin: auto;
+}
