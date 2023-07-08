@@ -4,10 +4,10 @@
 
 /* Top Header CSS*/
 nav.desktop-view div.top-header {
-  background-image: url("http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Background2.jpg");
+  background-color: rgb(203, 226, 147);
   height: 49px;
   width: 100%;
-  border-bottom: solid 1px #c5c6ca;
+  border-bottom: solid 1px rgb(199, 183, 175);;
   display: block;
   position: relative;
 }
@@ -99,7 +99,7 @@ nav.desktop-view
   div.top-header-items-right
   div.translation-button
   button.translation-button {
-  color: red;
+  color: rgb(113, 83, 83);
   padding: 6px 10px 6px 10px;
   margin-right: 3px;
   margin-left: 10px;
@@ -146,9 +146,9 @@ div.main-header {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-image: url("http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Background1.jpg");
+  background-color: rgb(203, 226, 147);
   height: 120px;
-  box-shadow: 0 10px 6px -6px gray;
+  box-shadow: 0 10px 6px -6px yellow;
 }
 
 .is-sticky .top-header {
@@ -214,8 +214,8 @@ nav.desktop-view div.main-header ul li ul {
   position: absolute;
   width: 200px;
   z-index: 1000;
-  border: 1px solid lightgrey;
-  background-color: white;
+  border: 1px solid ligh;
+  background-color: rgb(148, 122, 38);
   display: none;
 }
 
@@ -264,13 +264,12 @@ nav.desktop-view div.logo img {
 /*CSS
 /* Top Header Items left*/
 nav.mobile-view div.top-header {
-  background-color: #ffff4d;
+  background-color: rgb(203, 226, 147);;
   height: 49px;
   width: 100%;
-  border-bottom: solid 1px #c5c6ca;
+  border-bottom: solid 1px rgb(141, 111, 0);
   display: block;
   position: relative;
-  background-image: url("http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Background2.jpg");
 }
 
 nav.mobile-view div.top-header div.top-header-items-left {
@@ -412,12 +411,11 @@ nav.mobile-view
 /* Navagation CSS*/
 nav.mobile-view div.main-header {
   width: 100%;
-  background-color: #ffff4d;
+  background-color: rgb(203, 226, 147);;
   box-shadow: grey 10px 5px 5px;
   height: 120px;
   z-index: 9999;
   bottom: 0;
-  background-image: url("http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/Background1.jpg");
 }
 
 nav.mobile-view div.is-sticky.main-header {
@@ -425,7 +423,7 @@ nav.mobile-view div.is-sticky.main-header {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: #ffff4d;
+  background-color: rgb(203, 226, 147);;
   z-index: 9999;
 }
 
@@ -439,7 +437,7 @@ nav.mobile-view div.main-header ul {
 
 nav.mobile-view div.main-header ul.openSideNav {
   width: 250px;
-  background-color: #ffff4d;
+  background-color: rgb(203, 226, 147);;
   box-shadow: 2px 0px 10px 0px black;
   transition: width 1s;
   display: flex;
@@ -459,7 +457,7 @@ nav.mobile-view div.main-header ul.closeSideNav li {
 nav.mobile-view div.main-header ul li {
   display: block;
   cursor: pointer;
-  background-color: #f2f2f2;
+  background-color: rgb(203, 226, 147);
   border-top: 1px solid;
 }
 
@@ -486,7 +484,7 @@ nav.mobile-view div.main-header ul li ul {
 }
 
 nav.mobile-view div.main-header ul li.active {
-  background-color: #cccccc;
+  background-color: rgb(203, 226, 147);
   transition: background-color 0.5s;
 }
 
