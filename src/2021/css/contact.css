@@ -1,0 +1,95 @@
+.contact-page {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffe6;
+}
+
+.contact-form {
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+    display: block;
+    width: 70%;
+    max-width: 600px;
+    margin: auto;
+    border-left: grey solid 1px;
+    border-right: grey solid 1px;
+    border-bottom: grey solid 1px;
+    box-shadow: 2px 8px 8px 1px grey;
+    border-radius: 5px;;
+    margin-bottom: 140px;
+}
+
+.contact-form h1 {
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+.contact-form .contact-form-row {
+    width: 100%;
+    padding-bottom: 30px;
+    display: inline-flex;
+    margin: auto;
+}
+
+.contact-form .contact-form-row .contact-form-input {
+    width: 100%;
+}
+
+.contact-form .contact-form-row .contact-form-input input {
+    width: 96%;
+    height: 40px;
+    font-size: 20px;
+    box-shadow: 0 0 4px .5px grey;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.contact-form .contact-form-row .type {
+    margin: auto;
+}
+
+.contact-form .contact-form-row .type label {
+    font-size: 19px;
+    padding-right: 5px;
+}
+
+.contact-form .contact-form-row .type select {
+    font-size: 19px;
+}
+
+.contact-form .contact-form-row .contact-form-input-message {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-form .contact-form-row .contact-form-input-message textarea {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    box-shadow: 0 0 4px 2px grey;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.contact-form .contact-form-row .contact-form-submit {
+    margin: auto;
+    margin-top: 10px;
+    padding: 11px;
+    background-color: white;
+    border: 1px grey solid;
+    border-radius: 6px;
+}
+
+.contact-form .contact-form-row .contact-form-submit:hover {
+    background-color: #f2f2f2
+}
+
+.contact-form .contact-form-row .contact-form-submit:active {
+    background-color: #e6e6e6
+}
+

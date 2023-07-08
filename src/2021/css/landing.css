@@ -1,0 +1,316 @@
+.landing {
+  position: relative;
+}
+
+.video {
+  margin: auto auto;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: none;
+}
+
+.active {
+  display: flex;
+  justify-content: center;
+}
+
+.video > video {
+  z-index: 1;
+  width: 100%;
+  margin-top: 120px;
+}
+
+.video > span {
+  left: 20%;
+  top: 5%;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 40px;
+  position: absolute;
+  opacity: 1 !important;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.video__overlay {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  background-color: grey;
+  opacity: 0.7;
+}
+
+.background__wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.landing__header__container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-40%);
+}
+
+.landing__header {
+  text-transform: uppercase;
+  font-size: 80px;
+  font-family: "Roboto";
+}
+.landing__header > span {
+  margin-left: 160px;
+}
+.landing__header--en {
+  font-size: 56px;
+  text-align: center;
+}
+
+.landing__subheader {
+  font-size: 40px;
+  letter-spacing: 5px;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+.landing__address {
+  text-align: center;
+}
+/* .background__wrapper::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  backdrop-filter: blur(3px);
+  pointer-events: none;
+} */
+
+.background__image {
+  width: 100%;
+}
+.background__wrapper > a {
+  cursor: zoom-in;
+}
+
+.foreground__wrapper {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.foreground__video {
+  max-width: 1200px;
+}
+
+.rewards {
+  display: flex;
+  flex-direction: column;
+  padding: 160px 80px;
+}
+
+.reward__container {
+  width: 100%;
+  display: flex;
+}
+.reward,
+.reward__image--wrapper {
+  width: 50%;
+}
+.reward {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 0 80px;
+}
+
+.reward__image {
+  width: 100%;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 1231px) {
+  .video > video {
+    margin-top: 40px;
+    width: 800px;
+    height: 400px;
+  }
+
+  .video > span {
+    left: 5%;
+  }
+  .landing__header {
+    margin-left: 48px;
+    font-size: 60px;
+  }
+
+  .landing__header > span {
+    margin-left: 120px;
+  }
+  .landing__header--en {
+    font-size: 48px;
+  }
+
+  .landing__subheader {
+    font-size: 32px;
+  }
+
+  .landing__address {
+    font-size: 18px;
+  }
+
+  .reward__container{
+    margin-top: 60px;
+  }
+  .landing{
+    margin-bottom: unset;
+  }
+}
+
+@media (max-width: 850px) {
+  .landing__header {
+    font-size: 40px;
+    margin-left: 8px;
+  }
+
+  .landing__header > span {
+    margin-left: 80px;
+  }
+  .landing__header--en {
+    font-size: 28px;
+  }
+
+  .landing__subheader {
+    font-size: 12px;
+  }
+
+  .landing__address {
+    font-size: 14px;
+    margin-right: 4px;
+  }
+  .video > video {
+    width: 600px;
+    height: 300px;
+  }
+
+  .video> span{
+    left: 5%;
+  }
+  .reward__container {
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+
+  .rewards {
+    padding: 80px 20px;
+  }
+
+  .reward {
+   padding: unset;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .reward__header {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .reward__para {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .reward__image--wrapper {
+    width: 100%;
+  }
+}
+
+@media(max-width:650px){
+  .video > video {
+    width: 500px;
+    height: 250px;
+  }
+
+  .video > span {
+    left: 2.5%;
+  }
+}
+
+@media (max-width: 420px) {
+  .video > video {
+    width: 450px;
+    height: 300px;
+  }
+
+  .video > span {
+    left: 2.5%;
+  }
+
+  .landing__header {
+    font-size: 28px;
+    margin-left: 8px;
+  }
+
+  .landing__header > span {
+    margin-left: 60px;
+  }
+  .landing__header--en {
+    font-size: 24px;
+  }
+
+  .landing__subheader {
+    font-size: 12px;
+  }
+
+  .landing__address {
+    font-size: 14px;
+    margin-right: 4px;
+  }
+
+  .background__wrapper > a {
+    display: block;
+    min-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .reward__container {
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+
+  .rewards {
+    padding: 80px 20px;
+  }
+
+  .reward {
+   padding: unset;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .reward__header {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .reward__para {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .reward__image--wrapper {
+    width: 100%;
+  }
+}

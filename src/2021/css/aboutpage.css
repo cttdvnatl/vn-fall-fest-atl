@@ -1,0 +1,62 @@
+.about {
+    padding: 40px;
+    padding-top: 60px;
+    padding-bottom: 140px;
+    width: 95%;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.about .left .paragraph p {
+    padding-bottom: 13px;
+    width: 90%;
+    margin: auto;
+    text-indent: 50px;
+    line-height: 150%;
+}
+
+.about h1 {
+    font-size: 70px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.about .right .logo {
+    text-align: center;
+    display: block;
+}
+
+.about .right .logo img {
+    width: 200px;
+    padding: 5px;
+    height: auto;
+    box-shadow: 2px 2px 4px gray;
+}
+
+.poster-container {
+    text-align: center;
+}
+
+.poster {
+    width: 1000px;
+    margin: 10px;
+}
+
+@media only screen and (min-width: 900px) {
+    .about {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .about {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1185px) {
+    .poster {
+        width: 500px;
+        margin: 10px;
+    }
+}
+
