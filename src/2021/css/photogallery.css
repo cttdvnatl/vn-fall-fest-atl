@@ -1,0 +1,43 @@
+.photo-gallery-component  .background-color-black {
+    background-color: black;
+}
+
+.photo-gallery-component .gallery-style-1-container {
+    width: 100%;
+    margin: auto;
+}
+
+.photo-gallery-component .gallery-style-1-container .gallery-style-1 {
+    display: block;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.photo-gallery-component .gallery-style-1-container .gallery-style-1 img {
+    height: auto;
+    margin: auto;
+    padding: 7px;
+    width: 40%;
+}
+
+.photo-gallery-component .gallery-style-2-container {
+    width: 100%;
+    margin: auto;
+}
+
+.photo-gallery-component .gallery-style-2-container .gallery-style-2 {
+    display: block;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.photo-gallery-component .gallery-style-2-container .gallery-style-2 img {
+    height: auto;
+    margin: auto;
+    padding: 7px;
+    width: 30%;
+}

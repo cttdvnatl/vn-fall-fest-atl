@@ -1,0 +1,28 @@
+@media only screen and (min-width: 800px) {
+    .festival-statistics-component {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .festival-statistics-component {
+        flex-direction: column;
+    }
+}
+
+.festival-statistics-component {
+    border-top: 1px black solid;
+    margin: 50px;
+    padding: 30px;
+    display: flex;
+}
+
+.festival-statistics-component .statistics {
+    margin: auto;
+    text-align: center;
+}
+
+.festival-statistics-component .statistics h2 {
+    margin: 10px;
+    font-weight: 150;
+}
