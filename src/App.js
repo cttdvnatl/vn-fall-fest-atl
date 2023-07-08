@@ -7,6 +7,7 @@ import {
   setDefaultLanguage,
 } from "react-multi-lang";
 import ReactGA from "react-ga4";
+import Loading from "./shared-components/Loading";
 
 //database imports
 import en2022 from "./2022/database/en.json";
@@ -16,11 +17,8 @@ import en2023 from "./2023/database/en.json";
 import vn2023 from "./2023/database/vn.json";
 
 //Route imports
-//import { Route2022 } from "./routes/Route2022";
-////import { Route2023 } from "./routes/Route2023";
-
-const Route2022 = lazy(() => import('./routes/Route2022'));
-const Route2023 = lazy(() => import('./routes/Route2023'));
+const Route2022 = lazy(() => import('./routes/Route2022'));//lazy loading to prevent all css file being imported at once
+const Route2023 = lazy(() => import('./routes/Route2023'));//leading to newer site affecting styling of old archived sites
 
 let currentPath = window.location.pathname;
 
@@ -109,7 +107,7 @@ function App() {
   return (
     <div className="app" ref={body}>
       <Router>
-        <Suspense fallback={<></>}> {/* lazyloading docs: https://legacy.reactjs.org/docs/code-splitting.html#reactlazy */}
+        <Suspense fallback={<Loading/>}> {/* lazyloading docs: https://legacy.reactjs.org/docs/code-splitting.html#reactlazy */}
           <Routes>
             <Route path="/*" element={<Route2023/>}/>
             <Route path="/2022/*" element={<Route2022/>}/>

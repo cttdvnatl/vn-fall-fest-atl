@@ -10,7 +10,7 @@
         },
         "link3": {
           "text": "Volunteer Form",
-          "link": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Volunteer/ArchdioceseVolunteerApplicationVietnameseAndWaiver_ver2022.pdf"
+          "link": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Volunteer/ArchdioceseVolunteerApplicationVietnameseAndWaiver_ver2022.pdf"
         }
     },
     "header": {
@@ -199,7 +199,7 @@
                 "text": "Festival attendance grew annually. In a 2011 Fall Festival police survey, approximately 35,000 people entered our church grounds. Today, our Church’s annual fall festival is recognized by Vietnamese communities nation-wide, and is a main staple of Vietnamese Catholic communities in the Southeast United States. We help reunite families and friends, we teach our children and guests our Vietnamese heritage, and we contribute to the vibrancy of the region’s cultural and faith communities."
             },
             {
-                "text": "Come join us for our 2022 Fall Festival this September 2nd through September 4th, 2022.  Come enjoy our diverse music, our delicious food, and our rich culture.  Come help us turn our church to a vibrant sanctuary with rich Vietnamese tradition."
+                "text": "Come join us for our 2023 Fall Festival this September 2nd through September 4th, 2023.  Come enjoy our diverse music, our delicious food, and our rich culture.  Come help us turn our church to a vibrant sanctuary with rich Vietnamese tradition."
             }
         ],
         "logos": [
@@ -302,7 +302,7 @@
           {
             "title": "Main Sponsor",
             "class": "main-sponsor",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/main/Main-NP.png",
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Main/2023-Fall-Festival-Main-Nguyen-Pham.png",
             "website": "https://www.npattorney.com"
           }
         ],
@@ -312,24 +312,12 @@
               "class": "diamond-sponsor other-sponsor",
               "content": [
                 {
-                  "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ParisBanhMi.png",
-                  "website": "https://parisbanhmi.com"
-                },
-                {
-                  "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ComGa.png",
-                  "website": "https://www.comgahoustonduluth.com"
-                },
-                {
-                  "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/EIG.jpg",
-                  "website": null
-                },
-                {
                   "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-S3Spa.png",
                   "website": "https://s3spa.com"
                 },
                 {
-                  "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Zurno.png",
-                  "website": null
+                  "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/NewStar.jpg",
+                  "website": "https://newstarsspa.com"
                 }
               ]
           },
@@ -338,39 +326,11 @@
             "class": "gold-sponsor other-sponsor",
             "content": [
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/KangenWater.png",
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-Fall-Festival-Gold-Latep-Group.png",
                 "website": null
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/NewStar.jpg",
-                "website": "https://newstarsspa.com"
-              },
-              {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/LaTepGroup.png",
-                "website": null
-              },
-              {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/CaoKhaiThue.png",
-                "website": "https://caokhaithue.com"
-              },
-              {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/MagnoliaComfortMedical.png",
-                "website": null
-              },
-              {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/UD.png",
-                "website": "https://www.uniteddigestive.com"
-              },
-              {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/GTRealty.png",
-                "website": null
-              },
-              {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/VietHomeCare.png",
-                "website": "https://www.viethomecare.org/"
-              },
-              {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/TPLGroup.png",
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/TPLGroup.png",
                 "website": "https://www.absoluteml.com/"
               }
             ]
@@ -589,6 +549,10 @@
     ]
   },
   "landing": {
+    "poster": {
+      "link": "https://hvmatl.com/gallery/LHMT_img/LHMT2023/Carousel/Posters/MainPoster2.png",
+      "image":"https://hvmatl.com/gallery/LHMT_img/LHMT2023/Carousel/Posters/MainPoster2.png"
+    },
     "reward_1": "Congratulations to the limited edition of an insulated stainless steel mug winners.",
     "reward_2": "Buy 5, get 1 FREE.",
     "reward_3": "Prizes will have winners!",
@@ -597,6 +561,51 @@
     "reward_6": "You could be one of the winners! Please check your tickets. Thank you for supporting the 2022 Fall Festival with your raffle tickets purchase.",
     "reward_7": "Big prizes for Bingo this year! We invite you to come and enjoy this fun game!"
   },
+
+  "rewards": [
+    {
+      "title": "Raffles",
+      "paragraphs": [
+        {
+          "text": "Buy 5, get 1 FREE"
+        },
+        {
+          "text": "Prizes will have winners!"
+        },
+        {
+          "text": "Contact us at fallfest.raffle@hvmatl.org for your"
+        },
+        {
+          "text": "chance to win many valuable prizes."
+        }
+      ],
+      "image": "https://hvmatl.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png"
+    },
+    {
+      "title": "Grand Prize!",
+      "paragraphs": [
+        {
+          "text": "If you have purchased a raffle ticket, you will have a "
+        },
+        {
+          "text": "chance to be the owner of this 2022 Lexus IS 300!"
+        }
+      ],
+      "image": "https://hvmatl.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png"
+    },
+    {
+      "title": "Bingo!",
+      "paragraphs": [
+        {
+          "text": "Big prizes for Bingo this year! We invite you to come "
+        },
+        {
+          "text": "and enjoy this fun game!"
+        }
+      ],
+      "image": "https://hvmatl.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png"
+    }
+  ],
     "directions": {
         "pageTitle": "Directions",
         "routes": [
