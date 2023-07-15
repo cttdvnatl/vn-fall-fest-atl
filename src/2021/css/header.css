@@ -215,7 +215,7 @@ nav.desktop-view div.main-header ul li ul {
   width: 200px;
   z-index: 1000;
   border: 1px solid ligh;
-  background-color: rgb(148, 122, 38);
+  background-color: rgb(255, 255, 255);
   display: none;
 }
 
@@ -234,13 +234,6 @@ nav.desktop-view div.main-header ul li ul li a {
   font-size: 16px;
   padding: 10px 20px;
   display: block;
-}
-
-nav.desktop-view div.main-header ul li ul li a:hover {
-  color: white;
-  transition: 0.2s;
-  font-size: larger;
-  background-color: #f0ec1a;
 }
 
 /*logo*/
