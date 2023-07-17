@@ -11,21 +11,17 @@ const Landing = () => {
         {/* <video preload autoPlay muted className="background__video">
           <source src="/resources/pages/home/Promo.mp4" type="video/mp4" />
         </video> */}
- 
-        <a
-          href="https://hvmatl.com/gallery/LHMT_img/LHMT2022/Carousel/MainPoster.jpg"
-          target={"_blank"}
+        <div
+        alt=""
+        className="background__image"
         >
- 
-          <img
-                      src="https://hvmatl.com/gallery/LHMT_img/LHMT2022/Carousel/MainPoster2.jpg"
-            alt=""
-            className="background__image"
-          />
-
-        </a>
+            <p className="glow">
+            </p>
+            <img alt="image" src="http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Logos/2021-den-voi-nhau-400.png"/>
+            <p className="text1">FALL FESTIVAL 2021</p>
+            <p className="text2">Sept. 3-5 at Holy Vietnamese Martyrs Catholic Church in Norcross, GA</p>
+        </div>
        </div>
-
       <div className="rewards">
               <div className="reward__container">
                   <div className="reward">
