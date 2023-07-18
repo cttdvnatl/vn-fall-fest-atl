@@ -90,7 +90,7 @@
   backdrop-filter: blur(3px);
   pointer-events: none;
 } */
-
+/*
 .background__image {
   width: 100%;
   background-image: url("https://hvmatl.com/gallery/LHMT_img/LHMT2021/Carousel/Poster/LHMT-2021-FP1-1.jpg");
@@ -102,45 +102,7 @@
   text-align: center;
   display: flex;
   justify-content: center;
-}
-
-.background__image img {
-  height: 550px;
-  z-index: 990;
-  position: absolute;
-  margin-top: 30px;
-}
-
-.background__image .glow {
-  margin: auto;
-  position: absolute;
-  z-index: 900;
-  margin-top: 200px;
-  box-shadow: 0px 100px 200px 150px white;
-}
-
-.background__image .text1 {
-  transform: scaleX(0.7);
-  font-family: Kristi, cursive;
-  font-weight: 400;
-  font-size: 90px;
-  text-align: center;
-  position: absolute;
-  margin-top: 540px;
-  color: #ffe41e;
-  letter-spacing: -2px;
-}
-
-.background__image .text2 {
-  transform: scaleX(1.1);
-  font-weight: 400;
-  font-size: 30px;
-  text-align: center;
-  position: absolute;
-  margin-top: 700px;
-  color: #ffffff;
-  letter-spacing: -2px;
-}
+}*/
 
 .foreground__wrapper {
   position: absolute;
@@ -185,6 +147,59 @@ h3 {
 }
 
 @media (max-width: 1231px) {
+  .background__image {
+    background-image: url("https://hvmatl.com/gallery/LHMT_img/LHMT2021/Carousel/Poster/LHMT-2021-FP1-1.jpg");
+    background-color: #cccccc;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .background__image img {
+    height: 550px;
+    z-index: 990;
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 20px;
+  }
+
+  .background__image .glow {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    box-shadow: 0px 130px 200px 170px white;
+  }  
+
+  .background__image .text1 {
+    transform: scaleX(0.7);
+    font-family: Bradley Hand, cursive;
+    font-weight: 700;
+    font-size: 80px;
+    text-align: center;
+    position: absolute;
+    color: #ffe41e;
+    line-height: 1;
+    margin-left: 130px;
+    margin-top: 600px;
+  }
+  
+  .background__image .text2 {
+    transform: scaleX(1.1);
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    color: #ffffff;
+    letter-spacing: -2px;
+    margin-left: 150px;
+    margin-top: 700px;
+    /*
+    top: 88%;
+    left: 24%;*/
+  }
+
   .video > video {
     margin-top: 40px;
     width: 800px;
@@ -222,23 +237,7 @@ h3 {
   }
 }
 
-@media (max-width: 850px) {
-  .landing__header {
-    font-size: 40px;
-    margin-left: 8px;
-  }
-
-  .landing__header > span {
-    margin-left: 80px;
-  }
-  .landing__header--en {
-    font-size: 28px;
-  }
-
-  .landing__subheader {
-    font-size: 12px;
-  }
-
+@media (max-width: 850px) {   
   .landing__address {
     font-size: 14px;
     margin-right: 4px;
