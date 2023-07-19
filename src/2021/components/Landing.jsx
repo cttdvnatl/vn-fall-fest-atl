@@ -11,10 +11,8 @@ const Landing = () => {
         {/* <video preload autoPlay muted className="background__video">
           <source src="/resources/pages/home/Promo.mp4" type="video/mp4" />
         </video> */}
-        <div
-        alt=""
-        className="background__image"
-        >
+        
+    <div className="background__image">
             <p className="glow">
             </p>
             <img alt="image" src="http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Logos/2021-den-voi-nhau-400.png"/>
