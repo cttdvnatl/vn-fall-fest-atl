@@ -1,6 +1,5 @@
 import React from 'react';
 import {getLanguage, useTranslation} from 'react-multi-lang';
-import vn from '../database/vn';
 import en from '../database/en';
 
 const FooterItems = (list) => {
@@ -24,10 +23,7 @@ export const Footer = () => {
     useTranslation()
 
     let Data;
-
-    if (getLanguage() === 'vn') {
-        Data = vn.footer;
-    }
+    
     if (getLanguage() === 'en') {
         Data = en.footer;
     }

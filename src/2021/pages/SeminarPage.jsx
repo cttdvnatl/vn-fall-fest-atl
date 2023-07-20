@@ -1,7 +1,6 @@
 import React from 'react';
 import { getLanguage, useTranslation } from 'react-multi-lang';
 import en from '../database/en.json';
-import vn from '../database/vn.json';
 
 export const SeminarPage = () => {
     
@@ -9,10 +8,7 @@ export const SeminarPage = () => {
 
     let seminarPoster;
 
-    if (getLanguage() === 'vn') {
-        seminarPoster = vn.seminarPoster;
-    }
-    else if (getLanguage() === 'en') {
+    if (getLanguage() === 'en') {
         seminarPoster = en.seminarPoster;
     }
 

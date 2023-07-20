@@ -1,6 +1,5 @@
 import React from 'react';
 import {getLanguage, useTranslation} from 'react-multi-lang';
-import vn from '../database/vn';
 import en from '../database/en';
 
 const Donations = (list) => {
@@ -24,10 +23,7 @@ export const DonationsPage = () => {
 
     let Data;
 
-    if (getLanguage() === 'vn') {
-        Data = vn.donations.content;
-    }
-    else if (getLanguage() === 'en') {
+    if (getLanguage() === 'en') {
         Data = en.donations.content;
     }
 
