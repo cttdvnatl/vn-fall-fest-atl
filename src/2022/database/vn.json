@@ -300,7 +300,7 @@
   "sponsorList": {
     "mainSponsor": [
       {
-        "title": "Nhà Tài Trợ Chính",
+        "title": "2022 Nhà Tài Trợ Chính",
         "class": "main-sponsor",
         "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/main/Main-NP.png",
         "website": "https://www.npattorney.com"
@@ -308,7 +308,7 @@
     ],
     "otherSponsors": [
       {
-        "title": "Các Nhà Tài Trợ Hạng Kim Cương",
+        "title": "2022 Các Nhà Tài Trợ Hạng Kim Cương",
         "class": "diamond-sponsor other-sponsor",
         "content": [
           {
@@ -334,7 +334,7 @@
         ]
       },
       {
-        "title": "Các Nhà Tài Trợ Hạng Vàng",
+        "title": "2022 Các Nhà Tài Trợ Hạng Vàng",
         "class": "gold-sponsor other-sponsor",
         "content": [
           {
