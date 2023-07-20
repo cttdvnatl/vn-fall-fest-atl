@@ -300,7 +300,7 @@
   "sponsorList": {
     "mainSponsor": [
       {
-        "title": "Nhà Tài Trợ Chính",
+        "title": "2023 Nhà Tài Trợ Chính",
         "class": "main-sponsor",
         "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Main/2023-Fall-Festival-Main-Nguyen-Pham.png",
         "website": "https://www.npattorney.com"
@@ -308,7 +308,7 @@
     ],
     "otherSponsors": [
       {
-        "title": "Các Nhà Tài Trợ Hạng Kim Cương",
+        "title": "2023 Các Nhà Tài Trợ Hạng Kim Cương",
         "class": "diamond-sponsor other-sponsor",
         "content": [
           {
@@ -322,7 +322,7 @@
         ]
     },
       {
-        "title": "Các Nhà Tài Trợ Hạng Vàng",
+        "title": "2023 Các Nhà Tài Trợ Hạng Vàng",
         "class": "gold-sponsor other-sponsor",
         "content": [
               {
