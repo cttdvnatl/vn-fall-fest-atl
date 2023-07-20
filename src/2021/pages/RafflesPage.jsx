@@ -1,7 +1,6 @@
 import React from 'react';
 import { getLanguage, useTranslation } from 'react-multi-lang';
 import en from '../database/en.json';
-import vn from '../database/vn.json';
 
 const Raffles = (list) => {
     return (
@@ -23,10 +22,7 @@ export const RafflesPage = () => {
 
     let RafflesData;
 
-    if (getLanguage() === 'vn') {
-        RafflesData = vn.raffles;
-    }
-    else if (getLanguage() === 'en') {
+    if (getLanguage() === 'en') {
         RafflesData = en.raffles;
     }
 

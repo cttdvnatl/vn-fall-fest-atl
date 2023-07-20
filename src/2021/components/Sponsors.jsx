@@ -1,6 +1,5 @@
 import React, {useRef} from 'react';
 import {getLanguage, useTranslation} from 'react-multi-lang';
-import vn from '../database/vn';
 import en from '../database/en';
 
 const MainSponsor = (list) => {

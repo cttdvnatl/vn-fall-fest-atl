@@ -1,7 +1,6 @@
 import React from 'react';
 import { getLanguage, useTranslation } from 'react-multi-lang';
 import en from '../database/en.json';
-import vn from '../database/vn.json';
 
 const ContestList = (list) => {
     return (
@@ -21,10 +20,7 @@ export const ContestPage = () => {
     const t = useTranslation()
     let contestData;
 
-    if (getLanguage() === 'vn') {
-        contestData = vn.contests;
-    }
-    else if (getLanguage() === 'en') {
+    if (getLanguage() === 'en') {
         contestData = en.contests;
     }
 

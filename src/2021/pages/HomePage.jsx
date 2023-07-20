@@ -1,6 +1,5 @@
 import React from "react";
 import { getLanguage, useTranslation } from "react-multi-lang";
-import vn from "../database/vn";
 import en from "../database/en";
 //import Sponsors from '../components/Sponsors';
 import {SponsorsPage} from "./SponsorsPage";
@@ -14,10 +13,7 @@ export const HomePage = () => {
   let photoGalleryDataOne;
   let photoGalleryDataTwo;
 
-  if (getLanguage() === "vn") {
-    photoGalleryDataOne = vn.photoGalleries.galleryOne;
-    photoGalleryDataTwo = vn.photoGalleries.galleryTwo;
-  } else if (getLanguage() === "en") {
+  if (getLanguage() === "en") {
     photoGalleryDataOne = en.photoGalleries.galleryOne;
     photoGalleryDataTwo = en.photoGalleries.galleryTwo;
   }

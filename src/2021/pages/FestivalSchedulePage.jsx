@@ -1,6 +1,5 @@
 import React from 'react';
 import {getLanguage, useTranslation} from 'react-multi-lang';
-import vn from '../database/vn';
 import en from '../database/en';
 
 const FestivalSchedule = (list) => {
@@ -31,11 +30,7 @@ export const FestivalSchedulePage = () => {
     const t = useTranslation()
     let Data;
 
-    if (getLanguage() === 'vn') {
-        //Data = vn.festivalSchedule.schedule2;
-        Data = vn.festivalSchedule.schedule1;
-    }
-    else if (getLanguage() === 'en') {
+    if (getLanguage() === 'en') {
         //Data = en.festivalSchedule.schedule2;
         Data = en.festivalSchedule.schedule1;
     }
