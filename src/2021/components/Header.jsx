@@ -32,17 +32,13 @@ export const Header = () => {
 
   //Set Language and Cookie
   let displayEN = {};
-  let displayVN = {};
 
   const t = useTranslation();
 
   function setLangCookie() {
     document.cookie = "language = " + getLanguage();
   }
-  function setLanguageVN() {
-    setLanguage("vn");
-    setLangCookie("vn");
-  }
+
   function setLanguageEN() {
     setLanguage("en");
     setLangCookie("en");
@@ -50,11 +46,7 @@ export const Header = () => {
 
   if (getLanguage() + "" === "en") {
     displayEN = displayNone;
-    displayVN = displayViet;
-  } else if (getLanguage() + "" === "vn") {
-    displayVN = displayNone;
-    displayEN = displayEng;
-  }
+  } 
   /*
     //function for popups
     let PopUpStyle = {};
@@ -173,14 +165,6 @@ export const Header = () => {
               <ArchiveDropdown ref={archiveDropdown} year={2021}/>
             </div>
             <div class="translation-button">
-              <button
-                style={displayVN}
-                id="vn"
-                class="translation-button"
-                onClick={() => setLanguageVN()}
-              >
-                Tiếng Việt
-              </button>
               <button
                 style={displayEN}
                 id="en"

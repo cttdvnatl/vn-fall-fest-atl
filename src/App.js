@@ -12,7 +12,6 @@ import Loading from "./shared-components/Loading";
 //database imports
 
 import en2021 from "./2021/database/en.json";
-import vn2021 from "./2021/database/vn.json";
 
 import en2022 from "./2022/database/en.json";
 import vn2022 from "./2022/database/vn.json";
@@ -37,7 +36,6 @@ switch ((currentPath[1] + currentPath[2] + currentPath[3] + currentPath[4] ) .to
   case "2021":
     console.log("data = 2021")
     en = en2021;
-    vn = vn2021;
     break;
     case "2022":
     console.log("data = 2022")

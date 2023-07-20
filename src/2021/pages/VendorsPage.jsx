@@ -1,6 +1,5 @@
 import React from 'react'
 import { useTranslation, getLanguage } from 'react-multi-lang'
-import vn from '../database/vn.json';
 import en from '../database/en.json';
 
 const Vendors = (list) => {
@@ -21,10 +20,7 @@ export const VendorsPage = () => {
     
     let Data;
 
-    if (getLanguage() === 'vn') {
-        Data = vn.vendors.content;
-    }
-    else if (getLanguage() === 'en') {
+    if (getLanguage() === 'en') {
         Data = en.vendors.content;
     }
 
