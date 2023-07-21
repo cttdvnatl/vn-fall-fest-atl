@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation, getLanguage } from 'react-multi-lang';
+import vn from '../database/vn';
 import en from '../database/en';
 
 const IconList = (list) => {
@@ -22,6 +23,10 @@ const SocialIcons = () => {
     useTranslation()
 
     let Data;
+
+    if (getLanguage() === 'vn') {
+        Data = vn.socialIcons;
+    }
 
     if (getLanguage() === 'en') {
         Data = en.socialIcons;

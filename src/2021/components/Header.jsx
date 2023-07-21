@@ -1,5 +1,5 @@
 import React, { useRef, useCallback, useEffect, useState } from "react";
-import { useTranslation, setLanguage, getLanguage } from "react-multi-lang";
+import { useTranslation } from "react-multi-lang";
 import SocialIcons from "./SocialIcons";
 //import PopUp from './PopUp';
 import { ArchiveDropdown } from "../../shared-components/ArchiveDropdown";
@@ -12,41 +12,8 @@ export const Header = () => {
   
   const [archiveDropdownStyle, setArchiveDropdownStyle] = useState(null);
 
-  const displayNone = {
-    display: "none",
-  };
-
-  //const displayBlock = {
-  //    display: 'block'
-  //}
-
-  const displayViet = {
-    display: "block",
-    backgroundColor: "#ffcc00",
-  };
-
-  const displayEng = {
-    display: "block",
-    backgroundColor: "#005ce6",
-  };
-
-  //Set Language and Cookie
-  let displayEN = {};
-
   const t = useTranslation();
 
-  function setLangCookie() {
-    document.cookie = "language = " + getLanguage();
-  }
-
-  function setLanguageEN() {
-    setLanguage("en");
-    setLangCookie("en");
-  }
-
-  if (getLanguage() + "" === "en") {
-    displayEN = displayNone;
-  } 
   /*
     //function for popups
     let PopUpStyle = {};
@@ -146,7 +113,7 @@ export const Header = () => {
               <a href="https://www.hvmatl.org">main</a>
             </div>
             <SocialIcons />
-            <p id="eventDate">September 2 - 3 - 4</p>
+            <p id="eventDate">link</p>
           </div>
 
           <div class="top-header-items-right">
@@ -163,16 +130,6 @@ export const Header = () => {
             </div>
             <div style={archiveDropdownStyle}>
               <ArchiveDropdown ref={archiveDropdown} year={2021}/>
-            </div>
-            <div class="translation-button">
-              <button
-                style={displayEN}
-                id="en"
-                class="translation-button"
-                onClick={() => setLanguageEN()}
-              >
-                English
-              </button>
             </div>
           </div>
         </div>
