@@ -51,6 +51,11 @@
   width: 100%;
 }
 
+.background__image {
+  width: 100%;
+  text-align: center;
+}
+
 .landing__header__container {
   position: absolute;
   top: 40%;
