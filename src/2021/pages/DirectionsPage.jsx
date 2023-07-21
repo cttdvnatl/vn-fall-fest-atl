@@ -1,6 +1,7 @@
 import React from 'react';
 import {getLanguage, useTranslation} from 'react-multi-lang';
 import en from '../database/en';
+import vn from '../database/vn'
 
 const Direction = (list) => {
     return (
@@ -26,7 +27,10 @@ export const DirectionsPage = () => {
 
     let Data
 
-    if (getLanguage() === 'en') {
+    if (getLanguage() === 'vn') {
+        Data = vn.directions.routes;
+    }
+    else if (getLanguage() === 'en') {
         Data = en.directions.routes;
     }
 

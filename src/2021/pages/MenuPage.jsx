@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTranslation, getLanguage } from 'react-multi-lang'
 import en from '../database/en.json';
+import vn from '../database/vn.json'
 
 const Menu = (list) => {
     return (
@@ -19,7 +20,10 @@ export const MenuPage = () => {
     
     let Data;
     
-    if (getLanguage() === 'en') {
+    if (getLanguage() === 'vn') {
+        Data = vn.menu.content;
+    }
+    else if (getLanguage() === 'en') {
         Data = en.menu.content;
     }
 

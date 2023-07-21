@@ -1,6 +1,7 @@
 import React, {useEffect, useRef} from 'react';
 import {getLanguage, useTranslation} from 'react-multi-lang';
 import en from '../database/en';
+import vn from '../database/vn';
 
 const MainSponsor = (list) => {
     return (
@@ -66,6 +67,10 @@ export const SponsorsPage = (props) => {
     let mainSponsorData;
     let otherSponsorsData;
 
+    if (getLanguage() === 'vn') {
+        mainSponsorData = vn.sponsorList.mainSponsor;
+        otherSponsorsData = vn.sponsorList.otherSponsors;
+    }
     if (getLanguage() === 'en') {
         mainSponsorData = en.sponsorList.mainSponsor;
         otherSponsorsData = en.sponsorList.otherSponsors;

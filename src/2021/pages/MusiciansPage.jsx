@@ -1,6 +1,7 @@
 import React from 'react';
 import {getLanguage, useTranslation} from 'react-multi-lang';
 import en from '../database/en';
+import vn from '../database/vn'
 
 const Musicians = (list) => {
     return (
@@ -23,7 +24,10 @@ export const MusiciansPage = () => {
 
     let Data;
     
-    if (getLanguage() === 'en') {
+    if (getLanguage() === 'vn') {
+        Data = vn.musicians;
+    }
+    else if (getLanguage() === 'en') {
         Data = en.musicians;
     }
 

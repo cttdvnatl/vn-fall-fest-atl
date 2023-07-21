@@ -1,6 +1,7 @@
 import React from 'react';
 import {getLanguage, useTranslation} from 'react-multi-lang';
 //import GetExternalApi from '../functions/GetExternalApi';
+import vn from '../database/vn';
 import en from '../database/en';
 
 const Paragraphs = (list) => {
@@ -47,7 +48,12 @@ export const AboutPage = () => {
     let LogoData;
     let PosterData;
 
-    if (getLanguage() === 'en') {
+    if (getLanguage() === 'vn') {
+        ParagraphData = vn.about.paragraphs;
+        LogoData = vn.about.logos;
+        PosterData = vn.about.posters;
+    }
+    else if (getLanguage() === 'en') {
         ParagraphData = en.about.paragraphs;
         LogoData = en.about.logos;
         PosterData = en.about.posters;
