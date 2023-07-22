@@ -1,0 +1,12 @@
+.under-construction-banner {
+    position: absolute;
+    z-index: 997;
+    margin-top: 100px;
+    display: flex;
+      justify-content: center;
+}
+
+.under-construction-banner img {
+    display: flex;
+      justify-content: center;
+}

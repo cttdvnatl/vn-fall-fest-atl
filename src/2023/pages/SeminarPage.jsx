@@ -1,5 +1,6 @@
 import React from 'react';
 import { getLanguage, useTranslation } from 'react-multi-lang';
+import UnderConstruction from '../components/UnderConstruction';
 import en from '../database/en.json';
 import vn from '../database/vn.json';
 
@@ -18,9 +19,11 @@ export const SeminarPage = () => {
 
     return (
         <>
-            <div class="seminar-page">
-                <img src={seminarPoster.img} alt={seminarPoster.img} />
-            </div>
+        <UnderConstruction />
         </>
     )
+    /*
+            <div class="seminar-page">
+                <img src={seminarPoster.img} alt={seminarPoster.img} />
+            </div>*/
 } 
