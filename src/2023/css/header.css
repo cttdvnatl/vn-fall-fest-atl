@@ -364,12 +364,6 @@ nav.mobile-view
 }
 
 @media screen and (max-width: 650px) {
-  #eventDate {
-    color: hsl(32, 88%, 52%);
-    font-size: 13px;
-    font-weight: 600;
-    margin-left: 10px;
-  }
 
   .directionAndDonationDesktop {
     display: none;
