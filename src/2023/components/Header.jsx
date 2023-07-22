@@ -154,7 +154,6 @@ export const Header = () => {
               <a href="https://www.hvmatl.org">main</a>
             </div>
             <SocialIcons />
-            <p id="eventDate">September 2 - 3 - 4</p>
              <RaffleLink />
           </div>
 
