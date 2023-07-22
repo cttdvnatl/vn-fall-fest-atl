@@ -94,11 +94,13 @@ export const SponsorsPage = (props) => {
 
     return (
         <>
+        <OtherSponsors data={otherSponsorsData}/>
+        </>
+    )
+} 
+/*
         <div ref={sponsors} class="sponsors-page">
             <a ref={brochure} class="sponsor-brochure" href="http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/Brochure/LHMT2022-Sponsorship_Package_Final.pdf">Sponsor Brochure</a>
             <MainSponsor data={mainSponsorData}/>
             <OtherSponsors data={otherSponsorsData}/>
-        </div>
-        </>
-    )
-} 
+        </div>*/
