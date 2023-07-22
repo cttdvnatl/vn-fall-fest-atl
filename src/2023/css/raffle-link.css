@@ -1,0 +1,13 @@
+.rafflelink {
+    font-size: 20px;
+    margin: 14px;
+    color: rgb(13, 44, 97);
+}
+
+@media screen and (max-width: 850px) {
+    .rafflelink {
+        font-size: 17px;
+        margin: 14px;
+        color: rgb(13, 44, 97);
+    }
+}
