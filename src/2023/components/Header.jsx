@@ -2,7 +2,7 @@ import React, { useRef, useCallback, useEffect, useState } from "react";
 import { useTranslation, setLanguage, getLanguage } from "react-multi-lang";
 import SocialIcons from "./SocialIcons";
 import { ArchiveDropdown } from "../../shared-components/ArchiveDropdown";
-//import PopUp from './PopUp';
+import RaffleLink from "./RaffleLink";
 
 export const Header = () => {
   const nav = useRef(null);
@@ -155,6 +155,7 @@ export const Header = () => {
             </div>
             <SocialIcons />
             <p id="eventDate">September 2 - 3 - 4</p>
+             <RaffleLink />
           </div>
 
           <div class="top-header-items-right">
