@@ -2,6 +2,7 @@ import React from 'react';
 import { getLanguage, useTranslation } from 'react-multi-lang';
 import en from '../database/en.json';
 import vn from '../database/vn.json';
+import UnderConstruction from '../components/UnderConstruction';
 
 const Raffles = (list) => {
     return (
@@ -32,9 +33,11 @@ export const RafflesPage = () => {
 
     return (
         <>
-        <div class="raffles-page">
-            <Raffles data={RafflesData}/>
-        </div>
+        <UnderConstruction />
         </>
     )
+    /*
+        <div class="raffles-page">
+            <Raffles data={RafflesData}/>
+        </div>*/
 } 

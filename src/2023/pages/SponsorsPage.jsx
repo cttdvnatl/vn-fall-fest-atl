@@ -1,10 +1,16 @@
 import React, {useEffect, useRef} from 'react';
 import {getLanguage, useTranslation} from 'react-multi-lang';
+import UnderConstruction from '../components/UnderConstruction';
 import vn from '../database/vn';
 import en from '../database/en';
 
 const MainSponsor = (list) => {
     return (
+        <>
+        </>
+    )
+}
+/*
         <div class="left">
             {list.data.map((section, index) => (
                 <div class={section.class + '-container'} key={index}>
@@ -17,9 +23,7 @@ const MainSponsor = (list) => {
                     </div> 
                 </div>
             ))}
-        </div>
-    )
-}
+        </div>*/
 
 const shuffleArray = (array) => {
     let i = array.length - 1;
@@ -33,13 +37,19 @@ const shuffleArray = (array) => {
 }
 
 const OtherSponsors = (list) => {
+
+    
+    /*
     list.data.map(section => {
         return (
             section.content = shuffleArray(section.content)
-        )
-    })
+        )*/
 
     return (
+        <UnderConstruction />
+    )
+}
+/*
         <div class="right">
             {list.data.map((section, index) => (
                 <div class={section.class + '-container'} key={index}>
@@ -54,9 +64,7 @@ const OtherSponsors = (list) => {
                     </div>
                 </div>
             ))}
-        </div>
-    )
-}
+        </div>*/
 
 export const SponsorsPage = (props) => {
     const sponsors = useRef(null);

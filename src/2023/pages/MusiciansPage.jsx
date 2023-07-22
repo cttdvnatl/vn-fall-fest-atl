@@ -1,5 +1,6 @@
 import React from 'react';
 import {getLanguage, useTranslation} from 'react-multi-lang';
+import UnderConstruction from '../components/UnderConstruction';
 import vn from '../database/vn';
 import en from '../database/en';
 
@@ -33,9 +34,11 @@ export const MusiciansPage = () => {
 
     return (
         <>
-        <div class="musicians">
-            <Musicians data={Data}/>
-        </div>
+        <UnderConstruction />
         </>
     )
+    /*
+        <div class="musicians">
+            <Musicians data={Data}/>
+        </div>*/
 } 

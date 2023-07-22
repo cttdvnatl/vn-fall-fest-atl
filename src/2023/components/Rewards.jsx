@@ -2,7 +2,7 @@ import React from 'react';
 
 const Rewards = (list) => {
     return (
-        <div className="rewards">x
+        <div className="rewards">
             {list.data.map((rewards) => (
                 <div className="reward__container">
                     <div className="reward">

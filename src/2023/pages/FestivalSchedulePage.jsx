@@ -1,5 +1,6 @@
 import React from 'react';
 import {getLanguage, useTranslation} from 'react-multi-lang';
+import UnderConstruction from '../components/UnderConstruction';
 import vn from '../database/vn';
 import en from '../database/en';
 
@@ -42,10 +43,12 @@ export const FestivalSchedulePage = () => {
 
     return (
         <>
+        <UnderConstruction />
+        </>
+    )
+    /*
         <div class="festival-schedule-page">
                 <h1>{t('festivalSchedule.title')}</h1>
             <FestivalSchedule data={Data}/>
-        </div>
-        </>
-    )
+        </div>*/
 }

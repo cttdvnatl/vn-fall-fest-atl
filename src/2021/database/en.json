@@ -302,7 +302,7 @@
           {
             "title": "Main Sponsor",
             "class": "main-sponsor",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/main/Main-NP.png",
+            "_img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/main/Main-NP.png",
             "website": "https://www.npattorney.com"
           }
         ],
