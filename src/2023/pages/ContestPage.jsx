@@ -1,5 +1,6 @@
 import React from 'react';
 import { getLanguage, useTranslation } from 'react-multi-lang';
+import UnderConstruction from "../components/UnderConstruction";
 import en from '../database/en.json';
 import vn from '../database/vn.json';
 
@@ -30,12 +31,15 @@ export const ContestPage = () => {
 
     return (
         <>
+        <UnderConstruction />
+        </>
+    )
+    /*
         <div class="contest-page">
             <h1>{t('contests.title')}</h1>
             <ContestList data={contestData.content}/>
             <img src={contestData.image} alt={contestData.image}/>
         </div>
-        </>
-    )
+        */
 }
 
