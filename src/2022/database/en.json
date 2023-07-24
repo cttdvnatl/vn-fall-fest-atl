@@ -302,7 +302,7 @@
           {
             "title": "2022 Main Sponsor",
             "class": "main-sponsor",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/main/Main-NP.png",
+            "_img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/main/Main-NP.png",
             "website": "https://www.npattorney.com"
           }
         ],
@@ -312,23 +312,23 @@
               "class": "diamond-sponsor other-sponsor",
               "content": [
                 {
-                  "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ParisBanhMi.png",
+                  "_img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ParisBanhMi.png",
                   "website": "https://parisbanhmi.com"
                 },
                 {
-                  "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ComGa.png",
+                  "_img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-ComGa.png",
                   "website": "https://www.comgahoustonduluth.com"
                 },
                 {
-                  "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/EIG.jpg",
+                  "_img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/EIG.jpg",
                   "website": null
                 },
                 {
-                  "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-S3Spa.png",
+                  "_img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-S3Spa.png",
                   "website": "https://s3spa.com"
                 },
                 {
-                  "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Zurno.png",
+                  "_img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Zurno.png",
                   "website": null
                 }
               ]
@@ -338,39 +338,39 @@
             "class": "gold-sponsor other-sponsor",
             "content": [
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/KangenWater.png",
+                "_img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/KangenWater.png",
                 "website": null
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/NewStar.jpg",
+                "_img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/NewStar.jpg",
                 "website": "https://newstarsspa.com"
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/LaTepGroup.png",
+                "_img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/LaTepGroup.png",
                 "website": null
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/CaoKhaiThue.png",
+                "_img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/CaoKhaiThue.png",
                 "website": "https://caokhaithue.com"
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/MagnoliaComfortMedical.png",
+                "_img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/MagnoliaComfortMedical.png",
                 "website": null
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/UD.png",
+                "_img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/UD.png",
                 "website": "https://www.uniteddigestive.com"
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/GTRealty.png",
+                "_img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/GTRealty.png",
                 "website": null
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/VietHomeCare.png",
+                "_img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/VietHomeCare.png",
                 "website": "https://www.viethomecare.org/"
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/TPLGroup.png",
+                "_img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/gold/TPLGroup.png",
                 "website": "https://www.absoluteml.com/"
               }
             ]
