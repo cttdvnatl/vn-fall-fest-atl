@@ -197,7 +197,7 @@ export const Header = () => {
             <a href="/">
               <img
                 alt="logo"
-                src="http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/LogoSucSongMoi.png"
+                src="https://hvmatl.com/gallery/LHMT_img/LHMT2023/Logos/2023logo.png"
               ></img>
             </a>
           </div>
