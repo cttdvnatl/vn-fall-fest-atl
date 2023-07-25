@@ -1,5 +1,5 @@
 import React, { useRef, useCallback, useEffect, useState } from "react";
-import { useTranslation } from "react-multi-lang";
+import { useTranslation, setLanguage, getLanguage } from "react-multi-lang";
 import SocialIcons from "./SocialIcons";
 //import PopUp from './PopUp';
 import { ArchiveDropdown } from "../../shared-components/ArchiveDropdown";
@@ -13,8 +13,49 @@ export const Header = () => {
   
   const [archiveDropdownStyle, setArchiveDropdownStyle] = useState(null);
 
+  const displayNone = {
+    display: "none",
+  };
+
+  //const displayBlock = {
+  //    display: 'block'
+  //}
+
+  const displayViet = {
+    display: "block",
+    backgroundColor: "#ffcc00",
+  };
+
+  const displayEng = {
+    display: "block",
+    backgroundColor: "#005ce6",
+  };
+
+  //Set Language and Cookie
+  let displayEN = {};
+  let displayVN = {};
+
   const t = useTranslation();
 
+  function setLangCookie() {
+    document.cookie = "language = " + getLanguage();
+  }
+  function setLanguageVN() {
+    setLanguage("vn");
+    setLangCookie("vn");
+  }
+  function setLanguageEN() {
+    setLanguage("en");
+    setLangCookie("en");
+  }
+
+  if (getLanguage() + "" === "en") {
+    displayEN = displayNone;
+    displayVN = displayViet;
+  } else if (getLanguage() + "" === "vn") {
+    displayVN = displayNone;
+    displayEN = displayEng;
+  }
   /*
     //function for popups
     let PopUpStyle = {};
@@ -131,6 +172,24 @@ export const Header = () => {
             </div>
             <div style={archiveDropdownStyle}>
               <ArchiveDropdown ref={archiveDropdown} year={2021}/>
+            </div>
+            <div class="translation-button">
+              <button
+                style={displayVN}
+                id="vn"
+                class="translation-button"
+                onClick={() => setLanguageVN()}
+              >
+                Tiếng Việt
+              </button>
+              <button
+                style={displayEN}
+                id="en"
+                class="translation-button"
+                onClick={() => setLanguageEN()}
+              >
+                English
+              </button>
             </div>
           </div>
         </div>

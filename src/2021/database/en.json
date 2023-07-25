@@ -300,7 +300,7 @@
     "sponsorList": {
         "mainSponsor": [
           {
-            "title": "Main Sponsor",
+            "title": "2021 Main Sponsor",
             "class": "main-sponsor",
             "_img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/main/Main-NP.png",
             "website": "https://www.npattorney.com"
@@ -308,7 +308,7 @@
         ],
         "otherSponsors": [
           {
-              "title": "Diamond Sponsors",
+              "title": "2021 Diamond Sponsors",
               "class": "diamond-sponsor other-sponsor",
               "content": [
                 {
@@ -334,7 +334,7 @@
               ]
           },
           {
-            "title": "Gold Sponsors",
+            "title": "2021 Gold Sponsors",
             "class": "gold-sponsor other-sponsor",
             "content": [
               {
