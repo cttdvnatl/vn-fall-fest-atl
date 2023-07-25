@@ -4,7 +4,6 @@ import vn from "../database/vn";
 import en from "../database/en";
 import Carousel from "../components/Carousel";
 //import Sponsors from '../components/Sponsors';
-import {SponsorsPage} from "./SponsorsPage";
 import PhotoGallery from "../components/PhotoGallery";
 import FestivalStatistics from "../components/FestivalStatistics";
 import Landing from "../components/Landing";
@@ -27,10 +26,10 @@ export const HomePage = () => {
     <>
       {/* <Carousel /> */}
       <Landing />
-      <SponsorsPage type={"small"} />
       <FestivalStatistics />
       <PhotoGallery data={photoGalleryDataOne} />
       <PhotoGallery data={photoGalleryDataTwo} />
     </>
   );
 };
+ /*<SponsorsPage type={"small"} />*/
