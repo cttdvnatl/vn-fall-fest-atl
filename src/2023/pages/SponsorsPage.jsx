@@ -46,7 +46,8 @@ const OtherSponsors = (list) => {
         )*/
 
     return (
-        <UnderConstruction />
+        <>
+        </>
     )
 }
 /*
