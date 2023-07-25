@@ -3,6 +3,7 @@ import { useTranslation } from "react-multi-lang";
 import SocialIcons from "./SocialIcons";
 //import PopUp from './PopUp';
 import { ArchiveDropdown } from "../../shared-components/ArchiveDropdown";
+import RaffleLink from "./RaffleLink";
 
 export const Header = () => {
   const nav = useRef(null);
@@ -113,7 +114,7 @@ export const Header = () => {
               <a href="https://www.hvmatl.org">main</a>
             </div>
             <SocialIcons />
-            <p id="eventDate">link</p>
+            <RaffleLink />
           </div>
 
           <div class="top-header-items-right">
