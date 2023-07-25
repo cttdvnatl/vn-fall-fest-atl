@@ -10,11 +10,11 @@ const MainSponsor = (list) => {
                 <div class={section.class + '-container'} key={index}>
                     <h1>{section.title}</h1>
 
-                    <div class={section.class}>
+                   {/*} <div class={section.class}>
                         <a target="_blank" rel="noopener noreferrer" href={section.website}>
                             <img src={section.img} alt={section.img} key={index} />
                         </a>                      
-                    </div> 
+            </div> */}
                 </div>
             ))}
         </div>
@@ -45,13 +45,13 @@ const OtherSponsors = (list) => {
                 <div class={section.class + '-container'} key={index}>
                     <h1>{section.title}</h1>
 
-                    <div class={section.class}>
+                   {/*} <div class={section.class}>
                         {section.content.map((sponsorContent, idx) => (
                             <a target="_blank" rel="noopener noreferrer" href={sponsorContent.website}>
                                 <img className='sponsor__image' src={sponsorContent.img} alt={sponsorContent.img} key={idx} />
                             </a>                             
                         ))}
-                    </div>
+                        </div>*/}
                 </div>
             ))}
         </div>
@@ -87,11 +87,9 @@ export const SponsorsPage = (props) => {
     return (
         <>
         <div ref={sponsors} class="sponsors-page">
-        {/*
             <a ref={brochure} class="sponsor-brochure" href="http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/Brochure/LHMT2022-Sponsorship_Package_Final.pdf">Sponsor Brochure</a>
             <MainSponsor data={mainSponsorData}/>
             <OtherSponsors data={otherSponsorsData}/>
-        */}
         </div>
         </>
     )
