@@ -26,10 +26,12 @@ export const HomePage = () => {
     <>
       {/* <Carousel /> */}
       <Landing />
-      <SponsorsPage type={"small"} />
       <FestivalStatistics />
       <PhotoGallery data={photoGalleryDataOne} />
       <PhotoGallery data={photoGalleryDataTwo} />
     </>
   );
 };
+/*
+<SponsorsPage type={"small"} />
+*/ 
