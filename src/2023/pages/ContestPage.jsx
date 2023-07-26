@@ -1,6 +1,5 @@
 import React from 'react';
 import { getLanguage, useTranslation } from 'react-multi-lang';
-import UnderConstruction from "../components/UnderConstruction";
 import en from '../database/en.json';
 import vn from '../database/vn.json';
 
@@ -10,6 +9,7 @@ const ContestList = (list) => {
         {list.data.map((contest) => (
             <div class="contest-container">
                 <a href={contest.link}>{contest.formName}</a>
+                <img src={contest.img} alt={contest.img}/>
            </div>
         ))}
         </>
@@ -31,15 +31,12 @@ export const ContestPage = () => {
 
     return (
         <>
-        <UnderConstruction />
-        </>
-    )
-    /*
         <div class="contest-page">
             <h1>{t('contests.title')}</h1>
             <ContestList data={contestData.content}/>
-            <img src={contestData.image} alt={contestData.image}/>
+            <img src={contestData.img} alt={contestData.img}/>
         </div>
-        */
+        </>
+    )   
 }
 
