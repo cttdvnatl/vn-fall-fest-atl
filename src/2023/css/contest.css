@@ -1,20 +1,21 @@
 .contest-page {
     text-align: center;
     margin: 30px;
+    color: rgb(0, 0, 0);
 }
 
 .contest-page img {
-    width: 80%;
-    margin-bottom: 15px;
+    width: 85%;
+    margin-bottom: 20px;
     margin-top: 15px;
     margin: auto;
 }
 
 .contest-page .contest-container {
-    margin: 7px;
+    margin: 17px;
 }
 
 .contest-page .contest-container a {
-    font-size: 30px;
-    text-decoration: none;
+    font-size: 40px;
+    color: rgb(55, 70, 103);
 }
