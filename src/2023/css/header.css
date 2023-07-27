@@ -539,7 +539,7 @@ nav.mobile-view div.logo img {
 
 @media (max-width: 650px) {
   nav.mobile-view div.logo img {
-    max-width: 500px;
+    max-width: 150px;
     height: auto;
     margin: auto 60px;
   }
