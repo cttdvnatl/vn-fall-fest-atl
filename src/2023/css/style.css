@@ -33,23 +33,18 @@
 }
 
 @font-face {
-  font-family: Nautigal;
-  src: url(../fonts/TheNautigal-Regular.ttf);
-}
-
-@font-face {
   font-family: Roboto;
   src: url(../fonts/Roboto-Regular.ttf);
 }
 
 h1 {
-  font-family: Nautigal;
-  color: rgb(98, 143, 188);
-  font-size: 80px;
+  font-family: URW Chancery L, cursive;
+  color: rgb(117, 172, 228);
+  font-size: 55px;
 }
 
 p {
-  color: #737373;
+  color: #000000;
   /*font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
   font-family: Roboto;
   font-size: 23px;
