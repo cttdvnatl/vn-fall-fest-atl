@@ -2,7 +2,6 @@ import React, { useRef, useCallback, useEffect, useState } from "react";
 import { useTranslation, setLanguage, getLanguage } from "react-multi-lang";
 import SocialIcons from "./SocialIcons";
 import { ArchiveDropdown } from "../../shared-components/ArchiveDropdown";
-import RaffleLink from "./RaffleLink";
 
 export const Header = () => {
   const nav = useRef(null);
@@ -154,7 +153,6 @@ export const Header = () => {
               <a href="https://www.hvmatl.org">main</a>
             </div>
             <SocialIcons />
-             <RaffleLink />
           </div>
 
           <div class="top-header-items-right">
