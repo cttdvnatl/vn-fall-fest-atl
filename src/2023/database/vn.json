@@ -513,23 +513,31 @@
   ],
   "contests": {
     "title": "Đơn Đăng Ký Các Cuộc Thi",
-    "image": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/ContestInfoPoster.jpg",
     "content": [
       {
-        "link": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/KaraokeSignupFormandInfoV1.pdf",
-        "formName": "Giải Thi Giọng Ca Vàng Karaoke"
-      },
-      {
-        "link": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/LanternContestSignupFormandInfoV1.pdf",
+        "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Lantern-Contest-Poster.jpg",
+        "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Lantern-Contest-Signup-Form-and-Info.pdf",
         "formName": "Giải Thi Lồng Đèn"
       },
       {
-        "link": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/MissTeenSignupFormandInfoV1.pdf",
+        "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Miss-Teen-Poster.jpg",
+        "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Lantern-Contest-Signup-Form-and-Info.pdf",
         "formName": "Giải Thi Hoa Khôi"
       },
       {
-        "link": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/MrEleganceSignupFormandInfoV1.pdf",
+        "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Mr-Elegance-Poster.jpg",
+        "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Mr-Elegance-Form-and-Info.pdf",
         "formName": "Giải Thi Nam Thanh Lịch"
+      },
+      {
+        "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Mrs-Pageant-Poster.jpg",
+        "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Mrs-Pageant-Form-and-Info.pdf",
+        "formName": "Mrs. Pageant Form and Information"
+      },
+      {
+        "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Karaoke-Poster.jpg",
+        "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Karaoke-Signup-Form.pdf",
+        "formName": "Giải Thi Giọng Ca Vàng Karaoke"
       }
     ]
   },

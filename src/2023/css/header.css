@@ -246,7 +246,7 @@ nav.desktop-view div.main-header ul li ul li a:hover {
 /*logo*/
 
 nav.desktop-view div.logo {
-  max-width: 140px;
+  max-width: 150px;
   height: auto;
   margin-top: 2px;
 }
@@ -539,7 +539,7 @@ nav.mobile-view div.logo img {
 
 @media (max-width: 650px) {
   nav.mobile-view div.logo img {
-    max-width: 140px;
+    max-width: 150px;
     height: auto;
     margin: auto 60px;
   }
