@@ -1,6 +1,5 @@
 import React from "react";
 import { useTranslation } from 'react-multi-lang';
-import UnderConstruction from "./UnderConstruction";
 
 const Poster = () => {
     useTranslation()
