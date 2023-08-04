@@ -60,6 +60,16 @@
             "image": "http://hvmatl.net/gallery/LHMT_img/Common/social-icons/youtube/317714_video_youtube_icon.png"
         }
     ],
+    "raffle-popup": [
+      {
+        "link": "https://www.vesolhmt.org",
+        "text": "Click here to buy raffle tickets"
+      },
+      {
+        "link": "",
+        "text": "This will redirect you to https://www.vesolhmt.org."
+      }
+    ],
     "footer": [
         {
             "footerSection": "footer-1",
@@ -574,8 +584,8 @@
   },
   "landing": {
     "poster": {
-      "link": "https://hvmatl.com/gallery/LHMT_img/LHMT2023/Carousel/Posters/MainPoster2.png",
-      "image":"https://hvmatl.com/gallery/LHMT_img/LHMT2023/Carousel/Posters/MainPoster2.png"
+      "link": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Carousel/Posters/2023-Fall-Festival-Poster-Main.jpg",
+      "image":"http://hvmatl.com/gallery/LHMT_img/LHMT2023/Carousel/Posters/2023-Fall-Festival-Poster-Main.jpg"
       
     },
     "reward_1": "Congratulations to the limited edition of an insulated stainless steel mug winners.",
