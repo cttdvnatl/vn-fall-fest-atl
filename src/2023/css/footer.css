@@ -23,12 +23,12 @@
         width: 50%;
         text-align: center;
         margin-top: 5%;
+        color: white;
     }
     .footer-component .footer-2 {
         width: 50%;
         text-align: center;
         margin-top: 5%;
-        
     }
 }
 
@@ -52,21 +52,23 @@
         width: 100%;
         text-align: center;
         margin: auto;
+        color: white;
     }
     .footer-component .footer-2 {
         width: 100%;
         text-align: center;
         margin: auto;
+        color: white;
     }
 }
 
 .footer-component .footer-1 p {
     font-size: 16px;
     margin: 10px;
+    color: rgb(255, 255, 255);
 }
 
 .footer-component .footer-1 a {
-    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 16px;
 }
@@ -77,7 +79,17 @@
 }
 
 .footer-component .footer-2 a{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 16px;
+}
+
+.footer-component .footer-1 h1 {
+    margin: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.footer-component .footer-2 h1 {
+    margin: 10px;
+    color: rgb(255, 255, 255);
 }
