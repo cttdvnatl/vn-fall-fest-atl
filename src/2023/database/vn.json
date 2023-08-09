@@ -452,57 +452,63 @@
   "musicians": [
     {
       "style": "text-right",
-      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/mai-tien-dung-frame.png",
+      "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-the-son.jpg",
       "name": "Ca Sĩ",
-      "caption": "Mai Tiến Dũng"
+      "caption": "Thế Sơn"
     },
     {
       "style": "text-left",
-      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/ho-hoang-yen-frame.png",
+      "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-quynh-vi.jpg",
       "name": "Ca Sĩ",
-      "caption": "Hồ Hoàng Yến"
+      "caption": "Quỳnh Vi"
     },
     {
       "style": "text-right",
-      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/huong-thuy-frame.png",
+      "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-ngoc-ngu.jpg",
       "name": "Ca Sĩ",
-      "caption": "Hương Thủy"
+      "caption": "Ngọc Ngữ"
     },
     {
       "style": "text-left",
-      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/justin-nguyen-frame.png",
+      "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-myra-nguyen.jpg",
       "name": "Ca Sĩ",
-      "caption": "Justin Nguyễn"
+      "caption": "Myra Trần"
     },
     {
       "style": "text-right",
-      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/nhu-y-frame.png",
+      "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-luong-tung-quang.jpg",
       "name": "Ca Sĩ",
-      "caption": "Như Ý"
+      "caption": "Lương Tùng Quang"
     },
     {
       "style": "text-left",
-      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/ha-vy-frame.png",
+      "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-hong-ngoc.jpg",
       "name": "Ca Sĩ",
-      "caption": "Hạ Vy"
+      "caption": "Hồng Ngọc"
     },
     {
       "style": "text-right",
-      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/duong-trieu-vu-frame.png",
+      "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-duong-trieu-vu.png",
       "name": "Ca Sĩ",
       "caption": "Dương Triệu Vũ"
     },
     {
       "style": "text-left",
-      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/nguyen-hong-nhung-frame.png",
+      "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-diem-suong.jpg",
       "name": "Ca Sĩ",
-      "caption": "Nguyễn Hồng Nhung"
+      "caption": "Diễm Sương"
     },
     {
       "style": "text-right",
-      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/ho-le-thu-frame.png",
+      "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-diem-lien.jpg",
       "name": "Ca Sĩ",
-      "caption": "Hồ Lệ Thu"
+      "caption": "Diễm Liên"
+    },
+    {
+      "style": "text-left",
+      "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-chau-ngoc-ha.jpg",
+      "name": "Ca Sĩ",
+      "caption": "Châu Ngọc Hà"
     },
     {
       "style": "text-center",

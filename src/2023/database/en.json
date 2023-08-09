@@ -466,61 +466,67 @@
     "musicians": [
       {
         "style": "text-right",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/mai-tien-dung-frame.png",
+        "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-the-son.jpg",
         "name": "Singer",
-        "caption": "Mai Tien Dung"
+        "caption": "The Son"
     },
       {
         "style": "text-left",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/ho-hoang-yen-frame.png",
+        "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-quynh-vi.jpg",
         "name": "Singer",
-        "caption": "Ho Hoang Yen"
+        "caption": "Quynh Vi"
     },
       {
         "style": "text-right",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/huong-thuy-frame.png",
+        "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-ngoc-ngu.jpg",
         "name": "Singer",
-        "caption": "Huong Thuy"
+        "caption": "Ngoc Ngu"
     },
     {
       "style": "text-left",
-      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/justin-nguyen-frame.png",
+      "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-myra-nguyen.jpg",
       "name": "Singer",
-      "caption": "Justin Nguyen"
+      "caption": "Myra Tran"
     },
       {
         "style": "text-right",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/nhu-y-frame.png",
+        "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-luong-tung-quang.jpg",
         "name": "Singer",
-        "caption": "Nhu Y"
+        "caption": "Luong Tung Quang"
       },
       {
         "style": "text-left",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/ha-vy-frame.png",
+        "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-hong-ngoc.jpg",
         "name": "Singer",
-        "caption": "Ha Vy"
+        "caption": "Hong Ngoc"
       },
       {
         "style": "text-right",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/duong-trieu-vu-frame.png",
+        "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-duong-trieu-vu.png",
         "name": "Singer",
         "caption": "Duong Trieu Vu"
       },
       {
         "style": "text-left",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/nguyen-hong-nhung-frame.png",
+        "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-diem-suong.jpg",
         "name": "Singer",
-        "caption": "Nguyen Hong Nhung"
+        "caption": "Diem Suong"
       },
       {
         "style": "text-right",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/ho-le-thu-frame.png",
+        "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-diem-lien.jpg",
         "name": "Singer",
-        "caption": "Ho Le Thu"
+        "caption": "Diem Lien"
+      },
+      {
+        "style": "text-left",
+        "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-chau-ngoc-ha.jpg",
+        "name": "Ca Sĩ",
+        "caption": "Chau Ngoc Ha"
       },
       {
         "style": "text-center",
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/trung-cang-band-frame.png",
+        "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-trung-cang-band.jpg",
         "name": "",
         "caption": "Trung Cang Band"
       }
