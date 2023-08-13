@@ -8,10 +8,17 @@ const UnderConstruction = () => {
     }
 
     return (
-        <div className='under-construction-banner'>
-            {showBanner &&<img alt="image" src="https://hvmatl.com/gallery/LHMT_img/LHMT2023/Construction%20sign/UnderConstruction-removebg-preview.png"/>}
-            {showBanner &&<button className='button' onClick={deleteButton}>X</button>}
+        <>
+        {showBanner &&
+        <div className='under-contruction-container'>
+            <div className='under-construction-banner'>
+             <button className='button' onClick={deleteButton}>x</button>
+             <h2>Under Construction</h2>  
+             <h2>Xin quý vị trở lại</h2>
         </div>
+    </div>
+}
+ </>
     );
 }
 
