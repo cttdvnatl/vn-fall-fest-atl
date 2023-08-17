@@ -258,16 +258,10 @@
     ],
     "posters": [
       {
-        "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/About/BTC_BDH.PNG"
-      },
-      {
         "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/About/LHMT_2022_By_The_Number.jpg"
       },
       {
         "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/About/Muc_Dich.PNG"
-      },
-      {
-        "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/About/Y_Nghia_Bieu_Tuong.PNG"
       }
     ]
   },
@@ -353,10 +347,10 @@
     "title": "Lịch Trình Lễ Hội",
     "schedule1": [
       {
-        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/FestivalSchedule/GeneralProgram.jpg"
+        "image": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2023/Pages/FestivalSchedule/FestivalScheduleHolder.jpg"
       },
       {
-        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/FestivalSchedule/SpiritualProgram.jpg"
+        "image": ""
       }
     ],
     "schedule2": [
@@ -521,7 +515,7 @@
     "title": "Đơn Đăng Ký Các Cuộc Thi",
     "content": [
       {
-        "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Lantern-Contest-Poster.jpg",
+        "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Lantern-Contest-Poster.jpg", 
         "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Lantern-Contest-Signup-Form-and-Info.pdf",
         "formName": "Giải Thi Lồng Đèn"
       },
@@ -556,13 +550,13 @@
     }
   ],
   "seminarPoster": {
-    "img": "https://hvmatl.com/gallery/LHMT_img/LHMT2022/Carousel/HoiThao.jpg"
+    "img": "https://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/FestivalSchedule/SeminarHolder.jpg"
   },
   "menu": {
     "pageTitle": "Thực Đơn Cho Những Ngày Lễ Hội",
     "content": [
       {
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Menu/Menu.jpg"
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2023/Pages/Menu/MenuHolder.jpg"
       }
     ]
   },
@@ -582,19 +576,16 @@
   },
   "rewards": [
     {
-      "title": "Raffles",
+      "title": "Raffles!",
       "paragraphs": [
         {
-          "text": "Buy 5, get 1 FREE"
+          "text": "Mua 5 vé, TẶNG 1 vé"
         },
         {
-          "text": "Prizes will have winners!"
+          "text": "Tất cả các giải sẽ có người trúng!"
         },
         {
-          "text": "Contact us at fallfest.raffle@hvmatl.org for your"
-        },
-        {
-          "text": "chance to win many valuable prizes."
+          "text": "Xin quý vị vào www.vesolhmt.org để có được cơ hội trúng nhiều giải thưởng giá trị."
         }
       ],
       "image": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Raffles/Vesolhmt.jpg"
@@ -603,10 +594,7 @@
       "title": "Grand Prize!",
       "paragraphs": [
         {
-          "text": "If you have purchased a raffle ticket, you will have a "
-        },
-        {
-          "text": "chance to be the owner of this 2022 Lexus IS 300!"
+          "text": "Nếu bạn đã mua vé sổ xố, bạn sẽ có cơ hội làm chủ chiếc Lexus NX 250 đời 2023 này!"
         }
       ],
       "image": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Raffles/Grand-Prize-Raffle-Picture.jpg"
@@ -615,10 +603,7 @@
       "title": "Bingo!",
       "paragraphs": [
         {
-          "text": "Big prizes for Bingo this year! We invite you to come "
-        },
-        {
-          "text": "and enjoy this fun game!"
+          "text": "Giải thưởng lớn cho Lô Tô năm nay! Chúng tôi mời bạn đến và tham gia trò chơi thú vị này!"
         }
       ],
       "image": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Raffles/Vesolhmt.jpg"

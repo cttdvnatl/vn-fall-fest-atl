@@ -2,7 +2,6 @@ import React from 'react'
 import { useTranslation, getLanguage } from 'react-multi-lang'
 import vn from '../database/vn.json';
 import en from '../database/en.json';
-import UnderConstruction from '../components/UnderConstruction';
 
 const Menu = (list) => {
     return (
@@ -30,12 +29,10 @@ export const MenuPage = () => {
 
     return (
         <>
-        <UnderConstruction />
-        </>
-    )
-    /*
         <div class="menu-page">
             <h1>{t('menu.pageTitle')}</h1>
             <Menu data={Data}/>
-        </div>*/
+        </div>
+        </>
+        )
 } 
