@@ -33,7 +33,6 @@ export const HomePage = () => {
       {/* <Carousel /> */}<RafflePopUp />
       <Poster />
       <Rewards data={rewardsData}/>
-      <SponsorsPage type={"small"} />
       <FestivalStatistics />
       <PhotoGallery data={photoGalleryDataOne} />
       <PhotoGallery data={photoGalleryDataTwo} />
