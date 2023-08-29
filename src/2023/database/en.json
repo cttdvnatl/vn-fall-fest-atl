@@ -24,7 +24,7 @@
         },
         "dropdownThree": {
             "heading": "Events",
-            "item1": "Seminar",
+            "item1": "Spiritual Program",
             "href1": "/seminar",
             "item2": "Entertainers",
             "href2": "/musicians",
@@ -268,10 +268,13 @@
         ],
         "posters": [
           {
-            "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/About/LHMT_2022_By_The_Number.jpg"
+            "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Pages/About/2023-Fall-Festival-Welcome-Banner.jpg"
           },
           {
-            "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/About/Muc_Dich.PNG"
+            "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Pages/About/LHMT-By-The-Numbers.jpg"
+          },
+          {
+            "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Pages/About/LHMT-Muc-Dich.png"
           }
         ]
     },
@@ -316,28 +319,28 @@
               "class": "diamond-sponsor other-sponsor",
               "content": [
                 {
-                  "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-S3Spa.png",
+                  "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/2023-Fall-Festival-Diamond-3S-Spa.png",
                   "website": "https://s3spa.com"
                 },
                 {
-                  "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/NewStar.jpg",
+                  "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/2023-Fall-Festival-Diamond-New-Star-Spa.jpg",
                   "website": "https://newstarsspa.com"
                 },
                 {
-                  "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/TTNailSupplies.jpg",
-                  "website": "https://newstarsspa.com"
+                  "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/2023-Fall-Festival-Diamond-Mortgage-Select.jpg",
+                  "website": "https://www.vinnytranmortgage.com/"
                 },
                 {
-                  "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/VTMortgageSelect.jpg",
-                  "website": "null"
+                  "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/2023-Fall-Festival-Diamond-Nail-Soft.jpg",
+                  "website": "https://nailsoft.com/"
                 },
                 {
-                  "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/NailSoft.jpg",
-                  "website": "null"
+                  "img":"http://hvmatl.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/2023-Fall-Festival-Diamond-EIG.jpg",
+                  "website":"https://www.facebook.com/EIGonline/"
                 },
                 {
-                  "img":"http://hvmatl.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/EIG.jpg",
-                  "website":"null"
+                  "img":"http://hvmatl.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/2023-Fall-Festival-Diamond-TT-Nails-Supplies.jpg",
+                  "website":"https://ttnailsupplies.company.site/"
                 }
               ]
           },
@@ -363,7 +366,7 @@
               },
               {
                 "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/TPLGroup.png",
-                "website": "https://www.absoluteml.com/"
+                "website": null
               },
               {
                 "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-atlanta-beauty.png",
@@ -500,7 +503,7 @@
     "title": "Festival Schedule",
     "schedule1": [
       {
-        "image": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2023/Pages/FestivalSchedule/FestivalScheduleHolder.jpg"
+        "image": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2023/Pages/FestivalSchedule/2023-Fall-Festival-Program-Schedule.jpg"
       },
       {
         "image": ""
@@ -703,13 +706,13 @@
       }
     ],
     "seminarPoster": {
-      "img": "https://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/FestivalSchedule/SeminarHolder.jpg"
+      "img": "https://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/FestivalSchedule/2023-Fall-Festival-Spiritual-Program-Schedule.jpg"
     },
     "menu": {
         "pageTitle": "Menu for Festival Days",
         "content": [
           {
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2023/Pages/Menu/MenuHolder.jpg"
+            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2023/Pages/Menu/2023-Fall-Festival-Menu.jpg"
           }
         ]
     },
