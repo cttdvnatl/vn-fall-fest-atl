@@ -180,7 +180,7 @@
   "about": {
     "title": {
       "text1": "Giới Thiệu",
-      "text2": "Biểu Tượng Những Năm Trước"
+      "text2": "Biểu Tượng Lễ Hội Của Những Năm Trước"
     },
     "paragraphs": [
       {
@@ -203,10 +203,6 @@
       }
     ],
     "logos": [
-      {
-        "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2021.jpg",
-        "year": "2021"
-      },
       {
         "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2020.jpg",
         "year": "2020"
