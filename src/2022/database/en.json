@@ -540,24 +540,24 @@
       }
     ],
   "contests": {
-    "title": "Contest Forms",
+    "title": "Signup Forms for All the Contests",
     "image": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/ContestInfoPoster.jpg",
     "content": [
       {
-        "link": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/KaraokeSignupFormandInfoV1.pdf",
-        "formName": "Karaoke Signup Form and Information"
-      },
-      {
         "link": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/LanternContestSignupFormandInfoV1.pdf",
-        "formName": "Lantern Contest Signup Form and Information"
+        "formName": "Lantern Contest - Signup Form"
       },
       {
         "link": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/MissTeenSignupFormandInfoV1.pdf",
-        "formName": "Miss Teen Signup Form and Information"
+        "formName": "Miss Teen Pageant - Signup Form"
       },
       {
         "link": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/MrEleganceSignupFormandInfoV1.pdf",
-        "formName": "Mr. Elegance Signup Form and Information"
+        "formName": "Mr. Elegance - Signup Form"
+      },
+      {
+        "link": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/KaraokeSignupFormandInfoV1.pdf",
+        "formName": "Golden Voice Karaoke - Signup Form"
       }
     ]
   },
