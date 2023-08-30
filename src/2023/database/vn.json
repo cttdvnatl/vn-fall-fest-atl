@@ -180,7 +180,7 @@
   "about": {
     "title": {
       "text1": "Giới Thiệu",
-      "text2": "Biểu Tượng Những Năm Trước"
+      "text2": "Biểu Tượng Lễ Hội Của Những Năm Trước"
     },
     "paragraphs": [
       {
@@ -662,7 +662,7 @@
     }
   ],
   "contests": {
-    "title": "Đơn Đăng Ký Các Cuộc Thi",
+    "title": "Đơn Ghi Danh Cho Các Cuộc Thi",
     "content": [
       {
         "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Lantern-Contest-Poster.jpg", 

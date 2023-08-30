@@ -180,7 +180,7 @@
   "about": {
     "title": {
       "text1": "Giới Thiệu",
-      "text2": "Biểu Tượng Những Năm Trước"
+      "text2": "Biểu Tượng Lễ Hội Của Những Năm Trước"
     },
     "paragraphs": [
       {
@@ -203,10 +203,6 @@
       }
     ],
     "logos": [
-      {
-        "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2021.jpg",
-        "year": "2021"
-      },
       {
         "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2020.jpg",
         "year": "2020"
@@ -540,24 +536,24 @@
     }
   ],
   "contests": {
-    "title": "Đơn Đăng Ký Các Cuộc Thi",
+    "title": "Đơn Ghi Danh Cho Các Cuộc Thi",
     "image": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/ContestInfoPoster.jpg",
     "content": [
       {
-        "link": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/KaraokeSignupFormandInfoV1.pdf",
-        "formName": "Giải Thi Giọng Ca Vàng Karaoke"
-      },
-      {
         "link": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/LanternContestSignupFormandInfoV1.pdf",
-        "formName": "Giải Thi Lồng Đèn"
+        "formName": "Lồng Đèn Trung Thu - Đơn Ghi Danh"
       },
       {
         "link": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/MissTeenSignupFormandInfoV1.pdf",
-        "formName": "Giải Thi Hoa Khôi"
+        "formName": "Hoa Khôi - Đơn Ghi Danh"
       },
       {
         "link": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/MrEleganceSignupFormandInfoV1.pdf",
-        "formName": "Giải Thi Nam Thanh Lịch"
+        "formName": "Nam Thanh Lịch - Đơn Ghi Danh"
+      },
+      {
+        "link": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2022/Pages/Contests/KaraokeSignupFormandInfoV1.pdf",
+        "formName": "Giọng Ca Vàng Karaoke - Đơn Ghi Danh"
       }
     ]
   },
