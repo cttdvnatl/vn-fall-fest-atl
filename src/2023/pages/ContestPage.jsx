@@ -26,8 +26,8 @@ export const ContestPage = () => {
         contestData = vn.contests;
     }
     else if (getLanguage() === 'en') {
-        contestData = en.contests;
-    }
+        contestData = en.contests; 
+    } 
 
     return (
         <>

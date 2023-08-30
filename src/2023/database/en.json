@@ -209,10 +209,14 @@
                 "text": "Festival attendance grew annually. In a 2011 Fall Festival police survey, approximately 35,000 people entered our church grounds. Today, our Church’s annual fall festival is recognized by Vietnamese communities nation-wide, and is a main staple of Vietnamese Catholic communities in the Southeast United States. We help reunite families and friends, we teach our children and guests our Vietnamese heritage, and we contribute to the vibrancy of the region’s cultural and faith communities."
             },
             {
-                "text": "Come join us for our 2023 Fall Festival this September 2nd through September 4th, 2023.  Come enjoy our diverse music, our delicious food, and our rich culture.  Come help us turn our church to a vibrant sanctuary with rich Vietnamese tradition."
+                "text": "Come join us for our 2023 Fall Festival from September 1st through September 3rd.  Come enjoy our diverse music, our delicious food, and our rich culture.  Come help us turn our church to a vibrant sanctuary with rich Vietnamese tradition."
             }
         ],
         "logos": [
+          {
+            "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2022.jpg",
+            "year": "2022"
+        },
             {
                 "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2021.jpg",
                 "year": "2021"
@@ -673,27 +677,27 @@
       {
         "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Lantern-Contest-Poster.jpg",
         "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Lantern-Contest-Signup-Form-and-Info.pdf",
-        "formName": "Lantern Contest Signup Form and Information"
+        "formName": "Lantern Contest - Signup Form"
       },
       {
         "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Miss-Teen-Poster.jpg",
         "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Miss-Teen-Signup-Form-and-Info.pdf",
-        "formName": "Miss Teen Signup Form and Information"
+        "formName": "Miss Teen Pageant - Signup Form"
       },
       {
         "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Mr-Elegance-Poster.jpg",
         "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Mr-Elegance-Form-and-Info.pdf",
-        "formName": "Mr. Elegance Signup Form and Information"
+        "formName": "Mr. Elegance - Signup Form"
       },
       {
         "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Mrs-Pageant-Poster.jpg",
         "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Mrs-Pageant-Form-and-Info.pdf",
-        "formName": "Mrs. Pageant Form and Information"
+        "formName": "Mrs. Beauty Pageant - Signup Form"
       },
       {
         "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Karaoke-Poster.jpg",
         "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Karaoke-Signup-Form.pdf",
-        "formName": "Karaoke Signup Form and Information"
+        "formName": "Golden Voice Karaoke - Signup Form"
       }
     ]
   },

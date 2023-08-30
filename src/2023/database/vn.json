@@ -199,10 +199,14 @@
         "text": "Khách tham dự hội chợ tăng đều hằng năm. Hội Chợ Mùa Thu 2011 đã mang đến 35,000 khách theo thống kê của Cảnh Sát Hạt Gwinnett. Ngày nay, sự kiện này được xem như một trong những hoạt động tiêu biểu của Cộng Đồng Công Giáo Việt Nam, cũng như của người Việt tại miền Đông Nam Hoa Kỳ. Hội chợ là nơi quy tụ gia đình và bằng hữu, duy trì di sản văn hóa Việt Nam đến thế hệ sau, cũng như giới thiệu văn hóa của chúng ta đến với các cộng đồng khác trong vùng."
       },
       {
-        "text": "Xin mời tất cả mọi người đến dự Lễ Hội Mùa Thu 2023 với chúng tôi từ ngày 2 đến ngày 4 tháng 9. Đến để thưởng thức âm nhạc đa dạng, thức ăn ngon miệng, và văn hóa cổ truyền của cộng đồng chúng tôi. Đến để giúp chúng tôi xây dựng giáo xứ thành một nơi nương tựa về tinh thần cho tất cả mọi người qua những truyền thống đậm nét văn hóa Việt Nam."
+        "text": "Xin mời tất cả mọi người đến dự Lễ Hội Mùa Thu 2023 với chúng tôi từ ngày 1 đến ngày 3 tháng 9. Đến để thưởng thức âm nhạc đa dạng, thức ăn ngon miệng, và văn hóa cổ truyền của cộng đồng chúng tôi. Đến để giúp chúng tôi xây dựng giáo xứ thành một nơi nương tựa về tinh thần cho tất cả mọi người qua những truyền thống đậm nét văn hóa Việt Nam."
       }
     ],
     "logos": [
+      {
+        "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2022.jpg",
+        "year": "2022"
+    },
       {
         "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2021.jpg",
         "year": "2021"
@@ -663,27 +667,27 @@
       {
         "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Lantern-Contest-Poster.jpg", 
         "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Lantern-Contest-Signup-Form-and-Info.pdf",
-        "formName": "Giải Thi Lồng Đèn"
+        "formName": "Lồng Đèn Trung Thu - Đơn Ghi Danh"
       },
       {
         "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Miss-Teen-Poster.jpg",
         "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Lantern-Contest-Signup-Form-and-Info.pdf",
-        "formName": "Giải Thi Hoa Khôi"
+        "formName": "Hoa Khôi - Đơn Ghi Danh"
       },
       {
         "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Mr-Elegance-Poster.jpg",
         "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Mr-Elegance-Form-and-Info.pdf",
-        "formName": "Giải Thi Nam Thanh Lịch"
+        "formName": "Nam Thanh Lịch - Đơn Ghi Danh"
       },
       {
         "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Mrs-Pageant-Poster.jpg",
         "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Mrs-Pageant-Form-and-Info.pdf",
-        "formName": "Mrs. Pageant Form and Information"
+        "formName": "Hoa Hậu Áo Dài Phu Nhân - Đơn Ghi Danh"
       },
       {
         "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Karaoke-Poster.jpg",
         "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Karaoke-Signup-Form.pdf",
-        "formName": "Giải Thi Giọng Ca Vàng Karaoke"
+        "formName": "Giọng Ca Vàng Karaoke - Đơn Ghi Danh"
       }
     ]
   },
