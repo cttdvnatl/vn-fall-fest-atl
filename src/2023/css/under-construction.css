@@ -1,28 +1,86 @@
+.under-construction-container {
+    text-align: center;
+    display: block;
+    margin: auto; 
+    width: 100%;
+    z-index: 1;
+} 
+
 .under-construction-banner {
-    position: absolute;
-    z-index: 997;
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
+  position: relative;
+  background-color: rgb(190, 190, 190);
+  text-align: center;
+  margin: auto;
+  border-radius: 20px;
+  width:50%;
+  height: 150px;
+  opacity: 85%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.under-construction-banner img {
-    display: flex;
-    justify-content: center;
+.under-construction-banner h2 {
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 10px;
 }
 
 .under-construction-banner .button {
-  position: absolute;
-	padding: 16px;
+  top: 0;
+  float: right;
+	padding: 15px;
 	background-color: rgb(255, 255, 255);
 	border-radius: 20px;
-  font-size: 25px;
-  top: 50%;
-  left: 50%;
-  transform: translate(550%, -150%);
-  -ms-transform: translate(550%, -150%);
+  font-size: 16px;
+  margin: -3px -3px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  border: none;
 }
 
 .under-construction-banner .button:hover{
 	background-color: rgb(161, 161, 161);
+}
+
+@media screen and (max-width: 750px) {
+  .raffle-popup a {
+      font-size: 55px
+  }
+  
+  .raffle-popup h2 {
+      font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .raffle-popup a {
+      font-size: 50px
+  }
+  
+  .raffle-popup h2 {
+      font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .raffle-popup a {
+      font-size: 45px
+  }
+  
+  .raffle-popup h2 {
+      font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .raffle-popup a {
+      font-size: 48px
+  }
+  
+  .raffle-popup h2 {
+      font-size: 25px;
+  }
 }

@@ -24,7 +24,7 @@
     },
     "dropdownThree": {
       "heading": "Sự Kiện",
-      "item1": "Hội Thảo",
+      "item1": "Chương Trình Phụng Vụ",
       "href1": "/seminar",
       "item2": "Chương Trình Văn Nghệ",
       "href2": "/musicians",
@@ -180,7 +180,7 @@
   "about": {
     "title": {
       "text1": "Giới Thiệu",
-      "text2": "Biểu Tượng Những Năm Trước"
+      "text2": "Biểu Tượng Lễ Hội Của Những Năm Trước"
     },
     "paragraphs": [
       {
@@ -199,10 +199,14 @@
         "text": "Khách tham dự hội chợ tăng đều hằng năm. Hội Chợ Mùa Thu 2011 đã mang đến 35,000 khách theo thống kê của Cảnh Sát Hạt Gwinnett. Ngày nay, sự kiện này được xem như một trong những hoạt động tiêu biểu của Cộng Đồng Công Giáo Việt Nam, cũng như của người Việt tại miền Đông Nam Hoa Kỳ. Hội chợ là nơi quy tụ gia đình và bằng hữu, duy trì di sản văn hóa Việt Nam đến thế hệ sau, cũng như giới thiệu văn hóa của chúng ta đến với các cộng đồng khác trong vùng."
       },
       {
-        "text": "Xin mời tất cả mọi người đến dự Lễ Hội Mùa Thu 2023 với chúng tôi từ ngày 2 đến ngày 4 tháng 9. Đến để thưởng thức âm nhạc đa dạng, thức ăn ngon miệng, và văn hóa cổ truyền của cộng đồng chúng tôi. Đến để giúp chúng tôi xây dựng giáo xứ thành một nơi nương tựa về tinh thần cho tất cả mọi người qua những truyền thống đậm nét văn hóa Việt Nam."
+        "text": "Xin mời tất cả mọi người đến dự Lễ Hội Mùa Thu 2023 với chúng tôi từ ngày 1 đến ngày 3 tháng 9. Đến để thưởng thức âm nhạc đa dạng, thức ăn ngon miệng, và văn hóa cổ truyền của cộng đồng chúng tôi. Đến để giúp chúng tôi xây dựng giáo xứ thành một nơi nương tựa về tinh thần cho tất cả mọi người qua những truyền thống đậm nét văn hóa Việt Nam."
       }
     ],
     "logos": [
+      {
+        "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2022.jpg",
+        "year": "2022"
+    },
       {
         "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2021.jpg",
         "year": "2021"
@@ -258,16 +262,13 @@
     ],
     "posters": [
       {
-        "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/About/BTC_BDH.PNG"
+        "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Pages/About/2023-Fall-Festival-Welcome-Banner.jpg"
       },
       {
-        "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/About/LHMT_2022_By_The_Number.jpg"
+        "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Pages/About/LHMT-By-The-Numbers.jpg"
       },
       {
-        "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/About/Muc_Dich.PNG"
-      },
-      {
-        "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/About/Y_Nghia_Bieu_Tuong.PNG"
+        "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Pages/About/LHMT-Muc-Dich.png"
       }
     ]
   },
@@ -312,24 +313,28 @@
         "class": "diamond-sponsor other-sponsor",
         "content": [
           {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2022/Sponsors/diamond/Diamond-S3Spa.png",
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/2023-Fall-Festival-Diamond-3S-Spa.png",
             "website": "https://s3spa.com"
           },
           {
-            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/NewStar.jpg",
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/2023-Fall-Festival-Diamond-New-Star-Spa.jpg",
             "website": "https://newstarsspa.com"
           },
           {
-            "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/VTMortgageSelect.jpg",
-            "website": "null"
+            "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/2023-Fall-Festival-Diamond-Mortgage-Select.jpg",
+            "website": "https://www.vinnytranmortgage.com/"
           },
           {
-            "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/NailSoft.jpg",
-            "website": "null"
+            "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/2023-Fall-Festival-Diamond-Nail-Soft.jpg",
+            "website": "https://nailsoft.com/"
           },
           {
-            "img":"http://hvmatl.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/EIG.jpg",
-            "website":"null"
+            "img":"http://hvmatl.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/2023-Fall-Festival-Diamond-EIG.jpg",
+            "website":"https://www.facebook.com/EIGonline/"
+          },
+          {
+            "img":"http://hvmatl.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/2023-Fall-Festival-Diamond-TT-Nails-Supplies.jpg",
+            "website":"https://ttnailsupplies.company.site/"
           }
         ]
     },
@@ -337,26 +342,165 @@
         "title": "2023 Các Nhà Tài Trợ Hạng Vàng",
         "class": "gold-sponsor other-sponsor",
         "content": [
+          {
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-allstate-ben.png",
+            "website": null
+          },
+          {
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-Fall-Festival-Gold-Latep-Group.png",
+            "website": null
+          },
+          {
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-stratus-eye.png",
+            "website": null
+          },
+          {
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-honey-nail.png",
+            "website": null
+          },
+          {
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/TPLGroup.png",
+            "website": "https://www.absoluteml.com/"
+          },
+          {
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-atlanta-beauty.png",
+            "website": null
+          },
+          {
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-isingtec.png",
+            "website": null
+          },
+          {
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-true-care.png",
+            "website": null
+          },
+          {
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-superx.png",
+            "website": null
+          },
+          {
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-zodiac-medical.png",
+            "website": null
+          },
+          {
+            "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-zurno.png",
+            "website": null
+          }
+            ]
+          },
+          {
+            "title": "2023 Các Nhà Tài Trợ Hạng Bạc",
+            "class": "silver-sponsor other-sponsor",
+            "content": [
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-Fall-Festival-Gold-Latep-Group.png",
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-1st-merchant.png",
                 "website": null
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/TPLGroup.png",
-                "website": "https://www.absoluteml.com/"
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-abc-tax.png",
+                "website": null
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-atl-realty.png",
+                "website": null
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-cao-tax.png",
+                "website": null
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-family-dentistry.png",
+                "website": null
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-hoang-nhung-cosmetic.png",
+                "website": null
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-i-care.png",
+                "website": null
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-kangen.png",
+                "website": null
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-kathy-insurance.png",
+                "website": null
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-le-dentistry.png",
+                "website": null
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-maxim.png",
+                "website": null
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-mdjroofing.png",
+                "website": null
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-optimum.png",
+                "website": null
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-pho-dai-loi.png",
+                "website": null
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-pho-bac.png",
+                "website": null
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-royal-china.png",
+                "website": null
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-saigon-phamarcy.png",
+                "website": null
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-sam-insrance.png",
+                "website": null
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-sugarloaf-vision.png",
+                "website": null
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-tu-quyen.png",
+                "website": null
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-united-healthcare.png",
+                "website": null
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-village-medical.png",
+                "website": null
+              }
+              ,
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-vn-tax.png",
+                "website": null
+              },
+              {
+                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-wages-funeral.png",
+                "website": null
               }
             ]
-          }
+        }
         ]
       },
   "festivalSchedule": {
     "title": "Lịch Trình Lễ Hội",
     "schedule1": [
       {
-        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/FestivalSchedule/GeneralProgram.jpg"
+        "image": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2023/Pages/FestivalSchedule/2023-Fall-Festival-Program-Schedule.jpg"
       },
       {
-        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/FestivalSchedule/SpiritualProgram.jpg"
+        "image": ""
       }
     ],
     "schedule2": [
@@ -452,57 +596,63 @@
   "musicians": [
     {
       "style": "text-right",
-      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/mai-tien-dung-frame.png",
+      "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-the-son.jpg",
       "name": "Ca Sĩ",
-      "caption": "Mai Tiến Dũng"
+      "caption": "Thế Sơn"
     },
     {
       "style": "text-left",
-      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/ho-hoang-yen-frame.png",
+      "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-quynh-vi.jpg",
       "name": "Ca Sĩ",
-      "caption": "Hồ Hoàng Yến"
+      "caption": "Quỳnh Vi"
     },
     {
       "style": "text-right",
-      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/huong-thuy-frame.png",
+      "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-ngoc-ngu.jpg",
       "name": "Ca Sĩ",
-      "caption": "Hương Thủy"
+      "caption": "Ngọc Ngữ"
     },
     {
       "style": "text-left",
-      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/justin-nguyen-frame.png",
+      "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-myra-nguyen.jpg",
       "name": "Ca Sĩ",
-      "caption": "Justin Nguyễn"
+      "caption": "Myra Trần"
     },
     {
       "style": "text-right",
-      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/nhu-y-frame.png",
+      "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-luong-tung-quang.jpg",
       "name": "Ca Sĩ",
-      "caption": "Như Ý"
+      "caption": "Lương Tùng Quang"
     },
     {
       "style": "text-left",
-      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/ha-vy-frame.png",
+      "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-hong-ngoc.jpg",
       "name": "Ca Sĩ",
-      "caption": "Hạ Vy"
+      "caption": "Hồng Ngọc"
     },
     {
       "style": "text-right",
-      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/duong-trieu-vu-frame.png",
+      "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-duong-trieu-vu.png",
       "name": "Ca Sĩ",
       "caption": "Dương Triệu Vũ"
     },
     {
       "style": "text-left",
-      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/nguyen-hong-nhung-frame.png",
+      "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-diem-suong.jpg",
       "name": "Ca Sĩ",
-      "caption": "Nguyễn Hồng Nhung"
+      "caption": "Diễm Sương"
     },
     {
       "style": "text-right",
-      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Musicians/ho-le-thu-frame.png",
+      "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-diem-lien.jpg",
       "name": "Ca Sĩ",
-      "caption": "Hồ Lệ Thu"
+      "caption": "Diễm Liên"
+    },
+    {
+      "style": "text-left",
+      "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-chau-ngoc-ha.jpg",
+      "name": "Ca Sĩ",
+      "caption": "Châu Ngọc Hà"
     },
     {
       "style": "text-center",
@@ -512,32 +662,32 @@
     }
   ],
   "contests": {
-    "title": "Đơn Đăng Ký Các Cuộc Thi",
+    "title": "Đơn Ghi Danh Cho Các Cuộc Thi",
     "content": [
       {
-        "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Lantern-Contest-Poster.jpg",
+        "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Lantern-Contest-Poster.jpg", 
         "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Lantern-Contest-Signup-Form-and-Info.pdf",
-        "formName": "Giải Thi Lồng Đèn"
+        "formName": "Lồng Đèn Trung Thu - Đơn Ghi Danh"
       },
       {
         "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Miss-Teen-Poster.jpg",
         "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Lantern-Contest-Signup-Form-and-Info.pdf",
-        "formName": "Giải Thi Hoa Khôi"
+        "formName": "Hoa Khôi - Đơn Ghi Danh"
       },
       {
         "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Mr-Elegance-Poster.jpg",
         "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Mr-Elegance-Form-and-Info.pdf",
-        "formName": "Giải Thi Nam Thanh Lịch"
+        "formName": "Nam Thanh Lịch - Đơn Ghi Danh"
       },
       {
         "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Mrs-Pageant-Poster.jpg",
         "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Mrs-Pageant-Form-and-Info.pdf",
-        "formName": "Mrs. Pageant Form and Information"
+        "formName": "Hoa Hậu Áo Dài Phu Nhân - Đơn Ghi Danh"
       },
       {
         "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Karaoke-Poster.jpg",
         "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Karaoke-Signup-Form.pdf",
-        "formName": "Giải Thi Giọng Ca Vàng Karaoke"
+        "formName": "Giọng Ca Vàng Karaoke - Đơn Ghi Danh"
       }
     ]
   },
@@ -550,13 +700,13 @@
     }
   ],
   "seminarPoster": {
-    "img": "https://hvmatl.com/gallery/LHMT_img/LHMT2022/Carousel/HoiThao.jpg"
+    "img": "https://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/FestivalSchedule/2023-Fall-Festival-Spiritual-Program-Schedule.jpg"
   },
   "menu": {
     "pageTitle": "Thực Đơn Cho Những Ngày Lễ Hội",
     "content": [
       {
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Menu/Menu.jpg"
+        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2023/Pages/Menu/2023-Fall-Festival-Menu.jpg"
       }
     ]
   },
@@ -576,19 +726,16 @@
   },
   "rewards": [
     {
-      "title": "Raffles",
+      "title": "Raffles!",
       "paragraphs": [
         {
-          "text": "Buy 5, get 1 FREE"
+          "text": "Mua 5 vé, TẶNG 1 vé"
         },
         {
-          "text": "Prizes will have winners!"
+          "text": "Tất cả các giải sẽ có người trúng!"
         },
         {
-          "text": "Contact us at fallfest.raffle@hvmatl.org for your"
-        },
-        {
-          "text": "chance to win many valuable prizes."
+          "text": "Xin quý vị vào www.vesolhmt.org để có được cơ hội trúng nhiều giải thưởng giá trị."
         }
       ],
       "image": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Raffles/Vesolhmt.jpg"
@@ -597,10 +744,7 @@
       "title": "Grand Prize!",
       "paragraphs": [
         {
-          "text": "If you have purchased a raffle ticket, you will have a "
-        },
-        {
-          "text": "chance to be the owner of this 2022 Lexus IS 300!"
+          "text": "Nếu bạn đã mua vé sổ xố, bạn sẽ có cơ hội làm chủ chiếc Lexus NX 250 đời 2023 này!"
         }
       ],
       "image": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Raffles/Grand-Prize-Raffle-Picture.jpg"
@@ -609,10 +753,7 @@
       "title": "Bingo!",
       "paragraphs": [
         {
-          "text": "Big prizes for Bingo this year! We invite you to come "
-        },
-        {
-          "text": "and enjoy this fun game!"
+          "text": "Giải thưởng lớn cho Lô Tô năm nay! Chúng tôi mời bạn đến và tham gia trò chơi thú vị này!"
         }
       ],
       "image": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Raffles/Vesolhmt.jpg"
