@@ -91,3 +91,13 @@
         font-size: 25px;
     }
 }
+
+@media screen and (max-width: 550px) {
+    .raffle-popup a {
+        font-size: 24px
+    }
+    
+    .raffle-popup h2 {
+        font-size: 12px;
+    }
+}
