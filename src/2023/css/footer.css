@@ -1,6 +1,6 @@
 .footer-component {
     box-shadow: -5px -5px 10px grey;
-    background-color: rgb(54, 122, 189);
+    background-image: url("http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Logos/Background1.jpg");
     width: 100%;
 }
 
@@ -59,6 +59,47 @@
         text-align: center;
         margin: auto;
         color: white;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .footer-component {
+        display: flex;
+        flex-direction: column;
+        height: 550px;
+    }
+    .footer-component .footer-img {
+        width: 100%;
+        margin: auto;
+        margin-left: 10px;
+    }
+    .footer-component .footer-img img {
+        margin: auto;
+        display: block;
+        width: 40%;
+    }
+    .footer-component .footer-1 {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        font-size: 10px;
+    }
+    .footer-component .footer-2 {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        font-size: 10px;
+    }
+    .footer-component .footer-1 h1 {
+        margin: 10px;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+    
+    .footer-component .footer-2 h1 {
+        margin: 10px;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
     }
 }
 
