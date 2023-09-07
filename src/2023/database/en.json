@@ -272,6 +272,9 @@
         ],
         "posters": [
           {
+            "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Pages/About/2023-Fall-Festival-Thank-You.jpg"
+          },
+          {
             "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Pages/About/2023-Fall-Festival-Welcome-Banner.jpg"
           },
           {
@@ -744,6 +747,36 @@
   },
 
   "rewards": [
+    {
+      "title": "Thank You Everyone!",
+      "paragraphs": [
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        }
+      ],
+      "image": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Pages/About/2023-Fall-Festival-Thank-You.jpg"
+    },
+    {
+      "title": "Raffles Results!",
+      "paragraphs": [
+        {
+          "text": "Here is the result of the 2023 Fall Festival Raffle drawing."
+        },
+        {
+          "text": "Please check your tickets."
+        },
+        {
+          "text": "Thank you for your support and generosity."
+        }
+      ],
+      "image": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Raffles/2023-Fall-Festival-Raffle-Results.jpg"
+    },
     {
       "title": "Raffles!",
       "paragraphs": [
