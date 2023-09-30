@@ -262,6 +262,9 @@
     ],
     "posters": [
       {
+        "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Pages/About/2023-Fall-Festival-Thank-You.jpg"
+      },
+      {
         "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Pages/About/2023-Fall-Festival-Welcome-Banner.jpg"
       },
       {
@@ -725,6 +728,36 @@
     }
   },
   "rewards": [
+    {
+      "title": "Xin Cảm Ơn Tất Cả!",
+      "paragraphs": [
+        {
+          "text": "Ban Tổ Chức xin cảm ơn quý thiện nguyện viên, nhà tài trợ, tất cả mọi người đã ủng hộ và quan khách. Chúng tôi hy vọng quý vị và gia đình đã có được thời gian vui vẻ bên nhau và thưởng thức những hương vị của quê hương tại Lễ Hội Mùa Thu 2023 với chúng tôi."
+        },
+        {
+          "text": "Một lần nữa, xin cảm ơn tất cả."
+        },
+        {
+          "text": "Xin quý vị gửi góp ý đến FallFestival@hvmatl.org."
+        }
+      ],
+      "image": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Pages/About/2023-Fall-Festival-Thank-You.jpg"
+    },
+    {
+      "title": "Số Vé Số Trúng Thưởng!",
+      "paragraphs": [
+        {
+          "text": "Đây là những số trúng thưởng của Lễ Hội Mùa Thu 2023."
+        },
+        {
+          "text": "Xin quý vị xem vé số của mình."
+        },
+        {
+          "text": "Cảm ơn sự giúp đỡ và lòng hảo tâm của quý vị."
+        }
+      ],
+      "image": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Raffles/2023-Fall-Festival-Raffle-Results.jpg"
+    },
     {
       "title": "Raffles!",
       "paragraphs": [
