@@ -1,0 +1,27 @@
+.videos-page h1 {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.video-container2 {
+    height: auto;
+    display: block;
+    width: 90%;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 4px 6px grey;
+}
+
+.videos-page {
+    margin: 20px;
+}
+
+.videos-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+@media (max-width: 650px) {
+
+}

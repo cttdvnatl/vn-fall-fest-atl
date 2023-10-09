@@ -9,7 +9,7 @@ import PhotoGallery from "../components/PhotoGallery";
 import FestivalStatistics from "../components/FestivalStatistics";
 import Poster from "../components/Poster";
 import Rewards from "../components/Rewards";
-import RafflePopUp from "../components/RafflePopUp"
+//import RafflePopUp from "../components/RafflePopUp"
 
 export const HomePage = () => {
   useTranslation();
@@ -30,7 +30,7 @@ export const HomePage = () => {
 
   return (
     <>
-      {/* <Carousel /> */}<RafflePopUp />
+      {/* <Carousel /> */}{/*<RafflePopUp />*/}
       <Poster />
       <Rewards data={rewardsData}/>
       <FestivalStatistics />
