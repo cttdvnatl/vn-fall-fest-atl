@@ -46,6 +46,10 @@
       "href": "/sponsors"
     },
     "dropdownSix": {
+      "heading": "Videos",
+      "href": "/videos"
+  },
+    "dropdownSeven": {
       "href": "/contact",
       "heading": "Liên Lạc"
     }
