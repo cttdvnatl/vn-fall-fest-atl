@@ -16,7 +16,7 @@ import {SeminarPage} from "../2023/pages/SeminarPage";
 import {MenuPage} from "../2023/pages/MenuPage";
 import {SponsorsPage} from "../2023/pages/SponsorsPage";
 import {ContactPage} from "../2023/pages/ContactPage";
-
+import {VideosPage} from "../2023/pages/VideosPage";
 import {DirectionsPage} from "../2023/pages/DirectionsPage";
 import {DonationsPage} from "../2023/pages/DonationsPage";
 
@@ -39,7 +39,7 @@ const Route2023 = () => {
                 <Route path="/menu" element={<MenuPage/>} />
                 <Route path="/sponsors" element={<SponsorsPage/>} />
                 <Route path="/contact" element={<ContactPage/>} />
-                
+                <Route path="/videos" element={<VideosPage/>} />
                 <Route path="/form-success" element={<FormSubmitSuccessPage/>} />
                 <Route path="/form-error" element={<FormSubmitErrorPage/>} />
                 <Route path="/directions" element={<DirectionsPage/>} />

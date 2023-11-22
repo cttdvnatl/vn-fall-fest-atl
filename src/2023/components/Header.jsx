@@ -288,6 +288,13 @@ export const Header = () => {
                 </a>
               </p>
             </li>
+            <li>
+              <p>
+                <a href={t("header.dropdownSeven.href")}>
+                  {t("header.dropdownSeven.heading")}
+                </a>
+              </p>
+            </li>
           </ul>
         </div>
       </nav>
