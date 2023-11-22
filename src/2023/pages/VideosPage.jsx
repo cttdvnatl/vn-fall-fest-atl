@@ -1,9 +1,48 @@
 import React from 'react';
+import { useTranslation, getLanguage } from 'react-multi-lang'
+import vn from '../database/vn.json';
+import en from '../database/en.json';
+
+const Videos = (props) => {
+    console.log(props.data)
+    return (
+        <div>
+        {props.data.map((videos, index) => (
+            <div className="video-container" key={index}>
+            <h4>{videos.videoTitle}</h4>
+                <video controls width="100%" height="100%">
+                    <source
+                    src={videos.src}
+                    type="video/mp4"
+                    />
+                </video>
+            </div>
+        ))}
+        </div>
+    )
+}/*<img src={videos.src} alt="img"></img>*/
 
 export const VideosPage = () => {
-
-  return (
-    <>
+    const t = useTranslation()
+    
+    let Data;
+    
+    if (getLanguage() === 'en') {
+        Data = en.videos.content;
+    }
+    else if (getLanguage() === 'vn') {
+        Data = vn.videos.content;
+    }
+    return (
+        <>
+        <div class="videos-page">
+            <h1>{t('videos.pageTitle')}</h1>
+            <Videos data={Data}/>
+        </div>
+        </>
+        )
+} 
+/*
     <div className= "videos-page">
       <h1>Most Recent Videos</h1>
       <div className='videos-container'>
@@ -26,7 +65,7 @@ export const VideosPage = () => {
       </video>
       </div>
       <div className='video-container2'>
-      <h4>“CON RỒNG CHÁU TIÊN” - Phần trình diễn của các em TNTT.</h4>
+      <h4>“CON RỒNG CHÁU TIÊN”- Phần trình diễn của các em TNTT.</h4>
       <video width="470" height="300" controls>
                 <source
                     src="http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Videos/%E2%80%9CCON%20R%E1%BB%92NG%20CH%C3%81U%20TI%C3%8AN%E2%80%9D%20-%20Ph%E1%BA%A7n%20tr%C3%ACnh%20di%E1%BB%85n%20c%E1%BB%A7a%20c%C3%A1c%20em%20TNTT.mp4"
@@ -81,6 +120,4 @@ export const VideosPage = () => {
       </div>
       </div>
     </div>
-    </>
-  );
-}; 
+*/
