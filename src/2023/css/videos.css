@@ -35,14 +35,14 @@
 
 @media (max-width: 500px) {
   .video-container video {
-    width: 200px;
-    height: 50px;
+    width: 100px;
+    height: 20px;
   }
 }
 
 @media (max-width: 400px) {
   .video-container video {
-    width: 100px;
-    height: 20px;
+    width: 50px;
+    height: 10px;
   }
 }
