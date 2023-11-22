@@ -34,15 +34,15 @@
 }
 
 @media (max-width: 500px) {
-  video {
-    width: 300px;
-    height: 150px;
+  .video-container video {
+    width: 100px;
+    height: 20px;
   }
 }
 
 @media (max-width: 400px) {
-  video {
-    width: 200px;
-    height: 50px;
+  .video-container video {
+    width: 50px;
+    height: 10px;
   }
 }
