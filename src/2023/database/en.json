@@ -10,7 +10,7 @@
         },
         "link3": {
           "text": "Volunteer Form",
-          "link": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Volunteer/ArchdioceseVolunteerApplicationVietnameseAndWaiver_ver2022.pdf"
+          "link": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Volunteer/ArchdioceseVolunteerApplicationVietnameseAndWaiver_ver2022.pdf"
         }
     },
     "header": {
@@ -57,11 +57,11 @@
     "socialIcons": [
         {
             "link": "https://www.facebook.com/HoiChoMuaThu",
-            "image": "http://hvmatl.net/gallery/LHMT_img/Common/social-icons/facebook/107175_circle_facebook_icon.png"
+            "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/Common/social-icons/facebook/107175_circle_facebook_icon.png"
         },
         {
             "link": "https://youtube.com",
-            "image": "http://hvmatl.net/gallery/LHMT_img/Common/social-icons/youtube/317714_video_youtube_icon.png"
+            "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/Common/social-icons/youtube/317714_video_youtube_icon.png"
         }
     ],
     "raffle-popup": [
@@ -120,22 +120,22 @@
                 "background": "background-color-black",
                 "content": [
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne1.jpg"
+                        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne1.jpg"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne2.png"
+                        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne2.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne3.png"
+                        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne3.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne4.png"
+                        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne4.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne5.png"
+                        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne5.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne6.png"
+                        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryOne6.png"
                     }
                 ]
             }
@@ -145,31 +145,31 @@
                 "galleryStyle": "gallery-style-2",
                 "content": [
                     {
-                      "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo1.png"
+                      "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo1.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo2.png"
+                        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo2.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo3.png"
+                        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo3.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo4.png"
+                        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo4.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo5.png"
+                        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo5.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo6.png"
+                        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo6.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo7.png"
+                        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo7.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo8.png"
+                        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo8.png"
                     },
                     {
-                        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo9.png"
+                        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Pages/Home/home-galleryTwo9.png"
                     }
                 ]
             }
@@ -218,97 +218,97 @@
         ],
         "logos": [
           {
-            "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2022.jpg",
+            "src": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/Common/festival-banners/2022.jpg",
             "year": "2022"
         },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2021.jpg",
+                "src": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/Common/festival-banners/2021.jpg",
                 "year": "2021"
             },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2020.jpg",
+                "src": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/Common/festival-banners/2020.jpg",
                 "year": "2020"
             },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2019.jpg",
+                "src": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/Common/festival-banners/2019.jpg",
                 "year": "2019"
             },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2018.jpg",
+                "src": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/Common/festival-banners/2018.jpg",
                 "year": "2018"
             },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2017.jpg",
+                "src": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/Common/festival-banners/2017.jpg",
                 "year": "2017"
             },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2016.jpg",
+                "src": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/Common/festival-banners/2016.jpg",
                 "year": "2016"
             },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2015.jpg",
+                "src": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/Common/festival-banners/2015.jpg",
                 "year": "2015"
             },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2014.jpg",
+                "src": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/Common/festival-banners/2014.jpg",
                 "year": "2014"
             },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2013.jpg",
+                "src": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/Common/festival-banners/2013.jpg",
                 "year": "2013"
             },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2012.jpg",
+                "src": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/Common/festival-banners/2012.jpg",
                 "year": "2012"
             },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2011.jpg",
+                "src": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/Common/festival-banners/2011.jpg",
                 "year": "2011"
             },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2010.jpg",
+                "src": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/Common/festival-banners/2010.jpg",
                 "year": "2010"
             },
             {
-                "src": "http://hvmatl.net/gallery/LHMT_img/Common/festival-banners/2009.jpg",
+                "src": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/Common/festival-banners/2009.jpg",
                 "year": "2009"
             }           
         ],
         "posters": [
           {
-            "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Pages/About/2023-Fall-Festival-Welcome-Banner.jpg"
+            "src": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/About/2023-Fall-Festival-Welcome-Banner.jpg"
           },
           {
-            "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Pages/About/LHMT-By-The-Numbers.jpg"
+            "src": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/About/LHMT-By-The-Numbers.jpg"
           },
           {
-            "src": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Pages/About/LHMT-Muc-Dich.png"
+            "src": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/About/LHMT-Muc-Dich.png"
           }
         ]
     },
     "carousel": [
         {
-            "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022Invite.png",
+            "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022Invite.png",
             "imageNumber": "1"
         },
       {
-        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022MainPage.jpg",
+        "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022MainPage.jpg",
         "imageNumber": "2"
       },
             {
-        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png",
+        "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png",
         "imageNumber": "3"
       },
       {
-        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Raffles/Raffle.jpg",
+        "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/Raffle.jpg",
         "imageNumber": "4"
       },
       {
-        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/MainPoster.jpg",
+        "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Carousel/MainPoster.jpg",
         "imageNumber": "5"
       },
       {
-        "image": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/MugGift.jpg",
+        "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Carousel/MugGift.jpg",
         "imageNumber": "6"
       }
     ],
@@ -317,7 +317,7 @@
           {
             "title": "2023 Main Sponsor",
             "class": "main-sponsor",
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Main/2023-Fall-Festival-Main-Nguyen-Pham.png",
+            "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Main/2023-Fall-Festival-Main-Nguyen-Pham.png",
             "website": "https://www.npattorney.com"
           }
         ],
@@ -327,27 +327,27 @@
               "class": "diamond-sponsor other-sponsor",
               "content": [
                 {
-                  "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/2023-Fall-Festival-Diamond-3S-Spa.png",
+                  "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/2023-Fall-Festival-Diamond-3S-Spa.png",
                   "website": "https://s3spa.com"
                 },
                 {
-                  "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/2023-Fall-Festival-Diamond-New-Star-Spa.jpg",
+                  "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/2023-Fall-Festival-Diamond-New-Star-Spa.jpg",
                   "website": "https://newstarsspa.com"
                 },
                 {
-                  "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/2023-Fall-Festival-Diamond-Mortgage-Select.jpg",
+                  "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/2023-Fall-Festival-Diamond-Mortgage-Select.jpg",
                   "website": "https://www.vinnytranmortgage.com/"
                 },
                 {
-                  "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/2023-Fall-Festival-Diamond-Nail-Soft.jpg",
+                  "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/2023-Fall-Festival-Diamond-Nail-Soft.jpg",
                   "website": "https://nailsoft.com/"
                 },
                 {
-                  "img":"http://hvmatl.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/2023-Fall-Festival-Diamond-EIG.jpg",
+                  "img":"https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/2023-Fall-Festival-Diamond-EIG.jpg",
                   "website":"https://www.facebook.com/EIGonline/"
                 },
                 {
-                  "img":"http://hvmatl.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/2023-Fall-Festival-Diamond-TT-Nails-Supplies.jpg",
+                  "img":"https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Diamond/2023-Fall-Festival-Diamond-TT-Nails-Supplies.jpg",
                   "website":"https://ttnailsupplies.company.site/"
                 }
               ]
@@ -357,47 +357,47 @@
             "class": "gold-sponsor other-sponsor",
             "content": [
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-allstate-ben.png",
+                "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-allstate-ben.png",
                 "website": null
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-Fall-Festival-Gold-Latep-Group.png",
+                "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-Fall-Festival-Gold-Latep-Group.png",
                 "website": null
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-stratus-eye.png",
+                "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-stratus-eye.png",
                 "website": null
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-honey-nail.png",
+                "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-honey-nail.png",
                 "website": null
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/TPLGroup.png",
+                "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Gold/TPLGroup.png",
                 "website": null
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-atlanta-beauty.png",
+                "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-atlanta-beauty.png",
                 "website": null
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-isingtec.png",
+                "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-isingtec.png",
                 "website": null
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-true-care.png",
+                "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-true-care.png",
                 "website": null
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-superx.png",
+                "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-superx.png",
                 "website": null
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-zodiac-medical.png",
+                "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-zodiac-medical.png",
                 "website": null
               },
               {
-                "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-zurno.png",
+                "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Gold/2023-gold-zurno.png",
                 "website": null
               }
             ]
@@ -407,100 +407,100 @@
           "class": "silver-sponsor other-sponsor",
           "content": [
             {
-              "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-1st-merchant.png",
+              "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-1st-merchant.png",
               "website": null
             },
             {
-              "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-abc-tax.png",
+              "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-abc-tax.png",
               "website": null
             },
             {
-              "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-atl-realty.png",
+              "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-atl-realty.png",
               "website": null
             },
             {
-              "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-cao-tax.png",
+              "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-cao-tax.png",
               "website": null
             },
             {
-              "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-family-dentistry.png",
+              "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-family-dentistry.png",
               "website": null
             },
             {
-              "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-hoang-nhung-cosmetic.png",
+              "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-hoang-nhung-cosmetic.png",
               "website": null
             },
             {
-              "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-i-care.png",
+              "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-i-care.png",
               "website": null
             },
             {
-              "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-kangen.png",
+              "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-kangen.png",
               "website": null
             },
             {
-              "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-kathy-insurance.png",
+              "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-kathy-insurance.png",
               "website": null
             },
             {
-              "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-le-dentistry.png",
+              "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-le-dentistry.png",
               "website": null
             },
             {
-              "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-maxim.png",
+              "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-maxim.png",
               "website": null
             },
             {
-              "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-mdjroofing.png",
+              "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-mdjroofing.png",
               "website": null
             },
             {
-              "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-optimum.png",
+              "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-optimum.png",
               "website": null
             },
             {
-              "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-pho-dai-loi.png",
+              "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-pho-dai-loi.png",
               "website": null
             },
             {
-              "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-pho-bac.png",
+              "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-pho-bac.png",
               "website": null
             },
             {
-              "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-royal-china.png",
+              "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-royal-china.png",
               "website": null
             },
             {
-              "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-saigon-phamarcy.png",
+              "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-saigon-phamarcy.png",
               "website": null
             },
             {
-              "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-sam-insrance.png",
+              "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-sam-insrance.png",
               "website": null
             },
             {
-              "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-sugarloaf-vision.png",
+              "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-sugarloaf-vision.png",
               "website": null
             },
             {
-              "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-tu-quyen.png",
+              "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-tu-quyen.png",
               "website": null
             },
             {
-              "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-united-healthcare.png",
+              "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-united-healthcare.png",
               "website": null
             },
             {
-              "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-village-medical.png",
+              "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-village-medical.png",
               "website": null
             }
             ,
             {
-              "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-vn-tax.png",
+              "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-vn-tax.png",
               "website": null
             },
             {
-              "img": "http://hvmatl.net/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-wages-funeral.png",
+              "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Sponsors/Silver/2023-silver-wages-funeral.png",
               "website": null
             }
           ]
@@ -511,7 +511,7 @@
     "title": "Festival Schedule",
     "schedule1": [
       {
-        "image": "http://www.hvmatl.net//gallery/LHMT_img/LHMT2023/Pages/FestivalSchedule/2023-Fall-Festival-Program-Schedule.jpg"
+        "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/FestivalSchedule/2023-Fall-Festival-Program-Schedule.jpg"
       },
       {
         "image": ""
@@ -610,67 +610,67 @@
     "musicians": [
       {
         "style": "text-right",
-        "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-the-son.jpg",
+        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-the-son.jpg",
         "name": "Singer",
         "caption": "The Son"
     },
       {
         "style": "text-left",
-        "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-quynh-vi.jpg",
+        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-quynh-vi.jpg",
         "name": "Singer",
         "caption": "Quynh Vi"
     },
       {
         "style": "text-right",
-        "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-ngoc-ngu.jpg",
+        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-ngoc-ngu.jpg",
         "name": "Singer",
         "caption": "Ngoc Ngu"
     },
     {
       "style": "text-left",
-      "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-myra-nguyen.jpg",
+      "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-myra-nguyen.jpg",
       "name": "Singer",
       "caption": "Myra Tran"
     },
       {
         "style": "text-right",
-        "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-luong-tung-quang.jpg",
+        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-luong-tung-quang.jpg",
         "name": "Singer",
         "caption": "Luong Tung Quang"
       },
       {
         "style": "text-left",
-        "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-hong-ngoc.jpg",
+        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-hong-ngoc.jpg",
         "name": "Singer",
         "caption": "Hong Ngoc"
       },
       {
         "style": "text-right",
-        "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-duong-trieu-vu.png",
+        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-duong-trieu-vu.png",
         "name": "Singer",
         "caption": "Duong Trieu Vu"
       },
       {
         "style": "text-left",
-        "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-diem-suong.jpg",
+        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-diem-suong.jpg",
         "name": "Singer",
         "caption": "Diem Suong"
       },
       {
         "style": "text-right",
-        "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-diem-lien.jpg",
+        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-diem-lien.jpg",
         "name": "Singer",
         "caption": "Diem Lien"
       },
       {
         "style": "text-left",
-        "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-chau-ngoc-ha.jpg",
+        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-chau-ngoc-ha.jpg",
         "name": "Ca Sĩ",
         "caption": "Chau Ngoc Ha"
       },
       {
         "style": "text-center",
-        "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-trung-cang-band.jpg",
+        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Musicians/singer-trung-cang-band.jpg",
         "name": "",
         "caption": "Trung Cang Band"
       }
@@ -679,28 +679,28 @@
     "title": "Signup Forms for All the Contests",
     "content": [
       {
-        "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Lantern-Contest-Poster.jpg",
-        "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Lantern-Contest-Signup-Form-and-Info.pdf",
+        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Lantern-Contest-Poster.jpg",
+        "link": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Lantern-Contest-Signup-Form-and-Info.pdf",
         "formName": "Lantern Contest - Signup Form"
       },
       {
-        "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Miss-Teen-Poster.jpg",
-        "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Miss-Teen-Signup-Form-and-Info.pdf",
+        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Miss-Teen-Poster.jpg",
+        "link": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Miss-Teen-Signup-Form-and-Info.pdf",
         "formName": "Miss Teen Pageant - Signup Form"
       },
       {
-        "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Mr-Elegance-Poster.jpg",
-        "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Mr-Elegance-Form-and-Info.pdf",
+        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Mr-Elegance-Poster.jpg",
+        "link": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Mr-Elegance-Form-and-Info.pdf",
         "formName": "Mr. Elegance - Signup Form"
       },
       {
-        "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Mrs-Pageant-Poster.jpg",
-        "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Mrs-Pageant-Form-and-Info.pdf",
+        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Mrs-Pageant-Poster.jpg",
+        "link": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Mrs-Pageant-Form-and-Info.pdf",
         "formName": "Mrs. Beauty Pageant - Signup Form"
       },
       {
-        "img": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Karaoke-Poster.jpg",
-        "link": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Karaoke-Signup-Form.pdf",
+        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Karaoke-Poster.jpg",
+        "link": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Contests/2023-Fall-Festival-Karaoke-Signup-Form.pdf",
         "formName": "Golden Voice Karaoke - Signup Form"
       }
     ]
@@ -709,18 +709,18 @@
       {
         "title": "Raffles",
         "info": "",
-        "img": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Raffles/Vesolhmt.jpg",
-        "img2": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png"
+        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Raffles/Vesolhmt.jpg",
+        "img2": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png"
       }
     ],
     "seminarPoster": {
-      "img": "https://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/FestivalSchedule/2023-Fall-Festival-Spiritual-Program-Schedule.jpg"
+      "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/FestivalSchedule/2023-Fall-Festival-Spiritual-Program-Schedule.jpg"
     },
     "menu": {
         "pageTitle": "Menu for Festival Days",
         "content": [
           {
-            "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2023/Pages/Menu/2023-Fall-Festival-Menu.jpg"
+            "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Menu/2023-Fall-Festival-Menu.jpg"
           }
         ]
     },
@@ -728,14 +728,14 @@
     "pageTitle": "This page is currently under construction. Please check back.",
     "content": [
       {
-        "img": "http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
+        "img": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Logos/comming_soon1100_650.jpg"
       }
     ]
   },
   "landing": {
     "poster": {
-      "link": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Carousel/Posters/2023-Fall-Festival-Poster-Main.jpg",
-      "image":"http://hvmatl.com/gallery/LHMT_img/LHMT2023/Carousel/Posters/2023-Fall-Festival-Poster-Main.jpg"
+      "link": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Carousel/Posters/2023-Fall-Festival-Poster-Main.jpg",
+      "image":"https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Carousel/Posters/2023-Fall-Festival-Poster-Main.jpg"
       
     },
     "reward_1": "Congratulations to the limited edition of an insulated stainless steel mug winners.",
@@ -761,7 +761,7 @@
           "text": "Please go to www.vesolhmt.org for your chance to win many valuable prizes."
         }
       ],
-      "image": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Raffles/Vesolhmt.jpg"
+      "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Raffles/Vesolhmt.jpg"
     },
     {
       "title": "Grand Prize!",
@@ -770,7 +770,7 @@
           "text": "If you have purchased a raffle ticket, you will have a chance to be the owner of this 2023 Lexus NX 250!"
         }
       ],
-      "image": "http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Raffles/Grand-Prize-Raffle-Picture.jpg"
+      "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Raffles/Grand-Prize-Raffle-Picture.jpg"
     },
     {
       "title": "Bingo!",
@@ -779,7 +779,7 @@
           "text": "Big prizes for Bingo this year! We invite you to come and enjoy this fun game!"
         }
       ],
-      "image": "http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Raffles/Vesolhmt.jpg"
+      "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Raffles/Vesolhmt.jpg"
     }
   ],
     "directions": {
@@ -856,35 +856,35 @@
     "content": [
       {
         "videoTitle":"Fall Festival Opening",
-        "src":"http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Videos/%20Fall%20Festival%20Opening.mp4"
+        "src":"https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Videos/%20Fall%20Festival%20Opening.mp4"
       },
       {
         "videoTitle":"“NỬA VẦNG TRĂNG” Tiệc tri ân TNV 2023.",
-        "src":"http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Videos/%E2%80%9CN%E1%BB%ACA%20V%E1%BA%A6NG%20TR%C4%82NG%E2%80%9D%20Ti%E1%BB%87c%20tri%20%C3%A2n%20TNV%202023.mp4"
+        "src":"https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Videos/%E2%80%9CN%E1%BB%ACA%20V%E1%BA%A6NG%20TR%C4%82NG%E2%80%9D%20Ti%E1%BB%87c%20tri%20%C3%A2n%20TNV%202023.mp4"
       },
       {
         "videoTitle":"“CON RỒNG CHÁU TIÊN”- Phần trình diễn của các em TNTT.",
-        "src":"http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Videos/%E2%80%9CCON%20R%E1%BB%92NG%20CH%C3%81U%20TI%C3%8AN%E2%80%9D%20-%20Ph%E1%BA%A7n%20tr%C3%ACnh%20di%E1%BB%85n%20c%E1%BB%A7a%20c%C3%A1c%20em%20TNTT.mp4"
+        "src":"https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Videos/%E2%80%9CCON%20R%E1%BB%92NG%20CH%C3%81U%20TI%C3%8AN%E2%80%9D%20-%20Ph%E1%BA%A7n%20tr%C3%ACnh%20di%E1%BB%85n%20c%E1%BB%A7a%20c%C3%A1c%20em%20TNTT.mp4"
       },
       {
         "videoTitle":"“ĐẤT NƯỚC LỜI RU” Do hội CBMCG trình diễn.",
-        "src":"http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Videos/%E2%80%9C%C4%90%E1%BA%A4T%20N%C6%AF%E1%BB%9AC%20L%E1%BB%9CI%20RU%E2%80%9D%20Do%20h%E1%BB%99i%20CBMCG%20tr%C3%ACnh%20di%E1%BB%85n.mp4"
+        "src":"https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Videos/%E2%80%9C%C4%90%E1%BA%A4T%20N%C6%AF%E1%BB%9AC%20L%E1%BB%9CI%20RU%E2%80%9D%20Do%20h%E1%BB%99i%20CBMCG%20tr%C3%ACnh%20di%E1%BB%85n.mp4"
       },
       {
         "videoTitle":"Hợp ca “Tôi yêu tiếng Việt tôi”",
-        "src":"http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Videos/H%E1%BB%A3p%20ca%20%E2%80%9CT%C3%B4i%20y%C3%AAu%20ti%E1%BA%BFng%20Vi%E1%BB%87t%20t%C3%B4i%E2%80%9D.mp4"
+        "src":"https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Videos/H%E1%BB%A3p%20ca%20%E2%80%9CT%C3%B4i%20y%C3%AAu%20ti%E1%BA%BFng%20Vi%E1%BB%87t%20t%C3%B4i%E2%80%9D.mp4"
       },
       {
         "videoTitle":"“HÃY THẮP ÁNH SÁNG TRONG HỒN TÔI” Justin Nguyễn",
-        "src":"http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Videos/%E2%80%9CH%C3%83Y%20TH%E1%BA%AEP%20%C3%81NH%20S%C3%81NG%20TRONG%20H%E1%BB%92N%20T%C3%94I%E2%80%9D%20Justin%20Nguy%E1%BB%85n%20tr%C3%ACnh%20b%C3%A0y-%20Ti%E1%BB%87c%20tri%20%C3%A2n%20TNV%202023.mp4"
+        "src":"https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Videos/%E2%80%9CH%C3%83Y%20TH%E1%BA%AEP%20%C3%81NH%20S%C3%81NG%20TRONG%20H%E1%BB%92N%20T%C3%94I%E2%80%9D%20Justin%20Nguy%E1%BB%85n%20tr%C3%ACnh%20b%C3%A0y-%20Ti%E1%BB%87c%20tri%20%C3%A2n%20TNV%202023.mp4"
       },
       {
         "videoTitle":"Fashion Show",
-        "src":"http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Videos/Fashion%20Show.mp4"
+        "src":"https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Videos/Fashion%20Show.mp4"
       },
       {
         "videoTitle":"Cảm nghĩ của quý khách đến tham dự LHMT 2023.",
-        "src":"http://hvmatl.com/gallery/LHMT_img/LHMT2023/Pages/Videos/C%E1%BA%A3m%20ngh%C4%A9%20c%E1%BB%A7a%20qu%C3%BD%20kh%C3%A1ch%20%C4%91%E1%BA%BFn%20tham%20d%E1%BB%B1%20LHMT%202023.mp4"
+        "src":"https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Pages/Videos/C%E1%BA%A3m%20ngh%C4%A9%20c%E1%BB%A7a%20qu%C3%BD%20kh%C3%A1ch%20%C4%91%E1%BA%BFn%20tham%20d%E1%BB%B1%20LHMT%202023.mp4"
       }
     ]
   }
