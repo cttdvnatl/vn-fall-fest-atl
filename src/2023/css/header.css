@@ -4,7 +4,7 @@
 
 /* Top Header CSS*/
 nav.desktop-view div.top-header {
-  background-image: url("http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Logos/Bakcground2.jpg");
+  background-image: url("https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Logos/Bakcground2.jpg");
   height: 49px;
   width: 100%;
   border-bottom: solid 1px #c5c6ca;
@@ -146,7 +146,7 @@ div.main-header {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-image: url("http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Logos/Background1.jpg");
+  background-image: url("https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Logos/Background1.jpg");
   height: 120px;
   box-shadow: 0 10px 6px -6px gray;
 }
@@ -264,7 +264,7 @@ nav.desktop-view div.logo img {
 /*CSS
 /* Top Header Items left*/
 nav.mobile-view div.top-header {
-   background-image: url("http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Logos/Bakcground2.jpg");
+   background-image: url("https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Logos/Bakcground2.jpg");
   height: 49px;
   width: 100%;
   border-bottom: solid 1px #c5c6ca;
@@ -417,7 +417,7 @@ nav.mobile-view div.is-sticky.main-header {
   width: 100%;
   top: 0;
   left: 0;
-   background-image: url("http://www.hvmatl.com/gallery/LHMT_img/LHMT2023/Logos/Bakcground1.jpg");
+   background-image: url("https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2023/Logos/Bakcground1.jpg");
   z-index: 9999;
 }
 
