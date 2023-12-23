@@ -198,7 +198,7 @@ export const Header = () => {
             <a href="/2021">
               <img
                 alt="logo"
-                src="http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Logos/2021-den-voi-nhau-72-302-240x300.png"
+                src="https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2021/Logos/2021-den-voi-nhau-72-302-240x300.png"
               ></img>
             </a>
           </div>

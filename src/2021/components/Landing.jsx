@@ -15,7 +15,7 @@ const Landing = () => {
     <div className="background__image">
             <p className="glow">
             </p>
-            <img alt="image" src="http://www.hvmatl.net/gallery/LHMT_img/LHMT2021/Logos/2021-den-voi-nhau-400.png"/>
+            <img alt="image" src="https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2021/Logos/2021-den-voi-nhau-400.png"/>
             <p className="text1">FALL FESTIVAL 2021</p>
             <p className="text2">Sept. 3-5 at Holy Vietnamese Martyrs Catholic Church in Norcross, GA</p>
         </div>
@@ -30,7 +30,7 @@ const Landing = () => {
                   </div>
                   <figure className="reward__image--wrapper">
                       <img
-                          src="https://hvmatl.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/RaffleWinners.jpg"
+                          src="https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/RaffleWinners.jpg"
                           alt=""
                           className="reward__image"
                       />
@@ -45,7 +45,7 @@ const Landing = () => {
                   </div>
                   <figure className="reward__image--wrapper">
                       <img
-                          src="https://hvmatl.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/Bingo.jpg"
+                          src="https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/Bingo.jpg"
                           alt=""
                           className="reward__image"
                       />
@@ -64,7 +64,7 @@ const Landing = () => {
                   </div>
                   <figure className="reward__image--wrapper">
                       <img
-                          src="https://hvmatl.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png"
+                          src="https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/VesoPromo.png"
                           alt=""
                           className="reward__image"
                       />
@@ -79,7 +79,7 @@ const Landing = () => {
                   </div>
                   <figure className="reward__image--wrapper">
                       <img
-                          src="https://hvmatl.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/Raffle.jpg"
+                          src="https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Pages/Raffles/Raffle.jpg"
                           alt=""
                           className="reward__image"
                       />
