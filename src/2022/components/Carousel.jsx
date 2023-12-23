@@ -36,7 +36,7 @@ const CarouselList = ({list}) => {
                 <img alt={carousel.imageNumber} src={carousel.image}></img>
             </div>
         ))}
-        <img alt="filler" class="filler" src="http://www.hvmatl.net/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022Invite.png"/>
+        <img alt="filler" class="filler" src="https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Carousel/LHMT2022Invite.png"/>
         {/*<div>
             <li onClick={ () => {
                     clearTimeout(carouselTimeout);

@@ -134,7 +134,7 @@ h3 {
 }
 .background__image {
   width: 100%;
-  background-image: url("https://hvmatl.com/gallery/LHMT_img/LHMT2021/Carousel/Poster/LHMT-2021-FP1-1.jpg");
+  background-image: url("https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2021/Carousel/Poster/LHMT-2021-FP1-1.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed ;
