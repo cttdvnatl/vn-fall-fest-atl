@@ -123,6 +123,7 @@ function App() {
             <Route path="/*" element={<Route2023/>}/>
             <Route path="/2022/*" element={<Route2022/>}/>
             <Route path="/2021/*" element={<Route2021/>}/>
+            <Route path='*' element={<p>Page Not Found</p>}/>
           </Routes>
         </Suspense>
       </Router>
