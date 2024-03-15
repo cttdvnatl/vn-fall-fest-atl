@@ -1,5 +1,5 @@
 import React, { useCallback, useRef, useEffect, lazy, Suspense } from "react";
-import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
+import { Routes, Route, BrowserRouter as Router, redirect } from "react-router-dom";
 import {
   setLanguage,
   getLanguage,
@@ -10,7 +10,6 @@ import ReactGA from "react-ga4";
 import Loading from "./shared-components/Loading";
 
 //database imports
-
 import en2021 from "./2021/database/en.json";
 import vn2021 from "./2021/database/vn.json";
 
@@ -31,9 +30,9 @@ let currentPath = window.location.pathname;
 //UPDATE EVERY NEW YEAR
 let en = en2023;//Set to current year
 let vn = vn2023;//Set to current year
-
+console.log((currentPath[15] + currentPath[16] + currentPath[17] + currentPath[18] ))
 //switch ((currentPath[1] + currentPath[2] + currentPath[3] + currentPath[4] ) .toString()) {
-switch ((currentPath[1] + currentPath[2] + currentPath[3] + currentPath[4] ) .toString()) {
+switch ((currentPath[15] + currentPath[16] + currentPath[17] + currentPath[18]).toString()) {
   case "2021":
     console.log("data = 2021")
     en = en2021;
@@ -109,6 +108,11 @@ function App() {
   });
 
   useEffect(() => {
+    //redirects to /fall-festival if needed
+    if (currentPath.substring(0, 15) !== "/fall-festival") {
+      window.location.pathname = "/fall-festival"
+    }
+
     window.addEventListener("scroll", detectScroll);
     return () => {
       window.removeEventListener("scroll", detectScroll);
@@ -117,7 +121,7 @@ function App() {
 
   return (
     <div className="app" ref={body}>
-      <Router>
+      <Router basename={"/fall-festival"} > {/*BUILD Set basename in env file as /fall-festival for build for gateway, dev is / */}
         <Suspense fallback={<Loading/>}> {/* lazyloading docs: https://legacy.reactjs.org/docs/code-splitting.html#reactlazy */}
           <Routes>
             <Route path="/*" element={<Route2023/>}/>

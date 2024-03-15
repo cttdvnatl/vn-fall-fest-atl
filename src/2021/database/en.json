@@ -2,11 +2,11 @@
     "topHeader": {
         "link1": {
             "text": "Directions",
-            "link": "/2021/directions"
+            "link": "/fall-festival/2021/directions"
         },
         "link2": {
             "text": "Donate",
-            "link": "/2021/donations"
+            "link": "/fall-festival/2021/donations"
         },
         "link3": {
           "text": "Volunteer Form",
@@ -16,38 +16,38 @@
     "header": {
         "dropdownOne": {
             "heading": "Home",
-            "href": "/2021/"
+            "href": "/fall-festival/2021/"
         },
         "dropdownTwo": {
             "heading": "About Us",
-            "href": "/2021/about"
+            "href": "/fall-festival/2021/about"
         },
         "dropdownThree": {
             "heading": "Events",
             "item1": "Seminar",
-            "href1": "/2021/seminar",
+            "href1": "/fall-festival/2021/seminar",
             "item2": "Entertainers",
-            "href2": "/2021/musicians",
+            "href2": "/fall-festival/2021/musicians",
             "item3": "Contests",
             "href3": "/2021/contests",
             "item4": "Raffles",
-            "href4": "/2021/raffles",
+            "href4": "/fall-festival/2021/raffles",
             "item5": "Festival Schedule",
-            "href5": "/2021/festival-schedule"
+            "href5": "/fall-festival/2021/festival-schedule"
         },
         "dropdownFour": {
             "heading": "Cuisine",
             "item1": "Menu",
-            "href1": "/2021/menu"
+            "href1": "/fall-festival/2021/menu"
           
         },
         "dropdownFive": {
             "heading": "Sponsors",
-            "href": "/2021/sponsors"
+            "href": "/fall-festival/2021/sponsors"
         },
         "dropdownSix": {
             "heading": "Contact",
-            "href": "/2021/contact"
+            "href": "/fall-festival/2021/contact"
         }
     },
     "socialIcons": [

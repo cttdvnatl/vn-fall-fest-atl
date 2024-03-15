@@ -19,6 +19,7 @@ import {ContactPage} from "../2023/pages/ContactPage";
 import {VideosPage} from "../2023/pages/VideosPage";
 import {DirectionsPage} from "../2023/pages/DirectionsPage";
 import {DonationsPage} from "../2023/pages/DonationsPage";
+import {PageNotFound} from '../shared-components/PageNotFound';
 
 //Error/Success Pages
 import {FormSubmitSuccessPage} from "../2023/pages/FormSubmitSuccessPage";
@@ -44,6 +45,7 @@ const Route2023 = () => {
                 <Route path="/form-error" element={<FormSubmitErrorPage/>} />
                 <Route path="/directions" element={<DirectionsPage/>} />
                 <Route path="/donations" element={<DonationsPage/>} />
+                <Route path='*' element={<PageNotFound/>}/>
             </Route>
         </Routes>
     )
