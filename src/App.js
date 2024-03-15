@@ -1,5 +1,5 @@
 import React, { useCallback, useRef, useEffect, lazy, Suspense } from "react";
-import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
+import { Routes, Route, BrowserRouter as Router, redirect } from "react-router-dom";
 import {
   setLanguage,
   getLanguage,
@@ -108,6 +108,9 @@ function App() {
   });
 
   useEffect(() => {
+    if (currentPath.substring(0, 15) !== "/fall-festival") {
+      window.location.pathname = "/fall-festival"
+    }
     window.addEventListener("scroll", detectScroll);
     return () => {
       window.removeEventListener("scroll", detectScroll);
