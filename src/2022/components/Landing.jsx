@@ -16,12 +16,12 @@ const Landing = () => {
         </video> */}
  
         <a
-          href="https://hvmatl.com/gallery/LHMT_img/LHMT2022/Carousel/MainPoster.jpg"
+          href="https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Carousel/MainPoster.jpg"
           target={"_blank"}
         >
  
           <img
-                      src="https://hvmatl.com/gallery/LHMT_img/LHMT2022/Carousel/MainPoster2.jpg"
+                      src="https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHMT_img/LHMT2022/Carousel/MainPoster2.jpg"
             alt=""
             className="background__image"
           />
