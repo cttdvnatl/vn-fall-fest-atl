@@ -108,9 +108,11 @@ function App() {
   });
 
   useEffect(() => {
+    //redirects to /fall-festival if needed
     if (currentPath.substring(0, 15) !== "/fall-festival") {
       window.location.pathname = "/fall-festival"
     }
+
     window.addEventListener("scroll", detectScroll);
     return () => {
       window.removeEventListener("scroll", detectScroll);
