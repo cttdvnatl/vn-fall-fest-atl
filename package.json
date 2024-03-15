@@ -4,7 +4,7 @@
   "engines": {
     "npm": "8.5.5"
   },
-  "homepage": "http://localhost/fall-festival",
+  "homepage": "https://fallfestival.hvmatl.org/fall-festival/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
