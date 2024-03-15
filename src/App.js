@@ -109,7 +109,7 @@ function App() {
 
   useEffect(() => {
     //redirects to /fall-festival if needed
-    if (currentPath.substring(0, 15) !== "/fall-festival") {
+    if (currentPath.substring(0, 15) !== "/fall-festival" && currentPath.length < 15) {
       window.location.pathname = "/fall-festival"
     }
 
