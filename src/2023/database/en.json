@@ -2,11 +2,11 @@
     "topHeader": {
         "link1": {
             "text": "Directions",
-            "link": "/directions"
+            "link": "/fall-festival/directions"
         },
         "link2": {
             "text": "Donate",
-            "link": "/donations"
+            "link": "/fall-festival/donations"
         },
         "link3": {
           "text": "Volunteer Form",
@@ -16,42 +16,42 @@
     "header": {
         "dropdownOne": {
             "heading": "Home",
-            "href": "/"
+            "href": "/fall-festival"
         },
         "dropdownTwo": {
             "heading": "About Us",
-            "href": "/about"
+            "href": "/fall-festival/about"
         },
         "dropdownThree": {
             "heading": "Events",
             "item1": "Spiritual Program",
-            "href1": "/seminar",
+            "href1": "/fall-festival/seminar",
             "item2": "Entertainers",
-            "href2": "/musicians",
+            "href2": "/fall-festival/musicians",
             "item3": "Contests",
-            "href3": "/contests",
+            "href3": "/fall-festival/contests",
             "item4": "Raffles",
-            "href4": "/raffles",
+            "href4": "/fall-festival/raffles",
             "item5": "Festival Schedule",
-            "href5": "/festival-schedule"
+            "href5": "/fall-festival/festival-schedule"
         },
         "dropdownFour": {
             "heading": "Cuisine",
             "item1": "Menu",
-            "href1": "/menu"
+            "href1": "/fall-festival/menu"
           
         },
         "dropdownFive": {
             "heading": "Sponsors",
-            "href": "/sponsors"
+            "href": "/fall-festival/sponsors"
         },
         "dropdownSix": {
             "heading": "Videos",
-            "href": "/videos"
+            "href": "/fall-festival/videos"
         },
         "dropdownSeven": {
           "heading": "Contact",
-          "href": "/contact"
+          "href": "/fall-festival/contact"
       }
     },
     "socialIcons": [

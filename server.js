@@ -14,7 +14,12 @@ app.get('/ping', function (req, res) {
  return res.send('pong');
 });
 
-app.get('/*', function (req, res) {
+app.use((req, res, next) => {
+  console.log("Path Recieved: " + req.url)
+  next()
+})
+
+app.get('/*', (req, res) => {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 

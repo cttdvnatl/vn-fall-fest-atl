@@ -2,11 +2,11 @@
   "topHeader": {
     "link1": {
       "text": "Hướng Dẫn Đến",
-      "link": "/directions"
+      "link": "/fall-festival/directions"
     },
     "link2": {
       "text": "Đóng Góp",
-      "link": "/donations"
+      "link": "/fall-festival/donations"
     },
     "link3": {
       "text": "Volunteer Form",
@@ -16,41 +16,41 @@
   "header": {
     "dropdownOne": {
       "heading": "Trang Chủ",
-      "href": "/"
+      "href": "/fall-festival/"
     },
     "dropdownTwo": {
       "heading": "Giới Thiệu",
-      "href": "/about"
+      "href": "/fall-festival/about"
     },
     "dropdownThree": {
       "heading": "Sự Kiện",
       "item1": "Chương Trình Phụng Vụ",
-      "href1": "/seminar",
+      "href1": "/fall-festival/seminar",
       "item2": "Chương Trình Văn Nghệ",
-      "href2": "/musicians",
+      "href2": "/fall-festival/musicians",
       "item3": "Các Cuộc Thi",
-      "href3": "/contests",
+      "href3": "/fall-festival/contests",
       "item4": "Sổ Xố",
-      "href4": "/raffles",
+      "href4": "/fall-festival/raffles",
       "item5": "Lịch Trình Lễ Hội",
-      "href5": "/festival-schedule"
+      "href5": "/fall-festival/festival-schedule"
     },
     "dropdownFour": {
       "heading": "Ẩm Thực",
       "item1": "Món Ăn & Thức Uống",
-      "href1": "/menu"
+      "href1": "/fall-festival/menu"
 
     },
     "dropdownFive": {
       "heading": "Các Nhà Tài Trợ",
-      "href": "/sponsors"
+      "href": "/fall-festival/sponsors"
     },
     "dropdownSix": {
       "heading": "Videos",
-      "href": "/videos"
+      "href": "/fall-festival/videos"
   },
     "dropdownSeven": {
-      "href": "/contact",
+      "href": "/fall-festival/contact",
       "heading": "Liên Lạc"
     }
   },

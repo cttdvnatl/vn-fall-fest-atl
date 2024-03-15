@@ -6,9 +6,9 @@ export const ArchiveDropdown = (ref) => {
     const [isActive, setIsActive] = useState(false);
 
     let listOfLinks = [ //BE SURE TO PUT COMMAS
-        (<a style={{}} href="/#">2023</a>),
-        (<a style={{}} href="/2022">2022</a>),
-        (<a style={{}} href="/2021">2021</a>)
+        (<a style={{}} href="/fall-festival/#">2023</a>),
+        (<a style={{}} href="/fall-festival/2022">2022</a>),
+        (<a style={{}} href="/fall-festival/2021">2021</a>)
     ]
 
     for (let i = 0;i < listOfLinks.length;i++) {
