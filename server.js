@@ -10,10 +10,7 @@ app.use(favicon(__dirname + '/build/favicon.ico'));
 // the __dirname is the current directory from where the script is running
 app.use(express.static(path.join(__dirname, 'build')));
 
-app.get('/ping', function (req, res) {
- return res.send('pong');
-});
-
+//Logs Path
 app.use((req, res, next) => {
   console.log("Path Recieved: " + req.url)
   next()
@@ -23,6 +20,7 @@ app.get('/*', (req, res) => {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
+//Eureka Config
 const Eureka = require('eureka-js-client').Eureka;
 const client = new Eureka({
   instance: {
@@ -56,6 +54,7 @@ function connectToEureka() {
 
 connectToEureka();
 
+//Server Hosting
 var server = app.listen(3000, function () {
   var host = server.address().address;
   var port = server.address().port;
