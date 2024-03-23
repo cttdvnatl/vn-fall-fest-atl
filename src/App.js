@@ -31,14 +31,13 @@ let currentPath = window.location.pathname;
 let en = en2023;//Set to current year
 let vn = vn2023;//Set to current year
 console.log((currentPath[15] + currentPath[16] + currentPath[17] + currentPath[18] ))
-//switch ((currentPath[1] + currentPath[2] + currentPath[3] + currentPath[4] ) .toString()) {
 switch ((currentPath[15] + currentPath[16] + currentPath[17] + currentPath[18]).toString()) {
   case "2021":
     console.log("data = 2021")
     en = en2021;
     vn = vn2021
     break;
-    case "2022":
+  case "2022":
     console.log("data = 2022")
     en = en2022;
     vn = vn2022;
@@ -94,8 +93,6 @@ getLanguage() === "en"
   ? (document.title = "Vietnamese Fall Festival of Atlanta - Lễ Hội Mùa Thu")
   : (document.title = "Lễ Hội Mùa Thu - Vietnamese Fall Festival of Atlanta");
 
-
-
 function App() {
   let body = useRef(null);
 
@@ -109,7 +106,7 @@ function App() {
 
   useEffect(() => {
     //redirects to /fall-festival if needed
-    if (currentPath.substring(0, 15) !== "/fall-festival") {
+    if (currentPath.substring(0, 15) !== "/fall-festival" && currentPath.length < 15) {
       window.location.pathname = "/fall-festival"
     }
 

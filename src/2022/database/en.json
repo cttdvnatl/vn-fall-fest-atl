@@ -14,6 +14,9 @@
         }
     },
     "header": {
+        "icon": {
+          "href": "/fall-festival/2022"
+        },
         "dropdownOne": {
             "heading": "Home",
             "href": "/fall-festival/2022/"
